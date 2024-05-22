@@ -1,0 +1,5 @@
+Clase 4
+
+Arquitectura y estructura de nuestra pagina web
+Entendiendo las partes principales
+Estructuramos lo que esta adentro del body
