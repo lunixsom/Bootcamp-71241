@@ -53,3 +53,7 @@ Ruteo interno en Rutas Relativas (14 min )
 Busquedas optimizadas de Google (20 min)
 	¿Por que es importante utilizar etiquetas semanticas?
 		Por que google rankea de esa manera las paginas para sus busquedas.
+
+Etiquetas <section> y <article> (26 min a 35 min)
+	Estan dentro de la etiqueta <main>
+
