@@ -24,10 +24,20 @@ Elementos dentro del body (27 min a 35 min)
 
 Correcto uso de Encabezados (1:10 hs a 1:13 hs)
 
+Uso de Rutas Relativas y Absolutas (2:03 hs)
+	Atributo href=""
+	Atributo target="_blank"
+		No lo utilizo con rutas RELATIVAS
+		La usamos con ABSOLUTAS
+	Atributo target="_parent"
+	Atributo target="_self"
+	Atributo target="_top"
+		Lo ultimos 3 se comportan igual.
 
-
-
-
+	Atributo title=""
+		Atributo de accesibilidad para personas con discapacidad visual.
+	
+	
 
 ************************************************************
 
@@ -36,3 +46,10 @@ Clase 4
 Arquitectura y estructura de nuestra pagina web
 Entendiendo las partes principales
 Estructuramos lo que esta adentro del body
+
+
+Ruteo interno en Rutas Relativas (14 min )
+
+Busquedas optimizadas de Google (20 min)
+	¿Por que es importante utilizar etiquetas semanticas?
+		Por que google rankea de esa manera las paginas para sus busquedas.
