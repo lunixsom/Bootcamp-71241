@@ -64,4 +64,19 @@ Rutas Relativas usando id (38 min)
 
 Ejemplo Proyecto Final (1:19 hs 1:30 hs)
 
+Agregar IMAGENES con etiqueta <figure> y <figcaption>(1:34 hs)
+	<img src="" alt="">
+		Atributo alt (texto alternativo) es obligatorio para mejorar la accesibilidad.
+
+	<figcaption> una pequeña nota/comentario de la imagen que estamos viendo.
+
+Manejo con carpeta ASSETS (1:53 hs)
+	Los assets son el lugar donde guardo todos esos que nosostros en algun momento queremos mostrar.
+
+Arquitectura
+	la forma en que estructuro los directorios.
+
+
+
+
 
