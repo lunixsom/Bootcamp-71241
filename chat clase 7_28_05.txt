@@ -1,0 +1,164 @@
+Usted 18:58
+Hola gente, como va !
+
+toledo victor 2  a  Todos 18:58
+hola emma, todo bien por suerte
+
+Román Ledesma-995921  a  Todos 19:05
+Buenas!
+
+Usted  a  Todos 19:05
+Buenas Beni !
+
+Federico Ramos-991721  a  Todos 19:05
+buenass
+
+toledo victor 2  a  Todos 19:05
+hola profe como le va??
+
+Martin Desch-995952  a  Todos 19:05
+Buenaas
+
+Lorenzo Vera-994541  a  Todos 19:05
+Buenas profe!
+
+toledo victor 2  a  Todos 19:06
+tengo la misma bufandaaa jajajaja
+
+Andrea Alejandra Quintana-984889  a  Todos 19:06
+buenasss
+
+Diego Alejandro Mendoza-992007  a  Todos 19:06
+buenas profe, buenas ema
+
+Rosana Gascon-536151  a  Todos 19:06
+Buenas!
+
+David Rodriguez-633884  a  Todos 19:06
+buenas
+
+Diego Alejandro Mendoza-992007  a  Todos 19:08
+profe una prergunta, la carpeta CSS donde se crea?
+porque a la hora de linkear no me da la opción de elegir lac arpeta
+
+toledo victor 2  a  Todos 19:09
+me fue bien en la tarea pero no me acordaba de etiquetas como strong
+
+David Rodriguez-633884 19:10
+me paso igual, use <b>
+
+Lorenzo Vera-994541 19:12
+A mi también me salto que faltaba el strong y el <em>
+
+Cecilia Veronica  a  Todos 19:13
+Buenas tardes profe y compas :)
+
+Rosana Gascon-536151  a  Todos 19:13
+me pasó lo mismo yo usé <b>
+
+Andrea Alejandra Quintana-984889  a  Todos 19:12
+consulta, cual es la diferencia entre <strong> y <b>,  ósea, ambas me ponen la letra en negrita pero no se la diferencia...
+
+David Rodriguez-633884 19:14
+tengo entendido por lo que me dijo ema que es por una cuestión de valor semántico
+
+Usted  a  Todos 19:14
+Holis !
+
+Usted  a  Todos 19:14
+La única diferencia es la semántica aplicada, principalmente a partir de HTML5, la cual es importante y recomendada para la accesibilidad
+
+Usted  a  Todos 19:15
+<strong> se puede utilizar cuando se va a hacer énfasis en un texto, por ejemplo, algo que debería leerse en voz alta, para que los lectores (o quienes escuchan) lo tengan muy en cuenta.
+
+Usted  a  Todos 19:15
+<b> se debería usar para el aspecto visual únicamente, si el texto entre dichas etiquetas no necesariamente es más importante o no requiere más énfasis que el resto, pero queremos que esté en bold por el motivo que consideremos.
+
+Rosana Gascon-536151  a  Todos 19:16
+Gracias por aclarar @Emanuel
+
+Maximiliano Teves-991314  a  Todos 19:16
+profe en el rel= del link siempre va a ir stylesheet? o a veces se usan otras relaciones?
+
+Andrea Alejandra Quintana-984889  a  Todos 19:17
+es que strong no la vimos en clase... existe una especie de "glosario" o "directorio" de etiquetas?
+
+Diego Alejandro Mendoza-992007  a  Todos 19:18
+listo profe! solucionad! muchas graciass
+
+Juan Bautista Martinelli-991697  a  Todos 19:18
+profe podes mostrar lo que tenes adentro de la carpeta 01?
+
+Tatiana_Iglesias  a  Todos 19:24
+Profe cuanta cantidad de archivos css tendríamos que tener por pagina? Uno solo? O compartimentarlo en caso de ser grande la pagina?
+
+Juan Bautista Martinelli-991697  a  Todos 19:32
+o sea que el index tiene que ir dentro de cada carpeta que tengamos?
+
+David Rodriguez-633884  a  Todos 19:36
+dividir para evitar 12000 líneas de codigo
+
+Federico Ramos-991721  a  Todos 19:39
+Bootstrap se usaria mas adelante no?
+
+David Rodriguez-633884  a  Todos 19:59
+me parecía porque me aparecen todos puntitos verdes como cuando hay cambios sin guardar
+
+Tatiana_Iglesias  a  Todos 20:03
+No pude terminar de instalarlo asiq no podria decirle.
+
+Román Ledesma-995921  a  Todos 20:03
+Todo bien x ahora
+
+Luciano Nahuel Mariani-991520  a  Todos 20:03
+A mí no me creo el git.txt pero si la carpeta oculta
+
+lorenanyer  a  Todos 20:04
+No pude seguirte
+lo vere de nuevo+
+es bastante
+
+Luciano Nahuel Mariani-991520  a  Todos 20:04
+ah joyaa
+
+David Rodriguez-633884  a  Todos 20:04
+para saber mas que nada, se pueden excluir archivos o carpetas en el repositorio mismo? para saber mas que nada
+
+Juan Bautista Martinelli-991697  a  Todos 20:07
+profe, si nosotros después de eso seguimos trabajando y haciendo mas carpetas se actualiza solo? o lo tenemos que ir manejando nosotros
+
+toledo victor 2  a  Todos 20:15
+se pueden quitar archivos del repo?
+
+David Rodriguez-633884  a  Todos 20:15
+y si quiero agregar una carpeta en vez de un archivo?
+perdón la ansiedad
+
+Cecilia Veronica  a  Todos 20:20
+jijiji
+
+Federico Ramos-991721  a  Todos 20:29
+todo bien profe
+buenos ejemplos jaja
+
+Federico Ramos-991721  a  Todos 20:53
+ya esta jaja
+
+Federico Ramos-991721  a  Todos 21:06
+profe, como se modifica el origen?
+
+Juan Bautista Martinelli-991697  a  Todos 21:06
+profe, no hay un comando o una extension que haga que tocando una combinación de teclas se actualice automáticamente lo que hicimos después de guardarlo?
+
+Agustin Giuli-996224  a  Todos 21:10
+profe cuando uso el push origin master me da este error "error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/agustingiuli2004/fullstack.git'
+
+Román Ledesma-995921  a  Todos 21:12
+profe, a mí también. error: failed to push some refs to 'https://github.com/romanlds2303/fullstack.git'
+
+Agustin Giuli-996224 21:17
+ahí lo pude hacer tenes q hacer un commit
+
+Rosana Gascon-536151 21:14
+Necesito desconectarme ahora. Gracias por todo

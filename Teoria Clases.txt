@@ -56,4 +56,12 @@ Busquedas optimizadas de Google (20 min)
 
 Etiquetas <section> y <article> (26 min a 35 min)
 	Estan dentro de la etiqueta <main>
+	section es un bloque en el cual yo divido la informacion en diferente grupos tematicos.
+	articles son los temas principales de algun area, son las divisiones de la informacion dentro del section.
+
+
+Rutas Relativas usando id (38 min)
+
+Ejemplo Proyecto Final (1:19 hs 1:30 hs)
+
 
