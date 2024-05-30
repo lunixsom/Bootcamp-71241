@@ -83,11 +83,19 @@ Clase 5
 
 Repaso clase anterior (0 min a 20 min)
 
-Listas Ordenadas (23 min)
+Listas Ordenadas (23 min & 51 min)
 
 Etiquetas de BLOQUE y LINEA (32 min)
+
+Etiqueta <address>
+	Va en footer
 	
 	Bloque: ocupan el 100% del ancho del dispositivo en donde se esta mostrando la aplicacion.
+
+Etiqueta <iframe>
+	me abre como una ventana adentro de mi pagina.
+	Lo usamos para mostrar mapas
+	Esta gernealmente en el footer
 	
 
 
