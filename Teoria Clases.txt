@@ -92,7 +92,7 @@ Etiqueta <address>
 	
 	Bloque: ocupan el 100% del ancho del dispositivo en donde se esta mostrando la aplicacion.
 
-Etiqueta <iframe>
+Etiqueta <iframe> 
 	Incrusto una ventana de otra pagina en nuestro sitio
 	Lo usamos para mostrar mapas
 	Esta gernealmente en el footer
@@ -102,6 +102,16 @@ Agrega mapa
 Agregar video 
 
 Agregar audio
-	
+
+Etiqueta correo electronico y telefono (2 hs)
+	Se usa en el Footer generalmente
+	Se usa con un ancla con atributo href="mailto:hola@udesa"
+	Para telefono se usa ancla con atributo href="tel:"
+
+
+
+************************************************************
+
+Clase 6
 
 
