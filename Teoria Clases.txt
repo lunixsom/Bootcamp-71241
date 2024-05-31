@@ -114,4 +114,10 @@ Etiqueta correo electronico y telefono (2 hs)
 
 Clase 6
 
+Realización de examen Alumni (2:30 min)
 
+Estilos con CSS (13 min)
+
+	Tenemos 3 formas de trabajar con css
+		CSS en linea
+		
