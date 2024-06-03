@@ -119,5 +119,11 @@ Realización de examen Alumni (2:30 min)
 Estilos con CSS (13 min)
 
 	Tenemos 3 formas de trabajar con css
-		CSS en linea
-		
+		Estilos en linea
+		Estilos en bloque (23 min)
+		Estilos en el head (34 min)
+		Etilos Externos (38 min)
+
+		Configuracion de usuario en Git bash (1:20 hs)
+			Para que vscode reconozca quien soy.
+	Un poco de Chrome Dev Tools (21 min)
