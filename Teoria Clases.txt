@@ -133,3 +133,16 @@ Estilos con CSS (13 min)
 	Git lens en VSCODE (1:38 hs)
 	Github pull Request
 	Iniciar sesion en VSCODE
+
+
+************************************************************
+
+Clase 7
+
+
+¿QUE ES EL ROOT ? (12 min)
+	Es la raiz principal del proyecto o de la aplicacion.
+
+Diferencias entre <strong> y <b> Accesibilidad (16 min)
+
+GIT (40 min)
