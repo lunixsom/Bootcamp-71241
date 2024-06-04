@@ -124,6 +124,12 @@ Estilos con CSS (13 min)
 		Estilos en el head (34 min)
 		Etilos Externos (38 min)
 
-		Configuracion de usuario en Git bash (1:20 hs)
+	
+	Configuracion de usuario en Git bash (1:20 hs)
 			Para que vscode reconozca quien soy.
 	Un poco de Chrome Dev Tools (21 min)
+
+	COMO CONFIGURAR PERFIL EN VSCODE PARA SIEMPRE TENER TUS EXTENSIONES (1:37 HS)
+	Git lens en VSCODE (1:38 hs)
+	Github pull Request
+	Iniciar sesion en VSCODE
