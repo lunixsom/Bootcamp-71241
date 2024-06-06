@@ -145,4 +145,6 @@ Clase 7
 
 Diferencias entre <strong> y <b> Accesibilidad (16 min)
 
-GIT (40 min)
+Repositorio LOCAL GIT (40 min)
+
+Repositorio REMOTO GitHUb (1:39 hs)
