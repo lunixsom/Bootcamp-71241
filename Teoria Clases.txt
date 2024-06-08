@@ -159,4 +159,7 @@ Continuamos con Git (24 min)
 	git no guarda directorios vacios
 	git remote -v
 	git log
-	
+
+ID (1:07 hs)
+
+CLASES (1:08:30 hs)
