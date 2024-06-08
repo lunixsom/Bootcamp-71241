@@ -160,6 +160,17 @@ Continuamos con Git (24 min)
 	git remote -v
 	git log
 
+
 ID (1:07 hs)
 
-CLASES (1:08:30 hs)
+
+CLASES (1:08:30 hs a 1:34 hs)
+
+
+Concepto Caja (2:05 hs)
+	Margin, border, padding 
+
+
+************************************************************
+
+Clase 9
