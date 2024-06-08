@@ -152,3 +152,11 @@ Repositorio REMOTO GitHUb (1:39 hs)
 ************************************************************
 
 Clase 8
+
+Continuamos con Git (24 min)
+
+	git status
+	git no guarda directorios vacios
+	git remote -v
+	git log
+	
