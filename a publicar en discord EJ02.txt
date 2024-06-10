@@ -1,0 +1,2 @@
+Aconsejar usar la pagina caniuse para ver una etiqueta se usa actualmente o ya se considera obsoleta.
+

@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(39, 50, 56) 
+}
+    
+
+p{
+    font-size:small;
+    font-family: 'Lucida Sans Unicode';
+    color: rgb(182, 198, 211);
+    text-align:justify
+
+}
+    
+
+header{
+    color:rgb(105, 133, 147);
+    font-size: 20px; 
+}
+
+h1{ 
+    background-color:rgb(255, 255, 255);
+    text-align: center;  
+    font-family:Impact;
+    font-size: 50px;
+}
+h2{
+    font-variant: small-caps;
+    font-family: 'Lucida Grande';
+
+}
+   
+.img-1{
+    border-style: solid;
+    border-color:  rgb(128, 119, 115);
+    border-width: 6px;
+  
+}
+.img-2{
+    border-style: solid;
+    border-color:  rgb(114, 144, 179);
+    border-width: 6px
+}
+   
+
+.img-3{
+    border-style: solid;
+    border-color:  rgb(193, 204, 218); 
+    border-width: 6px
+
+}
+.img-4{
+    border-style: solid;
+    border-color:  rgb(71, 82, 95);
+    border-width: 6px
+}
+.img-5{
+    border-style: solid;
+    border-color:  rgb(164, 169, 175);
+    border-width: 6px
+}
+
+
+.color-1{
+    color: rgb(225, 199, 187)
+}   
+
+.color-2{
+    color: rgb(161, 194, 204) 
+}
+.color-3{
+    color: rgb(207, 212, 207) 
+}
+.color-4{
+    color: rgb(142, 149, 162) 
+}
+.color-5{
+    color: rgb(179, 179, 170) 
+}

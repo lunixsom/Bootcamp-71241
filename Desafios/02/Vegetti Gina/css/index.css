@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #273137;
+}
+
+/*!------HEADER--------*/
+
+header{
+    background-color: white
+    ;
+    margin-top: 25px;
+    padding: 5px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+header h1{
+    color: #698593;
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+
+/*!------MAIN--------*/
+
+p{
+    color:#C8D5D9;
+    margin: 10px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-size: 15px;
+    padding-bottom:10px ;
+}
+
+h2{
+    margin: 10px;
+    font-variant: small-caps;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
+
+img{
+    border-style: solid;
+    border-width: 6px;
+    margin: 20px;
+}
+.aspiradora h2{
+    color: #E6CBBF;
+}
+.aspiradora img{
+    border-color: #E6CBBF;
+}
+
+.celulares h2{
+    color: #A1C1CB;
+}
+
+.celulares img{
+    border-color: #A1C1CB;
+}
+
+.consolas h2{
+    color: #BCBDBF;
+}
+
+.consolas img{
+    border-color: #BCBDBF;
+}
+
+.theaters h2{
+    color: #8D94A1;
+}
+
+.theaters img{
+    border-color: #8D94A1;
+}
+.televisores h2{
+    color: #B2B2AA;
+}
+
+.televisores img{
+    border-color: #B2B2AA;
+}

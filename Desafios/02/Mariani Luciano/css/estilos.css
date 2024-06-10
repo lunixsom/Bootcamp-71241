@@ -1,0 +1,13 @@
+body {background-color: rgb(48, 51, 57);}
+div {text-align: center;
+    font-size: 25px;}
+h1 {background-color: white;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+h2 {font-variant: small-caps;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+img {border-top-style: solid;
+    border-left-style: solid;  
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-width: 1mm;}
+img {width: 405px;height: 107px;}   

@@ -1,0 +1,50 @@
+🎉¡Felicitaciones por la entrega del Desafío 02! 🎉
+
+Primeramente, quería felicitarte por el trabajo que realizaste. El resultado renderizado es el solicitado, me falto la carpetita con las imágenes pero en el index.html estan bien agregadas.
+La estructura del documento html es correcta (<head>, <body>,<header>, etc..), falto encerrar el contenido principal en la etiqueta <main>
+
+Respetaste el orden de aplicación de etiquetas headers y el manejo de etiquetas para textos es correcto. 
+
+Manejas las imágenes bien, destaco que en todas completaste el atributo alt lo cual mejora la accesibilidad de tu página. 
+
+Excelente el manejo de estilos, vinculaste correctamente tu html con la hoja de estilos externa y el manejo con clases es correcto.
+
+
+Observaciones a tu trabajo son:
+
+
+•	Podes contener las imágenes con la etiqueta <figure>. 
+
+
+
+Tu nota en el Desafío 01 es: 10
+
+
+*********************************************************
+
+
+
+🎉¡Felicitaciones por la entrega del Desafío 02! 🎉
+
+Primeramente, quería felicitarte por el trabajo que realizaste. El resultado renderizado es el solicitado, me hubiera gustado que uses etiquetas semánticas para la estructura del documento html (<header>, <main>,<section>).
+
+Respetaste el orden de aplicación de etiquetas headers y el manejo de etiquetas para textos es correcto. 
+
+Manejaste las imágenes bien, destaco que en todas completaste el atributo alt lo cual mejora la accesibilidad de tu página. 
+
+Excelente el manejo de estilos, vinculaste correctamente tu html con la hoja de estilos externa y el manejo con clases es correcto.
+
+
+Observaciones a tu trabajo son:
+
+
+•	Podes contener las imágenes con la etiqueta <figure>. 
+
+
+•	Recordá cambiar el lenguaje a español <html lang="es"> porque esto le dice a los motores de búsqueda en que idioma esta tu sitio web.
+
+
+
+
+Tu nota en el Desafío 01 es: 10
+
