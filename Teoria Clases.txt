@@ -174,3 +174,26 @@ Concepto Caja (2:05 hs)
 ************************************************************
 
 Clase 9
+
+
+Paleta de colores Adobe (10 min)
+
+Formas de representar un color (26 min)
+	Por rgb
+	Por nombre
+	Por Hexadecimal
+
+Selectores anidados o Padres a hijos (45 min)
+
+Tipografias (54 min)
+	font-size (16px por default)
+	font-family
+		¿que pasa si el usuario no tiene estas tipografias en su computadora?
+	Para no tener que depender del font-family podes:
+
+	1° puedo descargar una tipografia y agregarla a mi proyecto
+	2°
+	
+
+
+
