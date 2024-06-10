@@ -1,0 +1,31 @@
+
+h1{
+    color:#5E8593 ;
+}
+body{
+    background-color:#233238 ;
+}
+p{
+    color:#FFFFFF ;
+}
+ #aspiradoras{
+    color:#B8AAA8 ;
+}
+#home-theaters{
+    color:#6C7987 ;
+}
+#televisores{
+    color: #847D70;
+}
+#consolas{
+    color: #899EAA;
+}
+#celulares{
+    color:#89B4BE ;
+}
+img{border-style: double;border-width: 6px;}
+.imagenAspiradoras{border-color: #FFFFFF;}
+
+.imagenCelulares{border-color: #847D70;}
+.imagenTelevisores{border-color: #89B4BE;}
+.imagenConsola{border-color: #6C7987;}

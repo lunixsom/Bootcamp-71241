@@ -1,0 +1,45 @@
+header{
+    text-align: center;
+}
+.colorFondo{
+    background-color:#FFFFFF;
+}
+h1{ 
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 50px;
+    letter-spacing:0.2ch;
+    color: #698593;
+}
+h2{
+    font-family: Impact, Charcoal, sans-serif;
+    font-variant: small-caps;
+    letter-spacing:0.2ch;
+}
+.coloraspiradora{
+
+    color: #E6CBBF
+}
+.colorcelulares{
+
+    color: #A1C1CC
+}
+.colorconsolas{
+
+    color: #BDBEC0
+}
+.colorhome{
+
+    color: #8D94A1
+}
+.colortelevisores{
+
+    color: #B2B2AA
+}
+    
+p{
+    font-family: Arial, Helvetica, sans-serif; color: #C7C8C6;
+}
+body{
+    background-color:#273238;
+}
+

@@ -1,0 +1,17 @@
+#Producto{font-family:Impact, Charcoal, sans-serif ;font-size: 50px; background-color: white; color:#5986a4 ; text-align: center;}
+body{background-color:#273238;color: white; font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;}
+#img1 {border: 5px solid #D7CEBC;}
+#img2 {border: 5px solid #B3D2E2;}
+#img3 {border: 5px solid #D8D8D8;}
+#img4 {border: 5px solid #8B929F; width: 500px;height: 146px;;}
+#img5 {border: 5px solid #D7CEBC;}
+h2{  font-family: Arial, Gadget, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+    font-variant: small-caps;}
+.aspiradora{color: #D7CEBC;}
+.celular{color: #B3D2E2;}
+.consola{ color: #D8D8D8}
+.home{color: #8B929F;}
+.televisor {color: #D7CEBC;}

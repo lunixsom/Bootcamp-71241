@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(40, 50, 58);
+}
+
+#TituloPrincipal{
+    background-color: white;
+    color: rgb(107, 132, 152);
+    font-size: 50px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+
+img{
+    border-style: solid;
+    border-width: 6px;
+}
+
+.Color_de_Aspiradoras{
+    color: rgb(230, 204, 185);
+}
+
+.Color_de_Celulares{
+    color: rgb(159, 192, 209);
+}
+
+.Color_de_Consolas{
+    color: rgb(186, 187, 190);
+}
+
+.Color_de_Teatro_en_casa{
+    color: rgb(146, 150, 167);
+}
+
+.Color_de_Televisores{
+    color: rgb(158, 153, 127);
+}
+
+#Borde_aspiradora{
+    border-color: rgb(230, 204, 185);
+}
+
+#Borde_celulares{
+    border-color: rgb(159, 192, 209);
+}
+
+#Borde_consolas{
+    border-color: rgb(186, 187, 190);
+}
+
+#Borde_teatro{
+    border-color: rgb(146, 150, 167);
+}
+
+#Borde_televisores{
+    border-color: rgb(158, 153, 127);
+}

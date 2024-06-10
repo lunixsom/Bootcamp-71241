@@ -1,0 +1,107 @@
+body{
+background-color: #273238;
+}
+
+#productos {
+    font-family: Impact, Charcoal, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: #698593;
+    background-color: white;
+}
+
+.texto {
+    color: rgba(255, 255, 255, 0.728);
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-size: 13px;
+    
+}
+
+
+#aspiradoras{
+    font-family: Arial, Gadget, sans-serif;
+    font-variant: small-caps;
+    color: #E6CBBF;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+.imgaspiradora{
+        border-style: solid;
+        border-width: 6px;
+        color: #E6CBBF;
+    }
+
+
+#celulares{
+    font-family: Arial, Gadget, sans-serif;
+    color: #A1C1CB;
+    font-variant: small-caps;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.imgcelulares{
+    border-style: solid;
+    border-width: 6px;
+    color: #A1C1CB;
+}
+
+#consolas{
+    font-family: Arial, Gadget, sans-serif;
+    color: #BCBDBF;
+    font-variant: small-caps;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.imgconsolas{
+    border-style: solid;
+    border-width: 6px;
+    color: #BCBDBF;
+}
+
+#hometheaters{
+    font-family: Arial, Gadget, sans-serif;
+    font-variant: small-caps;
+    color: #8D94A1;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.imghometheaters{
+    border-style: solid;
+    border-width: 6px;
+    color: #8D94A1;
+}
+
+#televisores{
+    font-family: Arial, Gadget, sans-serif;
+    font-variant: small-caps;
+    color: #B2B2AA;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.imgtelevisores{
+    border-style: solid;
+    border-width: 6px;
+    color: #B2B2AA;
+}

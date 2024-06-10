@@ -1,0 +1,55 @@
+body {background-color: rgb(63, 86, 99);}
+
+h1 {background-color: rgb(247, 249, 250);
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: rgb(30, 87, 87);
+
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    
+}
+
+h2{
+    color: antiquewhite;
+    font-variant: small-caps;
+
+}
+
+.imagenAspiradora{
+    border-style: solid;
+    border-width: 6px;
+    border-color: antiquewhite;
+}
+
+
+
+.imagenCelular{
+    border-style: solid;
+    border-width: 6px;
+    border-color: antiquewhite;
+}
+
+.imagenConsola{
+    border-style: solid;
+    border-width: 6px;
+    border-color: antiquewhite;
+}
+
+.imagenHometheaters{
+    border-style: solid;
+    border-width: 6px;
+    border-color: antiquewhite;
+}
+
+
+.imagenTelevisores{
+    border-style: solid;
+    border-width: 6px;
+    border-color: antiquewhite;
+}
