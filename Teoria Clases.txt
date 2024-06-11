@@ -192,8 +192,14 @@ Tipografias (54 min)
 	Para no tener que depender del font-family podes:
 
 	1° puedo descargar una tipografia y agregarla a mi proyecto
-	2°
-	
+	2° Puedo importarla
 
+1) como hago para configurar nuestra tipografia con el codigo descargado
+	@font-face
+
+
+2a) linkear de Google fonts en el html y en el css lo llamamos
+
+2b) Importarlo directamente desde el css (1:49 hs)
 
 
