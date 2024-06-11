@@ -202,4 +202,29 @@ Tipografias (54 min)
 
 2b) Importarlo directamente desde el css (1:49 hs)
 
+Se puede usar mezclado 1 y 2.
+
+
+GIT - continuacion (2:00 hs)
+
+.gitignore
+	
+	index.html
+	.css
+	/css o css/
+	*.pdf -> no me subas todos los pdf
+
+
+************************************************************
+
+Clase 10
+
+
+
+
+
+
+
+
+
 
