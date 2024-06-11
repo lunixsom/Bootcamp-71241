@@ -221,10 +221,30 @@ Clase 10
 
 
 
+Para que sirven los DIV's ? (17 min)
+
+
+Repaso Font-family descarga o linkeo (30 min)
+	google Fonts
+
+
+Concepto de Caja (54 min)
+
+	Margin (1:00 hs) - separacion entre etiquetas
+	Border (1:08 hs) - 
+	Padding (1:16 hs) - es el relleno interno
 
 
 
+Live Share (1:35 hs)
+	Compartir Visual Studio Code (pair programming)
+	Herramienta para trabajar en EQUIPO
+
+	requerimientos:
+	Estar logueado con usuario en github
 
 
+
+Git - .gikeep (2:05 hs)
 
 
