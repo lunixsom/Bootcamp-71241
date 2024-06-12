@@ -261,8 +261,11 @@ GIT (25:30 min)
 
 	git pull - busca su hay cambios en el repo remoto y si hay los descarga y me los guarda. Si el pull encuentra diferencias te deja decidir si hay cambios sobre una misma.
  
+	A veces aunque hiciste git pull al inicio tenes que hacer de nuevo antes de git push luego de varias horas de codeo. 	
+
 	git clone - es crear una copia exacta del repo remoto con logs y todo
 
+	
 
 		
 		
