@@ -256,6 +256,10 @@ Clase 11
 GIT (25:30 min)
 
 	Agregar COLABORADORES dentro de nuestro Proyecto
+		Esto lo hace el que tiene el repo principal:
+		Settings -> Collaborators -> Add people
 
-
+	git clone
+		
+		
 
