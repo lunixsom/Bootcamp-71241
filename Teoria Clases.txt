@@ -271,6 +271,8 @@ Es recomendable trabajar con imagenes PNG y SVG (1:28 hs)
 
 Ancla con imagen adentro (1:47 hs)
 
+Background image (1:49 hs)
+
 	
 
 		
