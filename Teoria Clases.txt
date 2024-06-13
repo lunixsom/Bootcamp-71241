@@ -265,6 +265,12 @@ GIT (25:30 min)
 
 	git clone - es crear una copia exacta del repo remoto con logs y todo
 
+
+Es recomendable trabajar con imagenes PNG y SVG (1:28 hs)
+	Son los mas flexibles y ligeros
+
+Ancla con imagen adentro (1:47 hs)
+
 	
 
 		
