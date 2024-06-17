@@ -306,12 +306,59 @@ Subir ICONO a mi pestaña (47:30 min)
 	Convertir de PNG a ICO en cualquier app online
 
 
-Formularios (57:30 min)
+
+	text-decoration: none
+
+	Las imagenes vectoriales se acomodan mas facilmtente a los contenedores, no necesito usar muchas media querys
+
+
+
+Formularios (1:13 hs)
+
+	Atributo action - representa el archivo o el lugar a donde yo voy a estar enviando todos los datos que cargue dentro del formulario (para enviarlo en algun momento a una base de datos) 	
+
+	Atribuo method - es la forma en la que se envia la informacion
+
+	Metodo post - envio de datos a traves del http con navegadores o servidores. Va oculto a la vista del usuario.
+
+	Metodo get - no es recomendado utilizarlo porque va a la vista del usuario.
+
+	label (ELEMENTO DE LINEA) - etiqueta informativa sobre el campo a llenar por el usuario
+
+		Atributo For va vinculada al id del input
+
+	input (ELEMENTO DE LINEA) - es el unico lugar donde el usuario puede introducir dato en una pagina web.
+
+		type="text"
+
+		type="email"
+
+		type="number"
 
 	
+	Atributo required - hago que un campo sea obligatorio de llenar.
+
+	Atributo placeholder="juan perez" - es un ejemplo de un valor escrito dentro del atributo para el cliente.
+
+
+	Button
+
+		type="submit" - para que el boton haga algo le tengo que pedir que haga algo.
+
+		type="reset" - borra los datos ingresados en los inputs que estan el formulario.
+
+	
+	Revision de los metodos HTTP (1:30 hs)
+
+
+	Elemento select con atributo id vinculado con for de label (1:59 hs)
+
+		elemento optgroup donde voy cargando los datos que quiero que se muestren
 
 
 
+
+	
 		
 		
 
