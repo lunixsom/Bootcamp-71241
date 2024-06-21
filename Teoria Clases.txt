@@ -374,16 +374,40 @@ Es solo para Frontend
 	en Branch elijo Master y doy a Save
 
 
-000WebHost (1:20 hs)
+000WebHost (1:20 hs - a:54 hs)
 
 	Es un servidor profesional (parecido a Github pages) donde nosotros podemos ingresar y podemos manejar y administrar nuestro servidor.
+
+	Solo sirve para Frontend para nosotros, porque maneja backend con PHP y nosotros vamos a utilizar backend con NODE JS para lo cual vamos a utilizar servidores AWS, Railway o algun otro que sirva con Node JS.
+
 	000Webhost te da un hosting gratuito para un dominio por un año.
+
 
 	iniciar sesion
 	Elegir "Subir sitio"
 	En "public_html" subo mis proyectos web
 	Nunca borrar archivos en carpetas "public_html" y "tmp"
-	
+
+	Con este tema cerramos el modulo 4
+
+
+
+	Intro JS (1:57 hs)
+
+	// - Comentarios de una sola linea en JS 
+
+	/* */ - Comentarios de varias lineas en JS
+
+	Variables (2:03 hs)
+
+		Es un espacio de memoria para almacenar datos.
+
+		Como inicializamos una variable en JS:
+
+			Con palabras reservadas:
+
+				"var" nombre 
+
 
 
 
