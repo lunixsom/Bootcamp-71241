@@ -364,7 +364,15 @@ Clase 13
 
 git clone (28 min)
 
-GithubPages ()
+GithubPages (41:30 min)
+
+Es solo para Frontend
+
+	Voy a Settings 
+	Voy a Pages
+	Deploy from a branch (seleccionamos la rama en la que hacemos deploy)
+	en Branch elijo Master y doy a Save
+
  
 	
 		
