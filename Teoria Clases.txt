@@ -373,6 +373,20 @@ Es solo para Frontend
 	Deploy from a branch (seleccionamos la rama en la que hacemos deploy)
 	en Branch elijo Master y doy a Save
 
+
+000WebHost (1:20 hs)
+
+	Es un servidor profesional (parecido a Github pages) donde nosotros podemos ingresar y podemos manejar y administrar nuestro servidor.
+	000Webhost te da un hosting gratuito para un dominio por un año.
+
+	iniciar sesion
+	Elegir "Subir sitio"
+	En "public_html" subo mis proyectos web
+	Nunca borrar archivos en carpetas "public_html" y "tmp"
+	
+
+
+
  
 	
 		
