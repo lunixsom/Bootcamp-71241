@@ -191,16 +191,19 @@ Tipografias (54 min)
 		¿que pasa si el usuario no tiene estas tipografias en su computadora?
 	Para no tener que depender del font-family podes:
 
-	1° puedo descargar una tipografia y agregarla a mi proyecto
-	2° Puedo importarla
+	1° puedo descargar una tipografia y agregarla a mi proyecto (USO DE TIPOGRAFIA LOCAL)
+	2° lINKEAR o importarla ()
 
 1) como hago para configurar nuestra tipografia con el codigo descargado
-	@font-face
+	
+	a)@font-face{ (configuro donde esta la fuente que descargue)
+	b) creo la regla y le asigno le nombre de la fuente
 
 
 2a) linkear de Google fonts en el html y en el css lo llamamos
 
 2b) Importarlo directamente desde el css (1:49 hs)
+	a) poner en el css el @import url('')
 
 Se puede usar mezclado 1 y 2.
 
