@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #E11364;
+}
+
+.head-title {
+    text-align: center;
+    margin: 40px 140px;
+    padding: 0;
+    border-left: 6px solid #fff;
+    border-right: 6px solid #fff;
+    background-color: #BC105C;
+}
+
+.head-title .title {
+    margin: 0;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.head-title .logo i {
+    float: left;
+    color: transparent;
+    margin: 0%;
+}
+
+.games {
+    margin: 10px 140px;
+    padding: 30px 20px;
+    border-radius: 8px;
+    background-color: #BC105C;
+}
+
+.message {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.box-message i {
+    color: transparent;
+}
+
+.games .box-game {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 8px 10px;
+    border-radius: 6px;
+}
+
+.box-game .box-title {
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px dotted #BC105C;
+}
+
+.box-title .game-title {
+    color: #BC105C;
+    text-decoration: none;
+}
+
+.box-game .image {
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 10px;
+}
+
+.image .game-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.box-game .game-description .text{
+    font-size: 12px;
+    color: #111;
+}
+
+.buy-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy-button .buy {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #2C8F20;
+}
+
+.buy-button .buy:hover {
+    background-color: #BC105C;
+}
+
+.botones .boton {
+    color: transparent;
+    cursor: default;
+}
+
+.foot {
+    padding: 20px;
+    margin: 20px 140px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 6px;
+    background-color: #E96093;
+}
+

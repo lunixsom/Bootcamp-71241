@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(https://images.alphacoders.com/113/1138740.png);
+    height: 100%;
+}
+
+header {
+    min-width: 790px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #00031D, #250157);
+    color: #fff;
+    cursor: pointer;
+}
+
+header .title a{
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+header .logo {
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+header:hover {
+    color: #551A8B;
+    transition: 0.3s;
+}
+
+.box-arrow  {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 740px;
+    padding: 20px;
+}
+
+.box-arrow a i{
+    font-size: 40px;
+    padding: 8px;
+    border: 2px solid ;
+    border-radius: 50%;
+}
+
+.box-arrow a i:hover {
+    color: #4E066B;
+    transition: 0.3s;
+}
+
+.games {
+    width: 790px;
+    margin: auto;
+}
+
+.games .box-game {
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 14px;
+    color: #fff;
+    background: linear-gradient(0deg, #00031D, #250157);
+    box-shadow: 0px 0px 8px 1px #00031D;
+}
+
+.box-game .image {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(https://i.pinimg.com/736x/d5/47/51/d54751353df08cbb9af0ec44c3f40580.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.image::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgba(0 , 0, 0, 0.6);
+}
+
+
+.box-game .game-img {
+    position: absolute;
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    transform: translate(72%, -150%);
+    border-radius: 10px;
+    background-color: #00031D;
+}
+
+
+.box-game .game-title {
+    margin: 0%;
+    width: 260px;
+    padding: 8px;
+    transform: translate(80%, -190%);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.plataform {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    transform: translateY(-6px);
+    border-left: 2px solid #551A8B;
+}
+.plataform .name-plataform {
+    margin-left: 20px;
+}
+
+.box-game .game-description {
+    padding: 0px 40px 20px 30px;
+    font-weight: 300;
+}
+
+.game-description h2 {
+    margin-bottom: 10px;
+}
+
+.box-game .imagenes-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    transform: translateY(-30px);
+}
+
+.imagenes-box .imgs {
+    display: flex;
+    height: 120px;
+    border-left: 4px solid #551A8B;
+    background-color: #00031D;
+}
+
+.imgs .masImgs{
+    width: 100%;
+    height: 100%;
+}
+
+
+.box-game .detalles {
+    margin: 0px 24px;
+    cursor: pointer;
+}
+
+.box-game .detalles:hover {
+    color: #551A8B;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+.box-game .botones {
+    float: right;
+    justify-content: right;
+    text-align: right;
+    margin-left: 15px;
+    margin: 10px;
+    margin-top: 18px;
+}
+
+.botones .boton {
+    font-size: 40px;
+    margin-left: 6px;
+    color: #551A8B;
+}
+
+.botones .boton:hover {
+    color: #4E066B;
+    transition: 0.3s;
+}
+
+.box-game .buy-button {
+    margin: 20px;
+    margin-left: 3px;
+    margin-top: 30px;
+}
+
+.buy-button .buy {
+    width: 120px;
+    height: 40px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #551A8B;
+    cursor: pointer;
+}
+
+.buy-button .buy:hover {
+    background-color: #4E066B;
+    transition: 0.3s;
+}
+
+.box-game .precio {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: 400;
+    border: 3px solid #551A8B;
+    border-radius: 12px;
+}
+
+footer {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 790px;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: #00031D;
+    background: linear-gradient(90deg, #00031D, #250157);
+    color: #fff;
+    cursor: pointer;
+}
+
+footer:hover {
+    color: #4E066B;
+    font-style: oblique;
+    transition: 0.3s;
+}

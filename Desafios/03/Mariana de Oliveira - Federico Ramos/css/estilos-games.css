@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #E11364;
+}
+
+header {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 710px;
+    margin-bottom: 20px;
+    border-left: 4px solid #fff;
+    border-right: 4px solid #fff;
+    background-color: #BC105C;
+    color: #fff;
+}
+
+header .title {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+header .title a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header .logo i{
+    color: transparent;
+}
+
+.games {
+    margin: auto;
+    padding: 0px 40px 40px 40px; 
+    width: 720px;
+    border-radius: 12px;
+    background-color: #BC105C;
+}
+
+.games .box-arrow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.games .box-arrow a i{ 
+    color: transparent;
+}
+
+.box-game .game-img{
+    float: right;
+    position: relative;
+    transform: translate(-20px, 90px);
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-radius: 12px;
+}   
+
+.imagen-box .img {
+    width: 100%;
+    height: 100%;
+}   
+
+.imagenes-box .imgs {
+    width: 160px;
+    height: 100px;
+    border: 3px solid #fff;
+}
+
+.imgs .masImg{
+    width: 100%;
+    height: 100%;
+}
+
+.box-game .game-title {
+    padding: 20px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: #BC105C;
+    background-color: #fff;
+}
+
+.box-game .plataform {
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #BC105C;
+}
+
+.plataform .name-plataform {
+    padding-left: 10px;
+    font-weight: 600;
+    border-left: 2px solid #BC105C;
+    color: #BC105C;
+}
+
+.box-game .descripcion {
+    margin: 30px 20px;
+    margin-bottom: 0;
+    padding: 10px;
+    border-left: 3px solid #fff;
+    font-weight: 600;
+}
+
+.box-game .game-description {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.game-description .botones {
+    float: right;
+    width: 1px;
+}
+
+.botones a i {
+    color: transparent;
+}
+
+.box-game .precio {
+    float: left;
+    width: 130px;
+    margin: 20px 60px 0px 0px;
+    padding: 10px 20px;
+    transform: translateY(-28px);
+    background-color: #fff;
+    border: 4px solid #E11364;
+    color: #BC105C;
+}
+
+.precio span {
+    text-align: right;
+    font-size: 24px;
+    color: #BC105C;
+}
+
+.box-game .buy-button {
+    display: flex;
+    justify-content: center;
+    width: 190px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 4px;
+    transform: translateX(20px);
+    background-color: #2C8F20;
+}
+
+.buy-button .buy {
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.buy-button:hover {
+    background-color: #E11364;
+}
+
+.foot {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    min-width: 710px;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #E96093;
+}
+
+.foot .foot-text{
+    font-weight: 600;
+    font-size: 14px;
+}

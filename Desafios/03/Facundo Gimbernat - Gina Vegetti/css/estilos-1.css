@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E11364;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #B8105A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 880px;
+    margin: 20px auto;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.juegos {
+    border-radius: 4px;
+    max-width: 880px;
+    margin: 0 auto;
+    background-color: #B8105A;
+    padding: 20px;
+}
+
+.juegos h2 {
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.juego {
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.juego h3 {
+    color: #9C0037;
+    margin-top: 0;
+    display: block;
+    text-align: right;
+    border-bottom: 1px dashed #9C0037;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.juego img {
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+.juego p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.button-link {
+    border-radius: 4px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.button-link:hover {
+    background-color: #218838;
+}
+
+footer {
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px 20px;
+    background-color: #E96093;
+    color: white;
+    width: 100%;
+    max-width: 880px;
+    margin: 20px auto;
+}
