@@ -1,0 +1,114 @@
+
+@font-face {
+    font-family: SpaceGrotesk;
+    src: url(../assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+body {
+    background-color:white;
+    color: rgb(51, 51, 51); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    background-color: purple;
+    font-family: SpaceGrotesk;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0;
+    border:black double 10px;
+}
+
+article {
+    background-color: #3a3a3a; 
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+
+h2 {
+    color: black;
+    background-color: purple;
+    font-family: SpaceGrotesk;
+    font-size: 24px; 
+    font-weight: normal;
+    padding: 0px;
+    text-align: center;
+    width: 100%; 
+    margin-bottom: 15px; 
+    border-left: gray solid 5px;
+    border-right: gray solid 5px;
+}
+
+h3 {
+    font-family: SpaceGrotesk;
+    color: #e11364; 
+    background-color: black;
+    font-size: 18px; 
+    font-weight: normal;
+    text-align: center;
+    border-bottom: dotted 1px #e11364; 
+    padding-bottom: 0px; 
+}
+
+.boton-redondeado {
+    color: white;
+    background-color: #2c8f20;
+    border: none;
+    padding: 12px 24px; 
+    text-align: center;
+    font-size: 18px; 
+    border-radius: 20px; 
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px; 
+}
+
+.boton-redondeado:hover {
+    background-color: #e11364;
+}
+
+article section {
+    flex: 1;
+    background-color: papayawhip; 
+    padding: 20px;
+    border-radius: 8px;
+    min-width: 250px; 
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px; 
+    border-radius: 8px;
+    }
+
+#modificar {
+    background-color: purple;
+    color: black;
+    text-align: center;
+    padding: 12px 24px; 
+    border-radius: 20px; 
+    width: 200px;
+    margin-top: 30px;
+}

@@ -1,0 +1,90 @@
+body {
+    background-color: #e11364;
+    padding: 0px 200px 0px 200px;
+    margin: 0%;
+}
+
+h1 {
+    color: white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    background-color: #bc105c;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px;
+}
+
+article {
+    background-color: #bc105c;
+    padding: 12px;
+}
+
+h2 {
+    color: white;
+    background-color: #bc105c;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding: 0%;
+}
+
+h3 {
+    color: #a01527;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: end;
+    border-bottom: dotted;
+    padding: 12px;
+}
+
+
+.boton-redondeado {
+    color: white;
+    background-color: #2c8f20;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-left: 475px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.boton-redondeado:hover {
+    background-color: #e11364;
+}
+article section {
+    margin: 10px;
+    background-color: white;
+    padding-bottom: 12px;
+}
+
+img {
+    width: 95%;
+    height: auto;
+    padding: 0%;
+    margin: 16px;
+}
+
+.margen {
+    padding: 10px;
+}
+
+#modificar {
+    background-color: #e96093;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: 30px;
+}
+
