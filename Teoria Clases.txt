@@ -418,7 +418,47 @@ Es solo para Frontend
 Clase 14
 
  
-	
+Continuacion JS
+
+		Uso consola de Chrome (17 min)
+			Variables
+
+		Formas INCORRECTAS de nombrar una variable (30 min)
+
+		VAR, LET y CONST (38:30 min)
+
+		var se creo con JS
+
+		let y const se creo con una actualizacion de JS
+
+		CONST - se escriben en mayuscula (por ej. DNI)
+
+		CONST - cuando la creamos tenemos que definirla  (const DNI = 92925103)
+
+		VAR y LET - NO es obligatorio asignarles un valor(o inicializar) cuando la declaras.
+
 		
+		Tipos de Errores: 
+			
+					de Sintaxis 	
+					de Compilacion ( salta cuando se ejecuta el codigo)
+					Logicos (multiplicar un string con un numero)
+						Los errores de compilacion/ejecucion y logicos se ven cuando se ejecuta el software.
+
+
+		Concatenacion de Variables (nombre + apellido)
+
+
+		Funciones por Defecto:
+
+					console.log() - Imprime en la consola
+
 		
+		Isamiento de la variable (1:05 hs)
+
+			Pasa con VAR
+					 
+					
+
+
 
