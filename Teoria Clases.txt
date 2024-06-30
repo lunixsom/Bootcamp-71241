@@ -449,7 +449,7 @@ Continuacion JS
 		Concatenacion de Variables (nombre + apellido)
 
 
-		Funciones por Defecto:
+		Funciones por Defecto/nativas:
 
 					console.log() - Imprime en la consola
 
@@ -459,6 +459,10 @@ Continuacion JS
 			Pasa con VAR
 					 
 					
+	Vinculacion de archivo JS con HTML (1:11 hs)
 
+	funcion alert()
+
+	Operadores Matematicos (1:41:30 hs)
 
 
