@@ -1,0 +1,63 @@
+body{
+    background-color: #21293a;
+}
+h1{
+    background-color: #F7F9F9;
+    font-family: Impact, Charcoal, sans-serif;
+font-size: 50px;
+color: #405870d5;
+margin-top: 50px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+h2{
+    font-family: arial,sans-serif ;
+    font-size: 28px;
+    font-variant: small-caps;
+}
+
+p { 
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:#f7f9f981 }
+img {
+    border-style: solid;
+    border-width: 6px}
+
+#colorManteca
+{color: #eae8ce}
+
+#colorMarron
+{color:#b58a69d5}
+
+#colorGris
+{color: #727272a5}
+
+#colorGrisclaro
+{color:#a6a6a6fa}
+
+#colorCeleste
+{color: #81cdde}
+
+#aspiradoras {
+    border-color: #eae8ce;
+}
+
+#celulares {
+    border-color: #81cdde;
+}
+
+#consolas{
+    border-color: #a6a6a6fa;
+}
+#hometheaters{
+    border-color: #727272a5;
+}
+#televisores {
+    border-color: #b58a69d5;
+}
+
+
+
+

@@ -1,0 +1,93 @@
+ body {
+    background-color:#E11364 ;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+header {
+    background:#BC105C;
+}
+h1 {
+    color: #FFFFFF;
+    font-size: 45px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-left: 6px solid #FFFFFF;
+    border-right: 6px solid #FFFFFF;
+}
+main {
+    background: #BC105C ;
+    border-radius:1mm;
+}
+section {
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+h2 {
+    color: white;
+    text-align: left;
+}
+.mas-vendido{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+article {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 1mm;
+    margin-bottom: 30px;
+}
+.mario-kart {
+    color: #9C0037;
+    font-weight: bold;
+    padding-top: 3px;
+}
+.mortal-kombat{
+    color: #9C0037;
+    font-weight: bold;
+    padding-top: 3px;
+}
+h3{
+    border-bottom-style: dotted;
+    font-size: 21px;
+    text-align: right;
+}
+figure{
+    margin: 0;
+ } 
+p{
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+button{
+    background: #2C8F20;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+    font-size: 15px;
+    border: none;
+    border-radius: 1mm;
+    padding: 12px 12px;
+    margin-bottom: 7px;
+    text-decoration: none;
+    display: inline;
+}
+footer {
+    background-color: #E96093;
+    color: white;
+    font-family: sans-serif;
+    font-size: 11px;
+    text-align: center;
+    padding: 5px 10px;
+    border-bottom-style: none;
+    margin-top: 15px;
+    border-radius: 1mm;
+}
