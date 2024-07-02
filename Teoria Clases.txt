@@ -471,7 +471,34 @@ Continuacion JS
 
 Clase 15
 
+
 Instalación Node JS (10 min a 46 min)
+
+
+
+Que es NPM (49 min)
+
+	Es el Administrador de paquetes de Node.
+	
+	instala, actualiza o elimina herramientas que son as librerías al núcleo de NODE JS
+
+
+	Que son las LIBRERIAS ? -> Son código JavaScript que tienen una tarea especifica que realizar.
+
+
+
+Nodemon (56 min)
+
+	Mantiene la ejecución del código abierta.
+
+	Corto Nodemon:
+		cierro la terminal
+		Ctrl + C
+
+
+
+Error Terminal PowerShell con Nodemon (1:20 hs)
+
 
 
 
