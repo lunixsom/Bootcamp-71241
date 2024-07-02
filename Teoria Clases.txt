@@ -495,9 +495,20 @@ Nodemon (56 min)
 		cierro la terminal
 		Ctrl + C
 
+	Nodemon solo funciona con codigo JS nativo, por ejemplo la funcion alert no funciona porque es una funcion de ventana.
+
+	SIEMPRE VA FUNCIONAR NODEMON CUANDO NO TENGAMOS QUE UTILIZAR FUNCIONES QUE NECESITAN VENTANAS DE NAVEGADOR.
 
 
-Error Terminal PowerShell con Nodemon (1:20 hs)
+
+Error Terminal PowerShell con Nodemon hecho con Willi (1:20 hs a 1:26 hs)
+
+	Ejecutar Powershell como Administrador
+	Ejecutar Policy para cambiar restringido a RemoteDesigned
+
+
+Operadores (1:33:30 hs)
+
 
 
 
