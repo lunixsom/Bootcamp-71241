@@ -528,3 +528,14 @@ Clase 16
 
 Operadores Relacionales (36 min)
 
+	>, <, ==, !=, >=, <=, ===
+
+	=== (es identico en valor, tipo de dato, es un clon)
+
+
+
+Condicionales (52 min)
+
+	Son pequeñas estructuras de codigo que me dan la posibilidad de elegir cosas (if)
+
+	NO ESTA CLASE: averiguar truthly / falsy 
