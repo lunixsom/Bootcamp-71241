@@ -521,5 +521,10 @@ PROMPT (1:40 hs)
 CONFIRM (1:54 hs)
 
 	
+************************************************************
 
+Clase 16
+
+
+Operadores Relacionales (36 min)
 
