@@ -539,3 +539,20 @@ Condicionales (52 min)
 	Son pequeñas estructuras de codigo que me dan la posibilidad de elegir cosas (if)
 
 	NO ESTA CLASE: averiguar truthly / falsy 
+
+	IF anidados (1:12:30 hs)
+
+	IF anidados con operadores logicos (1:16 hs)
+
+		&& || !
+
+
+Uso de objeto window (1:54:30 hs)
+
+	Imprimimos por consola el objeto window
+
+	window es un objeto global, el objeto de la ventana, que tiene todos lo metodos, todos los datos del navegador, todos lo elementos html, todo css, todo js.
+
+	window.location (traslada al usuario a algun otro lugar de mi aplicacion)
+
+	
