@@ -555,4 +555,30 @@ Uso de objeto window (1:54:30 hs)
 
 	window.location (traslada al usuario a algun otro lugar de mi aplicacion)
 
-	
+
+************************************************************
+
+Clase 17
+
+Examen Alumni (0 a 13 min)
+
+Ramas en Git (18 min a )
+		
+	Una rama es una forma de tener diferentes versiones de mi proyecto guardados en un solo proyecto.
+
+	git branch: me lista cuales son las ramas que tiene mi proyecto. Me muestra con un asterisco en que rama estoy parado.
+
+	git branch nombreRama: crea una nueva rama.
+
+	git checkout nombreRama: cambiar a otra rama.
+
+
+	git merge nombreRamaOtraVersion: es una fusion, unir el proyecto a la rama principal.
+
+		Yo necesito estar parado siempre en la rama a la que quiero aplicarle los cambios de otra rama.
+
+	git push origin nombreRamaVersion: subo a git las otra rama.
+
+	¿Se puede revertir la fusion?
+		Si se puede, no dijo como.
+
