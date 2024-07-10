@@ -582,3 +582,8 @@ Ramas en Git (18 min a )
 	¿Se puede revertir la fusion?
 		Si se puede, no dijo como.
 
+	Conflictos al hacer fusion (1:18 hs)
+
+	git remove || git reset || git revert
+
+	git branch -D nombreRama: elimina una rama en la que no estoy parado.
