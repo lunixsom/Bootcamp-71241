@@ -587,3 +587,13 @@ Ramas en Git (18 min a )
 	git remove || git reset || git revert
 
 	git branch -D nombreRama: elimina una rama en la que no estoy parado.
+
+	
+
+	git log --oneline: me muestra los commits en una sola linea (resumida)
+
+
+	git checkout hashCommit: vuelvo al estado anterior en ese hash commit (no crea rama, solo vuelvo para ver).
+
+	git switch -c hashCommit: me lleva al estado de ese commit y me crea la rama.
+
