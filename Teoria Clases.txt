@@ -597,3 +597,9 @@ Ramas en Git (18 min a )
 
 	git switch -c hashCommit: me lleva al estado de ese commit y me crea la rama.
 
+
+Display (1:47:30 hs)
+
+	Distribucion de elementos
+
+	FLOAT
