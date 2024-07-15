@@ -609,3 +609,6 @@ Display (1:47:30 hs)
 ************************************************************
 
 Clase 18
+
+
+Nodemon es para backend, no funcionaria con el navegador.
