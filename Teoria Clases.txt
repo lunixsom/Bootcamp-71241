@@ -613,11 +613,26 @@ Clase 18
 
 Nodemon es para backend, no funcionaria con el navegador.
 
-Repaso Ramas (9 min a )
+Repaso Ramas (9 min a 15)
 
 
-	Eliminar una RAMA en el repositorio Remoto (16 min)
+
+Eliminar una RAMA en el repositorio Remoto (16 min)
 		
-		Como hago para eliminar de Github la rama que ya habia eliminado de mi proyecto local.
+	Como hago para eliminar de Github la rama que ya habia eliminado de mi proyecto local.
 
-			git push origin -d ramas
+		git push origin -d ramas
+
+
+
+Display inline & float (36 min a 57 min)
+	
+	Display: inline & float: left (42 min)
+
+
+Display FLEX (1:05 hs)
+
+	display: flex;
+
+	flex-direction: column;
+
