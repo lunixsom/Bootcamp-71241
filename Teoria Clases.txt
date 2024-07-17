@@ -652,3 +652,6 @@ flex-wrap (1:19 hs a 1:39 hs)
 		La herramienta del navegador me permite jugar con esas propiedades para ver como quedaria mi diseño con flex, para luego copiar a mi codigo en vscode las propiedades que me gustaron.
 
 	
+************************************************************
+
+Clase 19
