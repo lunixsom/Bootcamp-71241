@@ -636,3 +636,19 @@ Display FLEX (1:05 hs)
 
 	flex-direction: column;
 
+
+flex-wrap (1:19 hs a 1:39 hs)
+
+	Esto va con flex-direction: row;
+
+	Flex por default esta en nowrap que no hace un salto de linea cuando llega al final.
+
+	flex-wrap: wrap, habilita el salto de linea cuando termina la ventana.
+
+	No hace falta usar flex-wrap:wrap con column porque por definicion ya tiene salto de linea column.
+
+	Chrome devTools jugar con flex (1:30 hs)
+
+		La herramienta del navegador me permite jugar con esas propiedades para ver como quedaria mi diseño con flex, para luego copiar a mi codigo en vscode las propiedades que me gustaron.
+
+	
