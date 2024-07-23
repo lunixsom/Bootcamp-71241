@@ -661,6 +661,16 @@ Clase 19
 
 		Flex sobre ul 
 
+
+	Tablas (1:32:30 hs)
+
+		Una tabla es un pequeño cuadro para mostrar informacion, que puede venir de una base de datos.
+
+		th: celdas titulos
+		tr: fila 
+		td: columna
+	
+
 	
 
 
