@@ -1,0 +1,38 @@
+
+ ### Consigna del Práctico 04 - Módulo UNO FullStack ###
+
+1. La tarea a realizar será una integración de las herramientas estudiadas hasta ahora.
+
+2. Se deberá realizar una página web integrando Html, Css y Javascript.
+
+3. Requisitos:
+
+	- Crear 3 archivos llamados index, uno con extensión html, otro con extensión css y otro con extensión js
+
+	- Crear un archivo llamado admin.html y admin.js - Opcional el admin.css
+
+	- Vincular los archivos index de css y js al de html
+
+	- Crear en el archivo index.html una página que tenga las etiquetas semánticas y el diseño de un ecommerce 
+		de cualquier rubro.
+
+	- Debe contener dos secciones.
+
+	- Una para la vista de los productos.
+
+	- Otra para un formulario con los siguientes inputs: Nombre, Dirección, Provincia, Teléfono.
+
+	- La sección de los productos debe estar maquetada con Flexbox en el css.
+
+	- En la barra de navegación del archivo index.html, debe tener un link de acceso a la página de admin.html
+
+	- Cuando el usuario ingresa a la página de admin.html, preguntamos con la función prompt el login y el password
+
+	- Con un condicional en el Js confirmamos el acceso.
+
+	- Si es el admin, enviar un alert dando la bienvenida.
+
+	- Si no es el admin, enviarlo nuevamente a la página del index
+
+
+	Fuerza para el Práctico!!

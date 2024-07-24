@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+body {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    }
+body{
+    
+    background-image: url('imagenes/fondo\ a\ las\ brasas.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+}
+    
+h1 , p {
+    color: white;
+    text-align: center;
+}
+h2 ,h3 {
+    color: orangered;
+    text-align: left;
+}
+ .icono {
+    display: flex;
+    align-items: center;
+}
+.icono img {
+    margin-right: 40px;  }
+
+  nav {
+      background-color: brown; 
+      padding: 0px 0; 
+  }
+
+  nav ul {
+      list-style-type: none; 
+      padding: 0;
+      margin: 0;
+      display: flex; 
+      justify-content: center;
+  }
+
+  nav ul li {
+      margin: 20px;
+  }
+
+  nav ul li a {
+      text-decoration: none; 
+      color: white; 
+      padding: 0px 20px; 
+      display: block; 
+  }
+
+  nav ul li a:hover {
+      background-color: darkred; 
+  }
+
+  #login-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(209, 71, 17, 0.836);
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+ 
