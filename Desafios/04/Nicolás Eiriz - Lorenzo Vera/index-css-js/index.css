@@ -1,0 +1,198 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header{
+  background-color: #F66F33;
+  color:#ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header div.flex-container{
+  height: 50px;
+}
+
+header h1, 
+header a{
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.titulo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+nav{
+  background-color: #F1F1F1;
+  display: flex;
+  justify-content: center;
+}
+
+ul.flex-container{
+  width: 42%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul > li{
+  list-style: none;
+  border-right: 1px solid #000;
+  padding-right: 5%;
+}
+
+#ultima-li{
+  border-right: none;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.imagen-principal{
+  background-image: url(../imagenes/fachry-zella-devandra-u3YoW5MX26Y-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 40px   ;
+}
+
+.productos{
+  flex-direction: column;
+  gap: 60px;
+}
+
+.productos h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  border-top: 1px solid #F66F33;
+  padding-top: 25px;
+}
+
+.botines{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  gap: 40px
+
+}
+
+.botin{
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.botin.uno{
+background-image: url(../imagenes/adidas-3.jpg);
+}
+
+
+.botin.dos{
+  background-image: url(../imagenes/botin-adidas-2.jpg);
+  background-position: bottom;
+}
+
+.botin.tres{
+  background-image: url(../imagenes/botin-adidas.jpg);
+}
+
+.botin.cuatro{
+  background-image: url(../imagenes/botin-blanco.jpg);
+  background-position: bottom;
+}
+
+.botin.cinco{
+  background-image: url(../imagenes/botin-nike-2.jpg);
+}
+
+.botin.seis{
+    background-image: url(../imagenes/botin-nike-3.jpg);
+    }
+
+.botin.siete{
+      background-image: url(../imagenes/botin-nike-negro.jpg);
+}
+
+.botin.ocho{
+  background-image: url(../imagenes/botin-retro.jpg);
+  background-position: center;
+}
+
+.botin{
+  width: 300px;
+  height: 200px;
+} 
+
+.form{
+  margin-top: 80px;
+  border-top: 1px solid #F66F33;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+form h3{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+form > div{
+  display: flex;
+  flex-direction: column;
+}
+
+form input, select, button{
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+select{
+  background-color: #fff;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.buttons button{
+  width: 50%;
+  background-color: #ff5811;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}

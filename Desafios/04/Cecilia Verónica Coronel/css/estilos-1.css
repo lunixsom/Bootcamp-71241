@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e11364;
+}
+
+header {
+  background-color: #bc105c;
+  border-left: 3px solid;
+  border-right: 3px solid;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 40px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.juegos {
+  background-color: #bc105c;
+  padding: 20px;
+
+  max-width: 1200px;
+  width: 100%;
+}
+
+.juegos h2 {
+  color: white;
+  text-align: left;
+}
+
+.articulo {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.articulo h3 {
+  text-align: right;
+  color: #bc105c;
+}
+
+.articulo img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.articulo p {
+  text-align: justify;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  width: auto;
+  max-width: 200px;
+}
+
+button:hover {
+  background-color: #bc105c;
+}
+
+.separadorpuntos {
+  border: 0;
+  border-top: 2px dotted #bc105c;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #f591b2;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+/* Pagina1*/
+
+.articulo_pag {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.articulo_pag h3 {
+  text-align: right;
+  color: #bc105c;
+}
+
+.articulo_pag img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.articulo_pag p {
+  text-align: justify;
+}
+
+.p_pag {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+button.inline-button {
+  margin-right: 10px; /* Espacio entre el botón y el texto */
+  max-width: none; /* Resetea el max-width para este botón en particular */
+  text-align: left;
+}

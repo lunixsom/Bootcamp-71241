@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./iconos/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./index-css-js/index.css">
+  <title>Botines</title>
+</head>
+<body>
+  
+  
+    <header>
+      <div class="flex-container">
+        <div class="titulo">
+          <img src="./iconos/botin-blanco.svg" alt="" srcset="">
+          <h1><a href="index.html">Botines.ar</a></h1>
+        </div>
+       <a id="acceso-admin" href="./admin-pages/admin.html">Acceder</a>
+      </div>
+    </header>
+    
+      <nav>
+        <ul class="flex-container">
+          <li><a href="#botin">Hombre</a></li>
+          <li><a href="#botin">Mujer</a></li>
+          <li><a href="#botin">Nike</a></li>
+          <li><a href="#botin">Adidas</a></li>
+          <li><a href="#botin">Topper</a></li>
+          <li id="ultima-li"><a href="#">Fila</a></li>
+        </ul>
+      </nav>
+  
+      <div class="imagen-principal"></div>
+
+      <main>
+    
+        <section class="flex-container productos">
+          <h2>Nuestros productos</h2>
+
+          <article class="flex-container botines">
+
+            <div class="botin uno" id="botin"></div>
+            <div class="botin dos"></div>
+            <div class="botin tres"></div>
+            <div class="botin cuatro"></div>
+            <div class="botin cinco"></div>
+            <div class="botin seis"></div>
+            <div class="botin siete"></div>
+            <div class="botin ocho"></div>
+         
+          </article>
+
+        </section>
+
+        <section class="flex-container form">
+
+          <form action="">
+            <h3>Ingrese sus datos</h3>
+            
+              <div>
+                <label for="nombre-usuario">Nombre</label>
+                <input type="text" name="nombre-usuario" id="nombre-usuario">
+              </div>
+
+              <div>
+                <label for="direccion-usuario">Dirección</label>
+                  <input type="text" name="direccion-usuario" id="direccion-usuario">
+              </div>
+
+              <div>
+                    <label for="provincia-usuario">Provincia</label>
+                            <select id="provincia-usuario" name="provincia-usuario">
+                              <option value="Buenos-Aires">Buenos Aires</option>
+                              <option value="Ciudad-Autonoma-de-Buenos-Aires">Ciudad Autónoma de Buenos Aires</option>
+                                <option value="Catamarca">Catamarca</option>
+                                <option value="Chaco">Chaco</option>
+                                <option value="Chubut">Chubut</option>
+                                <option value="Cordoba">Córdoba</option>
+                                <option value="Corrientes">Corrientes</option>
+                                <option value="Entre-Rios">Entre Ríos</option>
+                                <option value="Formosa">Formosa</option>
+                                <option value="Jujuy">Jujuy</option>
+                                <option value="La-Pampa">La Pampa</option>
+                                <option value="La-Rioja">La Rioja</option>
+                                <option value="Mendoza">Mendoza</option>
+                                <option value="Misiones">Misiones</option>
+                                <option value="Neuquen">Neuquén</option>
+                                <option value="Rio-Negro">Río Negro</option>
+                                <option value="Salta">Salta</option>
+                                <option value="San-Juan">San Juan</option>
+                                <option value="San-Luis">San Luis</option>
+                                <option value="Santa-Cruz">Santa Cruz</option>
+                                <option value="Santa-Fe">Santa Fe</option>
+                                <option value="Santiago-del-Estero">Santiago del Estero</option>
+                                <option value="Tierra-del-Fuego">Tierra del Fuego</option>
+                                <option value="Tucuman">Tucumán</option>
+                            </select>
+              </div>
+              
+              <div>
+          <label for="telefono-usuario">Teléfono</label>
+          <input type="text" name="telefono-usuario" id="telefono-usuario">
+              </div>
+              
+              <div class="buttons">
+          <button type="submit">Aceptar</button>
+          <button type="reset">Limpiar</button>
+              </div>
+            </form>
+          </section>
+          
+      </main>
+ 
+
+  <script src="./index-css-js/index.js"></script>
+</body>
+</html>

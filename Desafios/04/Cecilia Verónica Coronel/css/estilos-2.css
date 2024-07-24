@@ -1,0 +1,155 @@
+@font-face {
+  font-family: RedHands;
+  src: url(/assets/font/KGRedHands.ttf);
+}
+@font-face {
+  font-family: RedHands2;
+  src: url(/assets/font/KGRedHandsOutline.ttf);
+}
+
+body {
+  margin: 0;
+  background-image: url("/assets/imagenes/marioymk.png"); /* Ruta a tu imagen de fondo */
+  background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+header {
+  background-color: #2c3e50; /* Azul oscuro */
+  color: white;
+  padding: 20px; /* Padding igual al de los artículos */
+  text-align: left; /* Alineación a la izquierda */
+  margin-top: 40px;
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+header h1 {
+  margin: 0;
+  font-family: RedHands2;
+}
+
+main {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  font-family: RedHands;
+}
+
+.juegos {
+  background-color: #ecf0f1; /* Fondo gris claro */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.juegos h2 {
+  color: #2c3e50; /* Azul oscuro */
+  text-align: center; /* Alineación al centro */
+  margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.articulo {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 93%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.articulo h3 {
+  text-align: left; /* Alineación a la izquierda */
+  color: #2c3e50; /* Azul oscuro */
+}
+
+.articulo img {
+  width: 900px; /* Tamaño original de la imagen */
+  display: block;
+  margin: 20px auto; /* Centrar imagen */
+  border-radius: 10px;
+}
+
+.articulo p {
+  text-align: left; /* Alineación a la izquierda */
+  line-height: 1.6; /* Altura de línea para mejor legibilidad */
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db; /* Azul brillante */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto;
+  margin: 10px 0;
+  transition: background-color 0.3s;
+  font-family: RedHands;
+}
+
+button:hover {
+  background-color: #4caf50; /* verde */
+}
+
+.separadorpuntos {
+  border: 0;
+  border-top: 2px dashed #7f8c8d; /* Gris medio */
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #2c3e50; /* Azul oscuro */
+  color: white;
+  padding: 20px; /* Padding igual al de los artículos */
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 10px; /* Bordes redondeados */
+  font-family: RedHands2;
+}
+
+/* Pagina1*/
+
+.articulo_pag {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 95%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.articulo_pag h3 {
+  text-align: left;
+  color: #2c3e50;
+}
+
+.articulo_pag img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.articulo_pag p {
+  text-align: left;
+  line-height: 1.6;
+}
+
+.p_pag {
+  font-family: "RedHands", sans-serif;
+  font-size: 15px;
+}
+
+button.inline-button {
+  display: inline-block;
+  margin-right: 10px;
+  max-width: none;
+  text-align: left;
+  background-color: #3498db; /* Azul brillante */
+}
+
+button.inline-button:hover {
+  background-color: green; /* verde */
+}

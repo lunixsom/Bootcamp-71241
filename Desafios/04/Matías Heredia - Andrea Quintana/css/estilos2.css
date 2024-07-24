@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body {
+        background-image: url(../assets/fondo.jpg);
+        background-size: cover;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: left;
+    width: 110px;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50; 
+}
+
+h2 {
+    font-size: 25px;
+    text-shadow: 5px 1px 2px black, 0 0 black, 0 0 0.2em black;
+    color: rgb(255, 255, 255);
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    padding: 10px;
+    border: dotted 5px honeydew;
+    border-width: 2px;
+
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+hr {
+    border: solid white ;
+    margin-top: 0px;
+
+}
+
+figure {
+    background-color: rgb(252, 175, 33);
+    border-radius: 10px;
+
+}
+
+img {
+    width:58%;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 0 0 30px black;
+}
+
+input {
+    background-color: red;
+    border-radius: 10px;
+    width: 120px; height: 35px;
+    margin-bottom: 15px;
+    color: white;
+    box-shadow: 0 0 30px black;
+}
+
+article {
+    text-align: center;
+}
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h5 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
