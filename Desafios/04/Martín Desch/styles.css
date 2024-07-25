@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+.menu {
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 15px;
+    font-size: 24px;
+}
+
+main {
+    padding: 2rem;
+}
+
+.titulo-productos {
+    top: 0;
+    right: 0;
+    margin: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #000;
+    width: auto;
+    text-align: left;
+}
+
+#productos,
+#formulario-pedido {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+
+#productos .contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#productos .producto {
+    border: 1px solid #ccc;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+#formulario-pedido {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#formulario-pedido h2 {
+    margin-bottom: 1rem;
+}
+
+#formulario-pedido form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#formulario-pedido label {
+    margin-bottom: 0.5rem;
+}
+
+#formulario-pedido input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#formulario-pedido button {
+    align-self: center;
+    padding: 0.5rem 2rem;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#formulario-pedido button:hover {
+    background-color: darkgreen;
+}

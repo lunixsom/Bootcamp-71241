@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: #025373;
+    color: #fff;
+    padding: 0%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.inicio{
+    text-align: left;
+    margin: 20px;
+    margin-top: 0%;
+}
+
+#formulario-contacto {
+    margin: 0%;
+}
+
+#formulario-contacto h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 1px 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form input[type="submit"] {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer{
+    background-color: #022840;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    border-top: #025373 10px solid;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+
+.info{
+    list-style: none;
+    padding: 0%;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+ul li{
+    margin: 15px;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+figure{
+    margin: 0%;
+}

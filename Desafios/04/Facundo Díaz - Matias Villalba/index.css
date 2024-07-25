@@ -1,0 +1,130 @@
+
+body{
+    background-image: url(imagenes/Img.Auriculares/Fondos-web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+header{
+    color: white;
+    background: black;
+    text-align: center;
+    
+}
+    .titulo{
+        background-color: #904E70;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        font-size: 60px;
+        border-radius: 6px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+
+
+.formulario{
+    text-align: center;
+}
+
+.productos{
+    
+    display: flex ;
+    gap: 15px;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+li{
+    color: white;
+}
+.atajos{ 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 45px;
+    color: white;
+    background: black;
+    text-align: center;
+    border-right: 10px rgb(247, 247, 250) solid;
+    border-left: 10px rgb(247, 247, 250) solid;
+    margin-left: 62px; 
+    margin-right: 62px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    list-style: none;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+   }
+
+
+footer {
+    background-color: white;
+    color: #080808;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-right: 5rem;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+.datos{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+footer{
+    background-color: beige;
+    
+}
+

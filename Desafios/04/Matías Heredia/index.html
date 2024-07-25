@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapatillas</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+<header>
+    <nav>
+            <h1 class="titulo">
+                Zapatillas Nike
+            </h1>
+            
+            <a href="./pages/admin.html">Iniciar sesion</a> 
+            
+            
+            <a href="./pages/admin.html">Sobre nosotros</a>
+            
+            
+            <a href="./pages/admin.html">Contacto</a>
+            
+    </nav>
+
+</header>
+
+<main>
+
+    <section>
+        <article>
+            <h2>Zapatillas blancas</h2>
+            <div>
+                <h3>Zapatillas full comfort</h3>
+                <img src="./assets/descarga.jpeg" alt="zapatilla blanca">
+                <p>$59999</p>  <br>
+                <input type="button" value="Comprar" class="compra">
+            </div>
+            <div>    
+                <h3>Zapatillas elegantes</h3>              
+                <img src="./assets/descarga (2).jpeg" alt="zapatilla blanca">
+                <p>$59999</p>  <br>
+                <input type="button" value="Comprar" class="compra">
+            </div>    
+            <div>        
+                <h3>Zapatillas para carreras</h3>
+                <img src="./assets/images.jpeg" alt="zapatilla blanca">
+                <p>$59999</p>  <br>
+                <input type="button" value="Comprar" class="compra">
+            </div>
+        </article>
+
+        <article>
+            <h2>Zapatillas negras</h2>
+            <div>
+                <h3>Zapatillas full comfort</h3>
+                <img src="./assets/descarga (5).jpeg" alt="zapatilla negra">
+                <p>$59999</p>  <br>
+                <input type="button" value="Comprar" class="compra">
+            </div>
+            <div>
+                <h3>Zapatillas elegantes</h3>
+                <img src="./assets/descarga (3).jpeg" alt="zapatilla negra">
+                <p>$59999</p>  <br>
+                <input type="button" value="Comprar" class="compra">
+            </div>    
+            <div>
+                <h3>Zapatillas para carreras</h3>
+                <img src="./assets/descarga (4).jpeg" alt="zapatilla negra">
+                <p>$59999</p>  <br>
+                <input type="button" value="Comprar" class="compra">
+            </div>
+        </article>
+    </section>
+
+</main>
+
+<footer>
+<section class="formulario">
+    <h1>Te las enviamos!</h1>
+        <form action="codigo.php" method="post">
+            <label for="nombre">Nombre y Apellido
+                <input id="form" type="text" placeholder="Nombre y apellido">
+            </label>
+            <label for="Provincia">Provincia
+                <select name="Provincias" id="form"> 
+                    <option value="">Provincia</option>
+                    <option value="CABA">CABA</option>
+                    <option value="BuenosAires">Buenos Aires</option>
+                    <option value="Catamarca">Catamarca</option>
+                    <option value="Chaco">Chaco</option>
+                    <option value="Chubut">Chubut</option>
+                    <option value="Cordoba">Córdoba</option>
+                    <option value="Corrientes">Corrientes</option>
+                    <option value="EntreRios">Entre Rios</option>
+                    <option value="Formosa">Formosa</option>
+                    <option value="Jujuy">Jujuy</option>
+                    <option value="LaPampa">La Pampa</option>
+                    <option value="LaRioja">La Rioja</option>
+                    <option value="Mendoza">Mendoza</option>
+                    <option value="Misiones">Misiones</option>
+                    <option value="Neuquen">Neuquén</option>
+                    <option value="RioNegro">Río Negro</option>
+                    <option value="Salta">Salta</option>
+                    <option value="SanJuan">San Juan</option>
+                    <option value="SanLuis">San Luis</option>
+                    <option value="SantaCruz">Santa Cruz</option>
+                    <option value="SantaFe">Santa Fe</option>
+                    <option value="SantiagoDelEstero">Santiago Del Estero</option>
+                    <option value="TierraDelFuego">Tierra Del Fuego</option>
+                    <option value="Tucuman">Tucumán</option>
+                </select>
+            </label>
+            <label for="direccion">Direccion
+                <input id="form" type="text" placeholder="Direccion">
+            </label>
+            <label for="Telefono">Telefono
+                <input id="form" type="number" placeholder="Telefono">
+            </label>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</footer>
+
+
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+
+.titulo-seccion {
+    font-size: 24px;
+    font-weight: 200;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #392418;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 955px;
+}
+
+.placeholder {
+    color: #757575;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 10px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}

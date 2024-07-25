@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href="./index.css">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="./index.js"/></script>
+  <title>Andrea Calzados</title>
+</head>
+<body>
+    <header>      
+      <h1 class="titulo">Andrea Calzados</h1>
+      <nav>
+        <ul>
+          <li><a href="/"  class="botonNav">Productos</a></li>
+          <li ><a href="./admin.html" class="botonNav">Admin</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>    
+      <h1 class="titulo-seccion">Calzado para niños</h1>
+      <section class="lista-productos">
+        <article class="tarjeta">
+          <img src="./assets/imagen_1.webp" alt="Zapatillas Vanilla Ice Cream">
+          <h2>Zapatillas Vanilla Ice Cream</h2>
+          <section class="detalle">
+            <p class="descripcion">Talles Disponibles: 23 - 24 - 25</p>
+            <p class="precio">Precio: $45000</p>
+            <button class="boton-compra">Comprar</button>
+          </section>
+        </article>
+        <article class="tarjeta">
+          <img src="./assets/imagen_2.webp" alt="Zapatillas Pomdapi Beige">
+          <h2>Zapatillas Pomdapi Beige</h2>
+          <section class="detalle">
+            <p class="descripcion">Talles Disponibles: 23 - 24 - 25</p>
+            <p class="precio">Precio: $54000</p>
+            <button class="boton-compra">Comprar</button>
+          </section>
+        </article>
+        <article class="tarjeta">
+          <img src="./assets/imagen_3.webp" alt="Zandalias Pomdapi Blanca">
+          <h2>Zandalias Pomdapi Blanca</h2>
+          <section class="detalle">
+            <p class="descripcion">Talles Disponibles: 23 - 24 - 25</p>
+            <p class="precio">Precio: $35000</p>
+            <button class="boton-compra">Comprar</button>
+          </section>
+        </article>
+        <article class="tarjeta">
+          <img src="./assets/imagen_4.webp" alt="Zapatos Etiquette">
+          <h2>Zapatos Etiquette</h2>
+          <section class="detalle">
+            <p class="descripcion">Talles Disponibles: 23 - 24 - 25</p>
+            <p class="precio">Precio: $65000</p>
+            <button class="boton-compra">Comprar</button>
+          </section>
+        </article>
+        <article class="tarjeta">
+          <img src="./assets/imagen_5.jpg" alt="Zandalias Pomdapi Fiesta">
+          <h2>Zandalias Pomdapi Fiesta</h2>
+          <section class="detalle">
+            <p class="descripcion">Talles Disponibles: 23 - 24 - 25</p>
+            <p class="precio">Precio: $55000</p>
+            <button class="boton-compra">Comprar</button>
+          </section>
+        </article>
+        <article class="tarjeta">
+          <img src="./assets/imagen_6.jpg" alt="Zandalias Pomdapi Rosa">
+          <h2>Zandalias Pomdapi Rosa</h2>
+          <section class="detalle">
+            <p class="descripcion">Talles Disponibles: 23 - 24 - 25</p>
+            <p class="precio">Precio: $45000</p>
+            <button class="boton-compra">Comprar</button>
+          </section>
+        </article>
+      </section>
+    </main>
+    <footer>    
+      <form class="formulario" method="POST" action="#">
+        <h3>Contacto</h3>
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" placeholder="Andrea Quintana">
+        <label for="direccion">Direccion:</label>
+        <input id="direccion" type="text" placeholder="Bv. Illia 123">
+        <label for="provincia">Provincia:</label>
+        <input id="provincia" type="text" placeholder="Córdoba">
+        <label for="telefono">Telefono:</label>
+        <input id="telefono" type="text" placeholder="+5491234567891">
+        <input type="submit" class="enviar" value="Enviar">
+      </form>
+    </footer>
+</body>
+</html>

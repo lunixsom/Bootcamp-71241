@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/contacto.css">
+    <title>Contacto - PonteTech</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/index.html">Productos</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+                <li><a href="/admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Formulario de contacto</h1>
+            <form method="post" action="/submit_contacto">
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Pepe Pérez">
+                <br>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="mail@gmail.com" required>
+                <br>
+                <label for="direccion">Dirección: </label>
+                <input type="text" id="direccion" name="direccion" placeholder="Calle Falsa 123">
+                <br>
+                <label for="provincia">Provincia: </label>
+                <input type="text" id="provincia" name="provincia" placeholder="Buenos Aires">
+                <br>
+                <label for="producto">Producto: </label>
+                <select id="producto" name="producto">
+                    <optgroup>
+                        <option value="iphone_15">iPhone 15</option>
+                        <option value="iphone_14">iPhone 14</option>
+                        <option value="iphone_13">iPhone 13</option>
+                        <option value="iphone_12">iPhone 12</option>
+                        <option value="iphone_se">iPhone SE</option>
+                        <option value="apple_watch_series_8">Apple Watch Series 8</option>
+                        <option value="apple_watch_series_7">Apple Watch Series 7</option>
+                        <option value="apple_watch_se">Apple Watch SE</option>
+                        <option value="airpods_pro_2nd_gen">AirPods Pro (2nd generation)</option>
+                        <option value="airpods_3rd_gen">AirPods (3rd generation)</option>
+                        <option value="airpods_2nd_gen">AirPods (2nd generation)</option>
+                    </optgroup>
+                </select>
+                <br><br>
+                <button type="submit">Enviar Datos</button>
+                <button type="reset">Borrar Datos</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

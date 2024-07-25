@@ -1,72 +1,101 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facunado Diaz - Loren Seballes - Juegos</title>
-   <!-- <link rel="stylesheet" href="./estilos-1.css"> -->
-    <link rel="stylesheet" href="./estilos-2.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./Productos/HDJX5.html">
+    <link rel="stylesheet" href="./navbar/admin.html">
+    <link rel="stylesheet" href="./navbar/productos.html">
 
 </head>
+
 <body>
 
     <header>
-        
         <h1 class="titulo">
-            Juegos
+            Auriculares Fa.Ma
         </h1>
     </header>
-    
-    <main class="main">
-        <section class="cajaPrincipal">
-        <h2 class="subTitulo">
-            Los más vendidos   
-                </h2> 
-        <div class="cajaImg">
-                <h3 class="nombreJuego"> Mario Kart™ 8 Deluxe</h3>
-                <figure>
-                <img class="mario" src=".//img/mario-kart-8-deluxe.jpg" alt="marioKart" >
-                </figure>
-                <p>¡Calienta motores en la versión definitiva de Mario Kart™ 8 y juega donde y cuando quieras! </p>
-                <p> Compite con tus amigos en carreras o en el modo batalla, que incluye circuitos nuevos y otros ya conocidos.
-                    Juega en el modo local y en 1080p en partidas de hasta 4 jugadores en el modo televisor.
-                Todos los circuitos de la versión de Wii U, incluyendo el contenido descargable, están disponibles. </p>
-                    <p>Además, ¡los inklings aparecen como personajes invitados junto con otro personajes de juegos anteriores,
-                        como el Rey Bú, Huesitos y Bowser Jr!</p>
-                    <div class="infomario">
-                        <a href="infomario.html"><button class="botonComprar">Comprar!</button> </a>
-            </div>
-                </div>  
-                
+    <nav>
+        <ul class="atajos">
             
-                <div class="cajaImg">
-                    <h3 class="nombreJuego">Mortal Kombat 11</h3>
-                    <figure>
-                    <img class="kombat" src=".//img/mortal-kombat-11.jpg" alt="mortal-kombat-11">
-                        </figure>
-                    <p> Mortal Kombat 11, la más reciente entrega de la aclamada franquicia,
-                        te ofrece una experiencia más profunda y personalizada que nunca.</p>
-                        <p>Con las nuevas variantes de personaje tendrás un control sin precedentes
-                    para personalizar a tus luchadores y hacerlos únicos.
-                    Con un reparto de luchadores nuevos y klásicos, el modo Historia cinemático
-                    continúa la épica saga iniciada hace más de 25 años.
-                    Juega con una variedad de personajes, pasados, presentes y futuros,
-                    en una nueva narrativa donde el tiempo se distorsiona y Raiden debe
-                    enfrentarse a Kronika, la Guardiana del Tiempo. </p>
-                        <p>Este nuevo título ofrece múltiples modos de juego, incluyendo las Torres del Tiempo,
-                    los que permiten a los jugadores poner a prueba sus habilidades a través de varios
-                    desafíos y disfrutar de Mortal Kombat 11 de muchas otras maneras. </p>
-                    <div class="infomortal">
-                        <a href="infomortal.html"><button class="botonComprar">Comprar!</button> </a>
-                        </div>
+            <li> <a href="../index.html">formulario</a></li>
+            <li><a href="../navbar/productos.html">Productos</a></li>
+            <li><a href="../navbar/admin.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="formulario">
+            <form>
+
+                <form action="#" method="post" id="miFormulario">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <br>
+
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+
+                    <label for="Numero">Numero: </label>
+                    <input type="Numero" id="Numero" required>
+                    <br>
+
+                    <label for="provincia">Provincia:</label>
+                    <select name="provincia" id="provincia">
+                        <optgroup>
+                            <option value="BA">Buenos Aires</option>
+                            <option value="CM">Catamarca</option>
+                            <option value="CH">Chaco</option>
+                            <option value="CB">Chubut</option>
+                            <option value="CD">Córdoba</option>
+                            <option value="CR">Corrientes</option>
+                            <option value="ER">Entre Ríos</option>
+                            <option value="FM">Formosa</option>
+                            <option value="JJ">Jujuy</option>
+                            <option value="LP">La Pampa</option>
+                            <option value="LR">La Rioja</option>
+                            <option value="MD">Mendoza</option>
+                            <option value="MS">Misiones</option>
+                            <option value="NQ">Neuquén</option>
+                            <option value="RN">Río Negro</option>
+                            <option value="ST">Salta</option>
+                            <option value="SJ">San Juan</option>
+                            <option value="SL">San Luis</option>
+                            <option value="SC">Santa Cruz</option>
+                            <option value="SF">Santa Fe</option>
+                            <option value="SE">Santiago del Estero</option>
+                            <option value="TF">Tierra del Fuego</option>
+                            <option value="TM">Tucumán</option>
+                        </optgroup>
+                    </select>
+                    <br>
+                    <div class="datos">
+                        <button type="submit">Enviar Datos</button>
+                        <button type="reset">Borrar Datos</button>
                     </div>
-        </section>
-    </main>  
-    <footer class="footer">
+                </form>
+        </div>
+    </main>
+
+
+    <footer>
+        <h2>
+            Fa.Ma 
+        </h2>
         <p>
-            Desarrollado por misitio.com
+           Los mejores auriculares los encontas aqui.
         </p>
     </footer>
+
+    <script src="./index.js"></script>
+    <script src="./admin.js"></script>
 </body>
 
 </html>

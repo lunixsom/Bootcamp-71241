@@ -1,0 +1,1 @@
+alert('Bienvenido a nuestra pagina de alquiler de autos')

@@ -3,51 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="./css/estilos-1.css">
-    <!-- <link rel="stylesheet" href="./css/estilos-2.css"> -->
-    <link rel="icon" href="./assets/img/iconop.png">
-    <title>Claudia Anyer - Juan Bautista Martinelli - Juegos</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Gina Vegetti - Claudia Lorena Anyer - Postres</title>
 </head>
 <body>
+    <header>
+        <h1>Bakery</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Incio</a></li>
+                <li><a href="./pages/admin.html">Cuenta</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <div class="titulo">
-            <header>
-                <h1>Juegos</h1>
-            </header>
-        </div>
-        <section class="mas-vendidos">
-            <h2>Los más vendidos</h2>
-            
-            <article class="juego">
-                <div class="juego-header">
-                    <h3>Mario Kart™ 8 Deluxe</h3>
+        <section id="productos">
+            <h2>Productos</h2>
+            <div class="tarjetas">
+                <div class="tarjeta">
+                    <img src="./assets/img/Brownie-1.jpg" alt="brownie">
+                    <h3>Brownie</h3>
+                    <p>Delicio postre de chocolate con salsa de chocolate</p>
                 </div>
-                <figure>
-                    <img src="./assets/img/mario-kart-8-deluxe.jpg" alt="Foto de Mario Kart" dis>
-                </figure>
-                <p>¡Calienta motores en la versión definitiva de Mario Kart™ 8 y juega donde y cuando quieras!</p>
-                <p>Compite con tus amigos en carreras o en el modo batalla, que incluye circuitos nuevos y otros ya conocidos. Juega en el modo local y en 1080p en partidas de hasta 4 jugadores en el modo televisor. Todos los circuitos de la versión de Wii U, incluyendo el contenido descargable, están disponibles.</p>
-                <p>Además, ¡los inklings aparecen como personajes invitados junto con otros personajes de juegos anteriores, como el Rey Bú, Huesitos y Bowser Jr!</p>
-                <button onclick="location.href='./pages/mariokart.html'">Comprar!</button>
-            </article>
-            
-            <article class="juego">
-                <div class="juego-header">
-                    <h3>Mortal Kombat 11</h3>
+                <div class="tarjeta">
+                    <img src="./assets/img/moka.jpg" alt="postre moka">
+                    <h3>Postre Moka</h3>
+                    <p>Postre con vainillas bañadas en café y crema de café</p>
                 </div>
-                <figure>
-                    <img src="./assets/img/mortal-kombat-11.jpg" alt="Foto de Mortal Kombat">
-                </figure>
-                <p>Mortal Kombat 11, la más reciente entrega de la aclamada franquicia, te ofrece una experiencia más profunda y personalizada que nunca.</p>
-                <p>Con las nuevas variantes de personaje tendrás un control sin precedentes para personalizar a tus luchadores y hacerlos únicos. Con un reparto de luchadores nuevos y clásicos, el modo Historia cinemático continúa la épica saga iniciada hace más de 25 años. Juega con una variedad de personajes, pasados, presentes y futuros, en una nueva narrativa donde el tiempo se distorsiona y Raiden debe enfrentarse a Kronika, la Guardiana del Tiempo.</p>
-                <p>Este nuevo título ofrece múltiples modos de juego, incluyendo las Torres del Tiempo, los que permiten a los jugadores poner a prueba sus habilidades a través de varios desafíos y disfrutar de Mortal Kombat 11 de muchas otras maneras.</p>
-                <button onclick="location.href='./pages/mortalkombat.html'">Comprar!</button>
-            </article>
+                <div class="tarjeta">
+                    <img src="./assets/img/chocotorta.jpeg" alt="Chocotorta">
+                    <h3>Chocotorta</h3>
+                    <p>Postre de galletitas chocolinas y crema de dulce de leche</p>
+                </div>
+                <div class="tarjeta">
+                    <img src="./assets/img/oreo.jpg" alt="postre oreo">
+                    <h3>Postre Oreo</h3>
+                    <p>Delicioso postre de galletitas oreo, dulce de leche y crema oreo</p>
+                </div>
+            </div>
         </section>
-        
-        <footer>
-            <p>Desarrollado por <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">misitio.com</a></p>
-        </footer>
+        <section id="formulario">
+            <h2>Formulario de Compra</h2>
+            <form>
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="direccion">Dirección: </label>
+                <input type="text" id="direccion" name="direccion" required>
+
+                <label for="provincia">Provincia: </label>
+                <input type="text" id="provincia" name="provincia" required>
+
+                <label for="telefono">Teléfono: </label>
+                <input type="tel" id="telefono" name="telefono">
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
+    <footer>
+        <script src="./js/index.js"></script>
+    </footer>
 </body>
 </html>
