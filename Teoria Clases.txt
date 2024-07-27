@@ -678,3 +678,48 @@ Clase 19
 
 
 ************************************************************
+
+Clase 20
+
+
+Reset de CSS (12 min)
+
+	Con el selector global * quito alguno de los estilos por default a todos los elementos .
+
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+
+	Esto es lo minimo que podemos resetear.
+
+
+CSS Normalize.css (25 min)
+
+
+box-sizing: border-box  (26:30 min)
+
+	Lo que hace es eliminar los padding - margin que vienen por default.
+
+	Osea le estoy diciendo: Quiero que me midas desde el inicio de la caja hasta el final de la caja, no solo el contenido.
+
+
+
+Bucles JS (35 min)
+
+	un bucle es un ciclo que repite un estructura de codigo.
+
+
+	
+	Array / arreglo / vector (45 min)
+
+			Estructura de un arreglo: let alumnos = [];
+
+			Tiene un index o indice ue arranca desde cero.
+
+
+
+	FOR (38 min)
+
+		Funcion length (57 min)
+
+		
