@@ -722,4 +722,21 @@ Bucles JS (35 min)
 
 		Funcion length (57 min)
 
-		
+	
+
+	Funciones por defecto en Arreglos (1:34 hs)
+
+	length: me da la longitud del array
+
+	push: agregar elementos al final del Array
+
+
+
+
+Objeto literal de JS (1:55:50 hs )
+
+	Se accede por propiedad: nombreArreglo.propiedad
+
+
+
+
