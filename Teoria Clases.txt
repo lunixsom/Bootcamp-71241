@@ -783,4 +783,15 @@ Intro a BOOTSTRAP (1:35 hs)
 	
 
 
+************************************************************
 
+Clase 22
+
+
+Descarga codigo bundleado Boostrap (26 min)
+
+	Si descargo el bundleado de css y js de Bootstrap y tenemos que linkearlo desde el html, no tengo qu tener linkeado el CDN.
+
+	Aca puedo modificar Bootstrap pero no engo acceso a todo.
+
+	Para tener acceso a modificar todo el codigo fuente tengo que descargar el fuente que esta hecho con SASS.
