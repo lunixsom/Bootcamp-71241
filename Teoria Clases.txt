@@ -755,10 +755,32 @@ JS no es un lenguaje orientado a objetos POO (1:00 hs)
 		Se puede trabajar con clases en JS, pero generalmente NO SE HACE, porque si se quiere utilizar un lenguaje orientado a objetos
 		para eso esta Java, PHP, C y TS por ejemplo. 
 
+		
+
+
+Objeto literal 
+
+	Es la sintesis de un objeto de tipo clase.
+
+	Es un objeto de forma sencilla que no dependa de una clase.
+
+
 
 JSON - Objetos con notacion de JS (1:14 hs)
 
+	Se utiliza para el paso de información de aplicacion a aplicacion.
 
-Intro a BOOTSTRAP (52 min)
+	En JSON todo tiene que estar en tipo de dato string.
+
+
+
+Intro a BOOTSTRAP (1:35 hs)
+
+	Podemos utilizarlo via CDN y descargarlo en formato bundleado / minimizado y utilizarlo o descargar el codigo fuente para poder personalizarlo.
+
+	Osea si queres personalizar, modificar algunos comportamientos por default hay que descargar el codigo fuente.
+
+	
+
 
 
