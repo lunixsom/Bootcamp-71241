@@ -748,4 +748,17 @@ Clase 21
 Explicacion Integrador 1 (5 min a 49 min)
 
 
- (50 min)
+JS no es un lenguaje orientado a objetos POO (1:00 hs)
+
+	Breve explicacion de Clases en JS ()
+
+		Se puede trabajar con clases en JS, pero generalmente NO SE HACE, porque si se quiere utilizar un lenguaje orientado a objetos
+		para eso esta Java, PHP, C y TS por ejemplo. 
+
+
+JSON - Objetos con notacion de JS (1:14 hs)
+
+
+Intro a BOOTSTRAP (52 min)
+
+
