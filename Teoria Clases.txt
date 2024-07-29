@@ -795,3 +795,40 @@ Descarga codigo bundleado Boostrap (26 min)
 	Aca puedo modificar Bootstrap pero no engo acceso a todo.
 
 	Para tener acceso a modificar todo el codigo fuente tengo que descargar el fuente que esta hecho con SASS.
+
+
+Funciones ()
+
+	Es una estructura de codigo que ejecuta una tarea especifica y puede ser reutilizada en diferentes partes del codigo.
+
+	Funcion sin parametros y o argumentos (info que necesita la funcion para realizar la tarea)
+
+	Funcion con parametros
+
+
+Variables LOCALES (1:38 hs)
+
+	Son las variables que viven dentro de una funcion y no pueden ser accedidos desde fuera de la funcion.
+
+
+Variables GLOBALES (1:44:30 hs)
+
+	Se recomienda crearlas al inicio de todo, porque son las que vamos a utilizar en cualquier parte de nuestro codigo.
+
+
+QUE ES NAN ? (1:49:30 hs)
+
+	Significa Not a Number, que significa que en algun lugar falto informacion o estamos queriendo un numero y me dieron un string.
+
+
+QUE ES NULL ? (1:52 hs)
+
+	Significa que antes habia algo pero ahora no hay nada.
+
+
+
+ARROW FUNCTION - funcion flecha (1.58 hs)
+
+	Se declaran como una CONST: Como las funciones son una estructura de codigo que no vamos a cambiar, entonces se declaran como una CONST.
+
+	Salio en la version ECS 6.
