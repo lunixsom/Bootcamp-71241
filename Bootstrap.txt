@@ -13,11 +13,49 @@ Hay un limite para resolver los problemas de diseño (37 min)
 
 
 
-Diseño Elastico (39 min)
+Diseño Elastico o fluido (39 min)
 
-    Es la forma por defecto en la que yo no hice nada, si bien yo no aplique anchos sino que se aplican el default por ser elemento de bloque.
+    Es la forma por defecto en la que yo no hice nada, si bien yo no aplique anchos sino que se aplican por default anchos como por porcentajes como width: 100% por ejemplo, por ser elemento de bloque.
 
     El problema con este diseño es que en dispositivos muy grandes lo que termina pasando es que molesta la lectura de textos, puede pasar tambien que las imagenes queden muy grandes.
+
+
+    Caso con imagenes
+
+            Como no es un elemento inline no ocupa todo el ancho de su contenedor o si es muy grande la imagen se hace desbordamiento (overflow), entonces para controlar eso puedo ponerle un width: 100% de manera que la imagen va a medir lo que mida su contenedor.
+
+
+    DOM (46 min)
+
+        Es el modelo de objetos del documento, el arbol en orden de los elementos html.
+
+    
+    CSSOM (48 min)
+
+        Es el modelo de objetos de css, me muestra las propiedades css que le asigne a los elementos.
+
+    
+    Arbol de renderizado / Render Tree (48:40 min)
+
+        Es la mezcla del DOM y el CSSOM.
+
+
+    Para realizar pruebas de testeo de cuanto cuesta el renderizado de un sitio en un celular el mejor caso es con un celular de gama media y con conectividad 3G que son le promedio en argentina, de esta manera podemos probar masomenos como se comportaria nuestro sitio en el comun del mercado. 
+    
+    Con esto nos damos una idea si nuestro sitio va bien, es muy lento o lo que fuese, entonces cuando nosotros empezamos a trabajar con celulares de gama media ahi empezamos a ver el tiempo que tarda en armar todo el procesado del armado del dom, el muestreo de la informacion dentro de la pantalla y la reaccion con respecto a JS.
+
+    Con las imagenes al trabajar con velodicades de 3G nos vamos a dar cuenta que el sitio se carga quizas medianamente rapido pero las imagenes tardan un monton en aparecer y eso puede estar pasando porque estamos cargando en mobile imagenes que son mas apropiadas para escritorio, ejemplo:
+
+                Cargo una imagen de 1268x664 en un celular y esa imagen puede pesar 1 mega y esto bajarlo en 3g puede llevar su tiempo.
+                La idea seria optimizar estos recursos para que la carga sea mas rapida.
+
+     
+    Antes se diseñaba un sitio dependiendo del navegador
+
+    Lo que revoluciono el mercado, lo que nos permitio empezar a desarrollar de otra manera fue el concepto de una GRILLA.
+
+    
+
 
 
     
