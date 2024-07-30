@@ -1,0 +1,23 @@
+Clase 1
+
+Explicacion de temario curso ( 0 min a  )
+
+    El objetivo del curso es llegar a tener un sitio maquetado utilizando Bootstrap, si tienen conocimientos en Javascript avanzado, le podrian dar vida a la aplicacion utilizando JS y consumiendo datos de un servidor.
+
+    Ahora si fueron mas alla y vieron React ya directamente pueden pedir tambien los datos como en JS avanzado pero utilizando esa libreria o framework y sumandole el maquetado, teniendo una aplicacion completa.
+
+
+Hay un limite para resolver los problemas de diseño (37 min)
+
+    En el caso de diseño consideramos que el limite inferior relevante son 320px, que es el celular de gama baja en el cual a nosotros nos interesa hacer algo, mas abajo de 320px no tiene sentido y de ahi para arriba seran los diseños que nosotros tenemos ue resolver.
+
+
+
+Diseño Elastico (39 min)
+
+    Es la forma por defecto en la que yo no hice nada, si bien yo no aplique anchos sino que se aplican el default por ser elemento de bloque.
+
+    El problema con este diseño es que en dispositivos muy grandes lo que termina pasando es que molesta la lectura de textos, puede pasar tambien que las imagenes queden muy grandes.
+
+
+    
