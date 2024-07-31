@@ -1,5 +1,7 @@
 Clase 1
 
+TEORIA:
+
 Explicacion de temario curso ( 0 min a  )
 
     El objetivo del curso es llegar a tener un sitio maquetado utilizando Bootstrap, si tienen conocimientos en Javascript avanzado, le podrian dar vida a la aplicacion utilizando JS y consumiendo datos de un servidor.
@@ -52,10 +54,33 @@ Diseño Elastico o fluido (39 min)
      
     Antes se diseñaba un sitio dependiendo del navegador
 
-    Lo que revoluciono el mercado, lo que nos permitio empezar a desarrollar de otra manera fue el concepto de una GRILLA.
+    Vamos a ver como funciona una GRILLA en General: (59 min)
 
+    Lo que revoluciono el mercado, lo que nos permitio empezar a desarrollar de otra manera fue el concepto de una GRILLA. La grilla me resuelve problemas del responsive.
+
+    La GRILLA con la que mas se trabaja es con la de 12 columnas. El espacio entre cada columna se llama calle o butter.
+
+    Responsive web design: nos dice que nosotros tenemos un solo html, el maquetado, la estructura semantica del sitio es una sola y lo que hacemos con CSS es mostrar esa informacion de manera distinta si entro con celular, escritorio, etc.. con las media queries el ancho del dispositivo es lo que nos va decir como vamos a mostrar el sitio.
+
+
+
+    Hacer un sitio Responsive para celulares (1:18 hs)
+
+    El sitio de escritorio teniamos que mostrarlo para dispositivos mas chicos y lo que habia que evitar era el scroll horizontal.
+
+    El SCROLL HORIZONTAL en un diseño esta mal. No hay ningun problema que la pagina se muy extensa en lo vertical.
+    Entonces teniamos que evitar eso, teniamos que de alguna manera distribuir todo el contenido de forma tal de que no generara SCROLL HORIZONTAL.
+
+    Una primera solucion fue que los elementos en pantallas mobile se caigan, osea todos los elementos que nosotros teniamos de manera horizontal se iban a terminar viendo de manera vertical. (con float y width en px)
+    Tambien se solia esconder informacion con la propiedad display: none para que nos quede mejor el diseño.
+    Termino pasando que en el afan de que los sitios se vean lindos en dispositivos mas chicos y suprimiamos algun que otro contenido a veces se suprimia el contenido fundamental
+
+    Esto primero llevo a mobile first que es que primero vamos a resolver el diseño para mobile y luego ese diseño lo agrandamos, pero se continuo teniendo problemas con la falta de informacion relevante por tema de primar el diseño al contenido.
+
+    Entonces surgio el concepto CONTENT FIRST que es el que se utiliza acutalmente.
+
+    El equipo de UX lo que hace es definir no solamente el diseño sino que información hay que mostrar.
+
+    Una manera de trabajar que te pueden marcar al entregar el diseño es el de pixel perfect que significa que maquetes tal cual con las mismas medidas del diseño entregado sin importar si los elementos no coinciden con las grillas por lo cual deba usar posicionamineto.
     
-
-
-
     
