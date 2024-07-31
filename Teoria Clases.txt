@@ -832,3 +832,18 @@ ARROW FUNCTION - funcion flecha (1.58 hs)
 	Se declaran como una CONST: Como las funciones son una estructura de codigo que no vamos a cambiar, entonces se declaran como una CONST.
 
 	Salio en la version ECS 6.
+
+
+
+************************************************************
+
+Clase 23
+
+
+	Watch incluido en Node (8 min)
+
+		Nodemon ya viene incluido en Node desde la version 20, como "--watch"
+
+		Tambien se puede ejecutar Typescript con Node.
+
+		
