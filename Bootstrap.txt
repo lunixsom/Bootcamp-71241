@@ -84,3 +84,16 @@ Diseño Elastico o fluido (39 min)
     Una manera de trabajar que te pueden marcar al entregar el diseño es el de pixel perfect que significa que maquetes tal cual con las mismas medidas del diseño entregado sin importar si los elementos no coinciden con las grillas por lo cual deba usar posicionamineto.
     
     
+    Al final estos dos conceptos de Mobile First y Content First aplican a UX no a los desarrolladores, porque a mi me es indistinto por cual arranco mobile o escritorio porque el html va a ser el mismo, donde si cambiaria un poco el codigo seria en css porque si hacemos la idea de mobile first basicamente el codigo por defecto seria para mobile y el codigo puntual seria para escritorio, entonces al final seria lo mismo empezar por mobile o escritorio ya que al final tenemos que hacer el diseño que nos pasaron para ambos.
+
+    El Maquetado es la estructura semantica mas el css.
+
+    Los elementos div y span no aportan semantica, los dos son contenedores genericos con la diferencia que uno es contenedor de linea (span) solamente contiene palabras y el div es un contenedor de bloque generalmente es para contener estructuras.
+
+    DIFERENCIA entre CONTENT-BOX y BORDER-BOX (2:16 hs)
+
+    Cuando nosotros establecemos un width, es el width del content box, la caja de contenido, entonces cuando nosotros tenemos dos elementos con width uno de 20% y el otro de 80% y le agregamos un padding este se va sumar a lo que establcimos como width entonces como los dos elementos suman el 100% al ponerle el padding se van a exceder necesariamente los elementos no entran por lo cual se caen.
+
+    Para resolver esto una posibilidad es utilizar el box-sizing: border box que lo que hace es me permite decirle al navegador a partir de donde se va calcular el tamaño, entonces yo le voy a decir que ese width que estableci de 20% y 80% incluye al padding o a border, de esta manera los elementos no se caen porque uno mide 20% incluyendo al padding y el otro mide 80% incluyendo al padding. 
+
+    Jonathan Mastropasqua no esta muy de acuerdo de ponerle box-sizing: border-box al selector universal * para que se aplique a todos los elementos, la realidad es que esto de ponerle un tamaño y box-sizing porque le vamos a poner padding lo va resolver mi grilla que me va a dar un concepto que es una columna que va a tener un ancho porcentual va a tener un padding aplicado y va a tener el box-sizing: border-box entonces probablemente voy a tener que usarlo en contadas ocasiones box-sizing cuando a mi se me de la necesidad de a algo ponerle un determinado tamaño y eso que contemple el padding y el borde.
