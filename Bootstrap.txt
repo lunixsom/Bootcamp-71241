@@ -99,3 +99,16 @@ Diseño Elastico o fluido (39 min)
     Jonathan Mastropasqua no esta muy de acuerdo de ponerle box-sizing: border-box al selector universal * para que se aplique a todos los elementos, la realidad es que esto de ponerle un tamaño y box-sizing porque le vamos a poner padding lo va resolver mi grilla que me va a dar un concepto que es una columna que va a tener un ancho porcentual va a tener un padding aplicado y va a tener el box-sizing: border-box entonces probablemente voy a tener que usarlo en contadas ocasiones box-sizing cuando a mi se me de la necesidad de a algo ponerle un determinado tamaño y eso que contemple el padding y el borde.
 
     EL BOX-SIZING LLEGA SIEMPRE HASTA EL PADDING QUE ES LO QUE ESTA ADENTRO DE LA CAJA, NO TOMA EL MARGIN.
+
+    Generar calle o butters en un contenedor con 3 elementos (2:30 hs)
+
+        1 - Voy a tener que hacer espacio en el contenedor, por lo cual reduzco un poco el width de los elementos y Puedo utilizar justify-content: space-evenly o cualquier space. Aca box-sizing me ayuda.
+
+        2 - redusco width de los elementos y Puedo utilizar margin, pero aca tengo un problema por que cuando le pongo margen los elmentos de caen y no puedo salvarlo con box-sizing porque esta no incluye el margin solo hasta el padding. 
+        Esto puedo solucionarlo con un calc, puedo decirle que calcule el width menos 2 veces el margin que quiero poner.
+
+
+        LA VERDAD ES QUE NINGUNA DE LAS 2 OPCIONES VA A SER RELEVANTE CUANDO ARMEMOS NUESTRA PROPIA GRILLA.
+
+            La grilla ya va a contemplar esos espacios (calles)
+
