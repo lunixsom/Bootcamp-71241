@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio02</title>
+</head>
+<body>
+  <h1>Ejercicio02</h1>  
+
+  ** EJERCICIO 2: **
+
+  Crear 2 variables con valores numéricos libres:
+  var cantidadDeGatos = 5;
+  var cantidadDePasos = 3;
+  A partir de esas 2 variables, la consola debe mostrar lo siguiente:
+  ```
+  Gato #1: 🐈 🐾🐾🐾
+  Gato #2: 🐈 🐾🐾🐾
+  Gato #3: 🐈 🐾🐾🐾
+  Gato #4: 🐈 🐾🐾🐾
+  Gato #5: 🐈 🐾🐾🐾
+  ```
+  
+  Si se utilizan otros valores, el resultado en la consola debe adaptarse.
+  var cantidadDeGatos = 2;
+  var cantidadDePasos = 8;
+  ```
+  Gato #1: 🐈 🐾🐾🐾🐾🐾🐾🐾🐾
+  Gato #2: 🐈 🐾🐾🐾🐾🐾🐾🐾🐾
+  ```
+  
+  
+  var cantidadDeGatos = 10;
+  var cantidadDePasos = 4;
+  ```
+  Gato #1: 🐈 🐾🐾🐾🐾
+  Gato #2: 🐈 🐾🐾🐾🐾
+  Gato #3: 🐈 🐾🐾🐾🐾
+  Gato #4: 🐈 🐾🐾🐾🐾
+  Gato #5: 🐈 🐾🐾🐾🐾
+  Gato #6: 🐈 🐾🐾🐾🐾
+  Gato #7: 🐈 🐾🐾🐾🐾
+  Gato #8: 🐈 🐾🐾🐾🐾
+  Gato #9: 🐈 🐾🐾🐾🐾
+  Gato #10: 🐈 🐾🐾🐾🐾
+  
+
+  <script>
+    
+      var cantidadDeGatos = 10;
+      var cantidadDePasos = 4;
+      var emojiGato = "🐈";
+      var emojiPasos ="🐾";
+      var texto1 ="";
+      var texto2;
+
+      for (let i = 1; i <= cantidadDeGatos; i++) {
+        
+        texto1 = "gato #"+i+": "+emojiGato;
+        texto2 ="";
+        for (let u = 1; u <= cantidadDePasos; u++) {
+        
+            texto2 = texto2 + emojiPasos;
+        }
+
+        console.log(texto1 + texto2);
+      
+      }
+
+  </script>
+
+
+
+</body>
+</html>
+

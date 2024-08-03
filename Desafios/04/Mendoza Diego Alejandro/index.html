@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tienda Online</title>
+	<link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.js">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Productos</a></li>
+				<li><a href="admin.html">Admin</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="productos">
+			<h2>Productos</h2>
+			<div class="producto">
+				<img src="./imagenes/magic1.jpg" alt="Producto 1">
+				<h3>Producto 1</h3>
+				<p><strong>Descripción del producto</strong></p>
+                <p>Magic The Gathering: Booster Box</p>
+				<p>Precio: $100</p>
+			</div>
+			<div class="producto">
+				<img src="./imagenes/magic22.jpg" alt="Producto 2">
+				<h3>Producto 2</h3>
+				<p><strong>Descripción del producto</strong></p>
+                <p>Magic The Gathering: Booster Box</p>
+				<p>Precio: $200</p>
+            </div>
+            <div class="producto">
+                <img src="./imagenes/magic3.jpeg" alt="Producto 3">
+                <h3>Producto 3</h3>
+                <p><strong>Descripción del producto</strong></p>
+                <p>Magic The Gathering: Booster Box</p>
+                <p>Precio: $300</p>
+
+            </div>
+		</section>
+		<section class="formulario">
+			<h2>Formulario de Compra</h2>
+			<form>
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre"><br><br>
+				<label for="direccion">Dirección:</label>
+				<input type="text" id="direccion" name="direccion"><br><br>
+				<label for="provincia">Provincia:</label>
+				<input type="text" id="provincia" name="provincia"><br><br>
+				<label for="telefono">Teléfono:</label>
+				<input type="text" id="telefono" name="telefono"><br><br>
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+	</main>
+
+
+	<footer>
+		<p>Todos los derechos reservados</p>
+	</footer>
+	<script src="index.js"></script>
+</body>
+</html>

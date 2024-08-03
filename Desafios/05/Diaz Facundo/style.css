@@ -1,0 +1,15 @@
+.contenedor {
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 50px;
+    background: white;
+}
+h2 {
+    font-family:  Impact, Charcoal, sans-serif;
+    font-variant: small-caps;
+
+}
+p {
+    color: rgb(193, 205, 212);
+    - Impact, Charcoal, sans-serif
+}
