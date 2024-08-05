@@ -1,5 +1,5 @@
-var cantidadDeGatos = 5;
-var cantidadDePasos = 3;
+var cantidadDeGatos = 8;
+var cantidadDePasos = 6;
 var  emoji = '';
 var  pasos = ''; 
 

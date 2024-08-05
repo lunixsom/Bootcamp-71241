@@ -1,6 +1,6 @@
 // EJERCICIO   1 
 
-var cantidadDeGatos = 10;
+var cantidadDeGatos = 14;
 var gatos = ['😺', '😸', '😹'];
 
 for (var i = 1; i <= cantidadDeGatos; i++) {

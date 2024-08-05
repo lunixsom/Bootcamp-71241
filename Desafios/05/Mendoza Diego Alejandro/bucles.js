@@ -18,7 +18,7 @@ for (var i = 1; i <= cantidadDeGatos; i++) {
   }
   
 
-  var cantidadDeGatos = 10;
+var cantidadDeGatos = 10;
 var cantidadDePasos = 4;
 
 for (var i = 1; i <= cantidadDeGatos; i++) {

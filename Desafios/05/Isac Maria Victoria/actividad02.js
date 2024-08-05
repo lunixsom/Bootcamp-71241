@@ -1,7 +1,7 @@
 //ACTIVIDAD 2
 
-let verGatos = 5;
-let verPasos = 3;
+let verGatos = 25;
+let verPasos = 2;
 let gatoBlanco = "🐈";
 let pasos = "🐾";
 
