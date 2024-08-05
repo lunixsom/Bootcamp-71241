@@ -1,7 +1,7 @@
-/*          
+         
 let emojis = ['😺', '😸', '😹'];
 
-let cantidadDeGatos = prompt('Ingrese la cantidad de gatos');
+let cantidadDeGatos = 16
 
 let count = 0
 for (let index = 0; index < cantidadDeGatos; index++) {
@@ -11,12 +11,12 @@ for (let index = 0; index < cantidadDeGatos; index++) {
     } else {
         count = count + 1
     }
-} */
+}
 
 /* let emojis = ['🐈', '🐾']
 
-let cantidadDeGatos = prompt('Ingrese la cantidad de gatos');
-let cantidadDePasos = prompt('ingrese la cantidad de pasos');
+let cantidadDeGatos = 4
+let cantidadDePasos = 7
 
 for (let index = 0; index < cantidadDeGatos; index++) {
     let salida = `Gato# ${index + 1}: ${emojis[0]}`;
@@ -26,10 +26,13 @@ for (let index = 0; index < cantidadDeGatos; index++) {
     console.log(salida);
 } */
 
-    let emojis = ['🐈', '🐾']
+/*     let emojis = ['🐈', '🐾'] */
 
-let cantidadDeGatos = prompt('Ingrese la cantidad de gatos');
-let cantidadDePasos = prompt('ingrese la cantidad de pasos');
+/* let cantidadDeGatos = prompt('Ingrese la cantidad de gatos');
+let cantidadDePasos = prompt('ingrese la cantidad de pasos'); */
+
+/* let cantidadDeGatos = 7
+let cantidadDePasos = 2
 
 for (let index = 0; index < cantidadDeGatos; index++) {
     let salida = `Gato# ${index + 1}: ${emojis[0]}`;
@@ -40,5 +43,5 @@ for (let index = 0; index < cantidadDeGatos; index++) {
         salida += ` ${emojis[1]}`;
     }
     console.log(salida);
-}
+} */
 

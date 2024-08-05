@@ -1,5 +1,5 @@
-/* Ejercicio 01 
-var cantDeGatos = 10;
+/* Ejercicio 01  */
+var cantDeGatos = 13;
 let gatos = ["😺","😸","😹"];
 var vueltas =0;
 
@@ -11,10 +11,10 @@ for (let index = 0; index < cantDeGatos; index ++) {
     vueltas ++;
 }
 
-*/
 
-/* Ejercicio 02 
-var cantidadDeGatos = 5;
+
+/* Ejercicio 02  */
+/* var cantidadDeGatos = 5;
 var cantidadDePasos =3;
 var gato = "🐈";
 var pasos = "🐾";
@@ -27,11 +27,11 @@ for (let index = 1; index <= cantidadDePasos; index++) {
 for (let index = 0; index < cantidadDeGatos; index++) {
     console.log("Gato #" + (index +1) + ":" + gato + pasitos );
     
-}*/
+} */
 
 /* Ejercicio 03 */
-var cantidadDeGatos = 10;
-var cantidadDePasos =4;
+/* var cantidadDeGatos = 16;
+var cantidadDePasos =3;
 let gatos = ["🐈","🐈‍⬛"];
 var pasos = "🐾";
 var pasitos = "";
@@ -47,4 +47,4 @@ for (let index = 0; index < cantidadDeGatos; index++) {
     }
     console.log("Gato #" + (index +1) + ":" + gatos[vueltas] + pasitos );
     vueltas ++;
-}
+} */

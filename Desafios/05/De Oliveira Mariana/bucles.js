@@ -5,15 +5,15 @@ for(var index = 0 ; index < cantidadDeGatos.length ; index++){
     console.log(index);
 }
 console.log(index)
-var cantidadDeGatos = 10;
+var cantidadDeGatos = 14;
 var emojis = ['😺', '😸', '😹', '😺', '😸', '😹', '😺', '😸', '😹', '😺'];
 
 for (var i = 1; i <= cantidadDeGatos; i++) {
   console.log('Gato #' + i + ': ' + emojis[i - 1]);
 }
 
-var cantidadDeGatos = 5;
-var cantidadDePasos = 3;
+var cantidadDeGatos = 9;
+var cantidadDePasos = 6;
 
 
 for (var i = 1; i <= cantidadDeGatos; i++) {
@@ -25,6 +25,8 @@ for (var i = 1; i <= cantidadDeGatos; i++) {
   }
   
 
+console.log(" -------------------------------------  ")
+  
   var cantidadDeGatos = 10;
 var cantidadDePasos = 4;
 

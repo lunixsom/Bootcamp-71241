@@ -1,7 +1,7 @@
 /* Ejercicio 1*/ 
 
 
-var cantidadDeGatos = 10;
+var cantidadDeGatos = 14;
 
 var emojis = ['😺', '😸', '😹'];
 

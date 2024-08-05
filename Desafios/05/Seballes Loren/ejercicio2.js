@@ -1,7 +1,7 @@
 /* Ejercicio 2*/
 
-var cantidadDeGatos = 4;
-var cantidadDePasos = 10;
+var cantidadDeGatos = 7;
+var cantidadDePasos = 3;
 
 
 var emojiGato = '🐈';

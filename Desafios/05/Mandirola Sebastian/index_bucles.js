@@ -1,7 +1,7 @@
 // EJERCICIO 1: Autos con diferentes emojis
 
 (function ejercicio1() {
-    var cantidadDeAutos = 10;
+    var cantidadDeAutos = 14;
     var emojis = ["🚗", "🚙", "🚕"];
 
     console.log("Ejercicio 1:");

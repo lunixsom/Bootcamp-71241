@@ -1,7 +1,7 @@
 //Ejercicio #3
 
-let CantidadDeGatos = 12;
-let CantidadDePasos = 8;
+let CantidadDeGatos = 5;
+let CantidadDePasos = 3;
 
 let gatos = ['🐈', '🐈‍⬛'];
 let pasos = [' 🐾'];
