@@ -1,0 +1,15 @@
+Centrear un elemento de bloque:
+
+Tengo que bajarle el width al contenedor.
+
+Cuando un elemento en bloque esta dentro de otro elemento en bloque podemos autocentrearlo con margin: 0 auto, lo quehace es que autocalcula su margen.
+
+
+
+***********************************************************
+
+Los elementos inline no les puedo dar width o height como por ejemplo al a
+
+El elemento a si le doy display block le puedo modificar el width y height pero genera salto de linea
+
+Para que pueda modificar el width y height del a sin que haga salto de linea, necesito el display: inline-block.
