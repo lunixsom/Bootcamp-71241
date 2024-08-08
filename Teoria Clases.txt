@@ -846,4 +846,17 @@ Clase 23
 
 		Tambien se puede ejecutar Typescript con Node.
 
+
+
+	Repaso Variables Locales y Globales
+
+
+	Funciones que retornan valores (37 min)
+
+
+	Funciones CALLBACKS (59 min)
+
+		
+
+
 		
