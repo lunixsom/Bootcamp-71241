@@ -851,11 +851,20 @@ Clase 23
 	Repaso Variables Locales y Globales
 
 
+
 	Funciones que retornan valores (37 min)
+
 
 
 	Funciones CALLBACKS (59 min)
 
+		Son funciones que reciben como parametro funciones.
+
+
+	
+	Eventos (1:01 hs)
+
+		Utilizando un atributo de JS dentro de HTML (1:19:30 hs)
 		
 
 
