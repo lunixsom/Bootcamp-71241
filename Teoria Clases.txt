@@ -865,7 +865,16 @@ Clase 23
 	Eventos (1:01 hs)
 
 		Utilizando un atributo de JS dentro de HTML (1:19:30 hs)
+
+			El atributo onclick invoca a un elemento de javascript en nuestro a una funcion.
+
+
+	Transformar un string a int (2:01 hs)
+
+		con funcion parseInt()
+
 		
+
 
 
 		
