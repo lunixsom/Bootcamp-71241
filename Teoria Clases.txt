@@ -880,7 +880,18 @@ Clase 23
 Clase 25
 
 
+	Funcion ANONIMA (51 min)
 
+		Es una arrow Function sin nombre, se ejecuta automaticamente en el lugar en la que estan escritas.
+
+
+	Validaciones en JS con IF(1:03 hs)
+
+
+
+	Expresiones Regulares / REGEX (1:15 hs)
+
+		Son algunas caracteristicas donde yo voy a trabajr con patrones.
 
 
 
