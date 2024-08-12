@@ -894,9 +894,24 @@ Clase 25
 		Son algunas caracteristicas donde yo voy a trabajr con patrones.
 
 
+	Que es el typeOf (1:22 hs)
 
+		Puedo utilizarlo en condiciones: if (variable == typeOf Number)
 
+	
+	Objeto Math (1:47 hs)
 
+		Sirve para calculos avanzados
 
+		Es una clase estatica que se puede utilizar sin instanciarlo.
 
-		
+		Metodo random(): me da numeros random de entre en 0 y 1, si lo multiplico por 100 me danuemeros mayores
+
+		Metodo round(): Me redondea al numero entero mas cercano, sacandome lo decimales.
+
+		ejemplo de uso:
+
+						Math.round(	Math.random() * 100)
+
+						
+									
