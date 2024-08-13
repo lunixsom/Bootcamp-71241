@@ -917,4 +917,7 @@ Clase 25
 									
 ************************************************************
 
-Clase 26									
+Clase 26	
+
+
+	Ejemplo de validación nativa de JS (20 min)
