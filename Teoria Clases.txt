@@ -928,3 +928,7 @@ Clase 26
 		Es la capacidad de Javascript de manipular todo lo que tiene el index.html
 
 		con getElementById 
+
+		Para que a traves de document tenga acceso a html TENGO QUE VINCULAR EL TAG SCRIPT EN la pagina html.
+
+	
