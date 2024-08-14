@@ -932,3 +932,5 @@ Clase 26
 		Para que a traves de document tenga acceso a html TENGO QUE VINCULAR EL TAG SCRIPT EN la pagina html.
 
 	
+
+	
