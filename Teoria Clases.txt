@@ -932,5 +932,10 @@ Clase 26
 		Para que a traves de document tenga acceso a html TENGO QUE VINCULAR EL TAG SCRIPT EN la pagina html.
 
 	
+	AuthO (1:38 hs)
+
+		Es un servicio de autenticacion pago
+
+	
 
 	
