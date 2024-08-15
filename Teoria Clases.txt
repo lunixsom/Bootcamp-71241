@@ -923,7 +923,7 @@ Clase 26
 	Ejemplo de validación nativa de JS (20 min)
 
 	
-	DOM (43 min) 
+	DOM - getElementById (43 min) 
 
 		Es la capacidad de Javascript de manipular todo lo que tiene el index.html
 
@@ -935,6 +935,17 @@ Clase 26
 	AuthO (1:38 hs)
 
 		Es un servicio de autenticacion pago
+
+	
+	Hacer Login con manipulacion de DOM (2:00 hs)
+
+		
+
+
+
+	
+
+
 
 	
 
