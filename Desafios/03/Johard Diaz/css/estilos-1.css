@@ -1,0 +1,110 @@
+body{
+    background-color: #c93e67;
+    margin: 0%;
+}
+
+.titulo{
+    background-color: #a12353;
+    color: white;
+    text-align: center;
+    border-right: solid 5px white;
+    border-left: solid 5px white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.fondo{
+    background-color: #a12353;
+    margin: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: #a12353 solid 1px;
+    border-radius: 5px;
+    padding: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.titulo2{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;     
+}
+
+.fondo2{
+    background-color: white;   
+    padding: 15px;
+    padding-top: 20px;
+    border: white solid 1px;
+    border-radius: 5px;
+}
+
+.fondo3{
+    background-color: white;   
+    padding: 15px;
+    padding-top: 20px;
+    border: white solid 1px;
+    border-radius: 5px; 
+    margin-top: 30px;
+}
+
+h4{
+    margin: 0%;
+    border-bottom: dotted 1px #a12353;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #a12353;
+    text-align: end;
+}
+
+figure{
+    margin-left: 0%;
+    margin-right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.bloque{
+    color: black;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.boton{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+button{
+    background-color: #009A00;
+    color: white;
+    padding: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: #009A00 1px solid;
+    border-radius: 5px;   
+}
+
+footer{
+    background-color: #db5488;
+    margin: 100px;
+    margin-top: 0%;
+    margin-bottom: 50px;
+    border: #db5488 solid 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h5{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

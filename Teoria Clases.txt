@@ -962,7 +962,7 @@ Protocolo HTTP (38 min)
 
 	Una de las formas de la comunicacion de HTTP es el verbo GET.
 
-
+	
 	
 
 
