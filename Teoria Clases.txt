@@ -941,7 +941,14 @@ Clase 26
 
 		
 
+************************************************************
 
+Clase 27
+
+
+Atributo action del Form (32 min)
+
+	Aca digo a donde van a ir los datos cargados.
 
 	
 
