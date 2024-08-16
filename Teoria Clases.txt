@@ -939,16 +939,29 @@ Clase 26
 	
 	Hacer Login con manipulacion de DOM (2:00 hs)
 
-		
+
 
 ************************************************************
 
 Clase 27
 
 
+Atributo Method en Form (31 min)
+
+	Me dice como voy a enviar los datos a traves del formulario.
+
+
 Atributo action del Form (32 min)
 
-	Aca digo a donde van a ir los datos cargados.
+	Es el archivo del Backend que va a recibir los datos del formulario para despues enviarlo a la base de datos.
+
+
+Protocolo HTTP (38 min)
+
+	Es un protocolo de transmision de informacion que tiene diferentes verbos osea diferentes formas.
+
+	Una de las formas de la comunicacion de HTTP es el verbo GET.
+
 
 	
 
