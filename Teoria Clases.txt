@@ -978,14 +978,22 @@ Evento addeventlistener (1:18 hs)
 
 Input checkbox valor value (1:40 hs)
 
+	Se pueden seleccionar mas de uno a la ves.
+
 	En los checkbox tengo que ponerle el atributo value para que no me devuelva solo on. Dato importante para la hora de obtener datos del input checkbox.
 
 	Si quiero saber si lo marco o no lo marco entonces utilizo el atributo checked que me devuelve un booleano.
 	
 	
+Input radio (2:00 hs)
+
+	radiogroup, usamos el value
 
 
 
+************************************************************
+
+Clase 28
 	
 
 	
