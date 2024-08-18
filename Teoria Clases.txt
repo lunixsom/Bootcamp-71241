@@ -962,6 +962,25 @@ Protocolo HTTP (38 min)
 
 	Una de las formas de la comunicacion de HTTP es el verbo GET.
 
+
+
+Evento addeventlistener (1:18 hs)
+
+	Usamos el evento e (1:25 hs)
+
+		Accedemos a los valores de los inputs a traves del objeto global document
+			email = document.getElementById("email").value
+
+		Accedemos a los valores de los inputs a traves del evento "e"
+			Usamos target.email.value 
+
+
+
+Input checkbox valor value (1:40 hs)
+
+	En los checkbox tengo que ponerle el atributo value para que no me devuelva solo on. Dato importante para la hora de obtener datos del input checkbox.
+
+	Si quiero saber si lo marco o no lo marco entonces utilizo el atributo checked que me devuelve un booleano.
 	
 	
 

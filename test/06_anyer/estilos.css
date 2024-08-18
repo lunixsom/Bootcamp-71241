@@ -1,0 +1,83 @@
+
+/* { margin: 0;
+
+    padding: 0 ;
+   font-family:Arial, Helvetica, sans-serif;
+   box-sizing: border-box;
+   text-decoration: none;
+    */
+  
+  
+    h1{color: white;
+      text-align: center; /* se usa para centrar elementos de linea como el contenido del h1 imagenes label */
+      margin: 40px 50px;
+    }
+  
+    body{
+      background-color: #2c2d31;
+  
+    } 
+  
+.form-conten{ width: 100%;
+  max-width: 450px;
+  background-color: #9EC2BA;
+  padding: auto;
+  text-align: center;
+  border-radius: 25px;
+  margin: 8px 8px;
+  } 
+  
+  
+  form{width: 40%;
+    text-align: center; /*se pueden centrar label, input, texto ,botones, elementos de linea */
+    margin: 0 auto;
+  }
+  
+  section{background-color: #9EC2BA;
+    margin-bottom: 50px;}
+  
+  
+    
+    [type="radio"], [type="checkbox"]{
+        display: inline;
+       /*  width: auto;
+        height: auto; */
+    }
+    
+    input, select, textarea{ display:block;
+    margin: 0 auto;  /* es la herramienta para centrar elementos de bloque */
+    width: 300px;
+    height: 20px;
+    margin-bottom: 10px;
+    } 
+  
+select{
+    width: 300px;
+    height: 20px;
+}
+  
+  
+  
+  
+  
+  
+  .datospersonales{border: solid; 
+  color: black;
+  padding: 20px; 10px};
+  
+  .radio label {display:inline;
+    text-align: center;}
+  
+  
+  .contacto{border: solid; 
+      color: black;}
+  
+  
+  .actividades {border: solid; 
+  color: black;}
+  
+  .chekbox´{ border: solid; color: black;}
+  label{
+  
+  
+  }
