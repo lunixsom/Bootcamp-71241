@@ -38,13 +38,13 @@
   
   
     
-    [type="radio"], [type="checkbox"]{
+/*     [type="radio"], [type="checkbox"]{
         display: inline;
-       /*  width: auto;
-        height: auto; */
-    }
+        width: auto;
+        height: auto;
+    } */
     
-    input, select, textarea{ display:block;
+    [type="text"], [type="number"], [type="email"], select, textarea{ display:block;
     margin: 0 auto;  /* es la herramienta para centrar elementos de bloque */
     width: 300px;
     height: 20px;
@@ -55,10 +55,6 @@ select{
     width: 300px;
     height: 20px;
 }
-  
-  
-  
-  
   
   
   .datospersonales{border: solid; 
