@@ -92,7 +92,7 @@ Diseño Elastico o fluido (39 min)
 
     DIFERENCIA entre CONTENT-BOX y BORDER-BOX (2:16 hs)
 
-    Cuando nosotros establecemos un width, es el width del content box, la caja de contenido, entonces cuando nosotros tenemos dos elementos con width uno de 20% y el otro de 80% y le agregamos un padding este se va sumar a lo que establcimos como width entonces como los dos elementos suman el 100% al ponerle el padding se van a exceder necesariamente los elementos no entran por lo cual se caen.
+    Cuando nosotros establecemos un width, es el width del content box, la caja de contenido, entonces cuando nosotros tenemos dos elementos con width uno de 20% y el otro de 80% y le agregamos un padding este se va sumar a lo que establecimos como width entonces como los dos elementos suman el 100% al ponerle el padding se van a exceder necesariamente los elementos no entran por lo cual se caen.
 
     Para resolver esto una posibilidad es utilizar el box-sizing: border box que lo que hace es me permite decirle al navegador a partir de donde se va calcular el tamaño, entonces yo le voy a decir que ese width que estableci de 20% y 80% incluye al padding o a border, de esta manera los elementos no se caen porque uno mide 20% incluyendo al padding y el otro mide 80% incluyendo al padding. 
 
@@ -104,11 +104,13 @@ Diseño Elastico o fluido (39 min)
 
         1 - Voy a tener que hacer espacio en el contenedor, por lo cual reduzco un poco el width de los elementos y Puedo utilizar justify-content: space-evenly o cualquier space. Aca box-sizing me ayuda.
 
-        2 - redusco width de los elementos y Puedo utilizar margin, pero aca tengo un problema por que cuando le pongo margen los elmentos de caen y no puedo salvarlo con box-sizing porque esta no incluye el margin solo hasta el padding. 
+        2 - redusco width de los elementos y Puedo utilizar margin, pero aca tengo un problema por que cuando le pongo margen los elementos se caen y no puedo salvarlo con box-sizing porque esta no incluye el margin solo hasta el padding. 
         Esto puedo solucionarlo con un calc, puedo decirle que calcule el width menos 2 veces el margin que quiero poner.
 
 
         LA VERDAD ES QUE NINGUNA DE LAS 2 OPCIONES VA A SER RELEVANTE CUANDO ARMEMOS NUESTRA PROPIA GRILLA.
 
-            La grilla ya va a contemplar esos espacios (calles)
+            La grilla ya va a contemplar esos espacios (calles), yo no voy a tener que estar pensando a esto le tengo que poner padding, a esto le tengo que poner margin, la grilla va contemplar ese gap, entonces lo que yo voy a tener que hacer es especificar que porcentaje va a ocupar un elemento y las distancias entre esos elementos ya van a estar contempladas desde la grilla
+
+            
 
