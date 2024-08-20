@@ -114,3 +114,12 @@ Diseño Elastico o fluido (39 min)
 
             
 
+**********************************************************************************************************************
+
+Clase 2
+
+
+    Personalizar Bootstrap (3 min a 8 min)
+
+Puedo pisarlo por especificidad con mi hoja de estilos css o si los cambios son muy grandes deberia forkear el proyecto y hacer los cambios puntuales.
+
