@@ -123,3 +123,7 @@ Clase 2
 
 Puedo pisarlo por especificidad con mi hoja de estilos css o si los cambios son muy grandes deberia forkear el proyecto y hacer los cambios puntuales.
 
+
+Uso del ASIDE (12 min)
+
+    Uno de los grandes usos para el aside suele ser la publicidad, en mobile o resoluciones chicas lo que siempre tratamos de hacer es eliminar elementos que son irrelevantes, la publicidad en mobile se considera irrelevante porque consume pantalla, podriamos sacrificar la publicidad para que tengamos mas lugar para mostrar la informacion relevante, priorizamos mas el contenido y la conversion en si del producto y no tanto lo que podria ser de beneficio tener una publicidad POR LO QUE LOS ASIDES GENERALMENTE EN MOBILE SE SUELEN OCULTAR.
