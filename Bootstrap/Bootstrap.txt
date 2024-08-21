@@ -152,3 +152,6 @@ Media Querys (32 min)
         Pero si la empresa ya existe y tuviste la posibilidad de recolectar datos vas a Google analitics y te fijas cuales son las resoluciones mas usadas.
 
     Actualmente las empresas en su mayoria suelen utilizar 2 puntos de quiebre, es mobile o escritorio.
+
+
+    
