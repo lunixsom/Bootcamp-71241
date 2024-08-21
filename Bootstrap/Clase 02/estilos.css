@@ -26,9 +26,9 @@ main{
 }
 
 .productos .producto{
-    width: calc(33.3333333% - 20px);
-    margin: 10px;
-    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+
     background-color: white;
     padding: 10px;
     box-sizing: border-box;
@@ -43,4 +43,25 @@ main{
 
 .productos .producto .imagen{
     width: 100%;
+}
+
+.productos .producto .contenedor{
+    display: flex;
+}
+
+.productos .producto .envio{
+    margin-bottom: 10px;
+}
+
+.productos .producto .izq{
+    width: 30%;
+}
+
+.productos .producto .der{
+    width: 70%;
+}
+
+.productos .producto .nombre{
+    font-size: 16px;
+    font-weight: normal;
 }

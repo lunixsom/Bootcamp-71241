@@ -129,3 +129,26 @@ Uso del ASIDE (12 min)
     Uno de los grandes usos para el aside suele ser la publicidad, en mobile o resoluciones chicas lo que siempre tratamos de hacer es eliminar elementos que son irrelevantes, la publicidad en mobile se considera irrelevante porque consume pantalla, podriamos sacrificar la publicidad para que tengamos mas lugar para mostrar la informacion relevante, priorizamos mas el contenido y la conversion en si del producto y no tanto lo que podria ser de beneficio tener una publicidad POR LO QUE LOS ASIDES GENERALMENTE EN MOBILE SE SUELEN OCULTAR.
 
     
+
+CSS Mobile (13 min a 30 min)
+
+
+Media Querys (32 min)
+
+    En la resolucion de una pantalla 1024x768 el alto(height) no me importa, porque el desbordamiento que TENEMOS QUE EVITAR ES EL DESBORDAMIENTO HORIZONTAL
+    No nos molesta tanto que el usuario tenga que scrollee para arriba o para abajo, aplicaciones como facebook, twitter funciona de esa manera.
+
+    los Media Querys consiguen el ancho de las pantallas perse.
+
+    Los anchos que me dicen si una pantalla es celular o escritorio se llaman BREAKPOINTS, los puntos de quiebre, es decir que va a ser una determinada medida en la cual yo voy a considerar que mi diseño se tiene que ver distinto.
+    Como paso a tener mas ancho en la pantalla puedo distribuir la informacion de otra manera, entonces yo voy a ir detectando cuales son esos puntos.
+
+    ¿De donde saco esos numeros?
+
+        Va depender mucho si la empresa es nueva o no.
+
+        Si la empresa es nueva tendria que ir a lo que la comunidad suele utilizar.
+
+        Pero si la empresa ya existe y tuviste la posibilidad de recolectar datos vas a Google analitics y te fijas cuales son las resoluciones mas usadas.
+
+    Actualmente las empresas en su mayoria suelen utilizar 2 puntos de quiebre, es mobile o escritorio.
