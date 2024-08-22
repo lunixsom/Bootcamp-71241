@@ -999,7 +999,10 @@ Clase 28
 	Ejemplo de Modo Oscuro con JS (25 min a 48 min)
 
 
-	Mostrar contraseña en input con JS (1:01 hs a 1:20 hs)
+	Mostrar contraseña en input con JS (1:01 hs a 1:40 hs)
+
+		Bajo el icono del ojito pero no pudo meterlo al input de contraseña, porque dijo que habia que hacerlo con css y estaba trabajando con HTML y JS.
+		
 
 
 
