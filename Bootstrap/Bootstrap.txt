@@ -154,4 +154,15 @@ Media Querys (32 min)
     Actualmente las empresas en su mayoria suelen utilizar 2 puntos de quiebre, es mobile o escritorio.
 
 
-    
+    Media types 
+
+        Son 4 y no se usan mucho
+
+
+    Media Features (49 min)
+
+        Se utiliza actualmente sobre todo por width
+
+        Tambien se utiliza en casos de tv's en vertical con ORIENTATION (landscape o portrait mode)
+
+        
