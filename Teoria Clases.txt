@@ -996,7 +996,16 @@ Input radio (2:00 hs)
 Clase 28
 
 
-	Ejemplo de Modo Oscuro con JS o mostrar contraseña (25 min)
+	Ejemplo de Modo Oscuro con JS (25 min a 48 min)
+
+
+	Mostrar contraseña en input con JS (1:01 hs a 1:20 hs)
+
+
+
+
+
+
 
 	
 	
