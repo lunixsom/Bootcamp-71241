@@ -1,0 +1,14 @@
+Muchos section me hace ruido
+
+Una posible mejora seria representar los productos como articles en lugar de section, ya que los section en si representan un parte de mi pagina y los articles son contenido dentro de los section.
+
+------------------------------------------
+
+En lugar de usar li para contener el logo podes usar un div.
+
+Los li van adentro de ul
+
+
+--------------------------------------------
+
+errores de sintaxis: falta de espacios en atributos

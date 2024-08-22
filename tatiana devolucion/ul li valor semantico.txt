@@ -1,0 +1,1 @@
+El elemento ul define una lista desordenada. El elemento contiene uno o más elementos li que especifican los ítems de la lista. Por el contrario, el elemento ol define una lista ordenada. El elemento contiene uno o más elementos li que especifican los ítems de la lista como una secuencia ordenada.

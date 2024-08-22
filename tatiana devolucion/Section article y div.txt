@@ -1,0 +1,16 @@
+Según WHATWG section no es un elemento contenedor genérico, para eso ya tenemos la etiqueta div. El elemento section se usa para representar una parte de un documento o artículo. Una regla general para determinar si su uso es correcto, es numerarlos. Si usando esta numeración el elemento section no pierde sentido entendemos que este es un section realmente.
+
+WHATWG específica que un section debe ser identificado mediante un título que será la etiqueta hija del section, si no tenemos título el validador nos dará una advertencia conforme en el section falta el mismo. En el caso que en el section no sea necesario el título es que el elemento adecuado no es un section.
+
+--------------------------------------------------
+
+Diferencia entre <div> y <section> en HTML5
+
+Como hicimos antes, comencemos con los aspectos en común. Usamos las etiquetas <div> y <section> para dividir una página web en secciones, solo que <div> es un elemento semántico neutral.
+
+En la práctica, esto significa que <div> no describe el contenido que contiene. Si bien otras etiquetas como <article>, <nav>, <header>, <footer> e incluso <section> describen claramente el contenido que hay dentro de ellas y son de tipo semántico, <div> no lo es.
+
+Dado que <div> no tiene una verdadera connotación semántica, se le conoce como una etiqueta de contenedor genérica que solo debe usarse para agrupar elementos con fines de estilo y presentación. Si tu objetivo es distinto, debes usar una etiqueta <section> u otra que sea semántica para explicar a los motores de búsqueda, los navegadores, las tecnologías de asistencia y desarrolladores de qué se trata esa parte de la página. Esto hará que tu código sea más accesible y más fácil de mantener.
+
+
+-------------------------------------------------
