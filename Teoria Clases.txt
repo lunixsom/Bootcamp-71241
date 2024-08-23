@@ -1004,7 +1004,27 @@ Clase 28
 		Bajo el icono del ojito pero no pudo meterlo al input de contraseña, porque dijo que habia que hacerlo con css y estaba trabajando con HTML y JS.
 		
 
+	Input tipo hidden (1:40 hs a 1:51 hs)
 
+
+		Sirve para indicar que cliente es por un id de cliente por ejemplo y luego conesto puedo obtener data como quien es el cliente, cuantos productos esta comprando algo que no se vea.
+
+
+	Input tipo file (1:53 hs)
+
+	
+	Input tipo rango (1:58 hs)
+
+
+	Input tipo date | datetime(2:02 hs)
+
+
+	Objeto Date() (2:04 hs)
+
+		let dia = new Date()
+
+
+	textarea (2:14 hs)	
 
 
 
