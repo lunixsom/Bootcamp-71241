@@ -1002,12 +1002,15 @@ Clase 28
 	Mostrar contraseña en input con JS (1:01 hs a 1:40 hs)
 
 		Bajo el icono del ojito pero no pudo meterlo al input de contraseña, porque dijo que habia que hacerlo con css y estaba trabajando con HTML y JS.
-		
 
 
 
+************************************************************
+
+Clase 29
 
 
+Configuracion de Entorno de Proyecto en NODE (14 min)
 
 
 	
