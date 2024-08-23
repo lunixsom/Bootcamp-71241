@@ -1,0 +1,84 @@
+body {background-color: #212529;
+    text-align: center;}
+    
+
+h1 {color:white;
+  font-family: "Roboto", sans-serif;  
+  font-size: 60px;
+  border: solid;
+  border-top-color: #525a3a;
+  border-left-color:#212529;
+  border-right-color: #212529;
+  border-bottom-color: #525a3a;
+  border-width: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  }   
+/* Paleta de Colores
+ #525a3a Color Ocre claro
+ #212529 Negro claro 
+ cce3de Blanco opaco*/     
+
+legend {border: solid;
+        border-radius: 4px;
+        border-color:#525a3a;
+        font-family: "Roboto", sans-serif;
+        color: white;
+        background-color: #525a3a;}
+.Titulo {text-align: start;}         
+.datosPersonales {background-color: #cce3de;
+            border: solid;
+            border-color: blueviolet;
+            margin-left: 180px;
+            margin-right: 180px;
+            display: flex;
+            justify-content: center;}    
+.contacto {background-color: #cce3de;
+           border: solid;
+           border-color: blueviolet;
+           margin-left: 180px;
+           margin-right: 180px;
+           display: flex;
+           justify-content: center;}            
+.actividades {background-color: #cce3de;
+              border: solid;
+              border-color: blueviolet;
+              margin-left: 180px;
+              margin-right: 180px;
+              display: flex;
+              justify-content: center;}               
+.Contenido {width: 100%;}              
+.Barra {width: 70%;
+      height: 30px;}
+.BarraTexto { width: 70%;
+            height: 40px;}
+form {width: 100%;}
+hr{ width: 400px;
+    text-align: center;
+    border-top: 20px dotted #cce3de;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;}
+.Barra4 {width: 70%;
+        height: 30px;
+        }
+::placeholder {text-align: end;}        
+.Contenido2 {text-align: start;
+            margin-left: 15px;}    
+.CuadroMayor2 {background-color: #cce3de;
+  border: solid;
+  border-color: blueviolet;
+  margin-left: 180px;
+  margin-right: 180px;}
+
+.CuadroMayor3 {margin-left: 180px;
+  margin-right: 180px;}
+.Contenido3 {color: white;
+           text-align: start;}
+
+button {background-color:#525a3a;
+        border: solid;
+        border-color:#868c73 ;
+        }           
+        

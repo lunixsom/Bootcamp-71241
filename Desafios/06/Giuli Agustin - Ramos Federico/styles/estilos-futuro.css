@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*  {  font-family: "Anton", sans-serif;
+        font-weight: 400;
+        font-style: normal;    }
+
+
+header {
+    margin-top: 40px;
+}
+
+header h1 {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    border: 20px solid #ff51a2;
+    border-right: 20px solid #44bff8;
+    border-left: 20px solid #44bff8;
+    color: #D6E2DE;
+}
+
+body {
+    background-image:url(https://www.creativefabrica.com/wp-content/uploads/2023/07/18/Cyberpunk-City-Street-Scifi-Wallpaper-Graphics-74865888-1.jpg);
+}
+
+.seccion1 .tituloSeccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border: 20px solid #44bff8;
+    overflow: hidden;
+    font-size: 20px;
+    transform: translate(20px,-24px);
+    border-radius: 8px;
+    color: #D6E2DE;
+    background-color: #ff51a2;
+
+}
+
+.seccion1 .tituloSeccion i {
+    visibility: hidden;
+}
+
+.tituloSeccion {
+    font-variant: small-caps;
+}
+
+main .seccion1 .articulo1 {
+   
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: 2px solid #ff51a2;
+    border-radius: 4px;
+    background-color: #D6E2DE;opacity: 80%;
+
+}
+
+.articulo1 .form1 span {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: #D6E2DE;
+}
+
+.articulo1 .form1 span input:focus {
+    background-color: #ff51a2;
+    border: 1px solid #44bff8;
+}
+
+.articulo1 .form1 span textarea:focus {
+    background-color: #ff51a2;
+    border: 1px solid #44bff8;
+}
+
+.articulo1 .form1 {
+    
+    background-color: #D6E2DE;
+    padding-bottom: 20px;
+}
+
+.form1 div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-top: 0;
+    background-color: #D6E2DE;
+
+}
+
+.form1 div div input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 14px;
+}
+
+.articulo1 .form2 {
+    padding-bottom: 20px;
+}
+
+.articulo1 span {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 26px;
+}
+
+.articulo1 .datos {
+    margin: auto;
+    margin-bottom: 24px;
+    width: 70%;
+}
+
+.articulo1 .datos input:focus {
+    background-color: #ff51a2;
+}
+
+.articulo1 .form2 span {
+   
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-color: #D6E2DE;
+}
+
+.articulo1 .form2 span input:focus {
+ 
+    background-color: #ff51a2;
+    border: 1px solid #1F2023;
+}
+
+.articulo1 .form1 .sede {
+
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 80%;
+    margin-left: 20px;
+    border: none;
+}
+
+.articulo1 .form1 .sede input {
+    margin-left: 10px;
+}
+
+.articulo1 .sede span{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+hr{
+    margin: auto;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: 15px solid #ff51a2;
+    width: 100%;
+}
+
+.enviarBorrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.enviarBorrar input {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ff51a2;
+    color: #A6C1B9;
+    border: 1px solid #A6C1B9;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main .seccion1 .articulo2 {
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    border: none;
+    color: #D6E2DE;
+}
+
+.bi.bi-question-circle {
+    cursor: pointer;
+    margin-left: 4px;
+}

@@ -1,0 +1,100 @@
+/* estilos.css */
+
+/* Estilo global */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #33ff00;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #33ff30;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid #ff6600;
+    border-radius: 40px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.caja {
+    background: #fff;
+    border: 2px solid #ff6600;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      /* padding: 20px;
+    margin-bottom: 20px; */
+    padding: 20px;
+    width: 400px;
+    margin: 2% auto; 
+
+}
+
+.caja form {
+    display: flex;
+    flex-direction: column;
+}
+
+.caja label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #ff6600;
+}
+
+.caja input[type="text"],
+.caja input[type="number"],
+.caja input[type="email"],
+.caja textarea,
+.caja select {
+    background: #f9f9f9;
+    border: 2px solid #ff6600;
+    border-radius: 4px;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.caja input[type="radio"] {
+    margin-right: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+hr {
+    border: 1px dashed #ff6600;
+    margin: 20px 0;
+}
+
+footer {
+    background: #ffcc00;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #ff6600;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+footer input[type="submit"],
+footer input[type="reset"] {
+    background: #ff6600;
+    border: 2px solid #ffcc00;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}

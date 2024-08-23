@@ -1,14 +1,20 @@
-Muchos section me hace ruido
+Muchos section me hace ruidos, recorda que no es un elemento contenedor genérico, para eso ya tenemos la etiqueta div. El elemento section se usa para representar una parte de un documento
 
-Una posible mejora seria representar los productos como articles en lugar de section, ya que los section en si representan un parte de mi pagina y los articles son contenido dentro de los section.
+
+Por ejemplo en index.html podrias representar los productos como articles en lugar de section, ya que los section en si representan un parte de mi pagina y los articles pueden ser contenido dentro de los section.
+
+Luego hay algunos sections mas que tranquilamente pueden ser div's. 
+
+Recorda que el elemento div es un contenedor genérico que lo usamos para agrupar elementos con fines de estilos o representación.
 
 ------------------------------------------
 
-En lugar de usar li para contener el logo podes usar un div.
 
-Los li van adentro de ul
+En lugar de usar li para contener el logo podes usar un div tranquilamente.
+
+Cuidado Los li van adentro de ul. El elemento ul define una lista desordenada. El elemento contiene uno o más elementos li que especifican los ítems de la lista.
 
 
 --------------------------------------------
 
-errores de sintaxis: falta de espacios en atributos
+errores de sintaxis: falta de espacios en atributos. Cuidado con esto ya que si hay un error en html que te para la ejecución luego JS no funciona porque no llega a leerlo. 

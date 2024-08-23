@@ -1,0 +1,44 @@
+/* Estilos generales */
+body {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    background-color: #83aceb; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Título "Productos" */
+h1#productos {
+    font-size: 4.5rem; /* Tamaño más grande */
+    text-align: center; /* Centrado horizontal */
+    margin-bottom: 40px; /* Espacio inferior para separarlo del contenido */
+    background-color: #fff;
+    color: #333; /* Color del texto */
+}
+
+/* Estilo para los demás títulos */
+h1 {
+    font-family: Impact, Charcoal, sans-serif;
+    color: #333; /* Color del texto */
+}
+
+/* Texto de descripción */
+p {
+    font-family: Arial, Gadget, sans-serif;
+    color: #666; /* Color del texto más claro */
+}
+
+/* Imágenes */
+img {
+    border: 2px solid #252525;
+    background-color: #3d3c3c;
+    padding: 10px;
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,95 @@
+body { background-image: url(../assets/img/depositphotos_429562570-stock-illustration-abstract-futuristic-wallpaper-digital-background.jpg);
+       background-size: cover;
+       background-position: center;}
+
+h1 {background-color: black;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Game";
+    font-size: 60px;}
+
+@font-face {
+    font-family: "Game";
+    src: url(../assets/font/Game\ Of\ Squids.otf);
+    font-weight: normal;
+    font-style: normal;}  
+
+p {font-family: "Game";
+    font-size: 28px;
+    color: rgb(249, 255, 255);}
+
+main {width: 100%;}  
+    
+.datosPersonales {background-image: url(../assets/img/pngtree-unlimited-futuristic-4k-uhd-transport-or-3d-underground-tunnel-illustration-picture-image_4842023.jpg); 
+                  background-size: cover;
+                  background-position: center;
+                  border-color: rgb(4, 75, 103);
+                  box-shadow: inset 0 22px 22px -22px;
+                  border-radius: 6px;}
+                                                
+legend {border: solid;
+        border-radius: 6px;
+        font-family: "Game";
+        font-size: 30px;
+        border-color: rgb(4, 75, 103);
+        box-shadow: inset 0 22px 22px -22px;
+        color: white;
+        text-align: center;
+        width: 95%;
+        background-color: rgb(17, 97, 111);}
+
+.Titulo {text-align: center;}         
+
+.Barra {width: 40%;
+    background-color: #78d1e1;
+    height: 35px;}
+
+.BarraTexto { width: 40%;
+        height: 130px;
+        background-color: #78d1e1}
+
+.Barra4 { width: 40%;
+          height: 30px;
+          background-color: #78d1e1}  
+
+hr  {border: 15px; 
+     height: 12px; 
+     box-shadow: inset 0 12px 12px -12px rgb(2, 13, 15);}
+
+.contacto {background-image: url(../assets/img/pngtree-unlimited-futuristic-4k-uhd-transport-or-3d-underground-tunnel-illustration-picture-image_4842023.jpg);
+           background-size: 100%;
+           border-radius: 6px;}   
+
+.CuadroMayor2 {background-image: url(../assets/img/pngtree-unlimited-futuristic-4k-uhd-transport-or-3d-underground-tunnel-illustration-picture-image_4842023.jpg);
+               background-size: 100%;
+               border-radius: 6px;}
+
+label {font-family: "Game";
+    font-size: 25px;
+    color: rgb(0, 255, 225);}
+
+.CuadroMayor3 {text-align: center;}
+
+.Contenido3 label {color: rgb(0, 255, 225);}                    
+
+.obligatorio {font-size: 25px;
+              color:rgb(0, 255, 225) ;}
+     
+#Condiciones {font-size: 55px;}  
+
+input {width: 20px;
+       height: 20px;}
+
+.boton {display: flex;
+        justify-content: space-around;
+        flex-direction: row;}
+
+button {width: 550px;
+        height: 50px;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        background-color:#00d9ff;
+        border-width: 4px;
+        border-color:#0e3e61;}
+

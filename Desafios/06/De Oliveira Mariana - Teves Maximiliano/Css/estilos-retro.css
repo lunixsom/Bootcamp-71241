@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #f1e8bb;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    margin-bottom: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+h1{
+    display: inline-block;
+    position: relative;
+    background-color: #C3C19D;
+    background-image: linear-gradient(135deg, #a2a392, #d5d0cd);
+    text-transform: uppercase;
+    letter-spacing: 2px;  
+    color: #ffcc00;
+    text-align: center;
+    width: 44%;
+    margin-left: 28%;
+    margin-top: 4%;
+    margin-bottom: 0%;
+    border: 2px solid #000;
+    padding: 20px;
+    box-shadow: 5px 5px 0 #888;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.box{
+    display: inline-block;
+    position: relative;
+    background-color: #C3C19D;
+    color: #fff;
+    text-align: center;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 0 #888;
+    padding: 20px;
+    width: 44%;
+    margin-left: 28%;
+    margin-top: 4%;
+    margin-bottom: 0%;
+}
+
+.sede{
+    text-align: left;
+    font-size: 17px;
+    color: #ffcc00;
+}
+
+h4{
+    text-align: center;
+    color: #ffcc00;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    font-size: 22px;
+    padding: 0;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+
+.form-register{
+    width: 600px;
+    background:#96976A;
+    padding: 30px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: 2px solid #000;
+    box-shadow: 5px 5px 0 #888;
+    border-radius: 6px;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;  
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.form-register:hover{
+    color: #000000;
+    background-color: #dde5b6;
+    border-color: #565656;
+}
+
+h5{
+    padding: 10px;
+    text-align: start;
+    font-size: 18px;
+    color: #ffcc00;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.ancho{
+    height: 40px;
+}
+
+.pais{
+    color: #000000;
+}
+
+.controls{
+    padding: 5px;
+    width: 97%;
+    align-content: center;
+    margin-bottom: 10px;
+    margin: 0;
+    border-radius: 4px;
+    border: 1px double #1b1d1c ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    
+}
+.controls1{
+    padding: 5px;
+    width: 97%;
+    align-content: center;
+    margin-bottom: 10px;
+    margin: 0;
+    border-radius: 4px;
+    border: 1px double #1b1d1c ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.field{
+    width: 97%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    border-radius: 4px;
+    border: 1px double #1b1d1c ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+.form-register a:hover{
+    color: rgb(98, 103, 112);
+    text-decoration: underline;
+    border-radius: 7px;
+}
+.form-register .botons{
+    width: 100%;
+    background: #6084d3;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.sexo{
+    text-align: center;
+}
+
+.blue{
+    accent-color:#3076FF ;
+}
+
+.actividades{
+    text-align: left;
+}
+
+.deporte{
+    font-size: 17px;
+    color: #2c2b2b;
+    font-weight: bold;
+}
+
+.campo{
+    text-align: center;
+    margin-left: 360px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.requerimientos{
+    text-align: center;
+    margin: auto;
+    color:#2c2b2b ;
+    font-weight: bold;
+}
+
+.botones{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    justify-items: stretch;
+    margin-bottom: 50px;
+    margin-left: 0%;
+    padding: 40px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    transition: 0,3s;
+}
+.boton1{
+    background-color: #C3C19D;
+    border: 2px double #000;
+    color: #000;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 0px #888;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.boton2{
+    margin-left: 20px;
+    background-color: #C3C19D;
+    border: 2px double #000;
+    color: #000;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 4px 4px 0px #888;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.buy:active {
+    box-shadow: 0px 0px 0px #000000;
+    transform: translate(4px, 4px);
+}
+.afiliarse:active{
+    box-shadow: 0px 0px 0px #000000;
+    transform: translate(4px, 4px);
+}
+
+.buy:hover{
+    transform: scale(1.1);
+  }
+  .afiliarse:hover{
+    transform: scale(1.1);
+  }
+  
+.controls placeholder{
+    text-align: right;
+  }
+
+hr{
+    border: none;
+    height: 0;
+    border-top: 3px double #8c8c8c;
+    margin: 20px 0;
+}
+.veni{
+    display: flex;
+  }
+  .error{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: -80px;
+    font-size: large;
+  }
+  .claro{
+    font-size: 8px;
+    font-variant: small-caps;
+    color: #181717;
+    height: 40px;
+    width: 55px; 
+    background-color: #bac9c4 ;
+    border-radius: 20px black ;
+    box-shadow: #4D6D63 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }

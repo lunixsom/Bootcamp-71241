@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio06_CeciliaCoronel-ToledoVictor</title>
+    <!-- <link rel="stylesheet" href="./css/estilos-retro.css">  -->
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!-- <link rel="stylesheet" href="./css/estilos.urbano.css"> -->
+</head>
+<body>
+    <header>
+        <h1>Veni al Gym!&#128170;</h1>
+    </header>
+    <main>
+        <div class="caja">
+           <form>
+                <fieldset>
+                <legend>&#x1F64B;Datos Personales&#x1F440;</legend>
+                    <label for="nombre">Nombre*:</label><br>
+                    <input type="text" id="nombre"><br>
+                    <label for="apellido"> Apellido*:</label><br> 
+                    <input type="text" id="apellido"><br>
+                    <label for="documento">Documento*:</label><br> 
+                    <input type="number" id="documento"><br>
+                    <label > Nacionalidad*:<br> </label>
+                    <select name="" id="">
+                            <option value="">Argentina</option>
+                            <option value="">Perú</option>
+                            <option value="">Chile</option>
+                            <option value="">Paraguay</option>
+                            <option value="">Uruguay</option>
+                            <option value="">Brasil</option>
+                        </select><br>
+                    <label for="contanosunpocodevos">Contanos un poco de vos...<br></label>
+                    <textarea id="contanosunpocodevos"  cols= 20 rows=5 placeholder="Contanos un poco de vos" maxlength="500" required></textarea>
+                    <br>Identidad de género*<br>
+                    <input type="radio" name="sexo" value="hombre" checked="checked">Hombre
+                    <input type="radio" name="sexo" value="mujer" >Mujer
+                    <input type="radio" name="sexo" value="otro" >Otro
+                </fieldset>  
+            </form>
+        </div>
+            <hr>
+         <div class="caja" >  
+            <form>
+                <fieldset>
+                    <legend>&#x1F4F1;Datos de Contacto&#x1F4E7;</legend>
+                    <label for="telefono"> Teléfono:</label><br>
+                    <input type="number" id="telefono" placeholder="Código de área y número"><br>
+                    <label for="email"> Dirección de correo electrónico *:</label><br> 
+                    <input type="email" id="email" placeholder="info@dominio.com" required><br>
+                </fieldset> 
+            </form>
+        </div>
+            <hr>
+            <div class="caja" >  
+                <form>
+                    <fieldset>
+                        <legend>&#x1F6B4;Actividades &#x1F57A;</legend>
+                        <p>Por favor, indicá cuáles actividades te interesan.</p>
+                        <h3> Sede Palermo:</h3>
+                            <input type="radio" name="deporte" value="Básquet">Basquet
+                            <input type="radio" name="deporte" value="Boxeo" checked="checked">Boxeo
+                            <input type="radio" name="deporte" value="Fútbol">Fútbol
+                            <input type="radio" name="deporte" value="Tenis" >Tenis
+                            <h3>Sede Rosario:</h3> 
+                                <input type="radio" name="deporte" value="Básquet">Basquet
+                                <input type="radio" name="deporte" value="Boxeo" >Boxeo
+                                <input type="radio" name="deporte" value="Fútbol" checked="checked">Fútbol
+                                <input type="radio" name="deporte" value="Tenis" >Tenis   
+                    </fieldset>              
+                </form>
+            </div>
+           
+    </main>
+   <footer  class="footer">
+        <label>
+            <input type="checkbox">
+            Acepto las condiciones*
+            </label><br>
+            <label>
+            <input type="checkbox">
+            Deseo recibir novedades
+            </label>
+            <label> *: campo obligatorio.</label>   
+        <input type="submit"  value="Iniciar Afiliación"> <input type="reset" > 
+    </footer>
+</body>
+</html>
