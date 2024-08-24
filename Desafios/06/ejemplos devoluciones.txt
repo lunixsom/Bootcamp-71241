@@ -1,0 +1,24 @@
+EL trabajo entregado es muy bueno, usaste correctamente las etiquetas para formularios, el diseño original esta correcto y sin estilos la estructura se ve igual que la imagen de referencia también el diseño propio se ve muy bien lo único en la consigna pedía dos diseños personalizados por lo que te falto uno
+
+Primeramente, quería felicitarte por la tarea que entregaste. El trabajo es muy bueno, cumpliste con los requerimientos del enunciado, el archivo sin estilos impecable, los dos estilos personalizados impecable.
+
+******************************
+
+
+Faltaron 2 estilos externos personalizados solicitados en el enunciado.
+
+
+
+El primer fieldset con el legend “Datos Personales” conceptualmente debería ir adentro del form ya que es un elemento exclusivo para form que permite organizar en grupos los campos.
+
+
+El enunciado requeria crear dos perfiles de estilos personalizadas por ustedes, que utilicen la misma estructura HTML y que definan colores, fondos, tipografías, bordes, etc. para esos mismos elementos. Estas hojas de estilos deberán estar integradas en el HTML junto a la original, permitiendo activarlas de a una (descomentándola y comentando las demás) para ver el cambio de aspecto de la página web.
+
+
+Recomiendo no acostumbrarse al uso del elemento br, los saltos de línea se pueden lograr con css o encerrando el contenido en un contenedor de bloque (div).
+
+
+Sin estilos los elementos no se ven igual a la figura de muestra, para volver elementos de bloque cada campo podías encerrarlos en div's contenedores por ejemplo.
+
+
+Sin estilos los elementos no se ven igual a la figura de muestra, para volver elementos de bloque cada campo podías encerrarlos en div's contenedores.

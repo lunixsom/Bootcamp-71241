@@ -83,6 +83,16 @@ input{
     border-radius: 3px;
 }
 
+.bloqueInline{
+    margin-left: 10px;
+}
+
+.bloqueInline  input{
+    display: inline;
+    width: auto;
+}
+
+
 input:hover{
     background-color: #4D6D63;
 }
@@ -156,7 +166,7 @@ label{
 }
 
 .depytext{
-    display: inline-flex;
+    display:inline-flex;
     margin-left: 10px;
     margin-right: 25px;
     margin-bottom: 25px;

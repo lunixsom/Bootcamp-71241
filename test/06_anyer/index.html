@@ -4,21 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="estilos.css">
+    <!-- <link rel="stylesheet" href="estilos.css"> -->
     <title>Document</title>
   </head>
   <body>
     <form>
-      <section class="datospersonales">
+      <fieldset class="datospersonales">
         <h3>datos personales</h3>
         <legend>hola</legend>
+        <div>
         <label for="nombre">Nombre *: </label>
         <input type="text" id="nombre" name="nombre" required />
+      </div>
+      <div>
         <label for="apellido">apellido: </label>
         <input type="text" id="apellido" name="apellido" required />
+      </div>
+      <div>
         <label for="documento">Documento: </label>
         <input type="number" id="stock" name="Documento" required />
-
+      </div>
+      <div>  
         <label for="Nacionalidad">Nacionalidad: </label>
         <select name="pais nacimiento" id="pais">
           <optgroup id="boton">
@@ -37,10 +43,11 @@
             <option value="AW">Aruba</option>
           </optgroup>
         </select>
-        <br />
+      </div>
+        <div>
         <label for="contanosdevos">contanos de vos: </label>
         <textarea id="mensaje" cols="41" rows="10"></textarea>
-        
+      </div>
           <p>sexo</p>
           <label for="fememnino">femenino</label>
           <input type="radio" value="Femenino" name="sexo" required />
@@ -49,9 +56,9 @@
           <label for="Otros">otros</label>
           <input type="radio" value="Otro" name="sexo" required />
         
-      </section>
-
-      <section class="contacto">
+      </fieldset>
+      <br>
+      <fieldset class="contacto">
         <h3>datos del contacto</h3>
 
         <label for="telefono">Telefono: </label>
@@ -69,7 +76,7 @@
           name="email"
           required
         /><br /><br />
-      </section>
+      </fieldset>
 
       <section class="actividades">
         <h3>Actividades</h3>
