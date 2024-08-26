@@ -47,7 +47,10 @@ legend {border: solid;
               margin-right: 180px;
               display: flex;
               justify-content: center;}               
-.Contenido {width: 100%;}              
+.Contenido {width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;}              
 .Barra {width: 70%;
       height: 30px;}
 .BarraTexto { width: 70%;
