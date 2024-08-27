@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: azure;
+  background-image: url(.././img/background-retro.jpg);
+  background-size: contain;
+}
+
+.flex-container{
+  border: 1px solid #67787d;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+
+}
+
+h1{
+  text-decoration: underline;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+form{
+  width: 600px;
+  background-color: #c6c6c6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  height: 100vh;
+
+}
+
+form fieldset{
+  border-color: #67787d;
+}
+
+form fieldset > p{
+  display: flex;
+  gap: 5px;
+}
+
+#actividades{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#actividades .contenedor{
+  display: flex;
+  gap: 10px;
+}
+
+legend{
+  text-transform: uppercase;
+  font-weight: 900;
+
+}
+
+.sede{
+  font-style: italic;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}

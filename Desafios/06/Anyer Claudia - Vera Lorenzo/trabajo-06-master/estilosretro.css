@@ -1,5 +1,5 @@
 
-/* @import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=New+Amsterdam&display=swap');
 
 
 * { margin: 0;
@@ -110,4 +110,4 @@ transform: translateX(5px)
     
   .datos2{
     margin-bottom: 100% auto;font-family:"Jersey 10", sans-serif ;
-  } */
+  } 

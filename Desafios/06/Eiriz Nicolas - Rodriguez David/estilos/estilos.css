@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1f2023;
+    color: #e8eaed;
+    padding-bottom: 30px;
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1{
+    margin-top: 40px;
+    border: 10px solid #4d6d63;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    text-align: center;
+    width: 600px;
+    color: #e8eaed;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+form h1 span{
+    margin-left: 10px;
+}
+
+form{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #32342e;
+    gap: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+
+
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+    padding: 20px;
+}
+
+fieldset#datos-personales{
+    background-color: #a6c1b9;
+}
+
+fieldset#contacto{
+    background-color: #d6e2de;
+}
+
+fieldset legend{
+    background-color: #2b3d37;
+    color: #e8eaed;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+fieldset > p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    gap: 5px;
+}
+
+
+
+form input, select, template, textarea{
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+textarea{
+    height: 125px;
+}
+
+select{
+    background-color: #fff;
+    color:#6b7d73;
+}
+
+#nombre-usuario{
+    background-color: #4d6d63;
+}
+
+#sexo-usuario{
+    flex-direction: row;
+    gap: 5px;
+    width: 270px;
+}
+
+fieldset#contacto input{
+    text-align: end;
+}
+
+.separador{
+    width: 300px;
+    border-top: 15px dotted #a6c1b9;
+}
+
+fieldset#actividades{
+    background-color: #a6c1b9;
+    align-items: flex-start;
+}
+
+fieldset#actividades > div{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+fieldset#actividades .contenedor{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+fieldset#actividades > p{
+    align-items: flex-start;
+}
+
+.sede{
+    text-align: left;
+}
+
+.condiciones{
+    align-self: flex-start;
+    gap: 10px;
+    padding: 0px 15px;
+    color: #e8eaed;
+}
+
+.condiciones > p{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.condiciones input{
+    width: 12px;
+}
+
+#botones-formulario{
+    display: flex;
+    gap: 35px;
+}
+
+#botones-formulario button{
+    padding: 8px;
+    background-color: #2d3f3a;
+    border: 1px solid #394e4a;
+    color: #6da7ad;
+}
