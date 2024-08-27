@@ -13,15 +13,18 @@ var mensajeError = [];
 
 if(nombre.value === null || nombre.value === ''){
 mensajeError.push('Ingresa tu nombre');
+error.innerHTML= mensajeError.join(', ')
+
+return false;
 }
 
 if(apellido.value === null || apellido.value === ''){
     mensajeError.push('Ingresa tu apellido');
+    error.innerHTML= mensajeError.join(', ')
+    return false;
     }
 
-error.innerHTML= mensajeError.join(', ')
 
-    return false;
 
 }
 
