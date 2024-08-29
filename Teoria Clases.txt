@@ -1029,9 +1029,11 @@ Clase 28
 Clase 29
 
 
-Configuracion de Entorno de Proyecto en NODE (14 min)
+Configuracion de Entorno de Proyecto en NODE (16 min)
 
-
+		Instalar Node
+		
+		npm init
 	
 	
 
