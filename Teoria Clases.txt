@@ -1035,12 +1035,16 @@ Configuracion de Entorno de Proyecto en NODE (16 min)
 		
 		npm init (32 min)
 
-			Me sirve para inicializar un proyecto, para crear un ARCHIVO DE CONFIGURACION.	
+			Me sirve para inicializar un proyecto, para crear un ARCHIVO DE CONFIGURACION del proyecto.
 				Me especifica:
 								Cual va ser la version de este archivo
 								Si tenes alguna palabra clave
 								El archivo principal cual sera.
 								La forma en que se va a ejecutar el archivo	
+
+			Desde el archivo que me genera (package.json) yo puedo crear una aplicacion de React, Angular, View, de backend, puedo trabajar con Typescript con angular.
+
+			
 
 
 
