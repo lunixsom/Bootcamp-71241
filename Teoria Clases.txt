@@ -1035,8 +1035,13 @@ Configuracion de Entorno de Proyecto en NODE (16 min)
 		
 		npm init (32 min)
 
-			Me sirve para inicializar un proyecto
-	
+			Me sirve para inicializar un proyecto, para crear un ARCHIVO DE CONFIGURACION.	
+				Me especifica:
+								Cual va ser la version de este archivo
+								Si tenes alguna palabra clave
+								El archivo principal cual sera.
+								La forma en que se va a ejecutar el archivo	
+
 
 
 	
