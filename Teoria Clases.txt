@@ -1033,7 +1033,7 @@ Configuracion de Entorno de Proyecto en NODE (16 min)
 
 		Instalar Node
 		
-		npm init (32 min)
+		npm init | npm init -y (32 min)
 
 			Me sirve para inicializar un proyecto, para crear un ARCHIVO DE CONFIGURACION del proyecto.
 				Me especifica:
@@ -1045,7 +1045,8 @@ Configuracion de Entorno de Proyecto en NODE (16 min)
 			Desde el archivo que me genera (package.json) yo puedo crear una aplicacion de React, Angular, View, de backend, puedo trabajar con Typescript con angular.
 
 			
+		Como cargar un modulo nativo de Node (1:11 hs)
 
-
+			const nombre = require('os');
 
 	
