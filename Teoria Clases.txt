@@ -1029,7 +1029,7 @@ Clase 28
 Clase 29
 
 
-Configuracion de Entorno de Proyecto en NODE (16 min)
+Configuracion de Entorno de Proyecto en NODE (16 min a 1:32 hs)
 
 		Instalar Node
 		
@@ -1045,8 +1045,26 @@ Configuracion de Entorno de Proyecto en NODE (16 min)
 			Desde el archivo que me genera (package.json) yo puedo crear una aplicacion de React, Angular, View, de backend, puedo trabajar con Typescript con angular.
 
 			
-		Como cargar un modulo nativo de Node (1:11 hs)
+		Como cargar/importar un modulo nativo de Node (1:11 hs)
 
 			const nombre = require('os');
 
-	
+
+		Como ejecuar un archivo desde scripts en package.json (1:23 hs)
+
+			npm run iniciar
+
+
+		
+SASS (1:33 hs)
+
+	npm install node-sass 
+
+		¿por que no uso el flag "-g" de global?
+			Por que no quiero que Node-sass este habilitado en todos los otros proyectos queno los estoy utilizando.
+
+	No guardar la carpeta node_modules
+
+	¿ Que es SASS o SCSS ?
+
+		Es un preprocesador de CSS
