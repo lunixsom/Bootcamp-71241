@@ -1033,8 +1033,10 @@ Configuracion de Entorno de Proyecto en NODE (16 min)
 
 		Instalar Node
 		
-		npm init
+		npm init (32 min)
+
+			Me sirve para inicializar un proyecto
 	
-	
+
 
 	
