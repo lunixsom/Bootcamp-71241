@@ -1040,7 +1040,7 @@ Configuracion de Entorno de Proyecto en NODE (16 min a 1:32 hs)
 								Cual va ser la version de este archivo
 								Si tenes alguna palabra clave
 								El archivo principal cual sera.
-								La forma en que se va a ejecutar el archivo	
+								La forma en que se va a ejecutar el archivo/aplicacion(scripts)
 
 			Desde el archivo que me genera (package.json) yo puedo crear una aplicacion de React, Angular, View, de backend, puedo trabajar con Typescript con angular.
 
@@ -1076,6 +1076,13 @@ SASS (1:33 hs)
 
 		Con el build llamamos a la libreria (node-sass) para que convierta de un tipo de archivo a otro tipo de archivo, "convertir" lo que hace es ejecutar Nodemon y ejecuta a la funcion Build.
 
-		
+
+
+************************************************************
+
+Clase 30
+
+
+	Repaso Node-Sass (0 a )
 
 	
