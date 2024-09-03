@@ -1068,3 +1068,12 @@ SASS (1:33 hs)
 	¿ Que es SASS o SCSS ?
 
 		Es un preprocesador de CSS 
+
+	¿Que hacen los scripts que paso Berni a poner en package.json? (1:56 hs)
+
+		"build-css": "node-sass --include-path scss scss/index.scss css/index.css",
+		"convertir": "nodemon -e scss -x \"npm run build-css\""
+
+		Con el build llamamos a la libreria para que convierta de un tipo de archivo a otro tipo de archivo, lo que hace es ejecutar Nodemon y ejecuta a la funcion Build
+
+	
