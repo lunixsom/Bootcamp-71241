@@ -1093,6 +1093,12 @@ Clase 30
 
 		Puedo crear variables (54 min)
 
-		
+		Reinstalar Node Modules (1:10 hs)
+
+			npm install : lo que hace es busca el package.json, lo lee e instala las dependencias necesarias.
+
+		Anidamiento de estilos (1:19 hs)
+			
+			
 
 	
