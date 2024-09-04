@@ -1083,6 +1083,16 @@ SASS (1:33 hs)
 Clase 30
 
 
-	Repaso Node-Sass (0 a )
+	Repaso Node-Sass (0 a 40 min)
+
+	
+	¿Que es el package-lock.json? (43 min)
+		Es un auditor del package.json
+
+	SASS (53 min)
+
+		Puedo crear variables (54 min)
+
+		
 
 	
