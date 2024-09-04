@@ -1099,6 +1099,29 @@ Clase 30
 
 		Anidamiento de estilos (1:19 hs)
 			
+		Mixin (1:31 hs)
+
+			Son Bloques de codigo reutilizable, ejemplo:
+
+				@mixin centrar{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+
+				Luego tengo que invocarlo con:
+
+				div{
+					@include centrar;
+				}
+
+
+		Separar por responsabilidades e IMPORTAR (1:40 hs a 1:48 hs)
 			
+			Poner _ a los archivos, por ejemplo:
+
+						_variables.scss
+						_mixins.scss
+						_anidar.scss
 
 	
