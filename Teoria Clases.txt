@@ -1129,3 +1129,9 @@ Clase 30
 
 Clase 31
 
+
+	BEM Bootstrap (31 min)
+
+		Es un patron de diseño para la nomenclatura de las clases en CSS y la utiliza mucho Bootstrap.
+
+		
