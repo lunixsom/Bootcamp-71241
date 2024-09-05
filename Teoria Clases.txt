@@ -1124,6 +1124,8 @@ Clase 30
 						_mixins.scss
 						_anidar.scss
 
+			Porque es un archivo secundario que yo en algun momento voy a importarlo desde el index.scss.
+
 
 ************************************************************
 
@@ -1143,5 +1145,10 @@ Clase 31
 
 
 		Creo Puntos de Quiebre (1 hs)
-		
+
+			@content (1:12 hs)
+
+				Significa que cualquier contenido que este dentro de ese mixin agregale esta caracteristica especifica.
+
+				
 		
