@@ -1130,10 +1130,18 @@ Clase 30
 Clase 31
 
 
-	BEM Bootstrap (31 min)
+	Nomenclatura BEM Bootstrap (31 min)
 
 		Es un patron de diseño para la nomenclatura de las clases en CSS y la utiliza mucho Bootstrap.
 
 		BLOQUE ELEMENTO MODIFICADOR: .d-print-inline
 
+
+	Media Querys (53 min a )
+
+		Los breakpoints son los puntos de quiebre que tienen la mayoria de los dispositivos.
+
+
+		Creo Puntos de Quiebre (1 hs)
+		
 		
