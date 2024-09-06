@@ -1136,6 +1136,8 @@ Clase 31
 
 		Es un patron de diseño para la nomenclatura de las clases en CSS y la utiliza mucho Bootstrap.
 
+		Me sirve para que no coincidan o no se dupliquen los nombres de clases en cuanto a estilos.
+
 		BLOQUE ELEMENTO MODIFICADOR: .d-print-inline
 
 
@@ -1164,6 +1166,12 @@ Clase 31
 		
 					
 		
+************************************************************
 
+Clase 33
+
+
+
+	Seguimos con proyecto ejemplo con pagina Productos (10 min) 
 
 		
