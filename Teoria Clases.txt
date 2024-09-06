@@ -1150,11 +1150,19 @@ Clase 31
 
 				Significa que cualquier contenido que este dentro de ese mixin agregale esta caracteristica especifica.
 
+
 		Herencia en SASS (1:33 hs)
 
-			Usamos la palabra reservada %
+			Usamos la palabra reservada % para crearlas
 
-			
+			Para usarla usamos @extend %align-center 
+
+		
+
+		Z-INDEX (1:45 hs)
+
+		
+					
 		
 
 
