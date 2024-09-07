@@ -1174,4 +1174,7 @@ Clase 33
 
 	Seguimos con proyecto ejemplo con pagina Productos (10 min) 
 
-		
+	
+	Intro a HTTP (21:30 min)
+
+		Vamos a hacer un pequeño archivo que va administrar desde el backend el Front, que va administrar las respuestas que el cliente va a solicitar.
