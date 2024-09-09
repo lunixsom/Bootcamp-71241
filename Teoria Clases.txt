@@ -1170,6 +1170,10 @@ Clase 31
 
 Clase 33
 
+	Backend
+
+		Vamos a usar el backend para que le diga a mi html mostrate esto cuando el cliente haga esto, mostrate lo otro cuando el cliente haga esto.
+
 
 
 	Seguimos con proyecto ejemplo con pagina Productos (10 min) 
@@ -1178,3 +1182,41 @@ Clase 33
 	Intro a HTTP (21:30 min)
 
 		Vamos a hacer un pequeño archivo que va administrar desde el backend el Front, que va administrar las respuestas que el cliente va a solicitar.
+
+
+	Como funcionan las aplicaciones (45 min)
+
+		Las aplicaciones funcionan con un software (servidor) que recibe peticiones y da la respuesta:
+
+			const http = require('http');
+
+			const servidor = http.createServer((peticion, respuesta) => {
+
+			});
+
+			Creamos un software que maneje la peticion y la respuesta y dentro esta todo el codigo que quiero que realize el backend de mi aplicacion. Este servidor es el que va administrar la peticion y la respuesta de mi servidor.
+
+		Levantamos el Servidor | Ponemos en linea el servidor
+
+			servidor.listen(3000, ()=>{
+				console.log('Servidor en linea en el puerto 3000')
+			});
+
+			3000 es el nombre del puerto por el que yo quiero que se levante mi aplicacion. Es el canal por donde se va a ejecutar  la aplicacion.
+
+			El arrow function es una funcion flecha que se ejecuta cuando se ejecuta el metodo listen.
+
+
+	Que viene en la peticion ? (56 min)
+
+		La peticion es lo que viene del lado del cliente, cuando el cliente busca educacion it, va un pedido| peticion al servidor, cuando lo encuentra nos devuelve el elemento y nos imprime en la pantalla con lo que necesitamos.
+
+			console.log('URL: ', peticion.url)  -- veo la ruta que pide el cliente.
+
+		De la peticion mas adelante vamos a tomar los datos que envian de los formularios, porque van a estar dentro de la peticion enviados.
+
+
+
+	Como hago para leer index.html desde mi aplicacion (1:46 hs)
+
+			
