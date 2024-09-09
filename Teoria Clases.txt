@@ -1221,4 +1221,15 @@ Clase 33
 
 		Es el sistema de archivos de Node
 
-			
+
+
+		Para leer un archivo html lo hago de la siguiente manera:
+
+		const fs = require('fs');
+
+			fs.readFile('.\index.html', 'utf8', (err, data) => {
+				if (err) throw err;
+				respuesta.end(data);
+			});
+
+		Se puede usar if o switch para los diferentes paths	
