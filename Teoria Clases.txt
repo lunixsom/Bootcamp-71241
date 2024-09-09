@@ -1217,6 +1217,8 @@ Clase 33
 
 
 
-	Como hago para leer index.html desde mi aplicacion (1:46 hs)
+	FS - Como hago para leer index.html desde mi aplicacion (1:46 hs)
+
+		Es el sistema de archivos de Node
 
 			
