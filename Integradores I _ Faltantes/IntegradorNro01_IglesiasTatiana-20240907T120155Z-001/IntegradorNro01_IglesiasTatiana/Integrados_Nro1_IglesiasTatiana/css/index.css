@@ -1,0 +1,354 @@
+:root{
+    /* Colores */
+    --dark-blue: #142D43;
+    --blue: #0061F0;
+    --medium-blue:#00A1FF;
+    --light-blue: #E3EFFF;
+    --medium-grey: #959595;
+    --light-grey:#F8F8F8;
+    --white: #FFFFFF;
+    }
+    
+    /* Margenes */
+
+    .mg-tb50{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .mg-r25{
+        margin-right: 25px;
+    }
+    .mg-t25{
+        margin-top: 25px;
+    }
+    .mg-b25{
+        margin-bottom: 25px;
+    }
+    .mg-l25{
+        margin-left: 25px;
+    }
+    .mg-b15{
+        margin-bottom: 15px;
+    }
+
+   
+    
+*{margin:0;
+padding: 0;
+box-sizing: border-box;}
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body{
+    color: var(--dark-blue);
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  /* H */
+
+h1{
+    color: var(--dark-blue);
+    font-weight:700;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom:55px;
+}
+
+h2{
+    color: var(--dark-blue);
+    font-weight:700;
+    font-size: 19px;
+}
+
+h3{
+    color: var(--blue);
+    font-weight:300;
+    font-size: 21px;
+    text-align: center;
+}
+
+h4{
+    color: var(--medium-blue);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+h5{
+    color: var(--blue);
+    font-weight: 900;
+}
+
+h6{
+    color: var(--light-grey);
+    font-weight:700 ;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+  /* Navegador */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    background-color: var(--white);
+}
+
+.logo{
+    margin-right:auto;
+}
+
+.logo img{
+    width: 100px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    margin: 25px;
+    color: var(--blue);
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.BtnIniciarSesion{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size:16px;
+    color: white !important;
+    background-color: var(--blue);
+    border-radius: 10px;
+    width: 130px;
+    height: 45px;
+    border: none;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Menu Hamburguesa*/
+.menu-icon{
+    display: none;
+    font-size: 30px;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+#menuSandwich{
+    display: none;
+}
+
+  /* Banners */
+  /* Banner Secundario */
+.BannerSecundario{
+    background-color: var(--light-blue);
+    height: 75px;
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+  /* Banner Principal */
+.BannerPrincipal{
+    width: auto;
+    height: 500px;
+    background-image: url("../assets/img/bannerPrincipal.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center -145px;
+    background-size: cover;}
+
+/* Propiedades */
+
+.ContenedorPropiedades{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+.Propiedades{
+    background-color: var(--light-grey);
+    padding: 25px;
+}
+
+  /* Tarjeta de Propiedades */
+
+.NuevasPropiedades{
+    padding: 25px;
+} 
+
+.TarjetaPropiedades{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 15px;
+    background-color: var(--white);
+    box-shadow: 4px 4px 15px var(--medium-grey);
+}
+
+.TarjetaPropiedades img{
+    border-radius: 15px;
+
+}
+.Valor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Amenities{
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Amenities img{
+    width: 20px;
+    border-radius: 0;
+}
+
+/* Boton */  
+.BtnLoQuiero{
+    background-color: var(--blue);
+    color: var(--white);
+    font-size:15px ;
+    font-weight:700;
+    height: 40px;
+    border-radius: 0 0 15px 15px;
+    border: none;
+    cursor: pointer;
+    transition: backgroun-color 0.3s ease, transform 0.2s;
+}
+
+/* Boton Activo */ 
+.BtnLoQuiero:active{
+    transform: scale(1.01);
+}
+
+/* Boton Hover */ 
+.BtnLoQuiero:hover{
+    background-color: var(--dark-blue);
+    color: var(--light-blue);
+}
+
+/* Boton Deshabilitado */ 
+.BtnLoQuiero:disabled{
+    background-color: var(--light-grey);
+    color: var(--medium-grey);
+    cursor: not-allowed;
+}
+
+/* Footer */  
+
+footer{
+ 
+    height: auto;
+}
+
+.SectionFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: var(--blue);
+    color: var(--light-grey);
+}
+
+.ContenedorFooter{
+    padding: 50px;
+}
+
+.footerLinks a{
+    color: var(--light-grey);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 2px;
+}
+.footerLinks ul{
+    padding: 2px;
+}
+
+.ContenedorSubFooter{
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px 15px 50px;
+    font-weight:300;
+    font-size: 16px;
+}
+
+/* Responsive*/
+
+/* Pantallas 768px*/
+/* Pantallas 768px - NAV */
+@media (max-width:768px){
+    nav{
+        flex-wrap: wrap;
+    }
+
+.menu-icon{
+    display: block;
+}
+
+ul.menu{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--white);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    z-index: 1;
+    background-color: var(--light-blue);
+}
+
+ul.menu li {
+    text-align: center;
+    margin: 0;
+    padding: 25px 0;
+ 
+   
+}
+
+/* Mostrar el menu*/
+#menuSandwich:checked + .menu-icon + ul.menu {
+    display: flex;
+}
+
+a {
+    margin: 15px 0;
+    color: var(--blue);
+}
+
+/* Pantallas 768px - BANNER SECUNDARIO*/
+.BannerSecundario{
+    height: 60px;
+    width: 100%;
+    padding: 010px;
+}
+
+}

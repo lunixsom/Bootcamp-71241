@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Real State</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="shortcut icon" href="../assets/img/ISo.ico" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <li class="logo">
+            <a href="../index.html">
+            <img src="../assets/img/logo.png" alt="logo">
+            </a>
+        </li>
+        <input type ="checkbox" id ="menuSandwich">
+        <label for="menuSandwich" class="menu-icon">&#9776;</label>
+        <ul class ="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="alta.html"> Alta </a> </li>
+            <li><a href="contacto.html">Contacto</a> </li>
+            <li><button class="BtnIniciarSesion">Iniciar Sesión</button></li>
+        <ul>
+    </nav>
+    <main> 
+        <section class="contenedor">
+        <section class="TituloContacto">
+        <h2>Contacto</h2>
+        </section>
+        <section class="ContenedorFormularioContacto">
+        <form id="FormularioContacto" action="#" method="POST">
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="nombre" name="nombre" required pattern="[a-zA-ZÀ-ÿ\s]+" title="El nombre solo puede contener letras y espacios."><br><br>
+    
+            <label for="email">Correo Electrónico</label><br>
+            <input type="email" id="email" name="email" required title="Por favor, introduce un e-mail válido."><br><br>
+    
+            <label for="comentarios">Mensaje</label><br>
+            <textarea id="comentarios" name="comentarios" required minlength="10" title="Los comentarios deben tener al menos 10 caracteres."></textarea><br><br>
+        </form>
+        <div class="Btn">
+        <button class="BtnEnviar" type="submit">Enviar</button>
+        </div>
+        </section>
+        </section>
+    </main>
+     <footer class="mg-t50">
+        <section class="SectionFooter">
+        <div class="ContenedorFooter">
+            <h6>Ponete en contacto</h6>
+            <li class="footerLinks">
+                <ul>0800 - 555- 1234</ul>
+                <ul>mail@ejemplo.com.ar</ul>
+                <ul>Calle pepe 234, Mar de las pampas, Argentina</ul>
+            </li>
+        </div>
+        <div class="ContenedorFooter">
+            <h6>Links</h6>
+            <li class="footerLinks">
+                <a href="pages/contacto.html"> Contacto </a>
+                <a href="pages/alta.html"> Alta</a>
+                <a href=""> Inicio de Sesión</a>
+            </li>
+        </div>
+        </section>
+        <section class="ContenedorSubFooter">
+            <p>Todos los derechos reservados</p>
+            <p>Diseñado por Tatiana Iglesias</p>
+        </section>
+</footer>
+</body>
+</html>
