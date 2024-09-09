@@ -1091,6 +1091,8 @@ Clase 30
 
 	SASS (53 min)
 
+		Es un administrador de planillas css, la idea es que finalmente utilice una sola planilla index.css en donde se traspila todo lo que hacemos en SASS, de manera que solo voy a tocar el SASS y el index.css ya no lo toco.
+
 		Puedo crear variables (54 min)
 
 		Reinstalar Node Modules (1:10 hs)
@@ -1233,3 +1235,14 @@ Clase 33
 			});
 
 		Se puede usar if o switch para los diferentes paths	
+
+	
+
+************************************************************
+
+Clase 34
+
+
+	Repaso SASS ( 5 min a 26 min )
+
+
