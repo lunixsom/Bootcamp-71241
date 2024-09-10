@@ -1246,3 +1246,6 @@ Clase 34
 	Repaso SASS ( 5 min a 26 min )
 
 
+	DOM Avanzado (59 min)
+
+		
