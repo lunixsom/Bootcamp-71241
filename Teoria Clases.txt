@@ -1275,4 +1275,13 @@ Clase 34
 Clase 35
 
 
-	
+	Gemini ( 14:30 min )
+
+		Uso Gemini de Google para crear objetos productos en JSON
+
+
+	Uso el archivo data.js como una base de datos local
+
+
+
+	cargarProductos.js ( 25 min a )
