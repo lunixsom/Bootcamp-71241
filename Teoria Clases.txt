@@ -1249,3 +1249,27 @@ Clase 34
 	DOM Avanzado (59 min)
 
 		
+		Local Storage (1:18 hs)
+
+			Es la memoria local del navegador, tiene una capacidad limitada, vamos a guardar pocas cosas aca, como por ejemplo el tema(light o dark) de la pagina y algunos otros datos no sensibles.
+
+			Guardamos datos en el localStorage:
+
+				localStorage.setItem("email", email);
+
+			Obtener un valor del localStorage:
+
+				localStorage.getItem("email")
+
+
+			Cerrar Sesion (1:40 hs)
+
+				Borrar la memoria local de localStorage:
+
+					localStorage.clear(); 
+
+
+
+************************************************************
+
+Clase 35
