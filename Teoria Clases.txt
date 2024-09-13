@@ -1301,3 +1301,25 @@ Clase 35
 	Repaso addEventlistener (1:25 hs)
 
 		Le agrego un evento a ese elemento.
+
+	
+	Limpiar campos Formulario desde JS ( 1:29 hs )
+
+		1 forma -> Creo referencia al formulario por id desde js y luego uso la funcion predefinida reset()
+
+		2 forma -> Creo funcion en la que a cada input.value le asigne un string vacio.
+
+
+	Guardamos el aray de productos en el localStorage (1:31 hs)
+
+		localStorage.setItem("productos", JSON.stringify(misProductos));
+
+		JSON.stringify me vuelve a tipo texto el objeto	
+
+
+	
+	Creamos una funcion para cargar la tabla con los productos (1:45 hs)
+
+		
+
+		
