@@ -1285,3 +1285,19 @@ Clase 35
 
 
 	cargarProductos.js ( 25 min a )
+
+
+
+	Objeto Event - e (1:15 hs)
+
+
+
+	Funcion anonima y arrow (1:24 hs)
+
+		Las funciones anonimas y las arrow function se ejecutan automaticamente cuando le damos click al evento, NO LA INVOCAMOS PARA QUE SE EJECUTEN. SIEMPRE SE VAN A AUTOEJECUTAR CUANDO LO ESCRIBAMOS EN CUALQUIER PARTE, ya tienen una funcion de return por default asi que va a tirar el resultado cuando se ejecuten.
+
+
+
+	Repaso addEventlistener (1:25 hs)
+
+		Le agrego un evento a ese elemento.
