@@ -1346,5 +1346,5 @@ Clase 36
 	Agregarle clases a elementos desde JS (14:30 min)
 
 
-		
+	No puede agregar desde el boton de Listar Productos	
 
