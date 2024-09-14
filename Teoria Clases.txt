@@ -1310,6 +1310,21 @@ Clase 35
 		2 forma -> Creo funcion en la que a cada input.value le asigne un string vacio.
 
 
+
+Continuamos DOM Avanzado 
+
+	Nos metemos un poc mas en Administracion, manejo, gestion avanzada de JS:
+
+		Obtenemos datos desde el archito HTML
+
+		Creamos elementos
+
+		Insertar elementos
+
+		Darle estilos a los elementos
+
+			Agregarle una clase
+
 	Guardamos el aray de productos en el localStorage (1:31 hs)
 
 		localStorage.setItem("productos", JSON.stringify(misProductos));
@@ -1322,4 +1337,14 @@ Clase 35
 
 		
 
+
+************************************************************
+
+Clase 36
+
+
+	Agregarle clases a elementos desde JS (14:30 min)
+
+
 		
+
