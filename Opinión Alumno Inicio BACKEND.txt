@@ -1,0 +1,24 @@
+Opinión Alumno:
+
+A mi me pasa que desde SASS y el DOM fue como que me falta un bloque, empezó todo esto de levantar servidor, trabajar con el localStorage.
+
+
+********************************************************
+
+
+Pasar de Front a Backend cuesta mucho al principio.
+
+
+********************************************************
+
+Capaz habría que hacer TP's cada semana el primero sencillo como para poner en contexto y el segundo mas complejo.
+
+
+********************************************************
+
+Consultar si es posible crear un canal de audio exclusivo para consultas del Bootcamp
+
+
+********************************************************
+
+
