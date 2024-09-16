@@ -1,0 +1,25 @@
+Hola Facu, abrite powershell en modo administrador
+y correte este comando: Get-ExecutionPolicy
+y decinos que te devuelve
+Facundo Diaz Perdomo — 07/06/2024 6:04 PM
+restricted me dice
+Emanuel Some — 07/06/2024 6:06 PM
+oki
+correte este: Get-ExecutionPolicy -Scope CurrentUser
+te tiene que devolver Undefined
+Facundo Diaz Perdomo — 07/06/2024 6:06 PM
+si
+yo ya pude instalar nodemon y ver la version en la que esta, lo hice en la terminal de gitbash porque por powershell no me dejaba
+Emanuel Some — 07/06/2024 6:08 PM
+si si por eso, para que puedas en Powershell tenes que habilitar un temita de permisos de scripts 
+como este ultimo comando lo habilitas: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+te va a preguntar si hacer los cambios, le pones que si apretando la tecla "S" y luego enter
+y ya podrias tambien correr nodemon en PowerShell
+Facundo Diaz Perdomo — 07/06/2024 6:09 PM
+Image
+Emanuel Some — 07/06/2024 6:10 PM
+tenes que abrir PowerShell en modo Administrador 
+Image
+Una vez que lo abras como administrador te corres: 
+primero esta: Get-ExecutionPolicy -Scope CurrentUser 
+luego esta: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned

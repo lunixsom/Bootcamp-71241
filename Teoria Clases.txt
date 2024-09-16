@@ -1346,5 +1346,9 @@ Clase 36
 	Agregarle clases a elementos desde JS (14:30 min)
 
 
-	No puede agregar desde el boton de Listar Productos	
+	No puede agregar desde el boton de Listar Productos	(1:40 hs)
+
+		Solucion: 
+
+			Para no llamar a la funcion que imprime los productos (cargarTabla) en tabla en el evento del boton "Cargar" podemos pasarla al evento de Listar Productos y tenemos que tomar los datos desde el localStorage.
 
