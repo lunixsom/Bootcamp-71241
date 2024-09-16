@@ -1,0 +1,66 @@
+
+
+//console.log(personaje)
+
+let span = document.getElementsByTagName("span")[0]
+
+let botonPresentar = document.getElementById("presentar")
+
+botonPresentar.addEventListener("click", () => {
+
+    let personaje = prompt("¿Quién se presenta hoy? (Mario, Luigi, Bowser, Peach, Yoshi, Toad, Toadette, Daisy")
+
+    /* botonPresentar.style.display = "none" */
+
+
+
+    switch (personaje) {
+        case 'Mario':
+            let mario = document.getElementById("mario")
+            span.innerHTML = "Mario"
+            mario.title = "Presentado"
+            mario.style.transitionDelay = ""
+            break;
+        case 'Luigi':
+            span.innerHTML = "Luigi"
+            let luigi = document.getElementById("luigi")
+            luigi.title = "Presentado"
+            break;
+        case 'Bowser':
+            span.innerHTML = "Bowser Morton Koopa"
+            let bowser = document.getElementById("bowser")
+            bowser.title = "Presentado"
+            break;
+        case 'Peach':
+            span.innerHTML = "Princesa Peach Toadstool"
+            let peach = document.getElementById("peach")
+            peach.title = "Presentado"
+            break;
+        case 'Yoshi':
+            span.innerHTML = "T. Yoshisaur Munchakoopas"
+            let yoshi = document.getElementById("yoshi")
+            yoshi.title = "Presentado"
+            break;
+        case 'Toad':
+            span.innerHTML = "Toad"
+            let toad = document.getElementById("toad")
+            toad.title = "Presentado"
+            break;
+        case 'Toadette':
+            span.innerHTML = `<span style="color:red;">Toadette</span>`
+            let toadette = document.getElementById("toadette")
+            toadette.title = "Presentado"
+            break;
+        case 'Daisy':
+            //span.innerText = `<span style="color:pink;">Daisy</span>`
+            span.innerText = "Princesa Daisy"
+            let daisy = document.getElementById("daisy")
+            daisy.title = "Presentado"
+            break;
+        default:
+            span.innerHTML = "(desconocido)"
+            break;
+    }
+    
+    
+})
