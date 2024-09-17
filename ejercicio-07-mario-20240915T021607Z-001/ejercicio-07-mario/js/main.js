@@ -14,7 +14,23 @@ botonPresentar.addEventListener("click", () => {
 
     ocultarPersonajes()
 
-    switch (personaje) {
+    if (personaje == "Mario"){
+        span.innerHTML = "Mario"
+    }
+    else if (personaje == "Toad"){
+        span.innerHTML = "Toad Gomez"
+    }
+    else if (personaje == "Bowser"){
+        span.innerHTML = "Bowser Koopa Ramirez"
+    }
+    else if (personaje == "Daisy"){
+        span.innerHTML = "Daisy Barrionuevo"
+    } else {
+        span.innerText = "no se quien sos"
+    }
+
+
+/*     switch (personaje) {
         case 'Mario':
             //mario.title = "otra"
             
@@ -62,7 +78,7 @@ botonPresentar.addEventListener("click", () => {
         default:
             span.innerHTML = "(desconocido)"
             break;
-    }
+    } */
     
     
 
