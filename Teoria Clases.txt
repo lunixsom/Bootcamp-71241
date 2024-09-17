@@ -489,6 +489,8 @@ Que es NPM (49 min)
 
 Nodemon (56 min)
 
+	Como instalo Nodemon: npm install -g nodemon
+
 	Mantiene la ejecución del código abierta.
 
 	Corto Nodemon:

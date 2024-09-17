@@ -12,10 +12,12 @@ botonPresentar.addEventListener("click", () => {
 
     /* botonPresentar.style.display = "none" */
 
-
+    ocultarPersonajes()
 
     switch (personaje) {
         case 'Mario':
+            //mario.title = "otra"
+            
             let mario = document.getElementById("mario")
             span.innerHTML = "Mario"
             mario.title = "Presentado"
@@ -63,4 +65,27 @@ botonPresentar.addEventListener("click", () => {
     }
     
     
+
 })
+
+
+let personajes = document.querySelectorAll('#cajas > div'); //selecciona los hijos de cajas q son los div
+
+personajes.forEach(personaje => {
+    personaje.addEventListener('click', function() {
+        // Uso la misma función mostrarPersonajeCompleto pero con el id del personaje
+        console.log(personaje)
+        mostrarPersonajeCompleto(this.id);
+    });
+});
+
+
+function ocultarPersonajes() {
+    // Oculta todos los personajes (quitar el atributo "Presentado")
+    let personajes = document.querySelectorAll('div');
+    personajes.forEach(function(div) {
+        //div.removeAttribute('title');
+        div.title = "otra"
+    });
+}
+
