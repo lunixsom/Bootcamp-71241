@@ -13,8 +13,23 @@ botonPresentar.addEventListener("click", () => {
     /* botonPresentar.style.display = "none" */
 
 
+    if (personaje == "Mario"){
+        span.innerHTML = "Mario"
+    }
+    else if (personaje == "Toad"){
+        span.innerHTML = "Toad Gomez"
+    }
+    else if (personaje == "Bowser"){
+        span.innerHTML = "Bowser Koopa Ramirez"
+    }
+    else if (personaje == "Daisy"){
+        span.innerHTML = "Daisy Barrionuevo"
+    } else {
+        span.innerText = "no se quien sos"
+    }
 
-    switch (personaje) {
+
+/*     switch (personaje) {
         case 'Mario':
             let mario = document.getElementById("mario")
             span.innerHTML = "Mario"
@@ -60,7 +75,7 @@ botonPresentar.addEventListener("click", () => {
         default:
             span.innerHTML = "(desconocido)"
             break;
-    }
+    } */
     
     
 })

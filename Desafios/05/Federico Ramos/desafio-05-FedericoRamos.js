@@ -3,8 +3,8 @@
 var cantidadDeGatos = 10;
 var tipoGatos = ["😺", "😸", "😹"];
 
-for (var i = 1; i <= cantidadDeGatos; i++) {
-    let gatos = tipoGatos[(i - 1) % tipoGatos.length];
+for (var i = 0; i <= cantidadDeGatos; i++) {
+    let gatos = tipoGatos[(i) % tipoGatos.length];
     console.log(`Gatos #${i}: ${gatos}`);
 }
 console.log(`----------------------------------------------`);
