@@ -1,0 +1,89 @@
+h1 {
+    text-align: center;
+    font-size: 48px;
+    /*font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;*/
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    color: rgb(105, 133, 147);
+    background-color: white;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+body{
+    background-color: rgb(39, 50, 56);
+}
+
+p{
+    color: #C6D6E0;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    margin-bottom: 30px;
+}
+
+.aspiradoras {
+    color: #E6CBBF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-style: oblique;
+    font-size: 25px;
+}
+
+.celulares {
+    color: #A4C6CF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-style: oblique;
+    font-size: 25px;
+}
+
+.consolas {
+    color: #BCBEC0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-style: oblique;
+    font-size: 25px;
+}
+
+.homeTheaters {
+    color: #8E95A1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-style: oblique;
+    font-size: 25px;
+}
+
+.televisores {
+    color: #B2B2AA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-style: oblique;
+    font-size: 25px;
+}
+
+.fotoAspiradoras {
+    margin-left: 5%;
+    border-style: solid;
+    border-color: #EED2C5;
+}
+
+.fotoCelulares {
+    margin-left: 5%;
+    border-style: solid;
+    border-color: #A1C1CB;
+}
+
+.fotoConsolas {
+    margin-left: 5%;
+    border-style: solid;
+    border-color: #888C90;
+}
+
+.fotoHomeTheaters {
+    margin-left: 5%;
+    border-style: solid;
+    border-color: #8F96A3;
+}
+
+.fotoTelevisores {
+    margin-left: 5%;
+    border-style: solid;
+    border-color: #B5B4AC;
+}

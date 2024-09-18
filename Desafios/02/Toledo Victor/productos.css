@@ -1,0 +1,51 @@
+.tituloProductos{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(105, 133, 147);
+}
+
+.backgroundBody{
+    background: rgb(39, 50, 56) ;
+}
+
+p{
+    color: white;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+h2{
+    color: rgb(231, 203, 190);
+    font-variant: small-caps;
+    font-family:Impact, Charcoal, sans-serif;
+    font-size: 50px;
+    
+}
+
+.imagenAspiradora{
+    border: solid 5px rgb(161, 193, 203);
+    margin-left: 50px;
+}
+
+.imagenCelulares{
+    border: solid 5px rgb(161, 193, 203);
+    margin-left: 50px;
+}
+
+.imagenConsola{
+    border: solid 5px rgb(161, 193, 203);
+    margin-left: 50px;
+}
+
+.imagenHome{
+    border: solid 5px rgb(161, 193, 203);
+    margin-left: 50px;
+}
+
+.imagenTV{
+    border: solid 5px rgb(161, 193, 203);
+    margin-left: 50px;
+}
