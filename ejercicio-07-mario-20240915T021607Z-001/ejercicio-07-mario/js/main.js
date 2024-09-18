@@ -101,16 +101,17 @@ let personajes = document.querySelectorAll('#cajas > div'); //selecciona los hij
 }); */
 
 for (let i = 0; i < personajes.length; i++) {
-    personajes[i].title = "null"
+    
 
     personajes[i].addEventListener("click", () =>{
         console.log(personajes[i].id)
 
-        if (personajes[i].title == "Presentado"){
-            ocultaSoloUno(personajes[i].id)
-        } else {
+        if (personajes[i].title == ""){
+            ocultarPersonajes()
             personajes[i].title = "Presentado"
-            //ocultaLosOtros
+        } else {
+            personajes[i].title = ""
+           
         }    
     })
 }
