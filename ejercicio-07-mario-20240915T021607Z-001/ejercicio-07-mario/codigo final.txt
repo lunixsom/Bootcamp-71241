@@ -1,7 +1,3 @@
-
-
-//console.log(personaje)
-
 let span = document.getElementsByTagName("span")[0]
 
 let botonPresentar = document.getElementById("presentar")
@@ -98,24 +94,3 @@ function ocultarTodos(){
         span.innerText = ""   
     }
 }
-
-
-
-/* personajes.forEach(personaje => {
-    personaje.addEventListener('click', function() {
-        // Uso la misma función mostrarPersonajeCompleto pero con el id del personaje
-        console.log(personaje)
-        mostrarPersonajeCompleto(this.id);
-    });
-});
-
-
-function ocultarPersonajes() {
-    // Oculta todos los personajes (quitar el atributo "Presentado")
-    let personajes = document.querySelectorAll('div');
-    personajes.forEach(function(div) {
-        //div.removeAttribute('title');
-        div.title = "otra"
-    });
-} */
-

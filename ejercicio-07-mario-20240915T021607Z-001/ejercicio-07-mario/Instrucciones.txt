@@ -35,3 +35,22 @@ BONUS:
 
 
 2) Programar cada recuadro para que al ser presioniado se muestre u oculte el personaje que hay allí, de manera alternada. Es decir, que al iniciar la página, estando todos los personajes ocultos, se debería poder presionar cualquier recuadro y dicho recuadro debería presentar al personaje correspondiente. Al presionarlo de nuevo, deberá volver a ocultarse. Se podrá hacer click en otro recuadro, para presionar a otro personaje, pero siempre ocultando al último visible. El botón definido en puntos anteriores, que utiliza el prompt, debe seguir funcionando.
+
+    let personajesDiv = document.querySelectorAll('#cajas > div'); //selecciona los hijos de cajas q son los div
+
+    for (let i = 0; i < personajesDiv.length; i++) {
+        personajesDiv[i].addEventListener("click", function(){
+            if(personajesDiv[i].title==""){
+                ocultarTodos()
+                personajesDiv[i].title = "Presentado"    
+            } else{
+                personajesDiv[i].title = ""
+            }   
+        });    
+    }
+
+    function ocultarTodos(){
+        for (let i = 0; i < personajesDiv.length; i++) {
+            personajesDiv[i].title = ""   
+        }
+    }
