@@ -1354,3 +1354,27 @@ Clase 36
 
 			Para no llamar a la funcion que imprime los productos (cargarTabla) en tabla en el evento del boton "Cargar" podemos pasarla al evento de Listar Productos y tenemos que tomar los datos desde el localStorage.
 
+
+************************************************************
+
+Clase 37
+
+	Otra estrategia con button type submit (7 min)
+
+		Creamos un nueov button con type submit y le ponemos un id al formulario.
+		Capturamos le formulario en JS:
+
+			let formulario = document.getElementById("miForm")
+
+			formulario.addEventlistener('submit', (e) => {})
+
+		En el HTML tengo que tener el boton con type submit:
+
+			<button type="submit"> Otro Login <button>
+
+		El submit sirve para envio de datos. (LO VAMOS A UTILIZAR EN BACKEND)
+
+		En el ejercicio anterior le pusimos al boton con evento click para que haga lo que queriamos, PERO SI QUIERO ENVIAR DATOS DESDE EL FORMULARIO AL BACKEND LUEGO VOY A TENER QUE UTILIZAR SUBMIT. El evento lo tiene el formulario, osea que cuando envie los datos efectue la accion.
+
+
+		
