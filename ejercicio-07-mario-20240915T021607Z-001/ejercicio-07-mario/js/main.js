@@ -7,14 +7,17 @@ let span = document.getElementsByTagName("span")[0]
 let botonPresentar = document.getElementById("presentar")
 
 botonPresentar.addEventListener("click", () => {
+    let personajes = ["Mario","Luigi","Bowser","Peach","Yoshi","Toad","Toadette","Daisy"]
 
     let personaje = prompt("¿Quién se presenta hoy? (Mario, Luigi, Bowser, Peach, Yoshi, Toad, Toadette, Daisy")
 
     /* botonPresentar.style.display = "none" */
 
-    ocultarPersonajes()
+    if (personajes.includes(personaje)){
+        ocultarPersonajes()
+    }
 
-    if (personaje == "Mario"){
+/*     if (personaje == "Mario"){
         span.innerHTML = "Mario"
     }
     else if (personaje == "Toad"){
@@ -27,13 +30,11 @@ botonPresentar.addEventListener("click", () => {
         span.innerHTML = "Daisy Barrionuevo"
     } else {
         span.innerText = "no se quien sos"
-    }
+    } */
 
 
-/*     switch (personaje) {
-        case 'Mario':
-            //mario.title = "otra"
-            
+    switch (personaje) {
+        case 'Mario':            
             let mario = document.getElementById("mario")
             span.innerHTML = "Mario"
             mario.title = "Presentado"
@@ -78,7 +79,7 @@ botonPresentar.addEventListener("click", () => {
         default:
             span.innerHTML = "(desconocido)"
             break;
-    } */
+    }
     
     
 
@@ -87,21 +88,54 @@ botonPresentar.addEventListener("click", () => {
 
 let personajes = document.querySelectorAll('#cajas > div'); //selecciona los hijos de cajas q son los div
 
-personajes.forEach(personaje => {
+/* personajes.forEach(function(personaje) {
     personaje.addEventListener('click', function() {
-        // Uso la misma función mostrarPersonajeCompleto pero con el id del personaje
+        
         console.log(personaje)
-        mostrarPersonajeCompleto(this.id);
+        if (personaje.title == "Presentado"){
+            ocultarPersonajes()
+        } else {
+            personaje.title = "Presentado"
+        }
     });
-});
+}); */
 
+for (let i = 0; i < personajes.length; i++) {
+    personajes[i].title = "null"
 
-function ocultarPersonajes() {
-    // Oculta todos los personajes (quitar el atributo "Presentado")
+    personajes[i].addEventListener("click", () =>{
+        console.log(personajes[i].id)
+
+        if (personajes[i].title == "Presentado"){
+            ocultaSoloUno(personajes[i].id)
+        } else {
+            personajes[i].title = "Presentado"
+            //ocultaLosOtros
+        }    
+    })
+}
+
+function ocultaSoloUno(id){
+    let personaje = document.getElementById(id)
+    personaje.title = "jeje"
+}
+
+ function ocultaLosOtros(id) {
+    console.log(personajesSinPresentar = document.querySelectorAll('title="null"'))   
+}
+console.log(personajesSinPresentar = document.querySelectorAll(title = "null"))
+
+/* function ocultarPersonajes() {
     let personajes = document.querySelectorAll('div');
     personajes.forEach(function(div) {
-        //div.removeAttribute('title');
         div.title = "otra"
     });
 }
+ */
 
+function ocultarPersonajes() {
+    let personajes = document.querySelectorAll('div');
+    for (let i = 0; i < personajes.length; i++) {
+        personajes[i].title = "otra"   
+    }
+}
