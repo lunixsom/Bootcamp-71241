@@ -16,7 +16,6 @@ document.getElementById('btn-presentar').addEventListener('click', function() {
 const personajes = document.querySelectorAll('#cajas > div'); //selecciona los hijos de cajas q son los div
 personajes.forEach(personaje => {
     personaje.addEventListener('click', function() {
-        /* ocultarPersonajes() */
         if(!(personaje.title)){
             mostrarPersonaje(personaje.id);
         } else{

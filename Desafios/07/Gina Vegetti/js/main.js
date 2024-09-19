@@ -52,6 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.querySelectorAll('#cajas > div').forEach(div => {
                 div.removeAttribute('title');
             });
+            
             personajeDiv.setAttribute('title', 'Presentado');
         }
     });

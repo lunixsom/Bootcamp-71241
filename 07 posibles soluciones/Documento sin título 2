@@ -1,0 +1,33 @@
+Gina Vegetti:
+
+presentar y ocultar con PROMPT
+
+        const personajeDiv = document.getElementById(personajeKey);
+        if (personajeDiv) {
+            document.querySelectorAll('#cajas > div').forEach(div => {
+                div.removeAttribute('title');
+            });
+            
+            personajeDiv.setAttribute('title', 'Presentado');
+        }
+
+
+presentar y ocultar div's
+
+	    document.querySelectorAll('#cajas > div').forEach(div => {
+        div.addEventListener('click', function () {
+            const estaVisible = this.getAttribute('title') === 'Presentado';
+            document.querySelectorAll('#cajas > div').forEach(div => {
+                div.removeAttribute('title');
+            });
+            if (!estaVisible) {
+                this.setAttribute('title', 'Presentado');
+            }
+        });
+    });
+
+    
+************************************************************************************************
+
+    
+    
