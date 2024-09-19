@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afiliación</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!-- <link rel="stylesheet" href="RetroFacu.css"> -->
+    <!-- <link rel="stylesheet" href="UrbanoAle.css"> -->
+     <script type="text/javascript" src="retro.js"></script>
+    </head>
+<body class="body">
+    <header class="head">
+         <h1 class="titulo">Vení al Gym! 💪🏼</h1>
+    </header>
+    <br>
+<main>
+<form class="formulario">
+        <fieldset class="field1">
+            <legend class="titulo2">🙋🏻‍♂️ Datos Personales 👀</legend>
+            <div class="lab">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required><br><br>
+
+            <label for="documento">Documento:</label>
+            <input type="number" id="documento" name="docuemnto" required><br><br>
+
+            <label for="nacionalidad">Nacionalidad:</label>
+            <select name="nacionalidad" id="nacionalidad">
+                <option value="">Seleccionar</option>
+                <option value="uruguay">Uruguay</option>
+                <option value="argentina">Argentina</option>
+                <option value="paraguay">Paraguay</option>
+                <option value="chile">Chile</option>
+            </select> <br><br>
+            <label for="info">Contanos un poco de vos...</label>
+            <textarea name="info" id="info"></textarea> <br><br>
+            <p>Sexo:*</p>
+            <div class="genero">
+            <label><input type="radio" name="Sexo" value="femenino">
+                Femenino
+                <span></span>
+            </label>
+            <label><input type="radio" name="Sexo" value="masculino">
+                Masculino
+                <span></span>
+            </label>
+            <label><input type="radio" name="Sexo" value="otro">Otro</label>
+            </div>
+        </div>
+        </fieldset>
+        <br>
+        <hr class="hr">
+        <fieldset class="field2">
+            <legend class="titulo2">📱 Datos de contacto 📩</legend>
+            <div class="lab">
+            <label for="telefono">Teléfono:*</label>
+            <input type="number" placeholder="Código de área y número" id="telefono" name="telefono" required><br><br>
+            <label for="email">Dirección de correo electrónico:*</label>
+            <input type="email" placeholder="Ej: mail@gmail.com" id="email" name="email" required>
+        </div>
+        </fieldset>
+        <br>
+        <hr class="hr">
+        <fieldset class="field3">
+            <legend class="titulo2">🚴🏻‍♂️ Actividades 🤸🏻</legend>
+            <p>Por favor, indica cuales actividades te interesan.</p>
+            <p>Sede Palermo:</p>
+            <div class="palermo">
+            <label><input type="checkbox" name="actividad" value="basquet">Básquet</label>
+            <label><input type="checkbox" name="actividad" value="boxeo">Boxeo</label>
+            <label><input type="checkbox" name="actividad" value="futbol">Fútbol</label>
+            <label><input type="checkbox" name="actividad" value="tenis">Tenis</label>
+            </div>
+            <p>Sede Rosario:</p>
+            <div class="rosario">
+            <label><input type="checkbox" name="actividad" value="basquet">Básquet</label>
+            <label><input type="checkbox" name="actividad" value="futbol">Fútbol</label>
+            <label><input type="checkbox" name="actividad" value="rugby">Rugby</label>
+            <label><input type="checkbox" name="actividad" value="voley">Voley</label>
+            </div>
+        </fieldset>
+        <div class="ultiImput">
+        <label><input type="checkbox" name="confirmado" value="confirmado">Acepto las condiciones*</label>
+        <label><input type="checkbox" name="confirmado" value="confirmado">Deseo recibir novedades</label><br>
+        <p>*: campo obligatorio.</p>
+        </div>
+       <div class="boton1">
+        <button class="boton">Iniciar Afiliacion</button>
+        <button class="boton">Reestablecer</button>
+        </div>
+        <div class="recordar">
+            <input type="button" id="viewAlert" value="Recordar">
+        </div>
+     </form>
+</main>
+    
+
+</body>
+
+</html>

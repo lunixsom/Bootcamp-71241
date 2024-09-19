@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(/fonts/Poppins/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(/fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: 'RobotoChica';
+    src: url(/fonts/Roboto/Roboto-Regular.ttf);
+}
+* {
+    font-family: sans-serif;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2023;
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    border-top: outset 20px #4D6D63;
+    border-bottom: inset 20px #4D6D63;
+    border-left: outset 20px  transparent;
+    border-right: outset 20px transparent;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    color: white;
+    margin: 0;
+}
+.titulos1, .titulos2, .titulos3 {
+    font-variant: small-caps;
+    border: solid 2px #4D6D63;
+    border-radius: 5px;
+    background-color: #4D6D63;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: -3%;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position:relative;
+    
+}
+.titulos3 {
+    width: 15%;
+}
+.terminos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    color: white;
+
+}
+
+.terminos label {
+    display: flex;
+    align-items: center; /* Alinea el checkbox y el texto verticalmente al centro */
+
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    
+}
+
+button {
+    font-family: 'RobotoChica', sans-serif;
+    background-color: #2B3D37;
+    color: #A5C0B0;
+    padding: 10px 20px;
+    border: solid 0.5px #354B44;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+
+.datosPersonales, .datosContacto, .actividades {
+    color: #343F50;
+    text-align: center;
+    border: solid 1px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 50px;
+    background-color: #D6E2DE;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.separador {
+    border-top: dotted 12px;
+    color: #A6C1B9;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+input {
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+    border: solid #A6C1B9 1.5px;
+    text-align: end;
+}
+.texto {
+    height: 100px;
+}
+.datosContacto:hover, .datosPersonales:hover, .actividades:hover {
+    background-color: #A6C1B9;
+}
+input:hover {
+    background-color: #4D6D63;
+    color: white;
+}
+.checkbox-container label {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-right: 20px; 
+    
+}
+.sexo-container label {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-right: 20px; 
+    
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+        border-top-width: 10px;
+        border-bottom-width: 10px;
+    }
+    
+    .titulos1, .titulos2, .titulos3 {
+        width: 27%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .titulos3 {
+        width: 20%;
+    }
+    
+    .datosPersonales, .datosContacto, .actividades {
+        width: 60%;
+    }
+    
+    .separador {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    
+    input {
+        width: 100%;
+    }
+}

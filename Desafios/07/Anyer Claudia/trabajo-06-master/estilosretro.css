@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=New+Amsterdam&display=swap');
+
+
+* { margin: 0;
+
+    padding: 0 ;
+   box-sizing: border-box;
+
+    }
+    
+
+  
+    body { margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+       background-color: #a2a2a2;
+      display: block;
+      justify-content: center;}
+       
+       
+    
+  
+    h1{color: black;
+      text-align: center;
+       margin: 40px 50px; 
+      border: solid ; 
+ 
+      font-family:"Jersey 10", sans-serif ;
+      box-shadow: 3px 3px black, 5px 5px white;
+    display: block;
+;}
+
+
+  
+  form{width: 100%;
+    text-align: center; se pueden centrar label, input, texto ,botones, elementos de linea 
+    margin: px  auto; 
+   
+            
+  }
+
+
+   legend{background-color: #485069;
+    color: white;
+   border-radius: 5px; 
+  padding: 10px;}
+      
+   fieldset{  background-image: linear-gradient(45deg, rgb(122, 33, 33),rgb(82, 82, 201) )  }
+  
+    [type="text"],[type="number"],[type="email"],textarea,select
+    
+    { display:block;
+  margin: 12px auto;
+  width: 700px;
+  height: 20px;
+  } 
+  
+  input{border-style: dashed;}
+.datospersonales{}
+  
+  .datospersonales, .contacto, .actividades, .checkbox {
+    
+display:inline-block;
+padding: 20px 20px;
+border: 6px solid black;
+font-size: 20px;
+font-family:"Jersey 10", sans-serif ;
+box-shadow: px px black, 10px 10px white;
+padding-right: 5%;
+user-select: none;
+cursor: pointer;
+
+}
+ .datospersonales, .contacto, .actividades, .checkbox :active {box-shadow: 5px 5px 10px white;
+transform: translateX(5px) 
+ translateY(2px);}
+     
+  
+  .actividades p{margin-top:20px ; margin-bottom: 20px;
+    }
+  legend{text-align: left;}
+  
+  
+  .actividades [type="checkbox"]{text-align: left;}
+  
+  
+  .terminos{text-align: left;}
+  
+  
+  .contacto{border: solid; 
+      color: black;}
+  
+  .terminos div {  
+  margin-bottom: 20px;
+  font-size: 20px ;font-family:"Jersey 10", sans-serif ;
+}
+   
+  
+  
+  
+  button{display:inline-block;font-size: 20px ;
+ 
+     font-family:"Jersey 10", sans-serif ; 
+     border-bottom: 10px;  
+ 
+  }
+  
+    
+  .datos2{
+    margin-bottom: 100% auto;font-family:"Jersey 10", sans-serif ;
+  } 

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+body{
+    background:url('./img/Bg.jpg') no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titulo{
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(211, 28, 132);
+    font-size: 45px;
+    text-align: center;
+    margin-left: 50px;
+    animation: animateBg 5s linear infinite;
+}
+@keyframes animateBg{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.field1{
+    position: relative;  
+    width: 500px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+}
+.titulo2{
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 10px;
+    color: white;
+}
+.lab{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    background: url(./img/Bg.jpg);
+    color: rgb(247, 179, 42);
+    animation: animateBg 3s  infinite;
+}
+textarea{
+    background: url(./img/Bg.jpg);
+    color: rgb(247, 179, 42); 
+    animation: animateBg 3s  infinite;
+}
+select{ background: url(./img/Bg.jpg);
+    color: rgb(247, 179, 42);
+    animation: animateBg 3s  infinite;
+}
+
+
+.field2{
+    position: relative;  
+    width: 500px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+}
+
+.field3{
+    position: relative;  
+    width: 500px;
+    height: 200px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    color: white;
+}
+
+.ultiImput{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background: url(./img/OIP\ \(5\).jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.boton1{
+    text-align: center;
+   margin-top: 10px;
+   margin-right: 20px;
+}
+.boton {
+    background-color: #000000;
+    font-size: 16px;
+    padding: 8px 10px;
+    color:  #ff0022;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+  }

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Pacifico&display=swap'); 
+
+
+body {background-color: #e8e2d6;
+color: #fdbf5c;
+font-family: "Chicle", serif;
+font-weight: 400;
+font-style: normal;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+header {font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.3em;
+    background-color: #427cac;
+    color: #fdbf5c;
+    border: double 15px #fdbf5c;
+    border-radius: 30px;
+    padding: 0%;
+    margin-bottom: 20px;
+    width: 50%;
+    text-align: center;}
+
+.contenedores {display: flex;
+flex-direction: column;
+align-items: left;
+padding: 10vh 10vw;
+margin-bottom: 20px;
+border: solid 20px #06486e ;
+border-radius: 30px;
+font-size: 1.6em;}
+
+.titulo-contenedor{
+    background-color: #06486e;
+    color: #e8e2d6;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;}
+
+.primer {background-image: url(../../img/pesas1.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 30px;}
+
+.datos{margin: 20px 0;}
+
+.segund{background-image: url(../../img/pesas2.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 30px;}
+
+.tercer{background-image: url(../../img/pesas3.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 30px;}
+
+.textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #06486e;
+}
+
+.textarea:focus {border: solid 5px #427cac;
+background-color: #f5f0ea;}
+
+hr{
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent; 
+    border-bottom: 5px solid #427cac;
+    width: 50%;
+    margin-bottom: 20px;
+} 
+
+button{background-color:#427cac ;
+color: #06486e;
+border: solid #fdbf5c;
+border-radius: 20px;
+padding: 10px 20px;
+margin: 10px 10px;
+cursor: pointer;
+font-size: 20px;
+}
+
+.button{display: flex;
+    justify-content: space-evenly;}

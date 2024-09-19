@@ -1,0 +1,78 @@
+:root {
+    --gris-oscuro: #3e4349;
+    --azul-neon: #506172;
+    --verde-neon: #00ff84;
+    --blanco-futuro: #f8f8f8;
+    --gris-futuro: #282828;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--gris-oscuro);
+    color: var(--blanco-futuro);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../assets/img/esquema-futurista-moderno.avif);
+    color: var(--blanco-futuro);
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 5px solid var(--verde-neon); 
+}
+
+main {
+    padding: 20px;
+    background-color: var(--gris-futuro);
+    border-radius: 15px; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5); 
+}
+
+h1, h2 {
+    color: var(--blanco-futuro);
+    text-shadow: 2px 2px 10px var(--verde-neon);
+    border-bottom: 3px solid var(--verde-neon); 
+    padding-bottom: 10px;
+    margin-bottom: 20px; 
+}
+
+form {
+    background-color: var(--gris-futuro);
+    padding: 20px;
+    border-radius: 20px; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.7); 
+    max-width: 400px;
+    margin: 20px auto;
+    border: 2px solid var(--verde-neon); 
+}
+
+input, textarea {
+    border: 2px solid var(--verde-neon);
+    background-color: var(--gris-oscuro);
+    color: var(--blanco-futuro);
+    padding: 10px;
+    border-radius: 10px; 
+    margin-bottom: 25px; 
+}
+
+button {
+    background-color: var(--verde-neon);
+    color: var(--gris-oscuro);
+    border: none;
+    padding: 10px 20px;
+    margin: 30px;
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 255, 132, 0.8); 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+button:hover {
+    background-color: var(--azul-neon); 
+    box-shadow: 0 0 30px rgba(0, 255, 132, 1); 
+}
+
+
+

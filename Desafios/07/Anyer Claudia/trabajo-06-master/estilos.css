@@ -1,0 +1,104 @@
+
+* { margin: 0;
+
+  padding: 0 ;
+ font-family:Arial, Helvetica, sans-serif;
+ box-sizing: border-box;
+ text-decoration: none;
+  }
+
+
+  h1{color: white;
+    text-align: center;/* se usa para centrar elementos de linea como el contenido del h1 imagenes label */
+    margin: 40px 50px;
+    border: solid 5px #39695D;
+    border-left: solid 14px transparent;
+    border-right: solid 14px transparent;
+    width: 30%;
+    margin: 10px  auto; /*  respecto al padre contendor en este caso body */
+    
+  }
+
+  body{
+    background-color: #2c2d31;
+     
+  } 
+
+
+form{width: 40%;
+  text-align: center;/* se pueden centrar label, input, texto ,botones, elementos de linea */
+  margin: 0 auto;            
+}
+
+fieldset{background-color: #9EC2BA;
+  margin-bottom: 20px;}
+
+  legend{background-color: #39695D;
+  color: white;
+border-radius: 5px;
+padding: 10px;}
+  
+
+
+  [type="text"],[type="number"],[type="email"],textarea,select
+  
+  { display:block;
+margin: 12px auto;
+width: 300px;
+height: 20px;
+}              /* es para centrar elementos de bloque */
+textarea{height: 100px;}
+
+
+
+  hr{
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    margin: 50px auto;/* elemento de bloque para centrarlo se debe achicar con respecto al conytenedor padre con auto se auto centra ejemplo si sobran 300px pone 150 de c/lado */
+    border-bottom: 12px dotted #9EC2BA;
+    width: 44%;
+}
+
+
+
+.datospersonales, .contacto, .actividades, .checkbox {border: solid; 
+color: black;
+padding: 20px 10px}
+
+.actividades   {
+  text-align: left;}
+
+.actividades p{margin-top:20px ; margin-bottom: 20px;
+  }
+legend{text-align: left;}
+
+
+.actividades [type="checkbox"]{text-align: left;}
+
+
+.terminos{text-align: left;}
+
+
+.contacto{border: solid; 
+    color: black;}
+
+.terminos div { 
+margin-bottom: 12px;}
+
+
+
+
+button{
+  justify-content: space-around;    
+}
+
+.act{
+  margin: 90 auto;
+}
+
+  
+
+.datos2{
+  margin-bottom: 60% auto;
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+     background-color: rgb(20, 20, 20);
+    text-align: center;
+    color:rgb(73, 57, 57);
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+ }
+
+h1{
+ font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    padding: 10px;
+    margin: 20px auto; 
+    width: 50%; 
+    border-top: 14px solid rgb(45, 99, 58);
+    border-bottom: 14px solid rgb(45, 99, 58);
+    border-left: 14px solid  rgb(20, 20, 20) ;
+    border-right: 14px solid  rgb(20, 20, 20); 
+    border-top-style:solid ;
+}
+
+hr{
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: 15px dotted #A9C4B7;
+    width: 14%;
+    padding-top:  2px;
+    padding-bottom: 5px;
+}
+.caja {
+    background-color: #A9C4B7;
+    color: rgb(13, 14, 13);
+    font-weight: bold;
+    padding: 20px;
+    width: 400px;
+    margin: 2% auto; 
+    }
+
+footer{
+    text-align: left; 
+    margin: 0 auto; 
+    width: fit-content; 
+}
+
+
+
+.footer label {
+    font-size: 14px;
+    color: #cec3c3;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+input[type="text"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #2D2D2D;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+fieldset {
+    border: none; 
+    padding: 20px;
+    background-color: #A9C4B7; 
+    border-radius: 10px; 
+    margin-bottom: 20px;
+    position: relative; 
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(45, 99, 58);; 
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    position: absolute;
+    top: -30px; 
+    left: -10px; 
+}
