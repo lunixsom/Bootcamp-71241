@@ -1,170 +1,143 @@
-@font-face {
-    font-family: 'Poppins';
-    src: url(/fonts/Poppins/Poppins-Black.ttf);
-}
-@font-face {
-    font-family: 'Roboto';
-    src: url(/fonts/Roboto/Roboto-Black.ttf);
-}
-@font-face {
-    font-family: 'RobotoChica';
-    src: url(/fonts/Roboto/Roboto-Regular.ttf);
-}
 * {
-    font-family: sans-serif;
-}
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #1F2023;
     margin: 0;
     padding: 0;
 }
-header {
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: center;
-    border-top: outset 20px #4D6D63;
-    border-bottom: inset 20px #4D6D63;
-    border-left: outset 20px  transparent;
-    border-right: outset 20px transparent;
-    text-align: center;
-    padding: 20px;
+
+html {
+    height: 100%;
+    background-color: #000;
 }
+
+body {
+    padding-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    background: #0a0a0a;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(15,15,15,1) 100%);
+    height: 100%;
+}
+
 h1 {
-    color: white;
-    margin: 0;
-}
-.titulos1, .titulos2, .titulos3 {
-    font-variant: small-caps;
-    border: solid 2px #4D6D63;
-    border-radius: 5px;
-    background-color: #4D6D63;
-    color: white;
-    margin-top: 2%;
-    margin-bottom: -3%;
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
+    color: #fff;
     text-align: center;
-    position:relative;
-    
+    text-shadow: 0 0 7px hsla(0, 50%, 50%, 1);
+    margin-bottom: 20px;
 }
-.titulos3 {
-    width: 15%;
+
+h1 > strong {
+    font-style: italic;
 }
-.terminos {
+
+#cajas {
+    width: 80%;
+    margin: 20px auto 0;
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Centra horizontalmente */
-    text-align: center; /* Centra el texto dentro del contenedor */
-    color: white;
-
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
-.terminos label {
-    display: flex;
-    align-items: center; /* Alinea el checkbox y el texto verticalmente al centro */
-
+#cajas > div {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #000;
+    transition: background-position .9s linear 2s, border-bottom-color 1.2s, background-color .5s;
+    transition-delay: .4s;
+    background-color: #000;
+    background-position: -180px -40px;
+    background-repeat: no-repeat;
 }
 
-.botones {
+#cajas > div[title="Presentado"] {
+    background-position: 20px 20px;
+    background-color: #fff;
+    border-bottom-color: #fff;
+}
+
+#cajas > div:after {
+    transition: background-position .8s cubic-bezier(0.18, 0.89, 0.32, 1.28) .7s, box-shadow .2s linear .7s;
+    content: "";
+    width: 200px;
+    height: 200px;
+    background: url('../img/cortina.png') -100px -2px no-repeat;
+    position: absolute;
+}
+
+#cajas > div[title="Presentado"]:after {
+    background-position: 100px -2px;
+    box-shadow: -19px 20px 36px 5px hsla(0, 100%, 100%, .5);
+}
+
+#cajas > div:not([title="Presentado"]):hover:after {
+    transition: background-position 1s;
+    transition-delay: 0s;
+    background-position: -80px -2px;
+}
+
+#mario {
+    background: url('../img/mario.png');
+}
+
+#luigi {
+    background: url('../img/luigi.png');
+}
+
+#bowser {
+    background: url('../img/bowser.png');
+}
+
+#peach {
+    background: url('../img/peach.png');
+}
+
+#yoshi {
+    background: url('../img/yoshi.png');
+}
+
+#toad {
+    background: url('../img/toad.png');
+}
+
+#toadette {
+    background: url('../img/toadette.jpg');
+}
+
+#daisy {
+    background: url('..img/daisy.png');
+}
+
+
+
+/* Botón "Presentar" */
+.boton {
     display: flex;
     justify-content: center;
-    
-}
-
-button {
-    font-family: 'RobotoChica', sans-serif;
-    background-color: #2B3D37;
-    color: #A5C0B0;
+    align-items: center;
+    margin: auto;
+    width: 40%;
     padding: 10px 20px;
-    border: solid 0.5px #354B44;
-    border-radius: 5px;
-    cursor: pointer;
-    width: auto;
-    transition: background-color 0.3s;
-    margin: 10px;
-}
-
-
-.datosPersonales, .datosContacto, .actividades {
-    color: #343F50;
+    background-color: #000; /* Color negro */
+    color: #fff; /* Texto blanco */
+    border: 2px solid #FF0000; /* Borde rojo */
+    border-radius: 8px; /* Bordes redondeados */
+    font-size: 18px;
     text-align: center;
-    border: solid 1px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    padding: 50px;
-    background-color: #D6E2DE;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.separador {
-    border-top: dotted 12px;
-    color: #A6C1B9;
-    width: 20%;
-    margin-left: 40%;
-    margin-right: 40%;
-}
-input {
-    border-radius: 5px;
-    width: 80%;
-    max-width: 300px;
-    border: solid #A6C1B9 1.5px;
-    text-align: end;
-}
-.texto {
-    height: 100px;
-}
-.datosContacto:hover, .datosPersonales:hover, .actividades:hover {
-    background-color: #A6C1B9;
-}
-input:hover {
-    background-color: #4D6D63;
-    color: white;
-}
-.checkbox-container label {
-    display: inline-flex;
-    margin-top: 10px;
-    margin-right: 20px; 
-    
-}
-.sexo-container label {
-    display: inline-flex;
-    margin-top: 10px;
-    margin-right: 20px; 
-    
+    text-transform:uppercase;
+    text-shadow: 0 0 7px hsla(0, 50%, 50%, 1);
+    cursor: pointer; /* Cursor de mano cuando se pasa el ratón */
+    transition: all 0.3s ease; /* Transiciones suaves para hover y active */
+    box-shadow: 0 0 7px hsla(0, 50%, 50%, 1); 
 }
 
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        padding: 10px;
-        border-top-width: 10px;
-        border-bottom-width: 10px;
-    }
-    
-    .titulos1, .titulos2, .titulos3 {
-        width: 27%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .titulos3 {
-        width: 20%;
-    }
-    
-    .datosPersonales, .datosContacto, .actividades {
-        width: 60%;
-    }
-    
-    .separador {
-        width: 50%;
-        margin-left: 25%;
-        margin-right: 25%;
-    }
-    
-    input {
-        width: 100%;
-    }
+/* Efecto al pasar el cursor por encima */
+.boton:hover {
+    background-color: #FF4500; 
+    border-color: #FF4500;
 }
+
+/* Efecto al presionar (simula hundirse) */
+.boton:active {
+    background-color: #420505; /* Color más claro al presionar */
+    transform: translateY(3px); /* Desplaza ligeramente hacia abajo */
+}
+

@@ -1,155 +1,132 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #1F2023;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+* {
     margin: 0;
-    flex-direction: column; 
+    padding: 0;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 20px 60px; 
-    border-top: 16px solid #4D6D63; 
-    border-bottom: 16px solid #4D6D63; 
-    clip-path: polygon(0% 0%, 10% 50%, 0% 100%, 100% 100%, 90% 50%, 100% 0%); 
-    background-color: #1F2023;
-    box-sizing: border-box; 
-    width: 750px;
+html {
+    height: 100%;
+    background-color: #000;
+}
+
+body {
+    padding-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    background: #0a0a0a;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(15,15,15,1) 100%);
+    height: 100%;
 }
 
 h1 {
-    color: #ffffff;
-    font-size: 55px; 
-    font-weight: bold;
-    margin: 0; 
+    color: #fff;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    text-shadow: 0 0 7px hsla(0, 50%, 50%, 1);
 }
 
-form {
-    background-color: #1F2023;
-    padding: 20px;
-    width: 750px;
-    margin: 0 auto; 
+h1 > strong {
+    font-style: italic;
 }
 
-fieldset {
-    background-color: #D6E2DE;
-    border: 1px solid #f2f2f2;
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    position: relative; 
-    text-align: center; 
-}
-
-legend {
-    background-color: #4D6D63;
-    color: #ffffff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-weight: bold;
-    text-align: start; 
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #000000; 
-}
-
-input[type="text"],
-input[type="email"],
-textarea,
-select {
-    display: block;
-    width: 90%; 
-    max-width: 400px;
-    margin: 10px auto; 
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    transition: background-color 0.3s ease, border-color 0.3s ease; 
-}
-
-
-input[type="text"]:hover,
-input[type="email"]:hover,
-textarea:hover,
-select:hover {
-    background-color: #47655C; 
-    border-color: #a0a0a0;
-}
-
-input[type="radio"],
-input[type="checkbox"] {
-    margin-right: 5px;
-}
-
-.boton {
-    display: flex;
-    justify-content: space-around; 
-    gap: 10px; 
-}
-
-button {
-    margin: 15px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #2B3D37;
-    color: #94BCAC;
-    font-size: 16px;
+#botonPresentar {
+    background-color: #fff;
+    color: #000;
+    font-size: 24px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 150px;
     cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-button:hover {
-    background-color: #1d4042;
+#botonPresentar:hover {
+    transform: scale(1.1);
+    background-color: #eaeaea;
 }
 
 
-.actividades {
-    background-color: #A5BFB8; 
-    padding: 10px;
-    border-radius: 5px; 
+#botonPresentar:active {
+    transform: scale(0.95);
+    background-color: #ccc;
 }
 
-.actividades p {
-    color: rgb(34, 33, 33); 
-    font-size: 15px; 
-    margin: 10px 0; 
-    text-align: start; 
-}
 
-.actividades .sexo-group {
+#cajas {
+    width: 80%;
+    margin: 20px auto 0;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
-    align-items: center;
-    gap: 15px;
 }
 
-.sexo-group input[type="radio"] {
-    margin-right: 5px; 
+#cajas > div {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #000;
+    transition: background-position .9s linear 2s, border-bottom-color 1.2s, background-color .5s;
+    transition-delay: .4s;
+    background-color: #000;
+    background-position: -180px -40px;
+    background-repeat: no-repeat;
 }
 
-.sexo-group label {
-    color: #000000; 
-    display: inline; 
-    margin: 0; 
+#cajas > div[title="Presentado"] {
+    background-position: 20px 20px;
+    background-color: #fff;
+    border-bottom-color: #fff;
 }
 
-
-.actividades{
-    background-color: #A5BFB8; 
+#cajas > div:after {
+    transition: background-position .8s cubic-bezier(0.18, 0.89, 0.32, 1.28) .7s, box-shadow .2s linear .7s;
+    content: "";
+    width: 200px;
+    height: 200px;
+    background: url('../assets/img/cortina.png') -100px -2px no-repeat;
+    position: absolute;
 }
 
-.condiciones{
-    color: #ffffff;
+#cajas > div[title="Presentado"]:after {
+    background-position: 100px -2px;
+    box-shadow: -19px 20px 36px 5px hsla(0, 100%, 100%, .5);
 }
 
+#cajas > div:not([title="Presentado"]):hover:after {
+    transition: background-position 1s;
+    transition-delay: 0s;
+    background-position: -80px -2px;
+}
+
+#mario {
+    background: url('../assets/img/mario.png');
+}
+
+#luigi {
+    background: url('../assets/img/luigi.png');
+}
+
+#bowser {
+    background: url('../assets/img/bowser.png');
+}
+
+#peach {
+    background: url('../assets/img/peach.png');
+}
+
+#yoshi {
+    background: url('../assets/img/yoshi.png');
+}
+
+#toad {
+    background: url('../assets/img/toad.png');
+}
+
+#toadette {
+    background: url('../assets/img/toadette..png');
+}
+
+#daisy {
+    background: url('../assets/img/daisy.png');
+}

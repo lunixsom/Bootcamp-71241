@@ -1,63 +1,57 @@
-// Validación del formulario
-document.getElementById('afiliacionForm').addEventListener('submit', function(event) {
-    const requiredFields = document.querySelectorAll('#afiliacionForm [required]');
-    let formIsValid = true;
-    let firstInvalidField = null;
 
-    requiredFields.forEach(function(field) {
-        if (!field.value) {
-            formIsValid = false;
-            if (!firstInvalidField) {
-                firstInvalidField = field;
-            }
-            field.style.borderColor = 'red';
-        } else {
-            field.style.borderColor = '';
+// Lista de personajes con sus nombres completos
+const personajes = {
+    'mario': 'Mario',
+    'luigi': 'Luigi',
+    'bowser': 'Bowser Morton Koopa',
+    'peach': 'Princesa Peach Toadstool',
+    'yoshi': 'T. Yoshisaur Munchakoopas',
+    'toad': 'Toad',
+    'toadette': 'Toadette',
+    'daisy': 'Princesa Daisy'
+};
+
+// Función que captura la respuesta y actualiza el HTML
+function mostrarPersonaje() {
+    // Prompt para preguntar al usuario
+    var respuesta = window.prompt("¿Quién se presenta hoy? (Mario, Luigi, Bowser, Peach, Yoshi, Toad, Toadette, Daisy)")
+     // Muestra respuesta en la consola.
+     console.log(respuesta);
+
+    // Convertimos la respuesta en minúsculas para evitar errores de entrada
+    respuesta = respuesta.toLowerCase();
+
+    // Buscamos el nombre completo del personaje
+    let nombreCompleto = personajes[respuesta];
+
+    // Si el personaje existe, actualizamos el span en el HTML
+    if (nombreCompleto) {
+        // Actualiza el texto del span ID:personaje, con el nombre completo que lee de recorrer el objeto personajes.
+        document.getElementById('personaje').textContent = nombreCompleto;
+
+        // Ahora buscamos en el HTML un elemento con el mismo ID que la respuesta del usuario
+        var elementoEncontrado = document.getElementById(respuesta);
+
+        // Si se encontró el elemento, le establecemos el atributo title a "presentado"
+        if (elementoEncontrado) {
+            elementoEncontrado.setAttribute('title', 'presentado');
+
+            // Guardamos el elemento en una variable (ya está en elementoEncontrado)
+            console.log("Elemento encontrado y actualizado:", elementoEncontrado);
         }
-    });
 
-    if (!formIsValid) {
-        alert('Por favor, complete todos los campos obligatorios marcados con *');
-        firstInvalidField.focus();
-        event.preventDefault();
+    } else {
+        // Si no existe el personaje, mostramos un mensaje de error
+        document.getElementById('personaje').textContent = '(desconocido)';
     }
-});
 
-// Restablecer los estilos al hacer clic en "Restablecer"
-document.getElementById('afiliacionForm').addEventListener('reset', function() {
-    const requiredFields = document.querySelectorAll('#afiliacionForm [required]');
-    requiredFields.forEach(function(field) {
-        field.style.borderColor = '';
-    });
-});
-// Alerta con información importante al hacer clic en "¡Recordá!"
-document.getElementById('recorda').addEventListener('click', function() {
-    alert('Datos Importantes:\n\n1. Asegúrate de llenar todos los campos obligatorios marcados con *.\n2. Revisa que tu correo electrónico sea válido.\n3. Acepta las condiciones para completar la afiliación.\n4. Una vez afiliado deberas presentar un apto medico en un plazo de 15 días.   ');
-});
-// Mostrar horarios de los deportes al hacer clic en "Ver Horarios"
-document.getElementById('horarios').addEventListener('click', function() {
-    const horarios = `
-    Horarios de los deportes:
+    // Desaparecer el botón después de ejecutar la acción
+    document.getElementById('botonPresentar').style.display = 'none';
+}
 
-    Sede Palermo:
-    - Básquet: Lunes, Miércoles, Viernes - 18:00 a 20:00
-    - Boxeo: Martes, Jueves - 19:00 a 21:00
-    - Fútbol: Lunes, Miércoles - 20:00 a 22:00
-    - Tenis: Sábado, Domingo - 10:00 a 12:00
+// Llamamos a la función cuando se carga la página  -- mostrarPersonaje();
 
-    Sede Rosario:
-    - Básquet: Lunes, Miércoles, Viernes - 17:00 a 19:00
-    - Boxeo: Martes, Jueves - 18:00 a 20:00
-    - Rugby: Sábado - 14:00 a 16:00
-    - Vóley: Domingo - 16:00 a 18:00
-    `;
+// Agregar el evento de clic al botón
+document.getElementById('botonPresentar').addEventListener('click', mostrarPersonaje);
 
-    alert(horarios);
-});
-// Alerta para 
-document.getElementById('afiliacionForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    if (confirm('¿Estás seguro de que deseas enviar el formulario? ¡Verificar si los datos son correctos!')) {
-        this.submit(); // Envía el formulario si confirma
-    }
-});
+
