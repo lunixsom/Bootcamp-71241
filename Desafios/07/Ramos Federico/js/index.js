@@ -1,17 +1,38 @@
 
 const personajes = ["Mario", "Luigi", "Bowser Morton Koopa", "Princesa Peach Toadstool", "T. Yoshisaur Munchakoopas", "Toad", "Toadette", "Princesa Daisy"];
 
+const nombresPila = ["mario", "luigi", "bowser", "peach", "yoshi", "toad", "toadette", "daisy"] /* AGREGADO BONUS 1 */
+
 let span = document.getElementById("nombrePersonaje");
 
+let divPersonajes = document.querySelectorAll('.cerrar') /* AGREGADO BONUS 1 */
+
 let botonPresentar = document.getElementById("botonPresentar");
+
 
 botonPresentar.addEventListener('click', (e) => {
     e.preventDefault();
     const user = prompt("¿Quién se presenta hoy? (Mario, Luigi, Bowser, Peach, Yoshi, Toad, Toadette, Daisy)").toLowerCase();
+   if(nombresPila.includes(user)){ /* AGREGADO BONUS 1 */
+       ocultarTodos()
+   }
+    mostrarPersonajes(user);    /* AGREGADO BONUS 1 */
     console.log(user);   
-    mostrarPersonajes(user);
     //botonPresentar.style.display = "none";
 });
+
+ 
+divPersonajes.forEach(div => {                  /* AGREGADO BONUS 2 */
+    div.addEventListener('click', () => {
+         
+        if(div.getAttribute('title') === 'Presentado'){
+            div.removeAttribute('title')
+        }else{
+            ocultarTodos()
+            mostrarPersonajes(div.id)
+        }
+    })
+})
 
 
 const mostrarPersonajes = (user) => {
@@ -57,3 +78,9 @@ const mostrarPersonajes = (user) => {
 };
 
 // Me gustaría saber como sería hecho con los bonus, que no los pude sacar 
+
+const ocultarTodos = () => {        /* AGREGADO BONUS 1 y 2*/
+    divPersonajes.forEach(div => {
+        div.removeAttribute("title")  
+    })
+}
