@@ -9,10 +9,12 @@ let Personajes = {Mario : "Mario",
         Daisy: "Princesa Dai",
         }; 
 
+let nombresPila = []
 
 //fUNCION PARA OBTENER EL NOMBRE
-function Nombre (CI,P) {
+    function Nombre (CI,P) {
         for (let Personaje in P) {
+            console.log(Personaje);    
             if (CI == Personaje) {
                 
                 return P [Personaje]
