@@ -48,7 +48,7 @@ h1 > strong {
     background-repeat: no-repeat;
 }
 
-#cajas > div[title="Presentado"] {
+#cajas > div[title="presentado"] {
     background-position: 20px 20px;
     background-color: #fff;
     border-bottom-color: #fff;
@@ -63,7 +63,7 @@ h1 > strong {
     position: absolute;
 }
 
-#cajas > div[title="Presentado"]:after {
+#cajas > div[title="presentado"]:after {
     background-position: 100px -2px;
     box-shadow: -19px 20px 36px 5px hsla(0, 100%, 100%, .5);
 }

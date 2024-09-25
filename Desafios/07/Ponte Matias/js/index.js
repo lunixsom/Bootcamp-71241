@@ -50,13 +50,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // Comportamiento para mostrar/ocultar personajes al hacer clic
     document.querySelectorAll('#cajas > div').forEach(div => {
         div.addEventListener('click', function() {
-            // Ocultar todos los personajes primero
-            document.querySelectorAll('#cajas > div').forEach(d => d.removeAttribute('title'));
             // Alternar el título del personaje clicado
-            if (this.getAttribute('title') === 'Presentado') {
-                this.removeAttribute('title');
+            if (div.getAttribute('title') === 'Presentado') {
+                div.removeAttribute('title');
             } else {
-                this.setAttribute('title', 'Presentado');
+                // Ocultar todos los personajes primero
+                document.querySelectorAll('#cajas > div').forEach(d => d.removeAttribute('title'));
+                div.setAttribute('title', 'Presentado');
             }
         });
     });

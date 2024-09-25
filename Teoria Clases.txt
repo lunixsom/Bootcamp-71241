@@ -1359,6 +1359,7 @@ Clase 36
 
 Clase 37
 
+
 	Otra estrategia con button type submit (7 min)
 
 		Creamos un nueov button con type submit y le ponemos un id al formulario.
@@ -1377,4 +1378,17 @@ Clase 37
 		En el ejercicio anterior le pusimos al boton con evento click para que haga lo que queriamos, PERO SI QUIERO ENVIAR DATOS DESDE EL FORMULARIO AL BACKEND LUEGO VOY A TENER QUE UTILIZAR SUBMIT. El evento lo tiene el formulario, osea que cuando envie los datos efectue la accion.
 
 
+
+	Creando una pagina desde JS (37 min)
+
+		let titulo = document.createElement("h1")
+
+		titulo.innerHTML = "Ecommerce de Tecnologia"
+
+		document.body.appendChild(titulo)
+
+
+	appendChild (57 min)
+
+		Inserta el elemento dentro del contenedor padre.
 		
