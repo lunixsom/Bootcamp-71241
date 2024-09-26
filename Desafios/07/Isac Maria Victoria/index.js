@@ -9,7 +9,7 @@ let Personajes = {Mario : "Mario",
         Daisy: "Princesa Dai",
         }; 
 
-let nombresPila = []
+let nombresPila = ["Mario","Luigi","Bowser","Peach","Yoshi","Toad","Toadette","Daisy"]
 
 //fUNCION PARA OBTENER EL NOMBRE
     function Nombre (CI,P) {
