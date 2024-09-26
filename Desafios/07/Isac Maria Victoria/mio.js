@@ -10,8 +10,6 @@ let Personajes = {Mario : "Mario",
     Daisy: "Princesa Dai",
     }; 
 
-let nombresPila = ["Mario","Luigi","Bowser","Peach","Yoshi","Toad","Toadette","Daisy"]
-
 //fUNCION PARA OBTENER EL NOMBRE
 function Nombre (CI,P) {
     for (let Personaje in P) {
@@ -48,58 +46,54 @@ let NombrePersonaje = document.getElementById ("nombre")
 
                                         }
         
-        else if (CartelInicial === "Luigi" ) {
+        if (CartelInicial === "Luigi" ) {
             ocultarTodos()
             let luigi = document.getElementById("luigi")
 
             if (luigi) { luigi.title="Presentado"}
                                         }
 
-        else if (CartelInicial === "Bowser") {
+        if (CartelInicial === "Bowser") {
             ocultarTodos()
             let bowser = document.getElementById("bowser")
 
             if (bowser) { bowser.title="Presentado" }
                                         }
 
-        else if (CartelInicial === "Peach") {
+        if (CartelInicial === "Peach") {
             ocultarTodos()
             let peach = document.getElementById("peach")
 
             if (peach) { peach.title="Presentado" }
                                         }
 
-        else if (CartelInicial === "Yoshi") {
+        if (CartelInicial === "Yoshi") {
             ocultarTodos()
             let yoshi = document.getElementById("yoshi")
 
             if (yoshi) { yoshi.title="Presentado"}
                                         }
 
-        else if (CartelInicial === "Toad") {
+         if (CartelInicial === "Toad") {
             ocultarTodos()
             let toad = document.getElementById("toad")
 
             if (toad) { toad.title="Presentado"}
                                         }
 
-        else if (CartelInicial === "Toadette") {
+         if (CartelInicial === "Toadette") {
             ocultarTodos()
             let toadette = document.getElementById("toadette")
 
             if (toadette) { toadette.title="Presentado" }
                                         }
 
-        else if (CartelInicial === "Daisy") {
+         if (CartelInicial === "Daisy") {
             ocultarTodos()
             let daisy = document.getElementById("daisy")
 
             if (daisy) { daisy.title="Presentado" }
                                         }
-        else if (!(nombresPila.includes(CartelInicial))){
-            console.log("te equivocaste");
-            
-        }
 
 
     //6. Asignarle el prompt al boton
@@ -108,15 +102,10 @@ let NombrePersonaje = document.getElementById ("nombre")
             };
         } ;
 
+
+//Bonus 1) Dejar visible a un personaje por cada prompt
+
 document.querySelector(".boton").addEventListener("click",function () {
-
-    //Bonus 1) Dejar visible a un personaje por cada prompt
-
-/*     for (let index = 0; index < personajes.length; index++) {
-    
-        personajes[index].title="";
-        } */
-    ocultarTodos()
     PresentarPersonaje()
 })
 
@@ -127,12 +116,14 @@ document.querySelector(".boton").addEventListener("click",function () {
 for (let index = 0; index < divPersonajes.length; index++) {
     
     divPersonajes[index].addEventListener("click", function () {
-        ocultarTodos()
-        divPersonajes[index].title="Presentado"; 
-
-}  );
-
-    }; 
+        if(!divPersonajes[index].title){
+            ocultarTodos()
+            divPersonajes[index].title="Presentado"; 
+        }else{
+            ocultarTodos()
+        }
+    });
+}; 
 
     
 
