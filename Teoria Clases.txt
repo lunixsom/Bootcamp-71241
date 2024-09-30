@@ -1405,3 +1405,10 @@ Clase 38
 
 	Correccion TP 07 (15 min a FIN)
 
+
+************************************************************
+
+Clase 39
+
+Explicacion TP 08 (2 min a 15 min)
+
