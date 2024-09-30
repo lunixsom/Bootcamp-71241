@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    color: #f0f0f0;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+}
+
+.producto {
+    background-color: green;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+}
