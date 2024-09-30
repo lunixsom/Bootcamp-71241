@@ -1391,4 +1391,24 @@ Clase 37
 	appendChild (57 min)
 
 		Inserta el elemento dentro del contenedor padre.
-		
+
+
+	Creamos titulo de pagina desde JS (50 min a 1:17 hs)
+
+	Creamos la barra de Navegacion (1:20 hs a 1:47 hs)
+
+
+
+************************************************************
+
+Clase 38	
+
+	Correccion TP 07 (15 min a FIN)
+
+
+************************************************************
+
+Clase 39
+
+Explicacion TP 08 (2 min a 15 min)
+
