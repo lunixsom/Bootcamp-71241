@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="./ejercicio_1.js"></script>
-        <script src="./ejercicio_2.js"></script>
-        <script src="./ejercicio_3.js"></script>
-        <title>Desafío 5</title>
-    </head>
-    <body></body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>¿Quién se presenta hoy?</title>
+		<link rel="stylesheet" href="css/estilos.css" />
+	</head>
+	<body>
+		<h1>Hoy se presenta <span id="nombre"></span></h1>
+		<div id="presentar-boton" onclick="presentarConBoton()">Presentar</div>
+		<div id="cajas">
+			<div onclick="presentar('mario')" id="mario"></div>
+			<div onclick="presentar('luigi')" id="luigi"></div>
+			<div onclick="presentar('bowser')" id="bowser"></div>
+			<div onclick="presentar('peach')" id="peach"></div>
+			<div onclick="presentar('yoshi')" id="yoshi"></div>
+			<div onclick="presentar('toad')" id="toad"></div>
+			<div onclick="presentar('toadette')" id="toadette"></div>
+			<div onclick="presentar('daisy')" id="daisy"></div>
+		</div>
+	</body>
+	<script src="./js/index.js"></script>
 </html>

@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto';
+	--primary-color: #698372;
+}
+.icon {
+	font-style: normal;
+}
+body {
+	font-family: Arial, sans-serif;
+	background-color: #1e1e1e;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 20px;
+	border: 20px solid var(--primary-color);
+	padding: 5px;
+	border-left: 20px solid #69837200;
+	border-right: 20px solid #69837200;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 3rem;
+	font-weight: 900;
+}
+
+form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	align-items: center;
+}
+form fieldset {
+	width: 100%;
+	border: none;
+	padding: 20px;
+	background-color: #d3e2d8;
+	border-radius: 5px;
+	border: 2px solid var(--primary-color);
+}
+
+form fieldset:focus-within {
+	background-color: #a8c2b1;
+}
+form .contenido-grupo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 100px;
+}
+
+form fieldset#datos-contacto .contenido-grupo input {
+	text-align: right;
+	color: var(--primary-color);
+}
+
+form fieldset#actividades .contenido-grupo {
+	align-items: flex-start;
+	padding: 0px;
+	gap: 10px;
+}
+
+legend {
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: white;
+	display: flex;
+	gap: 5px;
+	align-items: baseline;
+	background-color: var(--primary-color);
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-variant: small-caps slashed-zero;
+	font-size: 1.5rem;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: #333;
+}
+
+form .contenido-grupo input,
+form .contenido-grupo select,
+form .contenido-grupo textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid var(--primary-color);
+}
+form .contenido-grupo input:focus,
+form .contenido-grupo select:focus,
+form .contenido-grupo textarea:focus {
+	background-color: var(--primary-color);
+	color: white !important;
+}
+
+form .contenido-grupo input:focus::placeholder,
+form .contenido-grupo select:focus::placeholder,
+form .contenido-grupo textarea:focus::placeholder {
+	color: white !important;
+}
+
+.radio-group {
+	display: flex;
+	align-items: baseline;
+	gap: 10px;
+}
+.radio-group label {
+	display: flex;
+	gap: 5px;
+	align-items: baseline;
+}
+
+.terms {
+	width: 100%;
+	margin-top: 20px;
+}
+.terms * {
+	color: white;
+	margin-bottom: 10px;
+}
+.terms label {
+	display: flex;
+	gap: 5px;
+}
+button {
+	padding: 10px;
+	margin-top: 10px;
+	background-color: var(--primary-color);
+	color: #d3e2d8;
+	border: 1px solid #d3e2d8;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.acciones {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+}
+
+hr {
+	border-style: dotted;
+	border-bottom: 20px dotted #d3e2d8;
+	width: 400px;
+}

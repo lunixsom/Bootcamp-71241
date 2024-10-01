@@ -1,0 +1,160 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Press Start 2P', system-ui;
+	font-weight: 200;
+	--primary-color: #698372;
+}
+.icon {
+	display: none;
+}
+body {
+	font-family: Arial, sans-serif;
+	background-color: #fbf3e6;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+body::before {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url('../img/retro_bg.jpg') no-repeat center center/cover;
+	opacity: 0.2;
+	z-index: -1;
+}
+
+h1 {
+	text-align: center;
+	color: #33322d;
+	margin-bottom: 20px;
+	border: 20px dashed #ff8a7b;
+	padding: 10px 50px;
+	font-size: 3rem;
+	font-weight: 900;
+	text-shadow: 5px 5px 0px #ffb1a7;
+}
+
+form {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 25px;
+}
+form fieldset {
+	width: 100%;
+	border: none;
+	padding: 20px;
+	border-radius: 25px;
+	border: 2px solid #33322d;
+	background-color: #fbf3e6;
+	box-shadow: 10px 10px 0px black;
+}
+
+form fieldset:focus-within {
+	background-color: #ff8a7b;
+}
+form .contenido-grupo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 100px;
+	gap: 5px;
+}
+
+form fieldset#datos-contacto .contenido-grupo input {
+	text-align: right;
+	color: #33322d;
+}
+
+form fieldset#actividades .contenido-grupo {
+	align-items: flex-start;
+	padding: 0px;
+	gap: 10px;
+}
+
+legend {
+	background-color: #fbf3e6;
+	box-shadow: 5px 5px 0px black;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #33322d;
+	border: 2px solid #33322d;
+	display: flex;
+	gap: 5px;
+	align-items: baseline;
+	background-color: #fbf3e6;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 1.2rem;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	color: #333;
+}
+
+form .contenido-grupo input,
+form .contenido-grupo select,
+form .contenido-grupo textarea {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 2px solid #33322d;
+}
+
+.radio-group {
+	display: flex;
+	align-items: baseline;
+	gap: 10px;
+}
+.radio-group label {
+	display: flex;
+	gap: 5px;
+	align-items: baseline;
+}
+
+.terms {
+	width: 100%;
+	margin-top: 20px;
+}
+.terms * {
+	color: #33322d;
+	margin-bottom: 10px;
+}
+.terms label {
+	display: flex;
+	gap: 5px;
+}
+button {
+	padding: 10px;
+	margin-top: 10px;
+	background-color: #ff8a7b;
+	color: #33322d;
+	border: 2px solid #33322d;
+	border-radius: 3px;
+	cursor: pointer;
+	box-shadow: 10px 10px 0px black;
+}
+button:hover {
+	box-shadow: 15px 15px 0px black;
+}
+button:active {
+	box-shadow: 2px 2px 0px black;
+}
+.acciones {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+}
+
+hr {
+	display: none;
+}
