@@ -21,12 +21,19 @@ const presentar = (personaje) => {
 	// document.getElementById('presentar-boton').style.display = 'none'; // Punto 6
 
 	//Bonus 1
-	document.getElementById('cajas').childNodes.forEach((element) => {
-		element.title = undefined;
-	});
-
+	
 	const normalizado = personaje.toLowerCase().trim();
 	const nombre = diccionarioNombres[normalizado] || '(desconocido)';
 	document.getElementById('nombre').innerText = nombre;
-	document.getElementById(normalizado).title = 'Presentado';
+
+	let divPersonaje = document.getElementById(normalizado)
+
+	if(divPersonaje.title !== "Presentado"){
+		document.getElementById('cajas').childNodes.forEach((element) => {
+			element.title = undefined;
+		});
+		document.getElementById(normalizado).title = 'Presentado';
+	} else {
+		document.getElementById(normalizado).title = undefined;
+	}
 };
