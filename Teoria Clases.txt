@@ -1412,3 +1412,18 @@ Clase 39
 
 Explicacion TP 08 (2 min a 15 min)
 
+Actividad con Kahoot (25 min a 45 min)
+
+
+CREATE-REACT-APP (49 min a )
+
+	Es una libreria que nos permite crear una aplicacion/template de React.
+
+	Es una libreria que ya no se usa tal cual, porque se crearon nuevas formas para crear proyectos en React que luego veremos en el boot.
+
+		Instalacion:
+
+			* De forma global con: npm install -g create-react-app
+
+			
+
