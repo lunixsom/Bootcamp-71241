@@ -1414,6 +1414,10 @@ Explicacion TP 08 (2 min a 15 min)
 
 Actividad con Kahoot (25 min a 45 min)
 
+REACT (1:50 hs a 1:51:30 hs)
+
+	React es un SPA, es una aplicacion de una sola pagina. Donde todo lo que vamos a hacer es escribir codigo JS y automaticamente React lo va ir subiendo a medida que lo vamos necesitando.
+
 
 CREATE-REACT-APP (49 min a )
 
@@ -1436,8 +1440,33 @@ CREATE-REACT-APP (49 min a )
 
 		Los directorios nuevos que aparecen son Public y Source
 
-		
+
+			Public:
+
+				manifest.json: es la configuracion de los iconos o de los logos (no nos sirve ahora)
+
+				robots.txt: es una pequeña configuracion que si quiero que algunos robots de google lo permitan o no.
+
+				index.html
 
 
-			
+			Source (src):
+
+				Todo el codigo fuente que importa para que funcione esta pagina esta en la carpetita src.
+
+				App.test.js (no me sirve ahora)
+
+				setupTests.js (no me sirve ahora)
+
+				reportWebVitals.js son reportes que hace Google para unas caracteristicas de mobile por ejemplo(no me sirve ahora)
+
+				Index.js es el ARCHIVO PRINCIPAL
+
+				App.js es otro ARCHIVO IMPORTANTE y aqui vemos el componente principal.
+
+
+
+************************************************************
+
+Clase 40			
 
