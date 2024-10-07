@@ -1414,6 +1414,10 @@ Explicacion TP 08 (2 min a 15 min)
 
 Actividad con Kahoot (25 min a 45 min)
 
+REACT (1:50 hs a 1:51:30 hs)
+
+	React es un SPA, es una aplicacion de una sola pagina. Donde todo lo que vamos a hacer es escribir codigo JS y automaticamente React lo va ir subiendo a medida que lo vamos necesitando.
+
 
 CREATE-REACT-APP (49 min a )
 
@@ -1423,9 +1427,100 @@ CREATE-REACT-APP (49 min a )
 
 		Instalacion:
 
-			* De forma global con: npm install -g create-react-app
+			* De forma Local y global con: npm install -g create-react-app
+
+			* Instalar sin tener la libreria de forma local, otra diferencia es que npx me va a traer las dependendias que yo necesite con la ultima version.
+
+	npm start (1:06:30 hs)
+
+		Me arranca la aplicacion, me genera un pequeño template, un pequeño modelo estructurado que esta listo para usarse.
+
+
+	Arquitectura de Aplicacion de React (1:30 hs)
+
+		Los directorios nuevos que aparecen son Public y Source
+
+
+			Public:
+
+				manifest.json: es la configuracion de los iconos o de los logos (no nos sirve ahora)
+
+				robots.txt: es una pequeña configuracion que si quiero que algunos robots de google lo permitan o no.
+
+				index.html
+
+
+			Source (src):
+
+				Todo el codigo fuente que importa para que funcione esta pagina esta en la carpetita src.
+
+				App.test.js (no me sirve ahora)
+
+				setupTests.js (no me sirve ahora)
+
+				reportWebVitals.js son reportes que hace Google para unas caracteristicas de mobile por ejemplo(no me sirve ahora)
+
+				Index.js es el ARCHIVO PRINCIPAL
+
+				App.js es otro ARCHIVO IMPORTANTE y aqui vemos el componente principal.
+
+
+
+************************************************************
+
+Clase 40			
+
+
+		Repaso React clase anterior (3 min a 12 min)
+
+			Todo en React son componentes (paginas, archivos), en vez de lanzar paginas vamos a lanzar componentes, un boton puede ser un componente. Por eso es una SPA.
+
+			ya no vamos a crear paginas como productos.html sino que vamos a crear componentes y los vamos a ir renderizando y pasandoselas a React para que lo MUESTRE AL CLIENTE EN UNA SOLA PAGINA.
+
+
+		package.json (13 min a )
+
+			en scripts:
+
+				start: es el modo dev de nuestro proyecto
+
+				build: construye la aplicacion
+
+				test: es si queremos correr algun test
+
+				eject: elimina, saca todo el funcionamiento nativo de React, lo pone en cero, a no se que queramos manipular los archivos de node modules porque si lo hacemos la pagina public se convierte en una pagina nativa, anulamos el trabajo que tiene por default React. 
+
+
+			en SRC (16 min):
+
+
+				Todos los archivos que creamos tienen que estar dentro de src, porque REACT TIENE UN FUNCIONAMIENTO ESTRUCTURADO DENTRO DE LOS NODE MODULES QUE TODO LO QUE NEECSITA RENDERIZAR Y TODO EL CODIGO FUENTE ESTA EN EL DIRECTORIO SRC. Si yo quiero cambiar esa arquitectura por default ahi si necesito ejecutar el script eject.
 
 			
+			React  no esta escrito en JS, sino en JSX que es una mezcla de JS con HTML
+
+
+			LA APLICACION PRINCIPAL ES INDEX.JS (49:30 min)
+
+
+			ReactDOM (50:30 min)
+
+				Es el que memoriza la ultima aplicacion y lo guarda en el virtual DOM.
+
+				El navegador cada vez que percibe un evento el navegador recarga la pagina, vuelve a pintar la pagina.
+
+			Las librerias React y ReactDOM que se eimportan en index.js son el corazon de mi aplicacion.
+
+
+
+			Sintaxis para para importar una imagen en React:
+
+				import logo from './logo.svg';
+
+
+			El componente principal es APP
+
+
 
 			
 
