@@ -1521,6 +1521,22 @@ Clase 40
 			El componente principal es APP
 
 
-
+	Componente de TIPO FUNCION (1:19 hs a )
 			
+		Es un componente funcional porque el componente esta hecho con una funcion.
 
+		Tiene un metodo return y retorna elementos de JSX.
+
+		En JSX no utilizamos class sino className.
+
+		En los atributos de las etiquetas HTML para esilos se usa camelCase.
+
+
+	Usamos Bootstrap en aplicacion React (1:33 hs)
+
+		Solo tenemos que recordar que tenemos que utilizar camelCase.
+
+
+	Como CREAR COMPONENTES NUEVOS (1:40 hs a )
+
+		Por convencion mi funcion tiene que tener el mismo nombre que mi componente.
