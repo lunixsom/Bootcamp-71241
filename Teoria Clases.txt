@@ -1477,6 +1477,8 @@ Clase 40
 
 			ya no vamos a crear paginas como productos.html sino que vamos a crear componentes y los vamos a ir renderizando y pasandoselas a React para que lo MUESTRE AL CLIENTE EN UNA SOLA PAGINA.
 
+			El trabajo con React me ayuda a distribuir mejor las cosas y para no repetir codigo.
+
 
 		package.json (13 min a )
 
@@ -1522,17 +1524,23 @@ Clase 40
 
 
 	Componente de TIPO FUNCION (1:19 hs a )
+
+	DETALLES A TENER EN CUENTA PARA TRABAJAR CON REACT:
 			
 		Es un componente funcional porque el componente esta hecho con una funcion.
 
-		Tiene un metodo return y retorna elementos de JSX.
+		Tiene un metodo return y retorna UN SOLO ELEMENTO de JSX.
 
 		En JSX no utilizamos class sino className.
 
 		En los atributos de las etiquetas HTML para esilos se usa camelCase.
 
+		Estoy obligado a cerrar todas de HTML en React (1:57 hs)
+
 
 	Usamos Bootstrap en aplicacion React (1:33 hs)
+
+		Los links de css y js de Bootstrap van en el index.html.
 
 		Solo tenemos que recordar que tenemos que utilizar camelCase.
 
@@ -1540,3 +1548,49 @@ Clase 40
 	Como CREAR COMPONENTES NUEVOS (1:40 hs a )
 
 		Por convencion mi funcion tiene que tener el mismo nombre que mi componente.
+
+
+	Creo COMPONENTE NAVEGACION (1:44 hs)
+
+		Traigo componente navbar de Bootstrap.
+
+		React solo devuelve un solo elemento por componente, ejemplo de mal uso:
+
+		return(
+			<nav>.. </nav>
+
+			<main>..</main>
+		)
+
+		SI QUIERO DEVOLVER DOS COSAS, necesito usar una herramienta que me da React para que disimule que hay 2 elementos: React.Fragment, que es un componente padre que engloba como componentes hijos a un monton de cosas:
+
+		return(
+			<React.Fragment>
+
+				<nav>.. </nav>
+
+				<main>..</main>
+
+				<footer>..</footer>
+
+			<React.Fragment>
+		)
+
+	
+		Necesitamos exportar el componente: "export default navegacion" 
+
+
+		Como llamamos al componente desde App.js (2:05 hs)
+
+			1º Tengo que importar el componente.
+			2º Lo llamo como una etiqueta HTML: <Navegacion /> (tengo que dejar ese espacio para que se diferencie de los otros elementos como los div's).
+
+			3º Agrego el React.Fragment.
+
+		
+
+************************************************************
+
+Clase 41
+
+
