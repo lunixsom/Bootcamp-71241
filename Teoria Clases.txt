@@ -1470,3 +1470,55 @@ CREATE-REACT-APP (49 min a )
 
 Clase 40			
 
+
+		Repaso React clase anterior (3 min a 12 min)
+
+			Todo en React son componentes (paginas, archivos), en vez de lanzar paginas vamos a lanzar componentes, un boton puede ser un componente. Por eso es una SPA.
+
+			ya no vamos a crear paginas como productos.html sino que vamos a crear componentes y los vamos a ir renderizando y pasandoselas a React para que lo MUESTRE AL CLIENTE EN UNA SOLA PAGINA.
+
+
+		package.json (13 min a )
+
+			en scripts:
+
+				start: es el modo dev de nuestro proyecto
+
+				build: construye la aplicacion
+
+				test: es si queremos correr algun test
+
+				eject: elimina, saca todo el funcionamiento nativo de React, lo pone en cero, a no se que queramos manipular los archivos de node modules porque si lo hacemos la pagina public se convierte en una pagina nativa, anulamos el trabajo que tiene por default React. 
+
+
+			en SRC (16 min):
+
+
+				Todos los archivos que creamos tienen que estar dentro de src, porque REACT TIENE UN FUNCIONAMIENTO ESTRUCTURADO DENTRO DE LOS NODE MODULES QUE TODO LO QUE NEECSITA RENDERIZAR Y TODO EL CODIGO FUENTE ESTA EN EL DIRECTORIO SRC. Si yo quiero cambiar esa arquitectura por default ahi si necesito ejecutar el script eject.
+
+			
+			React  no esta escrito en JS, sino en JSX que es una mezcla de JS con HTML
+
+
+			LA APLICACION PRINCIPAL ES INDEX.JS (49:30 min)
+
+
+			ReactDOM (50:30 min)
+
+				Es el que memoriza la ultima aplicacion y lo guarda en el virtual DOM.
+
+				El navegador cada vez que percibe un evento el navegador recarga la pagina, vuelve a pintar la pagina.
+
+			Las librerias React y ReactDOM que se eimportan en index.js son el corazon de mi aplicacion.
+
+
+
+			Sintaxis para para importar una imagen en React:
+
+				import logo from './logo.svg';
+
+
+			El componente principal es APP
+
+
+
