@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen del Pedido</title>
+    <link rel="stylesheet" href="../css/resumen.css"> <!-- Estilos para el resumen -->
+</head>
+<body>
+    <div class="containerHeader">
+        <h1 class="icono">
+            <img src="https://pedidosya.dhmedia.io/image/pedidosya/restaurants/7ab158c8-828b-481c-adeb-bbece50fabb1.jpg?quality=70&width=100&webp=1" alt="logo"> 
+            Resto Venezolano
+        </h1>    
+          
+    </div>
+
+    <h2>Su pedido ha sido enviado al restaurante</h2>
+    <p>Gracias por su compra. Aquí está el resumen de su pedido:</p>
+
+    <h3>Datos del cliente:</h3>
+    <p id="datos-usuario"></p>
+
+    <h3>Productos pedidos:</h3>
+    <ul id="lista-productos"></ul>
+
+    <h3>Total a pagar:</h3>
+    <p id="total-pagar"></p> <!-- Aquí se mostrará el total -->
+
+    <script>
+        // Recuperar los datos del usuario desde localStorage
+        const usuario = JSON.parse(localStorage.getItem('usuario'));
+        const carrito = JSON.parse(localStorage.getItem('carrito'));
+
+        // Mostrar los datos del usuario
+        document.getElementById('datos-usuario').innerHTML = `
+            Nombre: ${usuario.nombre} <br>
+            Dirección: ${usuario.direccion} <br>
+            Teléfono: ${usuario.telefono} <br>
+            Email: ${usuario.email}
+        `;
+
+        // Mostrar los productos del carrito
+        const listaProductos = document.getElementById('lista-productos');
+        let total = 0; // Inicializar el total
+
+        carrito.forEach(producto => {
+            const li = document.createElement('li');
+            li.textContent = `${producto.cantidad}x ${producto.nombre} - $${producto.precio * producto.cantidad}`; // Calcular el precio total por producto
+            listaProductos.appendChild(li);
+
+            // Sumar al total
+            total += producto.precio * producto.cantidad;
+        });
+
+        // Mostrar el total
+        document.getElementById('total-pagar').textContent = `$${total}`;
+    </script>
+</body>
+</html>

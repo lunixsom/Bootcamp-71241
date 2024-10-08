@@ -1,0 +1,28 @@
+<!-- modal.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/modal.css"> <!-- Hoja de estilos del modal -->
+</head>
+<body>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-card-content">
+                <!-- Aquí se cargará dinámicamente el contenido del producto -->
+            </div>
+            <div class="cantidad-container">
+                <button class="minus-button">-</button>
+                <span class="cantidad">1</span>
+                <button class="plus-button">+</button>
+            </div>
+            <div>
+                <p>Total: $<span id="total-precio">2500</span></p>
+            </div>
+            <button class="buy-confirm">Agregar al carrito</button>
+        </div>
+    </div>
+</body>
+</html>

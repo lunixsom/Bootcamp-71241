@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+     <link rel="stylesheet" href="../css/card.css"> 
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Desafio08</title>
+</head>
+<body>
+    <header>
+        <div class="containerHeader">
+            <h1 class="icono">
+                <img src="https://pedidosya.dhmedia.io/image/pedidosya/restaurants/7ab158c8-828b-481c-adeb-bbece50fabb1.jpg?quality=70&width=100&webp=1" alt="logo"> 
+                Resto Venezolano
+            </h1>    
+              
+        </div>
+
+  
+        <nav>
+            <ul>
+                <li><a href="#" onclick="alert('Solo los usuarios logueados pueden acceder a la página de Alta.');">Alta</a></li>
+                <li><a href="./pages/nosotros.html">Nosotros</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>¡Bienvenidos a lo mejor de Venezuela!</h2>
+        <h2>Conoce nuestro menú</h2>
+        <h3>!!Productos más vendidos &#x1F4F8; fotos reales!!</h3>     
+        <div class="main-container">
+            <!-- Contenedor de las tarjetas y el carrito -->
+            <div class="cards-container">
+                <!-- Producto 1: Arepa -->
+                <div class="card">
+                    <h3>¡Arepa bien abundante: $2500 la unidad!</h3>
+                    <figure><img src="./imagenes/./productos chetal/Arepa carne desmechada y queso.png" alt="arepascarne"></figure>
+                    <div class="producto">Arepa de carne desmechada</div>
+                    <div class="precio" data-precio="2500">Cocción cuidada.</div>
+                    <div>Productos de primera calidad.</div>
+                    <button class="buy-button">¡¡Quiero esto!!</button>
+                </div>
+    
+                <!-- Producto 2: Empanadas -->
+                <div class="card">
+                    <h3>¡Empanada riquísima: $2000 la unidad!</h3>
+                    <figure><img src="./imagenes/./productos chetal/Empanadas carne.png" alt="empanadas"></figure>
+                    <div class="producto">Empanada venezolana sabor: carne.</div>
+                    <div class="precio" data-precio="2000">Carne cortada a cuchillo.</div>
+                    <div>Productos de primera calidad.</div>
+                    <button class="buy-button">¡¡Quiero esto!!</button>
+                </div>
+    
+                <!-- Producto 3: Tequeños -->
+                <div class="card">
+                    <h3>Tequeños de queso vaquero + la salsa de ajo.</h3>
+                    <figure><img src="../imagenes/tequeños.png" alt="tequeños"></figure>
+                    <div class="producto">x 12 unidades $4500</div>
+                    <div class="precio" data-precio="4500">El mejor queso venezolano</div>
+                    <div>(Salsa de ajo viene gratis)</div>
+                    <button class="buy-button">¡¡Quiero esto!!</button>
+                </div>
+            
+                    <div id="carrito-container" style="margin-left: 80px;">
+                        <h3>Carrito de compras &#x1F6D2; </h3>
+                        <ul id="lista-carrito"></ul> 
+                        <button id="enviar-pedido" class="buy-button">  Enviar pedido</button> 
+                    </div>
+                
+            </div>
+    
+        </div>
+
+     
+        <h3>Arepas generosas &#x1F389;</h3>
+        <div class="card-wrapper">
+            <div class="card-horizontal">
+                <figure><img src="./imagenes/./productos chetal/Arepa carne desmechada y queso.png" alt="arepascarne"></figure>
+                <div class="card-content">
+                    <h3 class="producto">Arepa de carne desmechada</h3> <!-- Clase "producto" para el nombre del producto -->
+                    <div class="precio" data-precio="2500">Promoción a $2500 cada unidad</div> <!-- Clase "precio" con "data-precio" -->
+                    <p>Carne desmechada acompañada con vegetales.</p>
+                    <button class="buy-button">¡¡Quiero esto!!</button>
+                </div>
+            </div>
+        
+            <div class="card-horizontal">
+                <figure><img src="./imagenes/./productos chetal/Arepa chorizo,queso y salsa criolla..png" alt="arepaschorizo"></figure>
+                <div class="card-content">
+                    <h3 class="producto">Arepa de Chorizo y salsa criolla.</h3>
+                    <div class="precio" data-precio="2500">Promoción a $2500 cada unidad.</div>
+                    <p>Chorizo vacuno, con salsa criolla y hebras de queso.</p>
+                    <button class="buy-button">¡¡Quiero esto!!</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-wrapper">
+            <div class="card-horizontal">
+                <figure><img src="./imagenes/./productos chetal/Arepa pollo, palta y queso .png" alt="arepaspollo"></figure>
+                <div class="card-content">
+                    <h3 class="producto">Arepa de Pollo, palta y hebras de queso fresco.</h3>
+                    <div class="precio" data-precio="2500">Promoción a $2500 cada unidad.</div>
+                    <p>Pollo salteado con vegetales y trozos de palta.</p>
+                    <button class="buy-button">¡¡Quiero esto!!</button>
+                </div>
+            </div>
+            <div class="card-horizontal-unico">    
+            </div>
+        </div>
+
+
+        <h3>Empanadas venezolanas &#x1F3AF; </h3> 
+        <div class="card-wrapper">
+        <div class="card-horizontal">
+            <figure><img src="./imagenes/./productos chetal/Empanadas carne.png" alt="empanadascarne"></figure>
+            <div class="card-content">
+                <h3 class="producto">Empanadas venezolana de carne.</h3>
+                <div class="precio" data-precio="2500">Promoción a $2000 cada unidad.</div>
+                <p>Carne cortada a cuchillo . De la mejor calidad venezolana.</p>
+                <button class="buy-button">¡¡Quiero esto!!</button>
+            </div>
+        </div>
+
+        <div class="card-horizontal">
+            <figure><img src="./imagenes/./productos chetal/Empanadas de Pollo.png" alt="empanadaspollo"></figure>
+            <div class="card-content">
+                <h3 class="producto">Empanadas venezolana de Pollo. </h3>
+                <div class="precio" data-precio="2000">Promoción a $2000 cada unidad.</div>
+                <p>Pollo salteado con verduras.</p>
+                <button class="buy-button">¡¡Quiero esto!!</button>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="card-wrapper">
+            <div class="card-horizontal">
+                <figure><img src="./imagenes/./productos chetal/Empanadas Jamón y queso.png" alt="empanadasjyqueso"></figure>
+                <div class="card-content">
+                    <h3 class="producto">Empanadas de Jamón y queso fresco.</h3>
+                    <div class="precio" data-precio="2000">Promoción a $2000 cada unidad.</div>
+                    <p>Jamón cocido y queso muzzarella.</p>
+                    <button class="buy-button">¡¡Quiero esto!!</button>
+                </div>
+                </div>
+            
+            <div class="card-horizontal-unico">    
+            </div>
+        </div>
+
+        <h3>Bebidas típicas &#x1F44D; </h3>
+                <div class="card-wrapper">
+            <div class="card-horizontal">
+                <figure><img src="./imagenes/./productos chetal/Tiziana x790ml.png" alt="Tiziana"></figure>
+                <div class="card-content">
+                    <h3 class="producto">Tizianax790ml.</h3>
+                    <div class="precio" data-precio="2500">Promoción a $2500 cada unidad.</div>
+                    <p>Jugo casero a base de frutas de estación y hielo molido.</p>
+                    <button class="buy-button">¡¡Quiero esto!!</button>
+                </div>
+            </div>
+
+            <div class="card-horizontal">
+                <figure><img src="./imagenes/./productos chetal/Papelon x790 ml.png" alt="Papelon"></figure>
+                <div class="card-content">
+                    <h3 class="producto">Palelonx790ml.</h3>
+                    <div class="precio" data-precio="2500">Promoción a $2500 cada unidad.</div>
+                    <p>Jugo de limones con panela y hielo molido .</p>
+                    <button class="buy-button">¡¡Quiero esto!!</button>
+                </div>
+            </div>
+        </div>
+        
+        <h3>Bebidas regionales &#x1F30A; </h3>
+                <div class="card-wrapper">
+            <div class="card-horizontal">
+                <figure><img src="./imagenes/./productos chetal/aguax750.png" alt="agua"></figure>
+                <div class="card-content">
+                    <h3 clas="producto">Agua mineralx790ml.</h3>
+                    <div class="precio" data-precio="2000">Promoción a $2000 cada unidad.</div>
+                    <p>Agua mirenal sin gas x790ml.</p>
+                    <button class="buy-button">¡¡Quiero esto!!</button>
+                </div>
+            </div>
+
+            <div class="card-horizontal">
+                <figure><img src="./imagenes/./productos chetal/aguacongas.png" alt="aguacongas"></figure>
+                <div class="card-content">
+                    <h3 class="producto">Agua mineral con gas.</h3>
+                    <div class="precio" data-precio="2000">Promoción a $2000 cada unidad.</div>
+                    <p>Agua mineral con gas en botella de vidrio.</p>
+                    <button class="buy-button">¡¡Quiero esto!!</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><img class="footer-img" src="../imagenes/call.png"  alt="call"></li>
+                <li><img class="footer-img" src="../imagenes/data_fiscal.png" alt="data_fiscal"></li>
+                <li><img src="../imagenes/camara.png"  alt="camara"></li>
+                <i class="fa fa-whatsapp" style="font-size:92px; margin-top: 30px; margin-left: 20px;  color:rgb(105, 100, 100)"></i>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- Contenedor del modal -->
+    <div id="modal-container"></div>
+
+    <script src="js/index.js"></script>
+    <script src="js/modal.js" defer></script>
+</body>
+</html>

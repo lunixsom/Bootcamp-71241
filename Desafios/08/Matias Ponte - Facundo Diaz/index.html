@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido en Línea</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Menú</h1>
+        <form id="pedidoForm">
+            <div class="menu-item">
+                <input type="checkbox" id="pancho" name="item" value="pancho">
+                <label for="pancho">Pancho ($100)</label>
+            </div>
+            <div class="menu-item">
+                <input type="checkbox" id="hamburguesa" name="item" value="Hamburguesa">
+                <label for="hamburguesa">Hamburguesa ($400)</label>
+            </div>
+            <div class="menu-item">
+                <input type="checkbox" id="papas" name="item" value="papas">
+                <label for="Papas Fritas">Papas Fritas ($200)</label>
+            </div>
+            <div class="menu-item">
+                <input type="checkbox" id="helado" name="item" value="helado">
+                <label for="helado">Helado ($150)</label>
+            </div>
+
+            <h3>Cliente</h3>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo" required>
+            <input type="text" id="direccion" name="direccion" placeholder="Dirección" required>
+            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+            <input type="email" id="correo" name="correo" placeholder="Correo Electrónico" required>
+
+            <button type="submit">Pedir</button>
+        </form>
+
+        <div id="confirmacion" class="hidden">
+            <h2>Confirmación de Pedido</h2>
+            <p id="detallesPedido"></p>
+            <p id="costoTotal"></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

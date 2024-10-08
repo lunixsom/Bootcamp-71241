@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Restaurante</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Realiza tu Pedido</h1>
+        <form id="orderForm">
+            <h2>Menú</h2>
+            <label>
+                <input type="checkbox" name="items" value="Pizza - $10"> Pizza - $10
+            </label>
+            <label>
+                <input type="checkbox" name="items" value="Hamburguesa - $8"> Hamburguesa - $8
+            </label>
+            <label>
+                <input type="checkbox" name="items" value="Ensalada - $5"> Ensalada - $5
+            </label>
+
+            <h2>Información de Contacto</h2>
+            <label>
+                Nombre:
+                <input type="text" name="name" required>
+            </label>
+            <label>
+                Correo Electrónico:
+                <input type="email" name="email" required>
+            </label>
+            <label>
+                Dirección:
+                <input type="text" name="address" required>
+            </label>
+
+            <button type="submit">Enviar Pedido</button>
+        </form>
+
+        <div id="totalCost"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio-08-pedidos-en-linea",
+  "version": "1.0.0",
+  "description": "ejercicio 08",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Comida en Línea</title>
+    <link rel="stylesheet" href="e-comer.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Menú de Pedidos</h1>
+
+        <form id="pedidoForm">
+            <div class="menu-item">
+                <input type="checkbox" id="pizza" name="item" value="Pizza">
+                <label for="pizza">Pizza ($138.00)</label>
+            </div>
+            <div class="menu-tem">
+                <input type="checkbox" id="hamburguesa" name="item" value="Hamburguesa">
+                <label for="hamburguesa">Hamburguesa ($199.00)</label>
+            </div>
+            <div class="menu-item">
+                <input type="checkbox" id="ensalada" name="item" value="Ensalada">
+                <label for="ensalada">Ensalada ($599.00)</label>
+            </div>
+
+            <h2>Información del Cliente</h2>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo" required>
+            <input type="text" id="direccion" name="direccion" placeholder="Dirección de Entrega" required>
+            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+            <input type="email" id="correo" name="correo" placeholder="Correo Electrónico" required>
+
+            <button type="submit">Hacer Pedido</button>
+        </form>
+
+        <div id="confirmacion" class="hidden">
+            <h2>Confirmación de Pedido</h2>
+            <p id="detallesPedido"></p>
+            <p id="costoTotal"></p>
+        </div>
+        </div>
+
+    <button id="confirmar-pedido">Confirmar Pedido</button>
+
+    <script src="index.js"></script>
+</body>
+</html>

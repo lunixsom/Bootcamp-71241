@@ -1,0 +1,14 @@
+#inicio {
+    background-image: url(/image/fondO.jpg);
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+}
+
+#formulario {
+    background-color: rgba(34, 147, 19, 0.471);
+}
+
+.container-fluid img {
+    width: 100px;
+    height: 100px;
+}

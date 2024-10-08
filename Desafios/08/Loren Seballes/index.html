@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida Saludable</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="d-flex h-100 text-center text-bg-dark" id="inicio">
+            <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="mb-auto">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">
+                    <img src="./image/logo.png" alt="Comida Saludable">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="#">Contacto</a>
+                    </div>
+                    </div>
+                </div>
+                </nav>
+            </header>
+        
+        <main class="px-3 mt-5">
+            <h1 class="fw-bold fs-1 text-secondary-emphasis">¡OLVIDATE DE COCINAR!</h1>
+                <p>
+                    <a href="#" class="btn btn-secondary btn-lg" data-bs-toggle="modal" data-bs-target="#miModal">
+                        VER MENÚ Y ORDENAR
+                    </a>
+                </p>
+                <div class="modal" id="miModal" tabindex="-1">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body bg-light text-dark">
+                                <p class="fs-3 fw-bold text-secondary">Aquí puedes ver el menú dosponible.</p>
+                                <ul id="lista-pedido" class="list-group"></ul>
+                            </div>
+                            <div class="album py-5 bg-body-tertiary">
+                                <div class="container">
+                                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                                    <div class="col">
+                                    <div class="card shadow-sm">
+                                        <img src="./image/ensalada-basica.jpg" class="bd-placeholder-img card-img-top" alt="ensalada-basica" width="100%" height="225">
+                                        <div class="card-body">
+                                        <p class="card-text">Ensalada de verdes, tomate y palta.</p>
+                                        <h3>Precio: $<span class="precio">280</span></h3>
+                                        <button type="button" class="btn btn-sm btn-outline-primary agregar-btn">Agregar al pedido</button>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    <div class="col">
+                                    <div class="card shadow-sm">
+                                        <img src="./image/ensalada_pasta.webp" class="bd-placeholder-img card-img-top" alt="ensalada_pasta" width="100%" height="225">
+                                        <div class="card-body">
+                                        <p class="card-text">Ensalada de pasta.</p>
+                                        <h3>Precio: $<span class="precio">290</span></h3>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-primary">Agregar al pedido</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col">
+                                    <div class="card shadow-sm">
+                                        <img src="./image/ensalada_frutas.jpg" class="bd-placeholder-img card-img-top" alt="ensalada_frutas" width="100%" height="225">
+                                        <div class="card-body">
+                                        <p class="card-text">Ensalada de frutas.</p>
+                                        <h3>Precio: $<span class="precio">150</span></h3>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-primary">Agregar al pedido</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                            
+                                    <div class="col">
+                                    <div class="card shadow-sm">
+                                        <img src="./image/wraps-de-pollo.jpg" class="bd-placeholder-img card-img-top" alt="wraps-de-pollo" width="100%" height="225">
+                                        <div class="card-body">
+                                        <p class="card-text">Wrap de Pollo</p>
+                                        <h3>Precio: $<span class="precio">280</span></h3>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-primary">Agregar al pedido</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col">
+                                    <div class="card shadow-sm">
+                                        <img src="./image/jugo.avif" class="bd-placeholder-img card-img-top" alt="jugo" width="100%" height="225">
+                                        <div class="card-body">
+                                        <p class="card-text">Jugo de frutas 1/2 Lt.</p>
+                                        <h3>Precio: $<span class="precio">150</span></h3>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-primary">Agregar al pedido</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="col">
+                                    <div class="card shadow-sm">
+                                        <img src="./image/agua.png" class="bd-placeholder-img card-img-top" alt="agua" width="100%" height="225">
+                                        <div class="card-body">
+                                        <p class="card-text">Botella de agua 1/2 Lt.</p>
+                                        <h3>Precio: $<span class="precio">100</span></h3>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-primary">Agregar al pedido</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <a href="./formulario.html"><button type="button" class="btn btn-primary">Realizar pedido</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </p>
+        </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+    <script src="./index.js"></script>
+</body>
+</html>

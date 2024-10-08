@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(202, 229, 255);
+}
+
+h1{
+  font-family: fredoka;
+  font-weight:600;
+  margin: 50px 25px 25px 25px;
+  text-align: center;
+}
+
+h3{
+font-family: fredoka;
+font-weight: 400;
+margin:50px 25px 25px 25px;
+}
+
+h4{
+font-family: fredoka;
+font-weight: 600;
+color: blueviolet;
+font-size: 2rem;
+}
+
+.SeccionProductos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   
+   .contenedorProducto{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 22rem;
+     height: 100%;
+     align-items: center;
+     background-color: rgb(255, 255, 255);
+     margin: 25px 10px 25px 10px;
+     border:1px solid rgb(233, 233, 233);
+     border-radius: 6px;
+     
+   }
+   
+   figure {
+    text-align: center;
+    margin: 0;
+  }
+  
+   figure img{
+     width: 80%;
+     height: auto;
+   }
+
+   .Añadircarrito{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+   }
+   
+   .btnComprar{
+     border:1px solid blueviolet;
+     color: blueviolet;
+     font-family: fredoka;
+     font-weight: 500;
+     font-size: 1.5rem;
+     width: 80%;
+     height: 40px;
+     border-radius: 10px;
+     margin: 15px;
+     padding-bottom: 3px;
+     background-color: rgb(255, 255, 255);
+     cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+   }
+   
+   .btnComprar:hover{
+     background-color:blueviolet;
+     color:whitesmoke;
+   }
+   
+   .btnComprar:active{
+     background-color:rgb(105, 29, 176);
+     color:whitesmoke;
+     transform: scale(0.95);
+     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+
+   }
+
+   .cantidadProducto{
+    border:1px solid blueviolet;
+    color: blueviolet;
+    font-family: fredoka;
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 15px 15px 15px 0;
+    padding-top: 7px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+   }
+
+   .boton{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+  
+   .btnTotal{
+    background-color: blueviolet;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 22rem;
+    height: 40px;
+    border-radius: 10px;
+    margin: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+    border: none;
+    text-align: center;
+   }
+
+   .btnTotal:active{
+    background-color:rgb(105, 29, 176);
+    color:whitesmoke;
+    transform: scale(0.95);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+
+  }

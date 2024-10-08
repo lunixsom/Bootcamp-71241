@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Comida en Línea</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Menú de Pedidos</h1>
+
+        <form id="pedidoForm">
+            <div class="menu-items">
+                <label>
+                    <input type="checkbox" name="menu-item" value="Manzanas" data-price="3.00"> 
+                    Manzanas ($3.00)
+                </label>
+                <label>
+                    <input type="checkbox" name="menu-item" value="Bananas" data-price="2.50">
+                    Bananas ($2.50)
+                </label>
+                <label>
+                    <input type="checkbox" name="menu-item" value="Zanahorias" data-price="1.75">
+                    Zanahorias ($1.75)
+                </label>
+                <label>
+                    <input type="checkbox" name="menu-item" value="Lechuga" data-price="1.25">
+                    Lechuga ($1.25)
+                </label>
+                <label>
+                    <input type="checkbox" name="menu-item" value="Tomates" data-price="2.00">
+                    Tomates ($2.00)
+                </label>
+            </div>
+
+            <!-- Informacion del Cliente -->
+            <h2>Información del Cliente</h2>
+            <div class="client-info">
+                <input type="text" id="nombre" placeholder="Nombre Completo" required minlength="3" pattern="[a-zA-ZáéíóúÁÉÍÓÚ\s]+">
+                <input type="text" id="direccion" placeholder="Dirección" required>
+                <input type="tel" id="telefono" placeholder="Número de Teléfono" required pattern="\d{10}" title="Debe ingresar un número de 10 dígitos.">
+                <input type="email" id="correo" placeholder="Correo Electrónico" required>
+            </div>
+
+            <!-- Botón para pedido -->
+            <button type="submit" id="submit-btn">Hacer Pedido</button>
+        </form>
+
+        <!-- Confirmacion del Pedido -->
+        <div class="confirmacion">
+            <h2>Confirmación de Pedido</h2>
+            <p id="detallesPedido">Artículos seleccionados:</p>
+            <p id="costoTotal">Costo total: $0.00</p>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
