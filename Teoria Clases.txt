@@ -1479,6 +1479,8 @@ Clase 40
 
 			El trabajo con React me ayuda a distribuir mejor las cosas y para no repetir codigo.
 
+			No vamos a navegar entre paginas, vamos a navegar entre componentes.
+
 
 		package.json (13 min a )
 
@@ -1594,3 +1596,4 @@ Clase 40
 Clase 41
 
 
+	()
