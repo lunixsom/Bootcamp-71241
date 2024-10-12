@@ -1596,4 +1596,19 @@ Clase 40
 Clase 41
 
 
-	()
+	Pequeño repaso de los visto en la clase anterior (5 min a 20 min )
+
+		Los componentes son simplemente funciones.
+
+		El componente debe devolver un solo elemento JSX.
+
+			Si tengo dos elementos y los quiero devolver en el return entonces tengo que usar React.Fragment, que tambien se puede usar con su atajo:
+
+				<>
+				....
+				..
+				</>
+
+		
+	React Router DOM ( 21 min a )
+
