@@ -1612,3 +1612,24 @@ Clase 41
 		
 	React Router DOM ( 21 min a )
 
+		Es una libreria que necesitamos para enrutar nuestras paginas.
+
+		Pagina con documentacion: reactrouter.com
+
+
+		Instalacion ()
+
+			npm i react-router-com
+
+
+		Crear un Enrutador basico con React Router DOM (1 hs)
+
+			Vamos a necesitar estos 3 componentes:
+
+				BrowserRouter
+
+				Router
+
+				Route
+
+				
