@@ -1418,6 +1418,10 @@ REACT (1:50 hs a 1:51:30 hs)
 
 	React es un SPA, es una aplicacion de una sola pagina. Donde todo lo que vamos a hacer es escribir codigo JS y automaticamente React lo va ir subiendo a medida que lo vamos necesitando.
 
+	¿Que tipo de paginas van con React?
+
+		- Aquellas paginas que tienen miles de visitas porque es mucho mas rapido react.
+
 
 CREATE-REACT-APP (49 min a )
 
@@ -1732,6 +1736,11 @@ Clase 43
 				<img src={logo} ... />
 
 		
+		Agregamos los estilos css (1:12:30 hs)
+
+			ponemos todos lo estilos en app.css aunque luego se puede discriminar por componentes.
 		
+
+
 
 
