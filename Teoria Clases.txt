@@ -1707,3 +1707,6 @@ Clase 43
 
 
 	Integrador 2 - explicacion ( 2 min a 15 min)
+
+
+	Aplicacion React en proyecto de alumno ( 42 min a )
