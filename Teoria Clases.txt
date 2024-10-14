@@ -1749,7 +1749,9 @@ Clase 43
 
 
 		
+		Pagina Error (1:50 hs)
 
+			La imagen no hizo falta importarla y usarla como un objeto porque como esta leyendo un archivo fuera del componente ahi si lo puede leer, porque el componente se carga/monta lee el archivo y lo puede mostrar.
 
 
 
