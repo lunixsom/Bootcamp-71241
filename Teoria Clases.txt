@@ -1710,3 +1710,28 @@ Clase 43
 
 
 	Aplicacion React en proyecto de alumno ( 42 min a )
+
+		Agregamos Bootstrap 
+
+		Elegimos la estructtura que vamos a manejar(50 min):
+
+			- Folder componentes, folder css y folder Pages
+
+			- Folder Home, Contacto y componentes
+
+		Como trabajamos con las imagenes en React (1:06:30 hs a ) 
+
+			No trabajo igual a cuando usaba js y html nativos tengo que tratarlo como un objeto:
+
+			1º tengo que importar el objeto
+
+				import logo from '../image/logo.png'
+
+			2º la variable logo la pongo en src del img (cada imagen tiene que tener su propia variable, ahora hacemos asi pero luego con base de datos lo vamos a hacer automatico)
+
+				<img src={logo} ... />
+
+		
+		
+
+
