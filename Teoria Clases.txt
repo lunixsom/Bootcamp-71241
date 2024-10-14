@@ -1739,6 +1739,15 @@ Clase 43
 		Agregamos los estilos css (1:12:30 hs)
 
 			ponemos todos lo estilos en app.css aunque luego se puede discriminar por componentes.
+
+
+
+		
+		Pasamos el Footer a React (1:26 hs a )
+
+			No tuvimos que importar los estilos en el conponente Footer porque ya los esta leyendo desde el componente de Navegacion. Pero es mejor si no importo el mismo css en dos lugares distintos y lo hago solo en el App.js que es el componente principal, porque estan centralizados los estilos.
+
+
 		
 
 
