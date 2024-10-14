@@ -1632,4 +1632,69 @@ Clase 41
 
 				Route
 
+		
+		BrowserRouter (1:02 hs)
+
+			Es el administrador principal del Enrutador, sin esto no funciona nada.
+
+				1° Importamos el Administrador del Router en el archivo index.js
+
+						import { BrowserRouter } from "react-router-dom";
+
+				2° Envolvemos (wrapear) toda la aplicacion con el elemento BrowserRouter
+
+						<BrowserRouter>
+							App
+						</BrowserRouter>
+
+			En la pagina oficial estan los ejemplos de codigo, porque mas alla de los materiales en alumni, quizas yo quiero llevar eso a otro lugar, se puede desarmar todo esto y armar de otra manera, ponerlo todo en la barra de navegacion.
+
+
+
+		Routes - Configurar las rutas (1:30 hs a  )
+
+			La rutas las configuramos donde nosotros queramos.
+
+			Es una configuracion que no va aparecer dentro del navegador porque son solo las rutas.
+
+				1°	Importamos y creamos el contenedor padre Routes donde van a trabajar las rutas
+
+						import { Routes } from 'react-router-dom'
+
+						<Routes>
+						....
+						</Routes>
+
+				2°  Importamos route y configuramos las rutas y los componentes que queremos subir y bajar segun el diseño de la aplicacion
+
+						import { Routes, Route } from 'react-router-dom'
+
+						<Routes>
+							<Route path='/' element={<App/>}/>
+						</Routes>
 				
+						Lo que estoy haciendo en ese Route es decirle al navegador que cuando el cliente vaya a / bajame todo lo que tengas y subime la App.
+
+						import Login from './Pages/Login';
+
+						<Routes>
+							<Route path='/' element={<App/>}/>
+							<Route path='/login' element={<Login />}/>
+						</Routes>
+
+				
+				3°  Debemos decirle a la aplicacion de react donde esta este path, donde esta el login y donde esta nosotros (donde estan esos paths)
+
+				Tengo que importar el elemento de react-router-dom, Link:
+
+					import { Link } from 'react-router-dom'
+
+					Utilizamos Link en vez del anclas de html(a) y saco el atributo href:
+
+						<Link to='/' >APP</Link>
+
+
+
+************************************************************
+
+Clase 42
