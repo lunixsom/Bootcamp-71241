@@ -1785,3 +1785,16 @@ Clase 44
 
 	Creo componente Admin (32 min a 34 min)
 
+
+	Creo componente Ecommerce (43 min )
+
+
+	Uso de LocalStorage en React ( 58 min )
+
+
+	React Bootstrap ( 1:02 hs )
+
+
+	Traigo carrusel de React Bootstrap (1:11 hs)
+
+	
