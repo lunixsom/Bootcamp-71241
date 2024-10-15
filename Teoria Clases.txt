@@ -1764,3 +1764,24 @@ Clase 44
 	Login (4 min a 17 min)
 
 		
+
+	useNavigate (24 min a )
+
+		Me redirige a la pagina que yo le diga.
+
+
+		1º Importamos el componente:
+
+			import { useNavigate } from "react-router-dom";
+
+		2º Declarar una constante que utilice la funcion:
+
+			const navigate = useNavigate();
+
+		3° Hacemos el redireccionamiento a la pagina que deseo:
+
+			navigate('/admin')
+
+
+	Creo componente Admin (32 min a 34 min)
+
