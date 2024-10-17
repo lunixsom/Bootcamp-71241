@@ -1795,6 +1795,6 @@ Clase 44
 	React Bootstrap ( 1:02 hs )
 
 
-	Traigo carrusel de React Bootstrap (1:11 hs)
+	Traigo carrusel de React Bootstrap (1:11 hs a 1:42 hs)
 
 	
