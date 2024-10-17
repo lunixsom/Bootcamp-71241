@@ -1798,3 +1798,43 @@ Clase 44
 	Traigo carrusel de React Bootstrap (1:11 hs a 1:42 hs)
 
 	
+	Variables en React (46 min)
+
+		En JS nativo manejabamos las variables de la siguiente manera:
+
+			let email = document.getElementById('email')
+
+		Pero en React no nos manejamos asi, se TRABAJA CON HOOKS
+
+	
+	HOOKS - useState ( 1:51 hs )
+
+		Manejamos los estados con React .
+
+		Con useState yo creo la variable y luego le puedo cambiar los valores con la funcion que viene por defecto.
+
+
+		1º Tenemos que importar el useState, notenemos que instalarlo porque ya viene con React:
+
+			import { useState } from 'react'
+
+		2º Manejamos los estados creando un arreglo de variables:
+
+			Creo los estados o variables:
+
+				const [] = useState('')
+
+				const [email] = useState('') <- esto seria igual en JS nativo a: let email = ''
+
+
+			Cuando quiero cambiar los valores de esa variable, para cambiar los valores en el estado/variables tengo una funcion que viene con el estado:
+
+				const [email, setEmail] = useState('')
+
+
+			¿COMO CAPTURAMOS EL ELEMENTO HTML DESDE REACT? -> Lo vamos a capturar a traves del evento(e).
+
+
+
+
+
