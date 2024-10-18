@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+
+  .menu, .detallesPedido {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+.menu div, .detallesPedido div {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+.menu div:last-child, .detallesPedido div:last-child {
+    border-bottom: none;
+  }
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    margin: 10px auto;
+  }
+  
+button:hover {
+    background-color: #218838;
+  }
+  
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

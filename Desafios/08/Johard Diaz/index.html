@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WING IT!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./imagenes/Wing_It.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div id="fondo">
+            <span class="logo"><img src="./imagenes/Wing_It.jpg" alt="logo"></span>
+        </div>
+        <div>
+            <nav class="barra">
+                <div id="carrito" class="barra1">
+                    <li><b>Carrito</b></li>
+                    <img class="img1" src="./imagenes/Carrito.ico" alt="Carrito">
+                    <span id="contadorDelCarrito">0</span>
+                    
+                        <div id="ventanaCarrito">
+                            <h3 class="tituloh3">Productos seleccionados</h3>
+                            
+                            <section class="ventana">
+                                <div id="productos"></div>
+                                <div id="precios"></div>
+                            </section>
+                            <div class="totalLimpiar">
+                                <h4 class="sinMargen">Total: $<span id="total">0.00</span></h4>
+                                <div>
+                                    <button id="ordenar">Ordenar</button>
+                                    <button id="botonReset"><img class="img1" src="./imagenes/Limpiar_Carrito.ico" alt="LimpiarCarrito"></button>
+                                </div>
+                            </div> 
+                        </div>
+
+                </div>
+                <div id="iniciarSesion" class="barra1">
+                    <li><b>Iniciar Sesión</b></li>
+                    <img class="img1" src="./imagenes/Iniciar_sesion.ico" alt="Iniciar_sesion">
+                        <div id="ventanaIniciarSesion">
+                            <h3 class="tituloh3">Ingresa tu Usuario y Contraseña</h3>
+                        
+                                <form class="loginform">
+                                    <label id="usuario" for="name">Usuario</label>
+                                    <input type="text">
+                                
+                                    <label id="contraseña" for="password">Contraseña</label>
+                                    <input type="password">
+                                    <div class="botonlogin">
+                                        <button>Acceder</button>
+                                        <button>Cancelar</button>
+                                    </div>
+                                </form>
+                        </div>
+
+                </div>    
+                <div class="barra1">
+                    <li><b>Registrate</b></li>
+                    <img class="img1" src="./imagenes/Registrate.ico" alt="Registrate">
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div id="overlay"></div>
+    <div id="ventanaDireccion">
+        <h2>Agregar Direccion y Metodo de Pago</h2>
+        <form class="formulario">
+            <label for="name">Nombre de quien recibe el Pedido</label>
+            <input type="text">
+            <label for="text">Direccion de Entrega</label>
+            <input type="text">
+            <label for="text">Referencias del lugar</label>
+            <input type="text">
+            <label for="text">Metodo de Pago</label>
+            <select name="MetodoDePago" id="MetodoDePago">
+                <optgroup>
+                    <option value=""></option>
+                    <option value="">Pago contra entrega</option>
+                    <option value="">Pago con tarjeta</option>
+                    <option value="">Cupones</option>
+                </optgroup>
+            </select>
+            <div>
+                <button id="confirmarDireccion">Confirmar Direccion</button>
+                <button id="cancelarPedido">Cancelar</button>
+            </div>
+        </form>
+    </div>
+
+    <section id="combos">
+        <h2>Combos</h2>
+        <div class="container">
+            <div class="combo">
+                <figure><img src="./imagenes/Hamburguesa_de_pollo.jpg" alt="Combo 1"></figure>
+                <h3>Combo 1</h3>
+                <p>Hamburguesa de Pollo + Papas</p>
+                <p>Precio: $5</p>
+                <div class="botones">
+                    <button class="boton1" id="combo1" class="agregarAlCarrito">Agregar</button>
+                    <button class="boton1">Comprar</button>
+                </div>
+            </div>
+            <div class="combo">
+                <figure><img src="./imagenes/Wrap_de_pollo_y_bebida.jpg" alt="Combo 2"></figure>
+                <h3>Combo 2</h3>
+                <p>Wrap de Pollo + Papas + Bebida</p>
+                <p>Precio: $10</p>
+                <div class="botones">
+                    <button class="boton1" id="combo2" class="agregarAlCarrito">Agregar</button>
+                    <button class="boton1">Comprar</button>
+                </div>
+            </div>
+            <div class="combo">
+                <figure><img src="./imagenes/Hamburguesa_de_pollo_y_bebida.jpg" alt="Combo 3"></figure>
+                <h3>Combo 3</h3>
+                <p>Hamburguesa de pollo + Papas + Bebida</p>
+                <p>Precio: $8</p>
+                <div class="botones">
+                    <button class="boton1" id="combo3" class="agregarAlCarrito">Agregar</button>
+                    <button class="boton1">Comprar</button>
+                </div>
+            </div>
+            <div class="combo">
+                <figure><img src="./imagenes/Wrap_de_pollo.jpg" alt="Combo 4"></figure>
+                <h3>Combo 4</h3>
+                <p>Wrap de Pollo <br> + Papas</p>
+                <p>Precio: $8</p>
+                <div class="botones">
+                    <button class="boton1" id="combo4" class="agregarAlCarrito">Agregar</button>
+                    <button class="boton1">Comprar</button>
+                </div>
+            </div>
+            <div class="combo">
+                <figure><img src="./imagenes/Pizza.jpg" alt="Combo 5"></figure>
+                <h3>Combo 5</h3>
+                <p>Pizza <br> + Bebida</p>
+                <p>Precio: $10</p>
+                <div class="botones">
+                    <button class="boton1" id="combo5" class="agregarAlCarrito">Agregar</button>
+                    <button class="boton1">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <div class="proximamente"><h1>MÁS COMBOS PROXIMAMENTE</h1></div>
+    </section>
+
+    <footer>
+       
+    </footer>
+
+    <script src="carrito.js"></script>
+    <script src="iniciarSesion.js"></script>
+</body>
+</html>
