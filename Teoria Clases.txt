@@ -1856,7 +1856,7 @@ Clase 45
 
 
 
-	Obtener datos en React sin DOM ( 39 min a )
+	Obtener datos en React sin DOM ( 39 min a 1:17 hs )
 
 		Como ya no podemos usar el .value en Dom como veniamos haciendo en JS nativo, utilizamos el event para obtener el value: event.target.value
 
@@ -1867,6 +1867,9 @@ Clase 45
 		2° Cuando cambien el dato del input, cuando alguien vaya escribiendo los datos dentro del input, ejecutame una funcion donde le vas a tomar el event para luego enviarle value a setEmail(la unica responsable de darle valor a la variable email):
 
 			onChange={(event) => setEmail(event.target.value)} 
+
+
+
 
 
 
