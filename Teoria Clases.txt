@@ -1809,6 +1809,8 @@ Clase 44
 
 	HOOKS - useState ( 1:51 hs )
 
+		El useState es una memoria de trabajo que mientras este activado el componente me va a guardar el dato despues ya no me lo va a guardar, para eso despues vamos a utilizar el useContext para que algunas variables las guarde y las maneje de forma global mientras quye el cliente va cambiando de componente. (clase 45 - 52 min)
+
 		Manejamos los estados con React.
 
 		Con useState yo creo la variable y luego le puedo cambiar los valores con la funcion que viene por defecto.
@@ -1842,5 +1844,30 @@ Clase 45
 	Dudas alumnos clase anterior (6 min a 25 min)	
 
 
+	En JS nativo yo obtenia los datos a traves del DOM, en React 
 	
+
+	Repaso uso de useState para crear variables ( 26 min a 33 min)
+
+
+	useContext ( 34 min )
+
+		Es otro hook que utilizamos par que en una memoria global guardemos algunas variables que no se pierdan.
+
+
+
+	Obtener datos en React sin DOM ( 39 min a )
+
+		Como ya no podemos usar el .value en Dom como veniamos haciendo en JS nativo, utilizamos el event para obtener el value: event.target.value
+
+		1°  A los inputs le agregamos el atributo value={email} para que React lo reconozca.
+
+			value={email}
+
+		2° Cuando cambien el dato del input, cuando alguien vaya escribiendo los datos dentro del input, ejecutame una funcion donde le vas a tomar el event para luego enviarle value a setEmail(la unica responsable de darle valor a la variable email):
+
+			onChange={(event) => setEmail(event.target.value)} 
+
+
+
 	
