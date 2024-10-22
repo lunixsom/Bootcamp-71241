@@ -1,0 +1,145 @@
+
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color:#02104D;
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FE3610;
+    padding: 1em 5%;
+    color: #02104D;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: white;
+    padding: 1em;
+    color:#02104D ;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color:  #02104D;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+
+
+
+#formulario h2 {
+    text-align: start;
+    color: #02104D;
+}
+
+#formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.contenedorflex{display: flex;  }
+
+.contenedor{ border: 1px solid #02104D;
+margin: 8px 8px;
+text-align: center;}
+
+footer {background-color: aqua;}
+
+.leyendafooter{text-align: center;}
+
+   
+
+
+.contenedorflex{display: flex;  }
+
+.contenedor{ border: 1px solid #02104D;
+margin: 40px 40px;
+text-align: center;}
+
+footer {background-color: aqua;
+margin: 05px 05px;
+padding-top: 5px;
+}
+
+.leyendafooter{text-align: center;}
+
+   
+
+
+
+.iconoimg{
+    margin-top: 5px;
+    width: 30px;
+}
+
+.iconoenvio{margin-top: 5px;
+    width: 30px;
+}
+.iconollave{margin-top: 5px;
+    width: 30px;
+}
+
+#formulario{
+    border: 1px solid #FE3610;
+    border-radius: 5px;
+    padding: 60px 45px;
+    margin-top:50px ;
+    margin-bottom:75px ;
+    background-color:  #FE3610;
+    color:whitesmoke;
+
+}
+#formulario label,
+#formulario input {
+    margin: 0.5em 0;
+    height: 30px;
+}
+
+#formulario label {
+    font-size: x-large;
+}
+h2{
+    font-size: xx-large;
+}
+#formulario button{
+    margin-top: 40px;
+    height:55px ;
+    font-size:larger;
+}
+nav ul li a:hover{color:#FE3610;}

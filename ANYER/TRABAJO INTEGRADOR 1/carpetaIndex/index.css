@@ -1,0 +1,162 @@
+/* *{margin: 0;
+padding: 0;} */
+
+
+
+
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color:#02104D;
+}
+
+header {
+    background-color: #FE3610;
+    padding: 1em 5%;
+    color: #02104D;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 48px;
+    font-style: italic;
+    text-transform: uppercase;
+    
+}
+/* 
+nav {
+    background-color: white;
+    padding: 1em;
+    color:#02104D ;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+} */
+
+ nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color:  #02104D;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+nav ul li a:hover{color:#FE3610} 
+ 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+/* #productos {
+    width: 100%;
+}
+
+#productos > h2 {
+    text-align: center;
+}
+ h2{ font-size: 36px;} */
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    
+}
+
+.tarjeta {
+    background-color:white;
+    border: 1px solid #02104D;
+    width: 250px;
+    height: 600px ;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
+
+.tarjeta:hover {
+    transform: scale(1.05);
+}
+
+.tarjeta img {
+    width: 100%;
+    height:auto ;
+    display: block;
+    margin: 10px 0%;
+}
+
+.tarjeta h3 {
+    margin: 1em 0;
+    text-transform: uppercase;
+    
+}
+
+.tarjeta p {
+    margin: 1em;
+    color: #02104D;
+}
+
+.contenedorflex{display: flex;
+    justify-content: center;
+  }
+
+.contenedor{ border: 1px solid #02104D;
+margin: 30px 30px;
+width: 20%;
+text-align: center; 
+border-radius: 5px;}
+
+footer {background-color: aqua;
+margin: 05px 05px;
+padding-top: 5px;
+}
+
+.leyendafooter{text-align: center;}
+
+.tarjetasboton{ border: 1px solid green ;
+padding: 5px;
+margin-bottom: 40px;
+background-color: green;
+color:white ;
+border-radius: 5px;
+text-decoration: none;}
+   
+form {width: 100px;
+height: 50px;
+border: 1px solid black;
+margin-left: auto;
+margin-right: auto;
+background-color: aqua;
+
+
+}
+
+.iconoimg{
+    margin-top: 5px;
+    width: 30px;
+}
+
+.iconoenvio{margin-top: 5px;
+    width: 30px;
+}
+.iconollave{margin-top: 5px;
+    width: 30px;
+}
+
