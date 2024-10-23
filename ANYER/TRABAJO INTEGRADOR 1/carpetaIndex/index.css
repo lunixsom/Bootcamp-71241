@@ -29,7 +29,7 @@ header h1 {
     text-transform: uppercase;
     
 }
-/* 
+
 nav {
     background-color: white;
     padding: 1em;
@@ -42,7 +42,7 @@ nav ul {
     display: flex;
     justify-content: center;
     margin: 0;
-} */
+}
 
  nav ul li {
     margin: 0 1em;
