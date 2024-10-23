@@ -1794,6 +1794,11 @@ Clase 44
 
 	React Bootstrap ( 1:02 hs )
 
+		La diferencia con el Boosttrap comun es que React bootstrap ya esta preparado con el className y todas las caracteristicas que nosotros tenemos que agregarle a un componente de React trabajando con Bootstrap sin tener que hacerlo manualmente.
+
+		
+
+
 
 	Traigo carrusel de React Bootstrap (1:11 hs)
 

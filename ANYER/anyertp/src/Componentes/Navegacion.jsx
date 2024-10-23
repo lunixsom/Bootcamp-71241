@@ -27,6 +27,11 @@ const Navegacion = () => {
                         Nosotros
                     </Link>
                 </li>
+                <li>
+                     <Link to='/carrito'>
+                     <i className="bi bi-cart4">Carrito</i>
+                     </Link>
+                </li>
             </ul>
         </nav>
     </header>

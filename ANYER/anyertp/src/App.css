@@ -194,5 +194,11 @@ nav ul li a:hover{color:#FE3610;}
   }
 
 
+/* Carrito:  */
 
+.container_carrito{
+    width: 100px;
+    height: 60px;
+    background-color: burlywood;
+}
 

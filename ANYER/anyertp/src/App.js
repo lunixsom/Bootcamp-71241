@@ -6,6 +6,7 @@ import Contacto from './Contacto/Contacto';
 import Nosotros from './Nosotros/Nosotros';
 import Alta from './Alta/Alta';
 import Inicio from './Inicio/Inicio';
+import Carrito from './Componentes/Carrito';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/alta' element={<Alta />} />
         <Route path='/contacto' element={<Contacto />} />
         <Route path='/nosotros' element={<Nosotros />} />
+        <Route path='/carrito' element={<Carrito />} />
       </Routes>
 
 
