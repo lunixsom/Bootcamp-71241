@@ -1816,6 +1816,8 @@ Clase 44
 
 		El useState es una memoria de trabajo que mientras este activado el componente me va a guardar el dato despues ya no me lo va a guardar, para eso despues vamos a utilizar el useContext para que algunas variables las guarde y las maneje de forma global mientras quye el cliente va cambiando de componente. (clase 45 - 52 min)
 
+		GUARDA LAS VARIABLES MIENTRAS ESTA MONTADO EL COMPONENTE EN EL NAVEGADOR.
+
 		Manejamos los estados con React.
 
 		Con useState yo creo la variable y luego le puedo cambiar los valores con la funcion que viene por defecto.
@@ -1926,7 +1928,7 @@ Clase 45
 Clase 46
 
 
-
+	Repaso clas anterior ( 2 min a 5 min )
 
 
 
