@@ -1883,6 +1883,52 @@ Clase 45
 
 
 
+	COMO AGREGAR PRODUCTOS AL CARRITO ( 1:37 hs a  1:44 hs && )
+
+		Usamos useState 
+
+		Construi un objeto con los datos del producto
+
+		Usamos localStorage para enviar el objeto producto 
+
+
+
+	Carrito ( 1:45 hs )
+
+
+		Agrego link bootstrap icono
+
+		Agrego link en Navegacion con icono
+
+		AgreGo en rutas
+
+
+		Creo componente Carrito ( 1:49:30 hs )
+
+			Armo estructura tml de Carrito
+
+			Agrego boton con evento buscarCompras
+
+			Agregamos useState para guardar los productos del localStorage en variable misCompras e imprimirla en el h2
+
+		
+		Usamos useEffect ( 2:03 hs )
+
+			Es una funcion que HACE UNA LLAMADA A PREVIA A LOCAL STORAGE, SE FIJA SI HAY ALGO Y YA LO GUARDA EN LA VARIABLES misCompras Y ESO ES LO QUE YO QUIERO MOSTRAR, ENTONCES ya tiene listo los datos para mostrarme cuando el componente de cargue, POQUE DE LO CONTRARIO SE VA CARGAR EL COMPONENTE Y NO VA PODER ACTUALIZAR LOS DATOS DE LA VARIABLE EN EL MISMO MOMENTO SINO ESTA USANDO USE EFFECT.
+
+
+
+
+	
+
+************************************************************
+
+Clase 46
+
+
+
+
+
 
 
 	
