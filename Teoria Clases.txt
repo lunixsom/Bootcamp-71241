@@ -1255,6 +1255,8 @@ Clase 34
 
 			Es la memoria local del navegador, tiene una capacidad limitada, vamos a guardar pocas cosas aca, como por ejemplo el tema(light o dark) de la pagina y algunos otros datos no sensibles.
 
+			Trabaja unicamente con datos STRING (por lo que si mando un bjeto literal JS voy a tener que convertirlo antes en string con JSON.stringify)
+
 			Guardamos datos en el localStorage:
 
 				localStorage.setItem("email", email);
@@ -1928,9 +1930,20 @@ Clase 45
 Clase 46
 
 
-	Repaso clas anterior ( 2 min a 5 min )
+	Repaso clase anterior ( 2 min a 5 min )
+
+	Repaso Concepto de Objeto en JS ( 6 min a )
+
+	Diferencias entre Objeto Literal JS y Objeto JSON (9 min a )
+
+		EL navegador no puede contener un objeto literal JS en el local Storage, necesita que se a un dato de tipo string, por eso necesitamos guardarlo de tipo JSON (objeto de tipo de dato string)
+
+		Para eso tenemos el metodo JSON.stringify para converitir de objeto literal JS a string, para la inversa tenemos JSON.parse 
 
 
+	Cuando nosotros completamos nuestros datos en un registro ¿Como viajan nuestros desde el formulario? -> Viajan como JSON y se insertan estos tipos de datos en una base de datos, luego ¿como lo convertimos a un objeto de JS para usarlo? utilizamos el JSON.parse y sino utilizamos MIDDLEWARES que lo veremos mas adelante.
+
+	
 
 
 	
