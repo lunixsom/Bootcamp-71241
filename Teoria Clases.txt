@@ -1944,6 +1944,13 @@ Clase 46
 	Cuando nosotros completamos nuestros datos en un registro ¿Como viajan nuestros desde el formulario? -> Viajan como JSON y se insertan estos tipos de datos en una base de datos, luego ¿como lo convertimos a un objeto de JS para usarlo? utilizamos el JSON.parse y sino utilizamos MIDDLEWARES que lo veremos mas adelante.
 
 	
+	Lo que el HOOK me genera son variables dinamicas que yo puedo usar/mostrar mientras el componente este montado.
 
+		Yo puedo usar una variable normal como veniamos usando en JS nativo: let carrito = 'Enargey gel $2500' y luego en el componente llamarlo: {carrito} y me lo va imprimir pero luego no voy a poder cambiarlo. Por eso necesito useState.
+
+
+	UseEffect ( 50 min a )
+
+		Tiene dos argumentos, en el primero recibe un callback donde le decimos lo que queremos que haga cuando se ejecute (que es lo que va hacer cuando se ejecuta), en el segundo 
 
 	
