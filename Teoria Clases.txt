@@ -1949,8 +1949,25 @@ Clase 46
 		Yo puedo usar una variable normal como veniamos usando en JS nativo: let carrito = 'Enargey gel $2500' y luego en el componente llamarlo: {carrito} y me lo va imprimir pero luego no voy a poder cambiarlo. Por eso necesito useState.
 
 
-	UseEffect ( 50 min a )
+	UseEffect ( 50 min a 54 min)
 
-		Tiene dos argumentos, en el primero recibe un callback donde le decimos lo que queremos que haga cuando se ejecute (que es lo que va hacer cuando se ejecuta), en el segundo 
+		Tiene dos argumentos, en el primero recibe un callback donde le decimos lo que queremos que haga cuando se ejecute (que es lo que va hacer cuando se ejecuta antes de que el componente se monte en el navegador), en el segundo parametro es un arreglo para que este pendiente de algun cambio en el carrito (quiero que estes atento a algo). 
+
+
+	CARD Bootstrap para renderizar productos en CARRITO ( 59 min a 1:15 hs )
+
+		El Style no puede ir en TIPO DE DATO TEXTUAL entonces tengo que ponerle dos llaves: style={{width: 18px}}
+
+
+
+	Sesion Storage ( 1:16 hs )
+
+	Es la memoria de la sesion donde nosotros tambien podemos guardar datos pero cuando se cierra la navegacion desaparece este dato, por eso es una sesion.
+
+	
+	
+
+
+
 
 	
