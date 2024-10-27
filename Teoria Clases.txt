@@ -1965,9 +1965,15 @@ Clase 46
 	Es la memoria de la sesion donde nosotros tambien podemos guardar datos pero cuando se cierra la navegacion desaparece este dato, por eso es una sesion.
 
 	
-	
+	Limpiar Local Storage ( 1:23 hs a 1:29 hs )
+
+		con removeItem('producto') -> Elimino un solo producto
+
+		.clear() -> Elimina todo
 
 
+	Uso datos de Sesion Storage ( 1:37 hs a )
 
+		Obtengo el user de sesion Storage para mostrarlo en un h1 en carrito
 
 	
