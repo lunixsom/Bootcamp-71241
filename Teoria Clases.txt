@@ -1977,3 +1977,20 @@ Clase 46
 		Obtengo el user de sesion Storage para mostrarlo en un h1 en carrito
 
 	
+	Uso MAP para mostrar todas las CARDS ( 1:54:30 hs a  hs)
+
+		No se puede usar un bucle for en React
+
+		No puedo iterar poque necesito objetos para colocar en el componente.
+
+			Necesito que carrito sea un array
+
+			Tengo que usar MAP ( es otra variable de los bucles de iteracion )
+
+		PERO NO TERMINO DE APLICAR MAP
+
+
+	
+	************************************************************
+
+Clase 47
