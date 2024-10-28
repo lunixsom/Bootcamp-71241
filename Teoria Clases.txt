@@ -2010,13 +2010,40 @@ BACKEND
 
 		Inicializamos la configuracion del proyecto con "npm init" o "npm init -y"
 
+		Instalo nodemon como dependencia Dev: npm i nodemon -D
+
 		Instalamos la herramienta Express ( 25 min )
 
 			No podemos instalarlo de forma global, porque cuando subimos el servidor a un hosting que estemos pagando, necesitamos que en el servidor que trabaja con node JS lo instale para que funcione nuestra aplicacion.
 
-			Genero script dev en package.json para luego poder usar "npm run dev" 
+			Genero script/comando dev en package.json: "nodemon src/index.js" para luego poder usar "npm run dev" y poder trabajar en mi compu con la aplicacion permanentemente abierta. En Servidor ya no hara falta este comando dev sino el "start": "node src/index.js" porque el servidor ya tiene una herramienta como el nodemon que mantiene la aplicacion abierta permanentemente.
 
-			Instalo con: "npm install express --save" el save lo que hace es dejar asentado en el package.json que express es una dependencia importante que luego el hosting debe instalar. No tiene que esta como Dev dependencies. Si yo quiero instalar la ultima version esntonces yo necesito ejecutar: "npm install express@"
+			Instalo con: "npm install express --save" el save lo que hace es dejar asentado en el package.json que express es una dependencia importante que luego el hosting debe instalar. No tiene que esta como Dev dependencies. 
+			Si yo quiero instalar la ultima version esntonces yo necesito ejecutar: "npm install express@latest"
+
+			Por ahora vamos a estar utilizando ES5 (Ecma Script 5) que no usa import como veniamos trabajando con React(ES6)
+
+			Creamos la referencia(importamos) a Express para poder utilizarla:
+
+				const express = require('express')
+
+			Creo otra variable donde ejecuto esas funciones:
+
+				const app = express()
+
+
+		CREO RUTA en EXPRESS (1:07 hs)
+
+			app.get('/',)
+
+			El primer parametro es un ruta (endpoint) y el segundo parametro es un callback
+
+
+
+
+
+
+
 
 
 
