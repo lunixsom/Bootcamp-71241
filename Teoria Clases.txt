@@ -1918,7 +1918,7 @@ Clase 45
 		
 		Usamos useEffect ( 2:03 hs )
 
-			Es una funcion que HACE UNA LLAMADA A PREVIA A LOCAL STORAGE, SE FIJA SI HAY ALGO Y YA LO GUARDA EN LA VARIABLES misCompras Y ESO ES LO QUE YO QUIERO MOSTRAR, ENTONCES ya tiene listo los datos para mostrarme cuando el componente de cargue, POQUE DE LO CONTRARIO SE VA CARGAR EL COMPONENTE Y NO VA PODER ACTUALIZAR LOS DATOS DE LA VARIABLE EN EL MISMO MOMENTO SINO ESTA USANDO USE EFFECT.
+			Es una funcion que HACE UNA LLAMADA PREVIA A LOCAL STORAGE, SE FIJA SI HAY ALGO Y YA LO GUARDA EN LA VARIABLES misCompras Y ESO ES LO QUE YO QUIERO MOSTRAR, ENTONCES ya tiene listo los datos para mostrarme cuando el componente de cargue, POQUE DE LO CONTRARIO SE VA CARGAR EL COMPONENTE Y NO VA PODER ACTUALIZAR LOS DATOS DE LA VARIABLE EN EL MISMO MOMENTO SINO ESTA USANDO USE EFFECT.
 
 
 
@@ -1994,3 +1994,12 @@ Clase 46
 	************************************************************
 
 Clase 47
+
+
+BACKEND
+
+
+	Nosotros habiamos trabajado con modulos nativos de Node como el modulo HTTP para crear un servidor nativo pero actualmente para poder construir un BACKEND vamos atrabajar con otra libreria muy importante que trbaaja con el core de Node y para nosotros es mas facil y mas rapido, la libreria se llama EXPRESS, esta es la libreria que vamos a utiliza rpara poder trabajar con nuestras aplicaciones de backend.
+
+
+	EXPRESS ( 15 min a )
