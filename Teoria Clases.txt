@@ -2003,3 +2003,30 @@ BACKEND
 
 
 	EXPRESS ( 15 min a )
+
+		Es un framework/ herramienta / tecnologia que trabaja con el codigo nativo de Node el modulo http pero manera mas sencilla para nosotros.
+		
+		Repaso Creacion servidor nativo con modulo http ( 15 min a 21 min)
+
+		Inicializamos la configuracion del proyecto con "npm init" o "npm init -y"
+
+		Instalamos la herramienta Express ( 25 min )
+
+			No podemos instalarlo de forma global, porque cuando subimos el servidor a un hosting que estemos pagando, necesitamos que en el servidor que trabaja con node JS lo instale para que funcione nuestra aplicacion.
+
+			Genero script dev en package.json para luego poder usar "npm run dev" 
+
+			Instalo con: "npm install express --save" el save lo que hace es dejar asentado en el package.json que express es una dependencia importante que luego el hosting debe instalar. No tiene que esta como Dev dependencies. Si yo quiero instalar la ultima version esntonces yo necesito ejecutar: "npm install express@"
+
+
+
+
+
+
+
+
+
+
+
+
+
