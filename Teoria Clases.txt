@@ -2010,7 +2010,7 @@ BACKEND
 
 		Inicializamos la configuracion del proyecto con "npm init" o "npm init -y"
 
-		Instalo nodemon como dependencia Dev: npm i nodemon -D
+		Instalo nodemon como dependencia Dev: npm i nodemon -D (osea en modo LOCAL)
 
 		Instalamos la herramienta Express ( 25 min )
 
@@ -2105,6 +2105,16 @@ BACKEND
 	************************************************************
 
 Clase 48
+
+
+	Repaso clase anterior (2:30 min a 25 min)
+
+
+	POSTMAN (8 min a 12 min)
+
+		Es una herramienta profesional para realizar peticiones y realizar pruebas y realizar solicitudes HTTP.
+
+		Sirve tambien porque como ya no creamos un front con formularios que me hagan peticiones, postman simula ser un frontend.
 
 
 
