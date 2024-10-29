@@ -2080,13 +2080,31 @@ BACKEND
 		});
 
 	
-	Teoria EVENT LOOP (1:35 hs)
+	Teoria EVENT LOOP (1:35 hs a 1:45 hs)
 
 		Como trbaja con las peticiones realizadas por el cliente, a traves del nucelo Event Loop.
 
 	
+	Envio datos en mi response ( 1:46 hs a  )
+
+		res.json({
+			nombre: 'Juan',
+			apellido: 'Perez',
+			edad: 25
+		})
 
 
+	¿Cuantas respuestas puedo enviar al cliente? (1:57 hs)
+
+		Puedo enviar solo una response por metodo al cliente, en todo caso si necesito otra respuesta necesitaria crear otra ruta,
+
+	
+
+
+
+	************************************************************
+
+Clase 48
 
 
 
