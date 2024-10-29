@@ -2036,14 +2036,53 @@ BACKEND
 
 			app.get('/',)
 
-			El primer parametro es un ruta (endpoint) y el segundo parametro es un callback
+			El primer parametro es un ruta (endpoint) y el segundo parametro es un callback que se va ejecutar automaticamente cuando el cliente solicite esa ruta.
 
 
+			Esa funcion maneja dos parametros tambien que vana ser funciones, peticion y respuesta o request y response:
+
+				app.get(t'/', function (peticion, respuesta ){
+					respuesta.end('Bienvenido a mi primer servidor con express')
+				})
+
+			
+		Asignamos un puerto a la aplicaicion (1:16 hs)
+
+			const PORT = 9000
 
 
+		Levantar el servidor y ponerlo en escucha (1:16:40 hs)
+
+			app.listen(PORT, () =>{
+				console.log('Servidor express escuchando en el puerto ${PORT}')
+			})	
+
+		
+		Ejecutar mi aplicacion Express (1:18 hs)
+
+			npm run dev
 
 
+	Asi quedo mi codigo:
 
+		const express = require('express')
+
+		const app = express();
+
+		app.get('/', function(peticion, respuesta) {
+			respuesta.end('Bienvenido a mi primer servidor con Express')
+		});
+
+		const PORT = 9000;
+
+		app.listen(PORT, () => {
+			console.log('Servidor express escuchando en el puerto ${PORT}')
+		});
+
+	
+	Teoria EVENT LOOP (1:35 hs)
+
+		Como trbaja con las peticiones realizadas por el cliente, a traves del nucelo Event Loop.
 
 
 
