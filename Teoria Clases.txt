@@ -2109,7 +2109,7 @@ BACKEND
 Clase 48
 
 
-	Repaso clase anterior (2:30 min a 25 min)
+	Repaso clase anterior (2:30 min a 59 min)
 
 
 	POSTMAN (8 min a 12 min)
@@ -2119,6 +2119,11 @@ Clase 48
 		Sirve tambien porque como ya no creamos un front con formularios que me hagan peticiones, postman simula ser un frontend.
 
 	Una vez que terminamos de configurar el package.json que es la forma en que el servidor va levantar esta aplicacion, osea son las indicaciones que le doy al servidor para que prepare el entorno donde se va ejecutar mi aplicacion.
+
+
+	PORT en BACKEND (55 min )
+
+	Para desarrollo loval en backend se suele usar el PORT 9000 o 8080
 
 
 	
