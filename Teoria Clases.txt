@@ -2126,6 +2126,13 @@ Clase 48
 	Para desarrollo loval en backend se suele usar el PORT 9000 o 8080
 
 
+	Los Procesos de NODE (1:04:30 hs a )
+
+		process es el bucle que Node esta ejecutando por debajo de mi aplicacion, para procesar todas las funciones en el to do y para responder a mi peticion segun lo que el cliente pida.
+
+		con peticion.header vimo lo que viene en la peticion, con process.env estamos viendo lo que tenemos dentro de nuestro equipo con Node funcionando.
+
+
 	
 
 
