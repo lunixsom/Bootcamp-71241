@@ -2005,6 +2005,8 @@ BACKEND
 	EXPRESS ( 15 min a )
 
 		Es un framework/ herramienta / tecnologia que trabaja con el codigo nativo de Node el modulo http pero manera mas sencilla para nosotros.
+
+		Express lo que hace es administrar el Servidor.
 		
 		Repaso Creacion servidor nativo con modulo http ( 15 min a 21 min)
 
@@ -2027,7 +2029,7 @@ BACKEND
 
 				const express = require('express')
 
-			Creo otra variable donde ejecuto esas funciones:
+			Creo otra variable donde ejecuto sus funcionalidades (Creamos una instancia de Express):
 
 				const app = express()
 
@@ -2116,10 +2118,10 @@ Clase 48
 
 		Sirve tambien porque como ya no creamos un front con formularios que me hagan peticiones, postman simula ser un frontend.
 
+	Una vez que terminamos de configurar el package.json que es la forma en que el servidor va levantar esta aplicacion, osea son las indicaciones que le doy al servidor para que prepare el entorno donde se va ejecutar mi aplicacion.
 
 
-
-
+	
 
 
 
