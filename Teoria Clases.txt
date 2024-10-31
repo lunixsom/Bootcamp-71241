@@ -2112,11 +2112,23 @@ Clase 48
 	Repaso clase anterior (2:30 min a 59 min)
 
 
-	POSTMAN (8 min a 12 min)
+	POSTMAN (8 min a 12 min && 1:16 hs)
 
 		Es una herramienta profesional para realizar peticiones y realizar pruebas y realizar solicitudes HTTP.
 
 		Sirve tambien porque como ya no creamos un front con formularios que me hagan peticiones, postman simula ser un frontend.
+
+		Si queremos enviar datos a mi backend no vamos a esar creando un formulario cada vez que quiero enviar datos, para eso se uiliza POSTMAN.
+
+		
+		¿COMO SE UTILIZA?
+
+		1° Necesito saber que tipo de verbo HTTP voy a estar utilizando.
+
+		2° Puedo crear colecciones para guardar mis rutas, creamos uno para express
+
+		
+
 
 	Una vez que terminamos de configurar el package.json que es la forma en que el servidor va levantar esta aplicacion, osea son las indicaciones que le doy al servidor para que prepare el entorno donde se va ejecutar mi aplicacion.
 
@@ -2126,14 +2138,14 @@ Clase 48
 	Para desarrollo loval en backend se suele usar el PORT 9000 o 8080
 
 
-	Los Procesos de NODE (1:04:30 hs a )
+	Los Procesos de NODE (1:04:30 hs a 1:14 hs)
 
 		process es el bucle que Node esta ejecutando por debajo de mi aplicacion, para procesar todas las funciones en el to do y para responder a mi peticion segun lo que el cliente pida.
 
-		con peticion.header vimo lo que viene en la peticion, con process.env estamos viendo lo que tenemos dentro de nuestro equipo con Node funcionando.
+		con peticion.header vimos lo que viene en la peticion, con process.env estamos viendo lo que tenemos dentro de nuestro equipo con Node funcionando.
 
 
-	
+
 
 
 
