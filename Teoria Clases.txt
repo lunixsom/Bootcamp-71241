@@ -2145,6 +2145,33 @@ Clase 48
 		con peticion.header vimos lo que viene en la peticion, con process.env estamos viendo lo que tenemos dentro de nuestro equipo con Node funcionando.
 
 
+	Metodo POST (1:55 hs a )
+
+		Significa que mi servidor va a recibir datos, el POST es cuando la request/peticion que trae informacion (por ejemplo email y contraseña)
+
+			app.post('/login', (req, res) => {
+
+				let email;
+				let password;
+
+
+			})
+
+			El argumento que recibe informacion desde el front es el request, en "request.body" viene la informacion que trae el post.
+
+			app.post('/login', (req, res) => {
+
+				let email = req.body.email ;
+				let password = req.body.password;
+
+			})
+
+
+		Luego verificamos el funcionamiento del post en POSTMAN:
+
+			En Body tenemos que elegir como va ir la informacion: lo enviamos como tipo formulario codificado (x-www-form-urlencoded) Y NO SE PUDO TIRO Error
+
+			Tuvimo que enviar datos de tipo JSON (raw) Y TAMPOCO FUNCIONO PORQUE SEGUN BERNI NECESITAMOS CONFIGURAR MIDDLEWARES
 
 
 
