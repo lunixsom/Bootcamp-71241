@@ -2176,6 +2176,25 @@ Clase 48
 
 
 
+	************************************************************
 
+Clase 49
+
+
+	problema con merge de Berni (0 a 16 min)
+
+
+	Repaso clase anterior ( 17 min a 22 min)
+
+
+	Importaciones para que librerias manejen ciertas caracteristicas ( 22:30 min a )
+
+		Importar el puerto
+
+			Variables de Entorno ( 24 min )
+
+				Las variables de entorno se manejan con una libreria especifica que es DOTENV 
+
+				
 
 
