@@ -2196,5 +2196,43 @@ Clase 49
 				Las variables de entorno se manejan con una libreria especifica que es DOTENV 
 
 				
+		Libreria DOTENV o Variables de Entorno (43 min)
+
+			Sirve para que no queden a la vista variables de entorno o variables (contraseñas sensibles) importantes que yo no necesito que ni el administrador de los servidores lo vea. 	
+
+			Sirve para ocultar datos importantes que no se tienen que compartir.
+
+			FUNCION en NODE: dotenv.config() oculta los datos en el codigo e introduce las variables que hemos escrito en el archivo .env dentro de los procesos de Node, cosa que la aplicacion vaya a buscar alos procesos la variable que necesita.
 
 
+
+
+		USO LIBRERIA DOTENV (46 min)
+
+			1° Instalo libreria en terminal: npm i dotenv || npm install dotenv --save
+
+			2° Impotamos dotenv en app.js para utilizar las variables de entorno: const dotenv = require('dotenv')
+
+			3° Pido o ejecuto la configuracion de dotenv: dotenv.config() 
+
+				estos dos son iguales:
+
+					const dotenv = require('dotenv')
+					dotenv.config() 
+
+					require.('doenv').config()
+
+			4° Crear el archivo de variables de entorno:
+
+				En el root/raiz del proyecto creo un archivo .env
+
+				Dentro de .env creo las variables que quiero ocultar, generalmente las variables estan todas en mayusculas: 
+
+							PORT_SERVER=3000
+							PASSWORD_EMAIL=MI VARIABLE DE Google
+							DATABASE_URL=MI VARIABLE DE MONGODB
+
+				
+			5° Ver valores de variables de entorno:
+
+				console.log(process.env.PORT_SERVER)
