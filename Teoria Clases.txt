@@ -2236,3 +2236,10 @@ Clase 49
 			5° Ver valores de variables de entorno:
 
 				console.log(process.env.PORT_SERVER)
+
+	
+	¿Por que utilizamos PROCESS.ENV.PORT? (1:20 hs)
+
+		Vamos a GLITCH, que es un servidor de prueba, para probar el deply del backend.
+
+		Ahora vamos a probar con GLITCH-HELLO-NODE
