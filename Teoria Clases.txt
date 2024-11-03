@@ -2243,3 +2243,11 @@ Clase 49
 		Vamos a GLITCH, que es un servidor de prueba, para probar el deply del backend.
 
 		Ahora vamos a probar con GLITCH-HELLO-NODE
+
+		AGREGAMOS LAS VARIABLES DE ENTORNO EN GLITCH.
+
+		Tener cuidado con las versiones de Node y las dependencias, porque por ejemplo Berni instalo Express 5.0.1 y esta solo trabaja con versiones de Node de 18 para arriba, pero Glitch acepta Node 14.8 por lo que tuve que bajar la version de Express a una que funcione con Node 14.8
+
+
+
+		Luego puedo probar con postman con el path del sevidor Glitch
