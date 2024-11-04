@@ -2251,3 +2251,14 @@ Clase 49
 
 
 		Luego puedo probar con postman con el path del sevidor Glitch
+
+
+	Descargar algo de POSTMAN (1:51 hs )
+
+		Quiero darle una ruta para que descargue un archivo:
+
+			app.get('/descargar', (req, res) =>{
+				res.download('./archivo.txt')
+			})
+
+		Para que funcione tenes que poner este get despues de la ruta de error en el codigo.
