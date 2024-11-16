@@ -2284,3 +2284,30 @@ Clase 51
 		FEEDBACK clase ANTERIOR (9:30 min a 12 min)
 
 
+		MIDDLEWARES (22 min a )
+
+			EL BACKEND(NUESTRA APLICACION, LA LOGICA) NO ESTA ENTIENDO LOS DATOS QUE ESTA ENVIANDO EL FRONT PORQUE LE FALTA UN MIDDLEWARE A NUESTRO BACKEND PARA QUE LE INTERPRETE EL DATO QUE VIENE TIPO JSON. NO PODEMOS USAR JSON.PARSE PORQUE ESTO NO VIENE DESDE UN LOCAL STORAGE VIENE DE UN FORMULARIO O DESDE CUALQUIER OTRO LUGAR. ENTONCES NECESITAMOS UN MIDDLEWARE(FUNCION) QUE RECIBA LOS DATOS DE TIPO JSON Y LOS TRANSFORME EN UN OBJETO DE JS PARA QUE NUESTRA APLICACION ENTIENDA Y LO PUEDA TRABAJAR. 
+
+			Cuando quiero realizar un POST envio un json pero como no es una notacion de lenguaje de programacion mi aplicacion no lo entiende:
+
+				{
+					"email": "prueba@gmail.com",
+					"password": "1234"
+				}
+
+			Entonces para no tener que utilizar el pasaje de Objeto Json a objeto literal JS yo puedo utilizar MIDDLEWARES. 
+
+			Un MIDDLEWARE es pequeña funcion que esta entre la PETICION del cliente y la recepcion de los datos del Backend(RESPUESTA). Una funcion que recibe la peticion del cliente, realiza un proceso y despues la envia a la ruta que fuese.
+
+
+
+			Creamos un MIDDLEWARE (28 min)
+
+				function middleware(req, res) {
+					console.log('Soy un middleware');
+				}
+
+
+			Como utilizo el MIDDLEWARE (30:30 min)
+
+				app.use(middleware)
