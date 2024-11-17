@@ -2288,6 +2288,8 @@ Clase 51
 
 			EL BACKEND(NUESTRA APLICACION, LA LOGICA) NO ESTA ENTIENDO LOS DATOS QUE ESTA ENVIANDO EL FRONT PORQUE LE FALTA UN MIDDLEWARE A NUESTRO BACKEND PARA QUE LE INTERPRETE EL DATO QUE VIENE TIPO JSON. NO PODEMOS USAR JSON.PARSE PORQUE ESTO NO VIENE DESDE UN LOCAL STORAGE VIENE DE UN FORMULARIO O DESDE CUALQUIER OTRO LUGAR. ENTONCES NECESITAMOS UN MIDDLEWARE(FUNCION) QUE RECIBA LOS DATOS DE TIPO JSON Y LOS TRANSFORME EN UN OBJETO DE JS PARA QUE NUESTRA APLICACION ENTIENDA Y LO PUEDA TRABAJAR. 
 
+			NO PUEDO USAR JSON.PARSE O STRINGIFY PORQUE ESO ES PARA EL FRONT Y NOSOTROS ESTAMOS TRABAJANDO CON BACKEND Y NECESITA OTRAS HERRAMIENTAS.
+
 			Cuando quiero realizar un POST envio un json pero como no es una notacion de lenguaje de programacion mi aplicacion no lo entiende:
 
 				{
@@ -2297,17 +2299,45 @@ Clase 51
 
 			Entonces para no tener que utilizar el pasaje de Objeto Json a objeto literal JS yo puedo utilizar MIDDLEWARES. 
 
-			Un MIDDLEWARE es pequeña funcion que esta entre la PETICION del cliente y la recepcion de los datos del Backend(RESPUESTA). Una funcion que recibe la peticion del cliente, realiza un proceso y despues la envia a la ruta que fuese.
+			Un MIDDLEWARE es una pequeña funcion que esta entre la PETICION del cliente y la recepcion de los datos del Backend(RESPUESTA). Una funcion que recibe la peticion del cliente, realiza un proceso(traducir json a obj literal JS, verificar si el cliente esta autenticado, etc) y despues la envia a la ruta que fuese.
 
 
 
-			Creamos un MIDDLEWARE (28 min)
+			Creamos un MIDDLEWARE personalizado (28 min)
+
+				En Express ya hay middlewares predefinidos
 
 				function middleware(req, res) {
 					console.log('Soy un middleware');
 				}
 
 
-			Como utilizo el MIDDLEWARE (30:30 min)
+
+			Como utilizo/configuro/aplico el MIDDLEWARE (30:30 min)
 
 				app.use(middleware)
+
+
+
+			Los middlewares necesitan que nosotros le avisemos que una vez que realice la tarea deje ir a la peticion a la ruta donde esta intentando matchear. Lo hacemos agregando al middleware otro parametro que se llama next (un callback):
+
+			function middleware(req, res, next) {
+
+					console.log('Soy un middleware');
+
+					next();
+				}
+
+
+
+			Usamos middleware predefinido de Express (54 min)
+
+				Me sirve para convertir datos de tipo JSON en objetos literales:
+
+					express.json()
+					express.urlencoded() (decodificame lo que viene dentro de la url)
+
+
+			RECORDAR ESTO: UNA PETICION TIENE UNA SOLA RESPUESTA, NO PUEDO TENER DOS RES.SEND(...) (1:04 HS)
+
+			
