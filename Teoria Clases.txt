@@ -2284,7 +2284,7 @@ Clase 51
 		FEEDBACK clase ANTERIOR (9:30 min a 12 min)
 
 
-		MIDDLEWARES (22 min a )
+		MIDDLEWARES (22 min a 1:31 hs)
 
 			EL BACKEND(NUESTRA APLICACION, LA LOGICA) NO ESTA ENTIENDO LOS DATOS QUE ESTA ENVIANDO EL FRONT PORQUE LE FALTA UN MIDDLEWARE A NUESTRO BACKEND PARA QUE LE INTERPRETE EL DATO QUE VIENE TIPO JSON. NO PODEMOS USAR JSON.PARSE PORQUE ESTO NO VIENE DESDE UN LOCAL STORAGE VIENE DE UN FORMULARIO O DESDE CUALQUIER OTRO LUGAR. ENTONCES NECESITAMOS UN MIDDLEWARE(FUNCION) QUE RECIBA LOS DATOS DE TIPO JSON Y LOS TRANSFORME EN UN OBJETO DE JS PARA QUE NUESTRA APLICACION ENTIENDA Y LO PUEDA TRABAJAR. 
 
@@ -2300,6 +2300,7 @@ Clase 51
 			Entonces para no tener que utilizar el pasaje de Objeto Json a objeto literal JS yo puedo utilizar MIDDLEWARES. 
 
 			Un MIDDLEWARE es una pequeña funcion que esta entre la PETICION del cliente y la recepcion de los datos del Backend(RESPUESTA). Una funcion que recibe la peticion del cliente, realiza un proceso(traducir json a obj literal JS, verificar si el cliente esta autenticado, etc) y despues la envia a la ruta que fuese.
+
 
 
 
@@ -2330,7 +2331,11 @@ Clase 51
 
 
 
-			Usamos middleware predefinido de Express (54 min)
+			Usamos Middleware JSON de Express (54 min)
+
+				Para la recepcion de DATOS DE OTRAS APLICACIONES.
+
+				Se ejecuta en TODAS LAS RUTAS.
 
 				Me sirve para convertir datos de tipo JSON en objetos literales:
 
@@ -2340,4 +2345,21 @@ Clase 51
 
 			RECORDAR ESTO: UNA PETICION TIENE UNA SOLA RESPUESTA, NO PUEDO TENER DOS RES.SEND(...) (1:04 HS)
 
-			
+			ESTE MIDDLEWARE SIRVE PARA ENVIOS DE DATOS CRUDOS (RAW) JSON DESDE POSTMAN.
+
+
+
+			Usamos Middleware URLENCODED de Express para FORMULARIOS (1:16 hs)
+
+				Para la recepcion de DATOS DE FORMULARIOS
+
+				Se ejecuta en TODAS LAS RUTAS.
+
+				Para entender datos que vengan a traves de URLENCODED a traves de los formularios.
+
+					app.use(express.urlencoded({extended: true}));
+
+
+		Motores de Plantillas ( 1:33 hs a  )
+
+		
