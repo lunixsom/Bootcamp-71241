@@ -2360,6 +2360,66 @@ Clase 51
 					app.use(express.urlencoded({extended: true}));
 
 
+
+
 		Motores de Plantillas ( 1:33 hs a  )
 
-		
+		Son los primeros pasos de React, Angular, etc. Son parecidos a los componentes pero en lenguaje nativo, osea crear un prqueño componente pero con codigo nativo con html, css y js.
+
+		No es una Aplicacion REST (estan separadas la logica del backen y el frontend, como React y Node) sino SSR (cuando el FRONT esta INTEGRADO al BACKEND)
+
+		Cuando utilizamos motores de plantilla paara el backend se llama RENDERIZACION DEL LADO DEL SERVIDOR (SSR)  
+
+
+			Instalamos libreria Handlebars hbs (1:37 hs)
+
+				npm i hbs
+
+			
+				1° Importamos las funcionalidades en una variable:
+				
+						const hbs = require('hbs');
+
+				2° La configuramos:
+
+						app.set('view engine','hbs');
+
+					Configuramos la carpeta de las vistas, donde van a estar las vistas, los archivos de handlebars:
+					Van a estar en el Directorio principal (_dirname) en la carpeta views:
+
+						app.set('viwes', _dirname + '/views');
+
+					Adentro de la carpeta views tiene que haber un archivo importante que se tiene que llamar layout.hbs
+
+					El LAYOUT ES EL DISEÑO PRINCIPAL DE TODO.
+
+
+					¿Como le muestro el hbs al cliente desde mi aplicacion? (1:49 hs)
+
+						Tengo que crear un ruta:
+
+							app.get('/hbs', (req, res) => {
+								res.render('index')
+							})
+
+					Como funciona el motor de plantillas con HBS (1:53 hs)
+
+						Dentro de las carpeta views, la libreria de hbs busca un archivo principal y este tiene que llamarse layout.hbs 
+
+						Los motores de plantillas trabajan como React, hay un componente principal que es la app y dentro de app yo tengo que llamar a todos los otros componentes para que lo puedan renderizar, LO MISMO PASA CON LOS MOTORES DE PLANTILLAS, ESTA LAYOUT (EL DISEÑO PRINCIPAL DE HBS) PERO NO ME MUESTRA INDEX PORQUE NO LO HE LLAMADO DESDE LAYOUT.
+
+
+
+						CONFIGURO AL LAYOUT COMO EL CUERPO O EL BODY PRINCIPAL DE LA APLICACION:
+						
+							 {{{ body }}}	
+
+							todos los otros archivos de handlebars (hbs) que yo renderize: 
+
+								app.get('/hbs', (req, res) =>{
+									res.render('index')
+								})
+
+							los va a traer y los va a pegar en {{{ body }}} y saca el anterior hbs, similar a como funciona React montando y desmontando componentes.
+
+						
