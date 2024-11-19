@@ -2422,4 +2422,8 @@ Clase 51
 
 							los va a traer y los va a pegar en {{{ body }}} y saca el anterior hbs, similar a como funciona React montando y desmontando componentes.
 
-						
+
+
+	************************************************************
+
+Clase 52
