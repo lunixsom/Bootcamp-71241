@@ -2427,3 +2427,53 @@ Clase 51
 	************************************************************
 
 Clase 52
+
+
+	Lectura Desafio 09 (0 min a 8:30 min)
+
+
+	Configuracion Proyecto serverCompleto (11 min a )
+		
+		Creo proyecto	
+
+			npm init -y
+
+
+		Instalo librerias importantes:
+		
+			npm i express dotenv hbs path morgan
+
+			path y morgan son las librerias nuevas
+		
+
+		Agrego script:
+
+			"start": "node server.js" ,
+
+			"dev": "nodemon server.js"
+
+		Inicio Patron Vista - Controlador
+
+			SERVER.JS es el archivo principal de nuestra aplicacion y vamos a conectarnos a la base de datos y levantar el servidor.
+
+			APP.JS es otro archivo importante 
+
+
+		ES MEJOR DIVIDIR (MODULARIZAR) NUESTRO CONDIGO EN ARCHIVOS QUE TENGAN CIERTA RESPONSABILIDAD PARA QUE NOSOTROS DESPUES PODAMOS REALIZAR EL MANTENIMIENTO DE LA APLICACION DE UNA FORMA MAS RAPIDA.
+
+
+		Importamos los modulos necesarios en app.js
+
+			const express = ..
+			const dotenv = ..
+			const hbs = require('hbs');
+			const bodyParser..
+			const path ..
+			const morgan..
+
+		
+		Que hace path
+
+			Es un modulo que lo que hace es dirigirme, ayudarme a encontrar rutas en algunas caracteristicas especificas. Es una libreria de rutas, que nos ayuda a rutear archivos, direcciones que nosostros por ahi no podemos encontrarlas de forma manual. 
+
+
