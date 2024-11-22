@@ -2484,6 +2484,10 @@ Clase 52
 
 			Cuando me hagan una solicitud, me va a tirar data como estan matcheando tal ruta y la respuesta que le lanze fue 200 fue 400, en tal dia, tal hora.. etc.
 
+			Me sirve para tener mas informacion de lo que pasa en el servidor. 
+
+			El objetivo es recibir informacion una vez que esta trabajando nuestro servidor para si hay algun problema me tire mas informacion.
+
 		
 		Configuracion de Archivo .env (36 min)
 
@@ -2494,9 +2498,25 @@ Clase 52
 				app.set("view engine", "hbs")
 
 				app.set("views, path.join(_dirname, "views"))   -> es mas formal y elegante usar la libreria path.join para buscar rutas a como lo hicimos en el proyecto anterior de manera manual.
-				
-				 
 
+
+		Definimos las rutas (40 min)
+
+		Exportamos app
+
+
+		Como no levanto el servidor en app, entonces muevo dotenv a server.js
+
+
+		Defino el modo en que uso morgan (50 min)
+
+			combined
+
+			tiny	 
+
+		
+
+		Creo el layout en views (1 hs)
 
 
 
