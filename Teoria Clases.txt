@@ -2452,28 +2452,55 @@ Clase 52
 
 			"dev": "nodemon server.js"
 
-		Inicio Patron Vista - Controlador
+
+
+		Iniciamos a ver PATRON: VISTA - CONTROLADOR
 
 			SERVER.JS es el archivo principal de nuestra aplicacion y vamos a conectarnos a la base de datos y levantar el servidor.
 
-			APP.JS es otro archivo importante 
+			APP.JS es otro archivo importante donde se realizaran configuraciones.
 
 
-		ES MEJOR DIVIDIR (MODULARIZAR) NUESTRO CONDIGO EN ARCHIVOS QUE TENGAN CIERTA RESPONSABILIDAD PARA QUE NOSOTROS DESPUES PODAMOS REALIZAR EL MANTENIMIENTO DE LA APLICACION DE UNA FORMA MAS RAPIDA.
+		ES MEJOR DIVIDIR (MODULARIZAR) NUESTRO CODIGO EN ARCHIVOS QUE TENGAN CIERTA RESPONSABILIDAD PARA QUE NOSOTROS DESPUES PODAMOS REALIZAR EL MANTENIMIENTO DE LA APLICACION DE UNA FORMA MAS RAPIDA.
 
 
 		Importamos los modulos necesarios en app.js
 
 			const express = ..
-			const dotenv = ..
 			const hbs = require('hbs');
 			const bodyParser..
 			const path ..
 			const morgan..
 
 		
-		Que hace path
+		Que hace path:
 
 			Es un modulo que lo que hace es dirigirme, ayudarme a encontrar rutas en algunas caracteristicas especificas. Es una libreria de rutas, que nos ayuda a rutear archivos, direcciones que nosostros por ahi no podemos encontrarlas de forma manual. 
+
+
+		Que hace morgan:
+
+			Lo utilizamos en modo dev: app.use(morgan('dev'))
+
+			Cuando me hagan una solicitud, me va a tirar data como estan matcheando tal ruta y la respuesta que le lanze fue 200 fue 400, en tal dia, tal hora.. etc.
+
+		
+		Configuracion de Archivo .env (36 min)
+
+				Creo archivo .env y le seteo PORT=3000
+
+		Configuracion Handlebars - hbs (37 min)
+
+				app.set("view engine", "hbs")
+
+				app.set("views, path.join(_dirname, "views"))   -> es mas formal y elegante usar la libreria path.join para buscar rutas a como lo hicimos en el proyecto anterior de manera manual.
+				
+				 
+
+
+
+
+
+
 
 
