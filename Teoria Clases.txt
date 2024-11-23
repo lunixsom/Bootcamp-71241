@@ -1435,7 +1435,7 @@ CREATE-REACT-APP (49 min a )
 
 			* De forma Local y global con: npm install -g create-react-app
 
-			* Instalar sin tener la libreria de forma local, otra diferencia es que npx me va a traer las dependendias que yo necesite con la ultima version.
+			* Instalar sin tener la libreria de forma local, otra diferencia es que npx (npx create-react-app my-app) me va a traer las dependendias que yo necesite con la ultima version.
 
 	npm start (1:06:30 hs)
 
