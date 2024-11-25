@@ -1418,6 +1418,8 @@ Actividad con Kahoot (25 min a 45 min)
 
 REACT (1:50 hs a 1:51:30 hs)
 
+	REACT YA ESTA CON ES6 POR DEFAULT.
+
 	React es un SPA, es una aplicacion de una sola pagina. Donde todo lo que vamos a hacer es escribir codigo JS y automaticamente React lo va ir subiendo a medida que lo vamos necesitando.
 
 	¿Que tipo de paginas van con React?
@@ -2518,9 +2520,69 @@ Clase 52
 
 		Creo el layout en views (1 hs)
 
+			Necesitamos crear dentro de la carpeta views un archivo que es el modelo, el layout, es el archivo ppal parecido a app.js de react (usa la misma estrategia de React).
+
+			Tenemos que poner un layout para que pueda "pegar los componentes" (no son componentes)
+
+
+			Partials (1:07 hs)
+
+				Son pequeñas plantillas que las voy a necesitar siempre y cuando las necesito las llamo.
+
+				Creo dentro del directorio views una carpeta partials y ahi creo navegacion.hbs o footer.hbs.
+
+
+				¿Como llamo a una plantilla de diseño (partials) dentro del layout?
+
+						Hay que configurar al servidor para que vaya a buscar los partials en la carpeta, par alo cual en app.js agregamos:
+
+							hbs.registerPartials(path.join(_dirname, "views/partials"))	
+
+						{{> navegacion }}
+
+
+		TRES FORMAS DE HACER FRONTEND (1:18 hs)
+
+			1- Codigo NATIVO html, css y js
+
+			2- React que es una libreria o un framework como angular (esto es para hacer una api rest, separado el front del back)
+
+			3- Motores de plantillas (hbs, ejs y pug) 
+
+				Es un modelo de arquitectura SSR (server side rendering), porque es el servidor que renderiza el front
+
+				
+		Middleware de manejo de ERRORES ( 1:31 hs a 1:53 hs)
+
+			El manejo de errores de server.js me muestra el error a mi en la terminal. El de bhs es para el usuario.
+
+			Hay un error 404 de pagina no encontrada con la ruta "/*"
+
+			Hay un error de servidor 500 forzado con la ruta "/error"
+
+	
+	FINALMENTE: Hicimos una aplicacion nueva con codigo mucho mas limpio. Importamos las librerias que necistamos, instanciamos la aplicacion express, configuramos todos los middlewares, configuracion de mi motor de plantillas que voy a utilizar, definimos las rutas
+
+
+
+	Mezclamos HBS con HTML ( 1:56 hs a  )
+
+		Cuando quiero enviar archivos html utilizo:
+
+			app.get("/html", (req, res) => {
+				res.sendFile(_dirname, "public", "index.html")
+			})
+
+		Creo carpeta public y adentro archivo index.html
+
+		
+		REACT LO UTILIZAS PARA PROYECTOS MAS GRANDES (SALE MAS CARO TENER QUE PAGAR 2 SERVIDORES)
+
+		SSR SALE MAS BARATO PORQUE PAGAS EL SERVIDOR DEL BACKEND Y LUEGO EN EL MISMO BACKEND RENDERIZAS EL FRONT CON HBS O HTML.
 
 
 
 
+	************************************************************
 
-
+Clase 53
