@@ -2586,3 +2586,10 @@ Clase 52
 	************************************************************
 
 Clase 53
+
+	Feedback clase anterior ( 2 min a 6:30 min )
+
+
+	Administrar las RUTAS ( 7 min a )
+
+		Para administrar las rutas, Express tiene una aplicacion que se llama express.Router
