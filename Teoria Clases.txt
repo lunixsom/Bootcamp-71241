@@ -2592,4 +2592,23 @@ Clase 53
 
 	Administrar las RUTAS ( 7 min a )
 
+		Vamos a sacar las rutas de app.js para un mejor delegamiento de responsabilidades.
+
 		Para administrar las rutas, Express tiene una aplicacion que se llama express.Router
+
+		Puedo tener todas las rutas en un solo middleware.
+
+
+		1° Creamos una variable router donde ejecutamos el enrutador de express:
+
+			const router = express.Router()
+
+
+		2° Utilizamos la variable con el verbo que nosotros queremos (get, post,..)
+
+		3° Exportamos
+
+		4° Importamos y la utilizamos como un middleware (como la trabajamos dentro de la aplicacion)
+
+			
+
