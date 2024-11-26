@@ -2610,5 +2610,44 @@ Clase 53
 
 		4° Importamos y la utilizamos como un middleware (como la trabajamos dentro de la aplicacion)
 
+
+		Directorio para Rutas ( 18 min )
+
+			Todos los pasos anteriores hay que aplicarlos en el directorio router en el archivo routerHome.js:
+
+			Una vez qcreado el archivo con las rutas la tengo que exportar y luego en el archivo principal app.js la tengo que importar.
+
+			Luego en app.js lo utilizo como un middleware
+
+			En routerHome.js van a estar las rutas que estaban en app.js
+
+
+		Middleware para uso de ARCHIVOS ESTATICOS ( 36 min )
+
+			app.use(express.static(path.join(_dirname, "/public")))
+
+			Si justo tengo dos rutas que coinciden tanto en el front de HBSA como en el de html me va a tomar el de html.
+
+
+			¿ POR QUE NECESITAMOS EL MIDDLEWARE DE LA LECTURA DE ARCHIVOS ESTATICOS?
+
+				Por que en Public estan nuestros archivos css y en las vistas necesitamos leer archivos de css, PERO al colocar ese middleware en Public encuentra el archivo index.html y automaticamente lo va a renderizar y va obviar la vista con hbs:
+
+
+					router.get("/", (req, res) => {
+						res.render("index")
+					})
+
+					router.get("/", (req, res) => {
+						res.sendFile("index.html")
+					})
+
+
+
+
+
+
+
+
 			
 
