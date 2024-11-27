@@ -1,14 +1,13 @@
 const express = require('express');
 const path = require('path');
-const hbs = require('hbs');
 const app = express();
 
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, 'views'));
-/* app.use(express.static(path.join(__dirname, 'public'))); */
+app.use(express.static(path.join(__dirname, 'public')));
 
 //html
-/* app.get('/index', (req, res) => {
+app.get('/index', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/index.html'));
 });
 
@@ -18,26 +17,26 @@ app.get('/about', (req, res) => {
 
 app.get('/contact', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/contact.html'));
-}); */
+});
 
 //hbs
-app.get('/index', (req, res) => {
-    res.render('index');
+app.get('/hbs/index', (req, res) => {
+    res.render('index', { title: 'Index Page' });
 });
 
-app.get('/about', (req, res) => {
-    res.render('about');
+app.get('/hbs/about', (req, res) => {
+    res.render('about', { title: 'About Page' });
 });
 
-app.get('/contact', (req, res) => {
-    res.render('contact');
+app.get('/hbs/contact', (req, res) => {
+    res.render('contact', { title: 'Contact Page' });
 });
 
 //error 404
-/* app.use((req, res, next) => {
+app.use((req, res, next) => {
     res.status(404).sendFile(path.join(__dirname, 'public/404.html'));
 });
- */
+
 
 //error 505, hay que modificar archivo en server.js para que salga el error
 app.use((err, req, res, next) => {
