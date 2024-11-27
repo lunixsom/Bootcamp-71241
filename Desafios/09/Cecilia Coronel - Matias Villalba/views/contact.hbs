@@ -1,0 +1,70 @@
+ 
+        <div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h1 class="text-center mb-4">Contáctanos</h1>
+            <form>
+                <!-- Datos Personales -->
+                <fieldset class="border p-4 rounded">
+                    <legend class="w-auto px-3">Datos Personales</legend>
+                    <!-- Nombre -->
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre*</label>
+                        <input type="text" id="nombre" class="form-control" placeholder="Ingresa tu nombre">
+                    </div>
+                    <!-- Apellido -->
+                    <div class="mb-3">
+                        <label for="apellido" class="form-label">Apellido*</label>
+                        <input type="text" id="apellido" class="form-control" placeholder="Ingresa tu apellido">
+                    </div>
+                    <!-- Documento -->
+                    <div class="mb-3">
+                        <label for="documento" class="form-label">Documento*</label>
+                        <input type="number" id="documento" class="form-control" placeholder="Ingresa tu documento">
+                    </div>
+                    <!-- Nacionalidad -->
+                    <div class="mb-3">
+                        <label for="nacionalidad" class="form-label">Nacionalidad*</label>
+                        <select id="nacionalidad" class="form-select">
+                            <option selected>Selecciona tu país</option>
+                            <option value="argentina">Argentina</option>
+                            <option value="peru">Perú</option>
+                            <option value="chile">Chile</option>
+                            <option value="paraguay">Paraguay</option>
+                            <option value="uruguay">Uruguay</option>
+                            <option value="brasil">Brasil</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <!-- Sugerencias -->
+                <div class="mt-4">
+                    <label for="contanosunpocodevos" class="form-label">Sugerencias</label>
+                    <textarea id="contanosunpocodevos" class="form-control" rows="5" placeholder="Contanos un poco de vos" maxlength="500" required></textarea>
+                </div>
+
+                <!-- Identidad de Género -->
+                <div class="mt-4">
+                    <label class="form-label">Identidad de género*</label><br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="sexo" id="hombre" value="hombre" checked>
+                        <label class="form-check-label" for="hombre">Hombre</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="sexo" id="mujer" value="mujer">
+                        <label class="form-check-label" for="mujer">Mujer</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="sexo" id="otro" value="otro">
+                        <label class="form-check-label" for="otro">Otro</label>
+                    </div>
+                </div>
+
+                <!-- Botón de Enviar -->
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
