@@ -2708,6 +2708,35 @@ Clase 53
 
 			
 
+	************************************************************
+
+Clase 54
+
+			SUSPENDIDA
+
+
+
+	************************************************************
+
+Clase 55
+
+
+	Feedback clase anterior (0 min a 19 min)
+
+
+		Un documento puede tener 16 Megas .
+
+		MongoDb y SQL son las dos BD mas utilizados dentro del mundo de desarrollo
+
+		Estas BD se puede utilizar en Amazon Web Services, en Azure, en Google Cloud, en railways, en cualquier aplicacion que podamos utilizar de servidor y subir nuestra aplicacion. 
+
+
+
+	Conexion a Base de Datos (20 min)
+
+
+		 
+
 
 
 
