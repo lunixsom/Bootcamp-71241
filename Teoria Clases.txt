@@ -2658,15 +2658,55 @@ Clase 53
 
 
 
+
 	ESTAMOS TRABAJANDO CON UNA PLICACION SERVER SIDE RENDERING, ESTAMOS HACIENDO PETICIONES (REQUESTS) Y QUE ME ESTAN RESPONDIENDO CON RECURSOS, EN ESTE CASO ME RESPONDEN CON MOTOR DE PLANTILLAS DE ME MUESTRA EL USUARIO EL HOME.
 
 
 	Base de Datos (1:30 hs)
 
 	
+		MongoDB
+
+		Instalando herramientas:
+
+
+		Productos -> Comunity Edition -> Download Comunity
+
+		Productos -> MongoDB Compass GUI
+
+
+		En proyecto creamos un directorio nuevo Conexion y ahi adentro creamos archivo conexion.js
+
+
+		Dentro de Disco C -> Creamos un diretorio que se llama "data" para que cuando se inicialize mongodb en nuestra compu va a guardar todos los datos ahi para TRABAJAR EN MODO LOCAL. Dentro de data creamos otro directorio llamado "db".
 
 
 
+		MongoDB Compass (1:45 hs)
+
+		Para trabajar los archivos de mongoDB que se guardan en la carpeta db.
+
+		Ya me viene creada una base de datos test.
+
+		Como cambiamos de db en mongosh:
+
+			use nombreBD
+
+		Como crear una coleccion ?
+
+			db.createCollection("nombreColeccion")
+
+		Como insertamos datos en esa coleccion ?
+
+			db.users.insertOne({nombre:"Pepe", email: "pepe@gmail.com"})
+
+			Eso que parece un obeto en realidad es un DOCUMENTO que es la informacion que estoy guardando en la coleccion.
+
+		Ver lista de usuarios:
+
+			db.users.find()
+
+			
 
 
 
