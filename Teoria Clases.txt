@@ -2734,6 +2734,28 @@ Clase 55
 
 	Conexion a Base de Datos (20 min)
 
+		Necesito un ODM, una libreria que es un administrador de objetos de documentos, que me ayuda a hacer las inserciones de datos , los updates de una forma mas sencilla.
+
+
+	Mongoose (32 min)
+
+		Instalo Mongoose:
+
+			npm i mongoose
+
+		Creo una variable de entorno con la url para la conexion a mi base:
+
+			MONGO_LOCAL=mongodb://localhost:27017/fullstack
+
+
+		Configuracion archivo de conexion.js (40 min) 
+
+
+		Explicacion Funcion ASYNC ( 43 min a 51 min)
+
+			Es una funcion con la que le estamos diciendo a Node JS quiero que me ejecutes esta funcion pero ejecutala cuando te responda la base de datos por ejemplo o ejecutala cuando se cumpla un determinado periodo de tiempo o ejecutala cuando puedas.
+
+
 
 		 
 
