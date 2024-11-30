@@ -2756,6 +2756,55 @@ Clase 55
 			Es una funcion con la que le estamos diciendo a Node JS quiero que me ejecutes esta funcion pero ejecutala cuando te responda la base de datos por ejemplo o ejecutala cuando se cumpla un determinado periodo de tiempo o ejecutala cuando puedas.
 
 
+	Conexion a la Base de Datos ( 55 min a )
+
+	Vimos 3 formas de conectarnos a la base de datos la 3° es la mejor opcion:
+
+		1) Conexion Directa:
+
+			En esta conexion no exportamos nada a server.js
+
+			mongoose.connect('mongodb://localhost:27017/fullstack')
+
+
+		2) Conexion con variables de entorno:
+
+			const dotenv = require('dotenv')
+			dotenv.config()
+
+			const MONGO_LOCAL = process.env.MONGO_LOCAL
+			const MONGO_ATLAS = process.env.MONGO_ATLAS
+
+			const conexion = async (MONGO_LOCAL) => {
+				try{
+					await mongoose.connect(MONGO_LOCAL);
+					console.log('Conexion a la Base de Datos exitosa')
+				} catch (error){
+					console.log('Error en la conexion a la Base de Datos:', error);
+				}		
+			}
+
+			module.exports =  conexion;			
+
+		
+		3) Conexion a la Base de datos con URL de parametro:
+		
+			const mongoose = require('mongoose')
+
+			const conexion = async (URL) => {
+				try{
+					await mongoose.connect(URL);
+					console.log('Conexion a la Base de Datos exitosa')
+				} catch (error){
+					console.log('Error en la conexion a la Base de Datos:', error);
+				}		
+			}
+
+			module.exports =  conexion;
+
+
+	Hay mas opciones para crear conexiones en la documentacion oficial de mongoose.
+
 
 		 
 
