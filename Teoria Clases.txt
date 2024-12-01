@@ -2806,7 +2806,29 @@ Clase 55
 	Hay mas opciones para crear conexiones en la documentacion oficial de mongoose.
 
 
-		 
+	REQUEST CON DATOS TOPO POST:	
+
+		Metodo POST en Formulario ( 1:24 hs )
+
+			Va cumplir el mismo rol que el POSTMAN para enviar datos, con una ruta especificamente señalada en el atributo action para dejar los datos que se van cargando en el formulario:
+
+				<form method="post" action="/user/register">		
+				</form>
+
+
+		Diferentes VERBOS con el mismo ENDPOINT ( 1:26 hs )
+
+			router.get("/register", ...)
+
+			router.post("/register", ...)
+
+
+		
+		Poner KEY en formulario POST para URLENCODED (1:35 hs)
+
+			EL value va a ser lo que los usuarios completen en los inputs.
+
+
 
 
 
