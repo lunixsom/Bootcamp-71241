@@ -2828,8 +2828,62 @@ Clase 55
 
 			EL value va a ser lo que los usuarios completen en los inputs.
 
+	
+	AHORA NOS FALTA GUARDAR ESTOS DATOS EN LA BASE DE DATOS.
+
+	El password tenemos que encriptarlo.
 
 
+
+	ESQUEMA DE LA BASE DE DATOS ( 1:49 hs )
+
+		Para EVITAR ingresar cualquier tipo de dato en mi coleccion, osea por ejemplo: yo estoy trabajando con datos de usuarios y me ingresan un documente relacionado con datos de paises.
+
+		Para esto genero un archivo que se llama Schema con mongoose, que me define la estructura de un documento de mi coleccion. 
+
+
+	Genero el schema de mongoose en un archivo userModel.js dentro de un folder Models:
+
+		const mongoose =  require('mongoose')
+		const { Schema } = mongoose
+
+		const userSchema = new Schema({
+			nombre: {
+				type: String,
+				required: true
+			},
+			email: String,
+			password: String,
+			date: {
+				type: Date,
+				default: new Date()
+			},
+		})
+
+		module.exports = mongoose.model('User', userSchema)
+
+	Luego en el enrutador (userRouter.js) importo el schema del usuario:
+
+		const User = require('../models/userModel')
+
+		const persona = {
+			nombre, 
+			email,
+			password 	
+		}
+
+		const newUser = new User(persona)
+
+		newUser.save() -> con este save estaria haciendo en mongoose un insertOne en la base de datos.
+
+		y con esto ya me guarda desde el front datos en la base de datos local.
+
+
+	************************************************************
+
+Clase 56
+
+	
 
 
 
