@@ -2907,8 +2907,19 @@ Clase 56
 			Entonces le estoy diciendo tambien con el await que cuando se conecte con la base de datos CUANDO RECIBA LA RESPUESTA guardame eso en esa variable e imprimimelo y ahi tendria que tener la respuesta correcta.
 
 
+		ENCRIPTAR password en el registro ( 1:20 hs a )
 
+			Instalo Libreria bcrypt para encriptar contraseñas
 
+				npm i bcrypt
+
+			Pasos de uso:
+
+				1º Importamos la libreria:
+
+					const bcrypt = require('bcrypt')
+
+				2º 
 
 			
 
