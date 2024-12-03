@@ -2886,8 +2886,25 @@ Clase 56
 	Feedback clase anterior ( 0 min a 16 min )
 
 	
+	Hacemos Login ( 36 min a )
 
-	
+		Queremos loguearlos
+
+		Porque funciona con algunos correos electronicos y con otros no (1 hs)
+
+			Me marca leyenda "Usuario encontrado" con algunos y con otros no y eso pasa porque LO ESTAMOS HACIENDO SINCRONICO y para que no se rompa una aplicacion en determinado momento tenemos que utilizar ASYNC (le digo a Node JS cuando te puedas conectar a la base de datos y cuando puedas verificar que todo esta bien RECIEN AHI RESPONDEME PARA QUE YO PUEDA ENVIAR EL RESPONSE, ENTONCES AHI FALLA PORQUE NUESTRA FUNCION ES SINCRONICA, HACE UNA CONSULTA RAPIDA PERO NO LE DA EL TIEMPO A NODE JS DE HACER UN FIND POR EL CORREO.
+
+			Para que funcione bien tenemos que hacer al post de login una FUNCION ASINCRONA:
+
+				router.post('/login', async (req, res) => {
+					const { email, password } = req.body
+
+					const usuarioExiste = await User.findOne({ email })
+					....
+					..
+				}) 	
+
+			Entonces le estoy diciendo tambien con el await que cuando se conecte con la base de datos CUANDO RECIBA LA RESPUESTA guardame eso en esa variable e imprimimelo y ahi tendria que tener la respuesta correcta.
 
 
 
