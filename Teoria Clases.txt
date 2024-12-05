@@ -2946,5 +2946,12 @@ Clase 56
 				Algunas empresas deciden tercerizar el tema de la autenticacion, por lo que envian los datos del usuario a Auth0
 
 
-			
 
+	************************************************************
+
+Clase 57	
+
+	Feedback Clase anterior ( 0 min a 12 min )
+
+
+	
