@@ -2954,4 +2954,59 @@ Clase 57
 	Feedback Clase anterior ( 0 min a 12 min )
 
 
+
+	Validacion de Datos en Backend ( 14 min )
+
+		Necesitamos validar la informacion que nos ingresan a la base de datos porque sino la base se llena de daos basura.
+
+		Verficamos que los campos no esten vacios
+
+				Primero podemos poner un validador en el frontend, el atributo required de los campos (FRONTEND)
+
+				Segundo podemos poner un if validador para asegurar que los campos no esten vacios (BACKEND)
+
+				Tercero verificamos los ipos de datos de forma manual (BACKEND)
+
+			Estos son solo 3 casos de validacion hay muchos mas, actualmente para evitar tener que hacer todas las validaciones posibles manualmente, existen librerias disponibles en Node JS que cumplen estas tareas, express-validator.
+
+			Estas librerias me ayudan a validar informacion que viene a mi backend.
+
+			Es un middleware por lo que tiene que estar entre el endpoint y la funcion que responde a la peticion del cliente (request):
+
+				router.post("/register", middleware , async (req, res) => {...)
+
+			1- Instalo express-validator:
+
+					npm i express-validator
+
+			2- Importamos body de express-validator:
+
+					const { body, validationResult } = require('express-validator')
+
+			3- Agregamos las validaciones en el middleware:
+
+					body('nombre')
+					.isLength({´min: 3, max:20}).withMessage('El nombre debe tener entre 3 y 20 caracteres')
+					.isEmpty().withMessage('El nombre es obligatorio')
+					.isString().withMessage('El nombre debe ser de tipo texto')
+					.trim(), <- este es para sacarme los espacios en blanco
+					body('email')
+					.isLength({´min: 8}).withMessage('El nombre debe tener como minimo 8 caracteres')
+					.notEmpty().withMessage('El nombre es obligatorio')
+					.isString().withMessage('El password debe ser de tipo texto')
+					trim(), 
 	
+		Vamos a ver validaciones que usan if's todavi porque node ya tiene mas de diez años y en codigo antiguo quedo asi.
+
+
+		validationResult controla que todo lo que tiene que ver con body funciona:
+
+					const {nombre, email, password} = req.body;
+
+					const errores = validationResult(req)
+
+
+
+
+
+
