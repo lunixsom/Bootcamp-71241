@@ -3062,4 +3062,19 @@ Clase 57
 
 			8º - Hago los cambios en el codigo de nodemailer (ver codigo berni)
 
+			9º -  Importamos el archivo en el controlador userRouter.js:
 
+					const enviarMail = require('../helpers/enviarMails')
+
+			10º - Antes o despues de que el cliente guarde los datos enviamos el mail:
+
+					await newUser.save()
+
+					enviarMail(email, nombre)	
+
+
+	************************************************************
+
+Clase 58
+
+	
