@@ -2957,7 +2957,7 @@ Clase 57
 
 
 
-	Validacion de Datos en Backend ( 14 min )
+	Validacion de Datos en Backend ( 14 min a 1:29 hs)
 
 		Necesitamos validar la informacion que nos ingresan a la base de datos porque sino la base se llena de daos basura.
 
@@ -3024,5 +3024,42 @@ Clase 57
 
 				error: errores.array().map(error => error.msg)
 
+
+
+	Envio de mail al usuario al registrarse ( 1:31 hs a  )
+
+		Usamos Nodemailer para poder enviar correos electronicos de una aplicacion a otra.
+
+		Instalo:
+
+			npm i Nodemailer
+
+		
+		Para no sobrecargar nuestro controlador de registro podemos utilizar una carpeta helpers donde podamos ir tirando todas estas funciones que tengan caracteristicas especificas y exportarlo para modularizar nuestro codigo.
+
+		Pasos de Uso:
+
+		1º - Importamos nodemailer: const nodemailer = require('nodemailer')
+
+		2º - Creamos un transportador
+
+				Es la empresa, la aplicacion, configuracion del operador de correo electronico de mi ecommerce que va estar enviando el correo electronico.
+
+		
+
+
+			1º - Gestionar tu cuenta de Google
+			2º - Seguridad
+			3º - Verificacion en 2 pasos tiene que estar activado
+			4° - Contraseña de aplicaciones
+			5° - Creo la contraseña de aplicacion y me lo guardo en algun archivo txt
+			6º - Creamos las Variables de entorno en el .env:
+
+						 GOOGLE_PASSWORD=
+						 GOOGLE_EMAIL=emanuel.some@educacionit.com
+
+			7º - Creo el archivo enviarMails.js dentro del folder helpers y ahi copio el codigo que me da nodemailer en la documentacion para configurar el envio de mails.
+
+			8º - Hago los cambios en el codigo de nodemailer (ver codigo berni)
 
 
