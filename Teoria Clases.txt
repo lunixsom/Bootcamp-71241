@@ -2923,6 +2923,8 @@ Clase 56
 		
 			Uso TRY & CATCH ( 1:38 hs a 1:45 hs)
 
+				El try and catch es una sintaxis PARA CAPTURAR ERRORES para que no se rompa nuestro hilo de Node, osea que crashee la aplicacion. Entonces con el try y catch le estamos diciendo a Node que haga unas tareas complicadas y que intente hacerlo y si no sale que un error PERO QUE NO SE ROMPA y lo que nosotros le estamos mandando al cliente para que no se rompa la aplicacion ES UNA PAGINA DE ERROR.
+
 				Nos metimos aca porque la libreria bcrypt recomienda trabajar con async await para poder encriptar la contraseña. 
 
 				EL try & catch y el async await esta pendiente hasta que se conecta o no se conecta a la base de datos, DE ESA MANERA NOSOTROS EVITAMOS QUE LA APLICACION CRASHIE O SE ROMPA.
@@ -3006,7 +3008,21 @@ Clase 57
 					const errores = validationResult(req)
 
 
+	Realizamos bucle para recorrer array de errores e imprimir el msg del error que necesitamos mostrar al cliente ( 1:18 hs )
 
+		No puedo usar el bucle For comun.
+
+		Para hacer el bucle For dentro de un motor de plantilla:
+
+			<ol>
+				{{ #each error }}
+				<li>{{this}}</li>
+				{{/each}}
+			</ol>
+
+			y necesito tambien pasarle el array de msg de errores, esto lo hago adentro del try:
+
+				error: errores.array().map(error => error.msg)
 
 
 
