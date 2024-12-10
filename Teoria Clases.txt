@@ -3077,4 +3077,47 @@ Clase 57
 
 Clase 58
 
-	
+	Feedback clase anterior (3 min a 16 min)
+
+
+	Repaso Frontend con React para luego hacer la Api REST (18 min a )
+
+
+		En la API REST el BACK y el FRONT se comunican exclusivamente mediante datos tipo JSON
+
+
+		1° - Instalamos librerias importantes:
+
+				npm i axios bottstrap react-bootstrap react-router-dom
+
+		2° - limpiamos codigo del proyecto React
+
+		3° - Vamos armando los componente con React-Bootstrap
+
+				De esta manera ya usamos plantillas y hacemos mas rapido
+
+				Traemos barra de NAVEGACION
+
+		4° - Recordamos el routeo 
+
+			Como creamos las rutas en React:
+
+				1)
+
+				en index.js hago impot { BrowserRouter } from 'react-router-dom'
+
+				encierro a App.js en BrowserRouter
+
+				2)
+
+				en App.js hago: import { Routes, Route } from 'react-router-dom' y creo las rutas y pongo los href
+
+		5° - Creamos componente Formulario
+
+				Traemos button para formulario de react-bootstrap
+
+
+
+
+
+
