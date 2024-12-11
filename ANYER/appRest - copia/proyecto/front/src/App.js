@@ -1,4 +1,4 @@
-/* //import './css/App.css';
+//import './css/App.css';
 import Navegacion from './componentes/Navegacion';
 import Home from './componentes/Home';
 import Formulario from './componentes/Formulario';
@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default App; */
+export default App;
