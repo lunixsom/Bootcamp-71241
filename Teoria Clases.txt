@@ -3193,7 +3193,15 @@ Clase 58
 	************************************************************
 
 Clase 59
+
+	EL OBJETIVO ES UNIR EL FRONT Y BACKEND Y QUE ENVIE LOS DATOS Y QUE LOS PODAMOS VER EN UNA BASE DE DATOS.
+
+
 		
+	El TP Integrador 3 tiene que tener un Front un Back y una conexion a base de datos que pueda hacer el CRUD/ABM (14 min a 15:40 min)
+
+
+
 	El BACK puede estar en GLITCH y el FRONT puede estar en otro servidor como RENDER.
 
 
@@ -3206,4 +3214,67 @@ Clase 59
 		Me sirve para ejecutar dos aplicaciones a la vez
 
 
-		
+		En el package.json afuera de las aplicaciones back y front:
+
+			En scripts va:
+
+						"dev": "consurrently --kill-others \"cd back & npm run dev \" \"cd front & npm start\""
+
+
+			SIEMPRE HAY QUE PONER EN EL PRIMER COMANDO QUE ESTAMOS EJECUTANDO EL BACKEND, PORQUE CAPAZ NECESITA CONECTARSE A LA BASE DE DATOS Y EL FRONT POR AHI NECESITA CONSUMIR ESOS DATOS PARA MOSTRARNOS ALGO DENTRO DE ALGUN COMPONENTE.
+
+
+
+
+	Limpio el codigo de index.js que me traje de app.js del proyecto 21-serverCompleto en el back (30 min)
+
+		VOY A SINTETIZAR EN UN SOLO ARCHIVO(index.js) MI BACKEND
+
+			Elimino:
+
+					hbs, routerHome y Product, app.use de static, app.use('/') y ('/product'), ya no necesito los codigos de manejos de errores, configuracion de motor de vistas
+
+			No exportamos el modulo:
+
+					voy a server.js del proyecto 21-serverCompleto y me copio el codigo para index.js:
+
+						Hago las modificaciones que aparecen en el codigo de Berni
+
+			Creo variable de entorno .env
+
+
+		En el backend tenemos que traer del proyecto 21-serverCompleto conexion.js, userModel.js y userRouter.js (44 min)
+
+		Limpiamos userRouter.js en mi proyecto (48 min)
+
+			Borro la importacionnde enviarMails
+
+			Borro todas las renderizaciones de HBS que ya no utilizamos
+
+			Borro el post.('/creado')
+
+			Borro enviarMail
+
+
+		Copio toda la carpeta de src del proyecto appCompleta (55 min)
+
+			en el directorio Front tengo que instalar las siguientes librerias: 
+			
+								npm i axios bootstrap react-bootstrap react-router-dom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
