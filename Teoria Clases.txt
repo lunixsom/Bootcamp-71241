@@ -1627,7 +1627,7 @@ Clase 41
 
 		Instalacion ()
 
-			npm i react-router-com
+			npm i react-router-dom
 
 
 		Crear un Enrutador basico con React Router DOM (1 hs)
