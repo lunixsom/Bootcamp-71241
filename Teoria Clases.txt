@@ -3194,7 +3194,16 @@ Clase 58
 
 Clase 59
 		
+	El BACK puede estar en GLITCH y el FRONT puede estar en otro servidor como RENDER.
 
 
+	Libreria CONCURRETLY ( 5:30 min )
+
+		ESTO ES MODO DEV
+
+		Sirve para trabajar con BACK y FRONT en un mismo directorio mientras estamos desarrollando, osea que esto es modo dev.
+
+		Me sirve para ejecutar dos aplicaciones a la vez
 
 
+		
