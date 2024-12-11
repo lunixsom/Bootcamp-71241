@@ -3112,11 +3112,88 @@ Clase 58
 
 				en App.js hago: import { Routes, Route } from 'react-router-dom' y creo las rutas y pongo los href
 
-		5° - Creamos componente Formulario
+		5° - Creamos componente Formulario y componentes mas pequeños
 
 				Traemos button para formulario de react-bootstrap
 
+				Agregamos componente de imagen
 
+
+		6° - Importamos a useState ( 1:43 hs a  )
+
+				Esto lo hacemos para mantener el nombre, el email y el password porque no tenemos manejo del DOM entonces tenemos que desestructurar el useState.
+
+				Como tomamos los datos del formulario ? ( 1:48:45 hs)
+
+					Capturamos el event dentro del input que en este componente seria Form.Control y agreamos el evento que dispara la funcion que cambia la variable en useState:
+
+							value={nombre}
+							onChange={(e) => setNombre(e.target.value)}
+
+
+	BACKEND (2:00 hs)
+
+		7 - Axios
+
+				Es una libreria especializada en los metodos HTTP
+
+				Es el que hace la magia para que viajen los datos del formulario al backend como json
+
+				Importamos Axios en componente Formulario.js: import axios from 'axios'
+
+				function Formulario(){
+					...
+					..
+					.
+
+					const handleSubmit = (e) => {
+						e.preventDefault()
+
+						try{
+							axios.post(''.{
+								nombre,
+								email,
+								password
+							})
+
+							handleReset(e)
+
+							console.log('Datos enviados correctamente')
+
+						} catch (error){
+							console.log('Error al enviar datos' + error)
+						}
+					} 
+				}
+
+		PARA QUE RECIBA DATOS NUESTRO BACKEND en userRouter.js creamos una ruta:
+
+			UTILIZO EL SERVER,la userRouter del proyecto: 21-serverCompleto
+
+			router.post('/creado', (req,res) => {
+				const { nombre, email, password } = req.body
+
+				console.log(nombre,email, password)
+
+				res.json({
+					data: 'Usuario creado con exito'
+				})
+			})
+
+		En Formulario.js agrego await a la accion post y async al nombre de la funcion handleSubmit
+
+				await axios.post('http://localhost:9000/user/creado')
+
+
+
+		extension para autocompletado de codigo: git copilot, blackboxai
+
+
+
+	************************************************************
+
+Clase 59
+		
 
 
 
