@@ -3264,6 +3264,27 @@ Clase 59
 
 
 
+	Problema con CORS ( 1:02 hs a 1:12 hs )
+
+		Axios no pudo enviar los datos porque hay algo de las politicas de CORS que estan impidiendo que mi aplicacion de React se conecte con mi Backend, LA SOLUCION A ESTO ES INSTALARLE CORS para actualizar.
+
+		Cors es una pequeña dependencia que autoriza a recibir solicitudes HTTP a ciertas paginas, lo usamos como un middleware.
+
+			npm i cors (esto en el BACK)
+
+			En el index.js del Back lo uso como un middleware:
+
+						const cors = require('cors')
+						app.use(cors())
+
+		Y CON ESTO CONECTAMOS NUESTRA APLICACION DE REACT CON NUESTRA APLICACION DE BACKEND. LO UNICO QUE LOS UNE SON LOS METODOS HTTP(POST, GET,..) A TRAVES DE DATOS DE TIPO JSON 
+
+
+	
+	
+
+
+
 
 
 
