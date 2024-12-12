@@ -3283,7 +3283,7 @@ Clase 59
 
 	SweetAlert ( 1:23 hs a )
 
-		Es una libreria que le muestra al usuario cuando tiene un error.
+		Es una libreria que le muestra al usuario ALERTS, en este caso voy a utilizarlo cuando tenga un error.
 
 		Lo voy a usar para mostrar form diseñados para los errores que salten en mi aplicacion.
 
@@ -3294,14 +3294,14 @@ Clase 59
 
 			Importamos en Formulario.js:
 
-				importa Swal from 'sweetalert2'
+				import Swal from 'sweetalert2'
 
-				
-
-
+				 
 
 
-	
+
+
+
 	
 
 
