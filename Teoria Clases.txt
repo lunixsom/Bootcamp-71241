@@ -3280,6 +3280,27 @@ Clase 59
 		Y CON ESTO CONECTAMOS NUESTRA APLICACION DE REACT CON NUESTRA APLICACION DE BACKEND. LO UNICO QUE LOS UNE SON LOS METODOS HTTP(POST, GET,..) A TRAVES DE DATOS DE TIPO JSON 
 
 
+
+	SweetAlert ( 1:23 hs a )
+
+		Es una libreria que le muestra al usuario cuando tiene un error.
+
+		Lo voy a usar para mostrar form diseñados para los errores que salten en mi aplicacion.
+
+			Instalacion en el Front:
+
+				npm install sweetalert2
+
+
+			Importamos en Formulario.js:
+
+				importa Swal from 'sweetalert2'
+
+				
+
+
+
+
 	
 	
 
