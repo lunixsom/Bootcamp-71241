@@ -3281,7 +3281,7 @@ Clase 59
 
 
 
-	SweetAlert ( 1:23 hs a )
+	SweetAlert ( 1:23 hs a 1:41 hs )
 
 		Es una libreria que le muestra al usuario ALERTS, en este caso voy a utilizarlo cuando tenga un error.
 
@@ -3296,14 +3296,61 @@ Clase 59
 
 				import Swal from 'sweetalert2'
 
-				 
-
-
-
-
 
 	
+	Mongo Atlas ( 1:42 hs a )
 
+		 Vemos materiales en Alumni
+
+			
+		1)
+
+		Iniciar sesión con Google
+
+		Add New Database User (creamos usuario)
+
+			Que tenga todos los privilegios: readWriteAnyDatabase en opción Built-in Role
+
+			Creo usuario y genero contraseña aleatoria y las guardo.
+
+
+		2)
+
+		Network Access
+
+		Vamos a +ADD IP ADDRESS
+
+			Agrego 0.0.0.0/0
+
+			
+		3) Cluster
+
+			Voy a Connect:
+
+				Pueod con Driver y Compass
+
+				Primero con Driver
+				
+				Verifico que este seleccionado la libreria mongoose
+
+				Copio URl y la pego en la variable de entorno en .env
+
+				En la url que copiamos borramos la parte después de los dos puntitos <db_password>
+
+				Ponemos el nombre de la base de datos entre / ?
+
+		luego modifico la url que estoy enviando en index.js
+
+
+		4) Crear un .env.example para que despues sepamos que datos que cargar en las variables para que funcione la aplicacion y esto no tiene que ir en .gitignore
+
+
+		
+
+	
+	************************************************************
+
+Clase 60
 
 
 
