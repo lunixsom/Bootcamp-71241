@@ -3355,7 +3355,34 @@ Clase 60
 
 	Explicacion Integrador 3 ( 7 min a 25 min )
 
-	Respuesta a dudas alumnos ( 26 min a 32 min )
+	Respuesta a dudas alumnos ( 26 min a 31 min )
+
+
+	Feedback clase anterior ( 32 min a )
+
+
+
+	Get - Mostrar Usuarios en Front ( 44:30 min a )
+
+		Quiero que mi aplicacion lea de la base de datos que vaya al abck y que luego me nuestre en el front con metodos http.
+
+		VAMOS A OBTENER DATOS DESDE nuestra abse de datos con MONGO Atlas:
+
+
+			1) Importamos axios, useState y useEffect en Usuarios.js
+
+			
+
+
+
+
+
+
+
+
+
+
+
 
 
 
