@@ -3362,7 +3362,9 @@ Clase 60
 
 
 
-	Get - Mostrar Usuarios en Front ( 44:30 min a )
+	Get - Mostrar Usuarios en Front ( 44:30 min a 1:33 hs)
+
+		Get en Usuarios.js
 
 		Quiero que mi aplicacion lea de la base de datos que vaya al abck y que luego me nuestre en el front con metodos http.
 
@@ -3382,7 +3384,10 @@ Clase 60
 			useState mantiene los estados o mantiene las variables libres para cargar los datos.
 
 
-			
+	
+	Delete ( 1:36 hs a  )
+
+		Delete en Usuarios.js
 
 
 
