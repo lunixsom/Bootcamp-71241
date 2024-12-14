@@ -3371,6 +3371,21 @@ Clase 60
 
 			1) Importamos axios, useState y useEffect en Usuarios.js
 
+			import axios from 'axios'
+
+			import { useEffect, useState } from 'react'
+
+			Axios me sirve para utilizar .get para traer los datos de la url y despues mostrarlos en tabla.
+
+			useEffect hace la llamada al backend antes de que el componente se cargue en el navegador para saber si tiene los datos para mostra al cliente o no los tiene para mostrar error y no se rompe la aplicacion.
+
+			useState mantiene los estados o mantiene las variables libres para cargar los datos.
+
+
+			
+
+
+
 			
 
 
