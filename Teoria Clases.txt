@@ -3387,11 +3387,17 @@ Clase 60
 	
 	Delete ( 1:36 hs a  )
 
-		Delete en Usuarios.js
+		Delete en Usuarios.js y userRouter.js
 
+		Para que luego de eliminar un usuario ya no aparezca en mi tabla, tengo que volver a renderizar el componente, esto lo puedo hacer con navigate o con el hook de useNavigate para que recarguela pagina del componente de usuarios o hacer otro get.
 
 
 			
+
+	************************************************************
+
+Clase 61
+
 
 
 
