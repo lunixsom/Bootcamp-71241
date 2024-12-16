@@ -3398,6 +3398,75 @@ Clase 60
 
 Clase 61
 
+	DEPLOY PROYECTO fullback ( 7 min a 55 min )
+
+		Vamos a subir el back y front a repos github separados y los vamos a llamar independientemente por Glitch
+
+		Siempre arrancamos primero con el BACK porque necesitamos pasarle al FRONT la url para que pueda contactarse con el backend.
+
+		En la medida que vayamos agregando codigo en nuestro proyecto y pushiemos automaticamente el servidor cuando nosotros pushiamos va a percibir que hay cambios en el proyecto github y LO VA ACTUALIZAR AUTOMATICAMENTE.
+
+			1) creo carpetas solas tanto para el back como front 
+
+				Creo folder fullback
+
+				Creo folder fullfront
+
+				Creo archivo .gitignore	
+
+					.env
+					/node_modules
+
+				Entro a Glitch
+
+					Voy a New Project
+					Selecciono "Import from Github"
+
+				Instalamos librerias en Glitch
+
+					Instalo express-validator
+							bcrypt
+							dotenv
+
+
+				Cargo las variables de entorno
+
+
+		No funciono, marcaba como que faltaba algo en express-validator, el profe se dio cuenta que Glitch trabaja con NOde 10.24.1 y probablemente ahi este el problema con express-validator
+
+
+	Probamos con otro servidor RAILWAY ( 56:30 min a  ) 
+
+		Voy a New
+
+		Selecciono "Deploy from Github repo"
+
+		Selecciono repo en github
+
+		voy add variables
+
+		Presionar boton Deploy enter
+
+
+		Dio error NO ENCUENTRA EL MODULO DE EXPRESS-validator -> SE SOLUCIONO INSTALANDO LA LIBRERIA Y PUSHEANDO
+
+
+		Voy a Settings -> Public Networking -> Generate Domain
+
+		EL PROBLEMA FINALMENTE PARECE QUE ERA CON BCRYPT -> COMENTO TODAS LAS ACCIONES DE BCRYPT
+
+
+
+	DEPLOY PROYECTO fullfront ( 1:39 hs a  )
+
+
+
+	************************************************************
+
+Clase 62
+
+
+
 
 
 
