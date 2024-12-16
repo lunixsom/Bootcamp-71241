@@ -3494,6 +3494,45 @@ Clase 62
 
 				TENGO QUE PONER LAS VARIABLES DE ENTORNO EN RAILWAY.
 
+	
+	Get Usuarios en front ( 55 min a 1:09 hs )
+
+		Tuvo que poner adentro de backstics el nombre de la variable de entorno para get adentro de ${}
+
+		Cambio en Formulario.js laurl en el post de register por la variable de entorno (1:12 hs)
+
+
+	Ejemplo con Productos Front ( 1:15 hs a 1:33 hs )
+
+		Creamos nuevo link en componente Navegacion Form Productos
+
+		Creamos ruta en app.js FormProductos
+
+		Creamos componente FormProductos.js
+
+
+			const formData = new FormData() 
+
+				Es crear un nuevo objeto con los datos del formulario. Lo unico que tengo que hacer es subir datos:
+
+					formData.append('nombre', nombre)
+
+				Esto es lo mismo que hacer un objeto literal:
+
+					cont producto = {
+						nomre:nombre,
+						precio:precio,
+						imagen:imagen
+					}
+
+	
+	Ejemplo Productos Back ( 1:34 hs a  )
+
+		Tengo que crear el Endpoint
+
+
+
+
 				
 
 
