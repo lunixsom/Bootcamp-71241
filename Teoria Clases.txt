@@ -3466,6 +3466,38 @@ Clase 61
 Clase 62
 
 
+	El backend si esta conectando a la base de datos de Mongo Atlas pero el Front no esa matcheando a la ruta del Back
+
+
+	¿Como hacemos para que mi Front matchee a la ruta correcta del Back y que no este expuesta esa URL ? para que cualquiera no pueda estar viendo la url y consiguiendo daos de la aplicacion.
+
+
+	por ejemplo: await.axios.get('htp://localhost:9000/user/')
+
+	Esa ruta no tiene que estar expuesta cuando deployemos el proyecto, como hacemos en React para poder ocultar nuestros ENDPOINTS para que la gente no pueda ver y obtener datos.
+
+	SOLUCION:
+
+			CREO ARCHIVO PARA VARIABLES DE ENTORNO ( 13 min a  )
+
+				Para React no necesitamos instalar la libreria DOTENV porque ya viene incluido en React.
+
+				Por default todas las variables de entorno para las aplicacion de create react app van al inicio todo mayusuculas con REACT_APP_nombreVariable
+
+				REACT_APP_API_URL_LOCAL=
+				REACT_APP_API_URL_SERVER=https://fullback-production.up.railway.app/
+				REACT_APP_API_URL_SERVER_GET=
+				REACT_APP_API_URL_SERVER_POST=
+				REACT_APP_API_URL_SERVER_PUT=
+				REACT_APP_API_URL_SERVER_DELETE=
+
+
+				TENGO QUE PONER LAS VARIABLES DE ENTORNO EN RAILWAY.
+
+				
+
+
+
 
 
 
