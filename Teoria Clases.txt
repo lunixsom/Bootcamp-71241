@@ -3530,6 +3530,31 @@ Clase 62
 
 		Tengo que crear el Endpoint
 
+		Creo productSchema en models (1:37 hs)
+
+		Ceamos ruta POST (1:40 hs)
+
+		El FormData no funciono, no me traia los valores, seguramente habia que poner para cada valor: nombre: setNombre..etc
+
+
+		Se puede hacer lo mismo que se hizo con los usaurios validando que los valores enviados son correctos con express-validator 
+
+
+	CAMBIO LA LIBRERIA BCRYPT POR BCRYPTJS
+
+		Cambio a producto en productRouter lo que copie de userRouter.js
+
+
+
+	************************************************************
+
+Clase 63
+
+
+
+
+
+
 
 
 
