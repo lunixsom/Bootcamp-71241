@@ -1,0 +1,33 @@
+* En userRouter.js tienen que ir las rutas a las que pueden matchear y las acciones
+
+
+* No olvidar exportar el router
+
+
+* En conexión.js hay un carácter "a" de mas
+
+
+* el uso de la ruteador como middleware esta mal llamado porque primero importamos el router en routerUser, este es el que usamos en el middleware.
+
+
+* Poner otro puerto en .env de BACK
+
+
+* BACK: el package.json esta mal es el de concurrently y habría que cambiar index.js por server.js
+
+
+* BACK: userModel.js hay un carácter "n" de mas al exporar al final.
+
+
+* FRONT: Sacar el type:module de package.json del front
+
+
+* FRONT: están mal las rutas de importación de componentes en App.jsx
+
+
+* FRONT: falta instalar librería sweetalert2
+
+
+* FRONT: No hace falta volver a importar BrowserRouter en App.js porque ya lo hiciste en index.js
+
+
