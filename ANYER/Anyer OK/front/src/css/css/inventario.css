@@ -1,0 +1,73 @@
+.inventario {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .inventario h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #333;
+  }
+  
+  .inventario form {
+    margin-bottom: 20px;
+  }
+  
+  .inventario form div {
+    margin-bottom: 15px;
+  }
+  
+  .inventario form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .inventario form input,
+  .inventario form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .inventario form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .inventario form button:hover {
+    background-color: #218838;
+  }
+  
+  .inventario ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .inventario li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inventario li strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
