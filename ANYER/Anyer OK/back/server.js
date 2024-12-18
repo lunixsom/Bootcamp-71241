@@ -6,6 +6,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const routerUser = require('./router/userRouter');
+const routerProducto = require('./router/productoRouter.js')
 
 
 // Cargar las variables de entorno desde el archivo .env
@@ -35,6 +36,7 @@ app.use(cors());
 
 // Definir las rutas de la aplicación como middleware
 app.use('/user', routerUser);
+app.use('/product', routerProducto);
 
 // Ruta raíz para la API
 app.get("/", (req, res) => {
