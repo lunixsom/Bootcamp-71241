@@ -68,7 +68,7 @@ function Formulario() {
             Formulario de Registro
         </h1>
         <div className='d-flex container mt-5 text-center'>
-            <Form className='w-75' onSubmit={handleSubmit}>
+        {/*     <Form className='w-75' onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="nombre">
                     <Form.Label>Nombre</Form.Label>
                     <Form.Control 
@@ -102,7 +102,25 @@ function Formulario() {
                     <Button variant="success" type="submit">Enviar Datos</Button>
                     <Button variant="warning" onClick={handleReset}>Limpiar Campos</Button>
                 </div>
-            </Form>
+            </Form> */}
+
+<form onSubmit={handleSubmit}>
+        <h2>Datos de Acceso</h2>
+        <div>
+          <label>Nombre:</label>
+          <input type="text" name="nombre" value={nombre} onChange={(e) => setNombre(e.target.value)} required />
+        </div>
+        <div>
+          <label>Email:</label>
+          <input type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+        </div>
+        <div>
+          <label>Confirmar Clave:</label>
+          <input type="password" name="password" value={password} onChange={(e) =>setPassword(e.target.value)} required />
+        </div>
+        
+        <button type="submit">Enviar</button>
+      </form>
 
             <Imagen />
         </div>
