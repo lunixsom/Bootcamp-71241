@@ -3551,7 +3551,10 @@ Clase 62
 Clase 63
 
 
+	Probamos que lo que hicimos la clase anterior funciona ( 1 min a 14 min )
 
+
+	Creo componente mostrarProductos ( 15 min a  )
 
 
 
