@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3e8ff; /* Lila muy claro */
+  color: #4b0082; /* Índigo profundo */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container Styles */
+.inventario-container {
+  background-color: #e0c3fc; /* Lila suave degradado */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.inventario-container h1 {
+  margin: 0 0 10px;
+  color: #4b0082; /* Índigo */
+}
+
+.inventario-container p {
+  margin: 0 0 20px;
+  font-size: 16px;
+  color: #6a0dad; /* Púrpura medio */
+}
+
+/* Form Styles */
+.inventario-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Label and Input Styles */
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #4b0082;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b19cd9; /* Lila grisáceo */
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #7a5fc0; /* Lila intenso */
+}
+
+/* Button Styles */
+.btn-submit {
+  background-color: #6a0dad; /* Púrpura medio */
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-submit:hover {
+  background-color: #4b0082; /* Índigo */
+  transform: scale(1.05);
+}
+
+.btn-submit:active {
+  transform: scale(0.95);
+}
