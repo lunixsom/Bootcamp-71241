@@ -3556,7 +3556,15 @@ Clase 63
 
 	Creo componente mostrarProductos ( 15 min a  )
 
+<<<<<<< HEAD
 	
+=======
+		Creo componente CARD ( 23 min a  )
+
+			Este componente lo traigo de react-bootstrap
+
+
+>>>>>>> 0efda8c88d1cb3a67364a35608ef595096b1e330
 
 
 

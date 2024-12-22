@@ -1,0 +1,14 @@
+/* NAVEGACION */
+.navbar, .nav-link{
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.904);
+    font-weight: bolder;
+}
+
+#navbBar_logo{
+    font-size:xx-large;
+}
+
+#navbarSupportedConten{
+    flex-grow: 0;
+}
