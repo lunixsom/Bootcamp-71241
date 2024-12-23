@@ -3567,7 +3567,24 @@ Clase 63
 
 			Modifico el import de Card, Container, Row, Col a from 'react-bootstrap' en vez de from 'react-bootstrap/Card'
 
-			
+
+
+			USO useCallback que es una dependencia que memoriza un callback y es la que llamamos en el useEffect PARA SOLUCIONAR LE PROBLEMA QUE TENIAMOS CON EL USEFFECT CUANDO PONIAMOS [productos]   
+
+
+
+	Modifico RUTA en DEPLOY para FRONT (1:06 hs)
+
+		Luego de hacer el push en el back al repo para que se aplique al deply del back, tengo que copiar el link de la ruta para obtener los productos a la variable de enorno del Front:
+
+			REACT_APP_API_URL_PRODUCTOS=https://fullback....../product/productos
+
+		Y finalmente reemplazo la ruta con el del .env en el componente que hace la peticion al back:
+
+			const respuesta = await axios.get(`${process.env.REACT_APP_API_URL_PRODUCTOS}`)
+
+		
+
 
 
 
