@@ -3575,7 +3575,7 @@ Clase 63
 
 	Modifico RUTA en DEPLOY para FRONT (1:06 hs)
 
-		Luego de hacer el push en el back al repo para que se aplique al deply del back, tengo que copiar el link de la ruta para obtener los productos a la variable de enorno del Front:
+		Luego de hacer el push en el back al repo para que se aplique al deploy del back, tengo que copiar el link de la ruta para obtener los productos a la variable de entorno del Front:
 
 			REACT_APP_API_URL_PRODUCTOS=https://fullback....../product/productos
 
@@ -3583,11 +3583,11 @@ Clase 63
 
 			const respuesta = await axios.get(`${process.env.REACT_APP_API_URL_PRODUCTOS}`)
 
-		
+		Y tambien hay que agregar las variables de entorno en RAILWAY
 
 
 
-
+  
 		
 
 
