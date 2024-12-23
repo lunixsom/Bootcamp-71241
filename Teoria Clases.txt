@@ -3556,15 +3556,24 @@ Clase 63
 
 	Creo componente mostrarProductos ( 15 min a  )
 
-<<<<<<< HEAD
 	
-=======
 		Creo componente CARD ( 23 min a  )
 
 			Este componente lo traigo de react-bootstrap
 
+			Elimino import Swal from 'sweetalert2' porque no eliminamos productos
 
->>>>>>> 0efda8c88d1cb3a67364a35608ef595096b1e330
+			Container es un Componente dentro de react bootstrap que es lo mismo que crear un div y ponerle un className="container" 
+
+			Modifico el import de Card, Container, Row, Col a from 'react-bootstrap' en vez de from 'react-bootstrap/Card'
+
+			
+
+
+
+		
+
+
 
 
 
