@@ -3586,6 +3586,25 @@ Clase 63
 		Y tambien hay que agregar las variables de entorno en RAILWAY
 
 
+	
+	Conflicto por poner misma variable de entorno (1:27 hs)
+
+		EN el POST productos y de usuarios use la misma variable, faltaba crear la variable de entorno para el post de productos.
+
+
+					product/register
+					user/register
+
+					REACT_APP_API_POST_PRODUCTOS
+					REACT_APP_API_URL_PRODUCTOS
+					REACT_APP_API_URL_SERVER_GET
+					REACT_APP_API_URL_SERVER_POST
+	
+
+
+	************************************************************
+
+Clase 64
 
   
 		
