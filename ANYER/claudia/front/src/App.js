@@ -8,6 +8,7 @@ import Navegacion from './componentes/Navegacion';
 import Usuarios from './componentes/Usuarios';
 import Error from './componentes/Error';
 import Inventario from './componentes/Inventario';
+import EditarForm from './componentes/EditarForm';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/formulario" element={<Formulario />} />
+        <Route path="/editar/:id" element={<EditarForm />} />
         <Route path="/usuarios" element={<Usuarios />} />
         <Route path="/inventario" element={<Inventario />} />
         <Route path="*" element={<Error />} /> {/* Ruta para errores 404 */}

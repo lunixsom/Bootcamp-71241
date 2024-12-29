@@ -2,10 +2,15 @@ import Table from 'react-bootstrap/Table';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import Swal from 'sweetalert2';
+import { useNavigate } from 'react-router-dom';
 
 function Usuarios() {
 
     const [usuarios, setUsuarios] = useState([]);
+    const navigate = useNavigate(); // Inicializar el hook
+    const handleEditar = (id) => {
+        navigate(`/editar/${id}`); // Redirigir a la ruta de edición
+    };
 
     useEffect(() => {
 
@@ -96,7 +101,7 @@ return (
                                     >
                                         Eliminar
                                     </button>
-                                    <button className='btn btn-warning'>Editar</button>
+                                    <button className='btn btn-warning' onClick={() => handleEditar(usuario._id)}>Editar</button>
                                 </td>
                             </tr>
                         ))}

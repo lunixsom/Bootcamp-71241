@@ -1,6 +1,6 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Imagen from './Imagen';
+/* import Imagen from './Imagen'; */
 import { useState } from 'react';
 import axios from 'axios';
 import Swal from 'sweetalert2';
@@ -106,7 +106,7 @@ function Formulario() {
                 </div>
             </Form>
 
-            <Imagen />
+            {/* <Imagen /> */}
         </div>
         </>
     );
