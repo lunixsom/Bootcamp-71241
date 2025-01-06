@@ -3607,7 +3607,38 @@ Clase 63
 Clase 64
 
   
+  Intro a la ultima clase, info y saludos ( 00 min a 21 min )
+
+
+  Deploy de proyecto SSR ( 28 min a  )
+
+	
+	SQL en lugar de mongoDB
+
+		SQlyzer
+		Kinex
+
 		
+	Angular de React 
+
+		TypeScript
+
+	
+	Aprender a trabajar con IA(github copilot) con VScode
+
+
+
+	Trabajamos con el Proyecto 21-serverCompleto ( 38 min a )
+
+
+		Tener en cuenta que se reemplazo BCRYPT por BCRYPTJSON
+
+
+		Se hizo deploy solo no funciona la conexion a la BD (55 min)
+
+
+		
+
 
 
 
