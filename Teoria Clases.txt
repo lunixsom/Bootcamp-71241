@@ -3636,8 +3636,13 @@ Clase 64
 
 		Se hizo deploy solo no funciona la conexion a la BD (55 min)
 
+		FUNCIONA REGISTRARSE Y LOGUEARSE ( 55 min a 1:08 hs)
 
-		
+
+
+	Creamos Esquema mongoose para PRODUCTOS ( 1:14:30 hs a  1:18 hs )
+
+	Creo routerProduct.js ( 1:19 hs a  )	
 
 
 
