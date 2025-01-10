@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+#altadp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 510px;
+    bottom: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#altadp p{
+    margin-top: -10px;
+    padding: 1px;
+    margin-bottom: 1px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header img {
+    max-height: 80px;
+    margin-right: 20px;
+    position: absolute;
+    right: 1735px;
+    top: 10px
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    right: 120px;
+    top: 37px;
+}
+
+nav form {
+    display: flex;
+    gap: 5px;
+    position: relative;
+}
+
+#buscador {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px
+}
+
+footer img {
+    width: 20px;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#product-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#product-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#product-form input,
+#product-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#product-form input[type="file"] {
+    padding: 0;
+}
+
+#product-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#product-form button:hover {
+    background-color: #555;
+}
+

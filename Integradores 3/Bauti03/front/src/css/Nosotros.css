@@ -1,0 +1,141 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#nst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 510px;
+    bottom: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#nst p {
+    margin-top: -10px;
+    padding: 1px;
+    margin-bottom: 1px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 1;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    right: 120px;
+    top: 37px;
+}
+
+header img {
+    max-height: 80px;
+    margin-right: 20px;
+    position: absolute;
+    right: 1735px;
+    top: 10px;
+}
+
+nav form {
+    display: flex;
+    gap: 5px;
+    position: relative;
+}
+
+#buscador {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 60px);
+    box-sizing: border-box;
+}
+
+.nosotros-content {
+    padding: 20px;
+    line-height: 1.6;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nosotros-content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nosotros-content p {
+    margin-bottom: 20px;
+}
+
+#info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#info p {
+    margin: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: auto;
+    position: relative;
+    bottom: 0;
+}

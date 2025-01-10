@@ -1,0 +1,95 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+header img {
+    max-height: 80px;
+    margin-right: 20px;
+    position: absolute;
+    right: 1715px;
+    top: 10px
+}
+
+#bienvenida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#bienvenida p{
+    margin-top: -10px;
+    padding: 1px;
+    margin-bottom: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex: 1;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    right: 140px;
+    top: 21px;
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+}
+
+nav form {
+    display: flex;
+    gap: 5px;
+    position: relative;
+}
+
+#buscador {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 20px;
+}
+
+#altadp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 510px;
+    bottom: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#altadp p{
+    margin-top: -10px;
+    padding: 1px;
+    margin-bottom: 1px;
+}
