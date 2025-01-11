@@ -3644,6 +3644,29 @@ Clase 64
 
 	Creo routerProduct.js ( 1:19 hs a  )	
 
+		Importo el modelo de producto:
+
+					const Product = require('../models/productModel')
+
+			Mes estoy trayendo el modelo de mongoose que tiene los metodos de mongoDB que necesito para realizar el crud con la base de datos.
+
+
+		Creo vista en HBS de listadoProductos.hbs ( 1:20 hs )
+
+		Creo vista en HBS de formProductos.hbs ( 1:26 hs )
+
+			En el input de precio y stock puedo ponerles que sean de type number o encargarme en el back de convertirlos a tipo numero:
+
+					let { precioProducto } = req.body // uso let porq abajo estoy reasignando
+
+					precioProducto = parseInt(precioProducto) o precioProducto = Number(precioProducto)
+
+		
+		Cambia la conexion de mongo_local a Mongo_Atlas 
+
+
+			
+	************************************************************
 
 
 
